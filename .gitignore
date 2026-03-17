@@ -1,1 +1,30 @@
+# 환경 변수 (절대 커밋 금지)
+.env
+
+# PDF 원본 문서
+data/*.pdf
+
+# 벡터 DB (용량 큰 바이너리)
+vectorstore/
+
+# 출력물
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Claude
 .claude

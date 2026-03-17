@@ -118,16 +118,17 @@
 
 ---
 
-## Phase 7. Supervisor + LangGraph 통합
+## Phase 7. Distributed Pattern + LangGraph 통합
 
-- [ ] **P7-1** `agents/supervisor.py` — Supervisor Agent 구현
-  - 현재 상태를 보고 다음에 호출할 Worker Agent 결정
-  - 모든 Task 완료 시 END 반환
-- [ ] **P7-2** `app.py` — LangGraph StateGraph 조립
+> ⚠️ Supervisor 패턴 제거 → Distributed Pattern(predetermined/conditional edge)으로 변경
+
+- [x] **P7-1** ~~`agents/supervisor.py`~~ 불필요 — Distributed Pattern 채택으로 제거
+- [x] **P7-2** `app.py` — LangGraph StateGraph 조립
   - 노드 등록: document_loader → market_research → [lges_analysis ‖ catl_analysis] → comparison → report_generation
-  - 병렬 엣지 설정 (lges_analysis, catl_analysis 동시 실행)
-  - 조건부 엣지 설정 (Supervisor 라우팅)
-- [ ] **P7-3** 그래프 컴파일 및 실행 테스트 (더미 입력)
+  - fan-out 엣지 설정 (market_research → lges/catl 병렬)
+  - fan-in 엣지 설정 (lges/catl → comparison)
+  - LLM 라우팅 호출 없이 edge만으로 전체 흐름 제어
+- [x] **P7-3** 그래프 컴파일 및 import 검증 완료
 - [ ] **P7-4** 그래프 시각화 이미지 생성 (`outputs/graph.png`) — README용
 
 ---
