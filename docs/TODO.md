@@ -109,12 +109,13 @@
 
 ## Phase 6. Report Generator Agent 구현
 
-- [ ] **P6-1** `agents/report_generator.py` 구현
-- [ ] **P6-2** 보고서 목차 구조(DESIGN.md 4장)에 따라 섹션별 내용 생성
-- [ ] **P6-3** SUMMARY 섹션 생성 (전체 분석 결과 요약, ½페이지 이내)
-- [ ] **P6-4** REFERENCE 섹션 자동 생성 (수집된 `references` 상태 기반, 형식 준수)
-- [ ] **P6-5** 최종 보고서를 Markdown으로 `outputs/report.md` 저장
-- [ ] **P6-6** Markdown → PDF 변환 (`outputs/report.pdf`)
+- [x] **P6-1** `agents/report_generator.py` 구현
+- [x] **P6-2** 보고서 목차 구조(DESIGN.md 4장)에 따라 섹션별 내용 생성
+- [x] **P6-3** SUMMARY 섹션 생성 (전체 분석 결과 요약, ½페이지 이내)
+- [x] **P6-4** REFERENCE 섹션 자동 생성 (수집된 `references` 상태 기반, 형식 준수)
+- [x] **P6-5** Markdown → HTML → PDF 변환 후 `outputs/report.pdf` 저장
+  - `markdown` 라이브러리로 HTML 변환, `weasyprint`로 PDF 렌더링
+  - A4 포맷, 한국어 폰트 지원, 페이지 번호 자동 삽입
 
 ---
 

@@ -93,7 +93,7 @@ def run_analysis(query: str = "전기차 캐즘 환경에서 LGES vs CATL 포트
 
     print("\n" + "=" * 60)
     print("분석 완료!")
-    print(f"보고서 저장 위치: outputs/report.md")
+    print(f"보고서 저장 위치: outputs/report.pdf")
     if final_state.get("error_messages"):
         print(f"[경고] 오류 로그: {final_state['error_messages']}")
     print("=" * 60)

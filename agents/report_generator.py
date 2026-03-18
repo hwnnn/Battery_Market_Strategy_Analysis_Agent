@@ -1,18 +1,35 @@
 """
 Report Generator Agent — T6
 목차 구조에 따라 최종 보고서 작성
-SUMMARY(½p 이내) + REFERENCE 자동 생성 → Markdown 저장
+SUMMARY(½p 이내) + REFERENCE 자동 생성 → PDF 저장
 """
 
 import os
 from datetime import datetime
 from typing import List, Dict
+import markdown
+import fitz  # PyMuPDF — 이미 설치됨 (PDF 파싱 용도)
 from langchain_core.messages import HumanMessage
 
 from agents.state import BatteryAnalysisState
 from agents.llm_config import get_llm
 
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "..", "outputs")
+
+_PDF_CSS = """
+body  { font-family: sans-serif; font-size: 11pt; line-height: 1.7; color: #1a1a1a; }
+h1    { font-size: 20pt; margin: 0 0 6pt 0; }
+h2    { font-size: 15pt; margin: 18pt 0 6pt 0; }
+h3    { font-size: 13pt; margin: 14pt 0 4pt 0; }
+h4    { font-size: 11pt; margin: 10pt 0 3pt 0; }
+table { border-collapse: collapse; width: 100%; margin: 8pt 0; font-size: 10pt; }
+th, td { border: 1px solid #bbb; padding: 5pt 7pt; text-align: left; }
+th    { background: #f0f0f0; font-weight: bold; }
+code  { font-family: monospace; font-size: 9.5pt; background: #f5f5f5; }
+pre   { background: #f5f5f5; padding: 8pt; font-size: 9pt; }
+ul, ol { margin: 4pt 0; padding-left: 20pt; }
+li    { margin: 2pt 0; }
+"""
 
 
 def _load_prompt(filename: str) -> str:
@@ -85,12 +102,33 @@ def report_generation_node(state: BatteryAnalysisState) -> dict:
 
     # outputs/ 디렉터리에 저장
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    output_path = os.path.join(OUTPUT_DIR, "report.md")
+    pdf_path = os.path.join(OUTPUT_DIR, "report.pdf")
 
-    with open(output_path, "w", encoding="utf-8") as f:
-        f.write(report_content)
+    # Markdown → HTML → PDF 변환 (fitz.Story, 시스템 라이브러리 불필요)
+    html_body = markdown.markdown(
+        report_content,
+        extensions=["tables", "fenced_code", "nl2br"],
+    )
+    html_full = (
+        f"<html><head><style>{_PDF_CSS}</style></head>"
+        f"<body>{html_body}</body></html>"
+    )
 
-    print(f"[ReportGenerator] 보고서 저장 완료: {output_path}")
+    story = fitz.Story(html=html_full)
+    mediabox = fitz.paper_rect("a4")
+    margin = 50  # points (~18mm)
+    where = mediabox + (margin, margin, -margin, -margin)
+
+    writer = fitz.DocumentWriter(pdf_path)
+    more = 1
+    while more:
+        dev = writer.begin_page(mediabox)
+        more, _ = story.place(where)
+        story.draw(dev)
+        writer.end_page()
+    writer.close()
+
+    print(f"[ReportGenerator] 보고서 저장 완료: {pdf_path}")
     return {
         "report_draft": report_content,
         "error_messages": [],

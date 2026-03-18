@@ -22,6 +22,5 @@ tavily-python>=0.3.0
 python-dotenv>=1.0.0
 asyncio
 
-# Output
+# Output (Markdown → HTML → PDF via fitz.Story, 시스템 라이브러리 불필요)
 markdown>=3.6
-weasyprint>=62.0

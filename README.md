@@ -24,7 +24,7 @@
   - **(2) 프롬프트 설계**: 각 분석 섹션마다 성과·기대효과와 한계·리스크를 함께 서술하도록 명시적으로 요구. 섹션 5 "주요 리스크 및 한계"를 독립 항목으로 분리하여 비판 시각 강제화
 - **병렬 분석**: LGES·CATL 분석을 LangGraph fan-out/fan-in으로 동시 실행하여 처리 시간 단축
 - **SWOT 일괄 작성**: Comparison Agent가 내부(S/W)·외부(O/T)를 한 번에 작성하여 일관성 확보
-- **자동 보고서 생성**: SUMMARY(0.5p 이내) + REFERENCE(형식 준수) 포함 Markdown 보고서 자동 저장
+- **자동 보고서 생성**: SUMMARY(0.5p 이내) + REFERENCE(형식 준수) 포함 PDF 보고서 자동 저장 (Markdown → HTML → PDF 변환, A4 포맷)
 
 ## Tech Stack
 
@@ -36,7 +36,7 @@
 | Embedding  | BAAI/bge-m3 (HuggingFace, 오픈소스, 다국어)          |
 | Web Search | Tavily Search API (확증 편향 방지)                 |
 | PDF 파싱   | PyMuPDF (fitz)                                    |
-| Output     | Markdown (outputs/report.md)                     |
+| Output     | PDF (outputs/report.pdf)                         |
 
 ### Document Processing 파라미터
 
@@ -75,7 +75,7 @@ RAG_TOP_K = 5              # FAISS 검색 상위 K개 문서
 - **Report Generator Agent** (`agents/report_generator.py::report_generation_node`): 최종 보고서 생성
   - 모든 분석 결과를 목차 구조에 맞게 통합
   - SUMMARY (0.5p 이내) + REFERENCE 자동 생성
-  - 결과: `outputs/report.md` 파일로 저장
+  - 결과: `outputs/report.pdf` 파일로 저장 (Markdown → HTML → PDF 변환)
 
 ### 공유 유틸리티
 
@@ -191,7 +191,7 @@ cp .env.example .env             # 템플릿 복사
 python app.py
 ```
 
-보고서는 `outputs/report.md`에 저장됩니다.
+보고서는 `outputs/report.pdf`에 저장됩니다.
 
 ## Contributors
 
