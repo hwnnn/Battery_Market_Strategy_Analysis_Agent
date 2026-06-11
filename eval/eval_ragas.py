@@ -31,7 +31,6 @@ from agents.document_loader import load_vectorstore_if_exists, EMBEDDING_MODEL
 from agents.llm_config import get_llm
 
 RESULTS_DIR = os.path.join(os.path.dirname(__file__), "results")
-DATASET_PATH = os.path.join(RESULTS_DIR, "qa_dataset.json")
 
 ANSWER_PROMPT = (
     "아래 컨텍스트에만 근거해 질문에 한국어로 답하세요. "
@@ -40,11 +39,17 @@ ANSWER_PROMPT = (
 )
 
 
-def _load_dataset():
-    if not os.path.exists(DATASET_PATH):
-        raise SystemExit("qa_dataset.json이 없습니다. 먼저 `python -m eval.build_dataset` 실행.")
-    with open(DATASET_PATH, encoding="utf-8") as f:
+def _load_dataset(path):
+    if not os.path.exists(path):
+        raise SystemExit(f"{path} 가 없습니다. 먼저 `python -m eval.build_dataset` 실행.")
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
+
+
+def _out_path(dataset_path):
+    """qa_dataset_hard.json → ragas_metrics_hard.json"""
+    base = os.path.basename(dataset_path).replace("qa_dataset", "ragas_metrics")
+    return os.path.join(RESULTS_DIR, base)
 
 
 def _build_samples(dataset, vectorstore, llm):
@@ -125,8 +130,8 @@ def evaluate_mode(mode: str, dataset, vectorstore):
     return scores
 
 
-def main(mode: str):
-    dataset = _load_dataset()
+def main(mode: str, dataset_path: str):
+    dataset = _load_dataset(dataset_path)
     vectorstore = load_vectorstore_if_exists()
     if vectorstore is None:
         raise SystemExit("FAISS 벡터스토어가 없습니다. 먼저 `python app.py` 실행.")
@@ -136,7 +141,7 @@ def main(mode: str):
     for m in modes:
         report[m] = evaluate_mode(m, dataset, vectorstore)
 
-    out = os.path.join(RESULTS_DIR, "ragas_metrics.json")
+    out = _out_path(dataset_path)
     os.makedirs(RESULTS_DIR, exist_ok=True)
     with open(out, "w", encoding="utf-8") as f:
         json.dump(report, f, ensure_ascii=False, indent=2)
@@ -155,5 +160,7 @@ def main(mode: str):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--mode", choices=["agentic", "plain", "both"], default="both")
+    parser.add_argument("--dataset", default=os.path.join(RESULTS_DIR, "qa_dataset.json"))
     args = parser.parse_args()
-    main(args.mode)
+    ds = args.dataset if os.path.isabs(args.dataset) else os.path.join(os.path.dirname(__file__), args.dataset)
+    main(args.mode, ds)

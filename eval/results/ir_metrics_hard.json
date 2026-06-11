@@ -1,0 +1,168 @@
+{
+  "n_questions": 30,
+  "top_k": 5,
+  "plain": {
+    "hit_rate@5": 0.9333,
+    "mrr": 0.7511
+  },
+  "agentic": {
+    "hit_rate@5": 0.9333,
+    "mrr": 0.7178
+  },
+  "delta": {
+    "hit_rate@5": 0.0,
+    "mrr": -0.0333
+  },
+  "per_question_agentic": [
+    {
+      "question": "전기차와 에너지 저장 장치에 대한 시장 분석을 위한 자료가 포함된 패킷은 어떤 출처의 내용을 조합하여 만들어",
+      "gold": "01_market_background.pdf p.1",
+      "rank": 2
+    },
+    {
+      "question": "2024년 전 세계에서 전기차 판매가 급증한 지역 중 하나로, 동남아시아에서의 판매 비율이 전체 자동차 판매",
+      "gold": "01_market_background.pdf p.3",
+      "rank": 1
+    },
+    {
+      "question": "미국에서 전기차의 점유율이 2030년까지 예상되는 비율은 얼마이며, 이는 작년의 예측과 비교했을 때 어떤 변",
+      "gold": "01_market_background.pdf p.4",
+      "rank": 1
+    },
+    {
+      "question": "2024년 전 세계에서 전기차의 수출 비율이 가장 높은 나라는 어디인가요?",
+      "gold": "01_market_background.pdf p.5",
+      "rank": 1
+    },
+    {
+      "question": "전기차 판매 증가에 발맞춰 공공 충전소의 수가 최근 2년 동안 두 배로 늘어난 이유는 무엇인가요?",
+      "gold": "01_market_background.pdf p.6",
+      "rank": 1
+    },
+    {
+      "question": "전 세계에서 판매된 전기차의 종류 중에서 연료 전지 전기차는 포함되지 않는다는 설명이 있다. 이와 관련하여 ",
+      "gold": "01_market_background.pdf p.7",
+      "rank": 1
+    },
+    {
+      "question": "내연기관과 충전 가능한 배터리를 모두 갖춘 차량의 한 종류로, 엔진이 바퀴와 직접 연결되지 않고 전기 발전기",
+      "gold": "01_market_background.pdf p.8",
+      "rank": 1
+    },
+    {
+      "question": "노르웨이 정부가 설정한 2025년 목표에 도달하기 위해, 내연기관 차량과 플러그인 하이브리드 차량의 비율이 ",
+      "gold": "01_market_background.pdf p.9",
+      "rank": 2
+    },
+    {
+      "question": "유럽의 특정 국가들에서 전기차의 판매 비율이 시간이 지남에 따라 어떻게 변화했는지에 대한 정보는 무엇인가요?",
+      "gold": "01_market_background.pdf p.11",
+      "rank": 5
+    },
+    {
+      "question": "5분 만에 충전할 수 있는 배터리의 추가 주행 거리는 얼마인가요?",
+      "gold": "01_market_background.pdf p.13",
+      "rank": 1
+    },
+    {
+      "question": "각 지역에서 생산된 차량의 종류에 따라 배터리 수요가 어떻게 나뉘는지에 대한 분석에서 전기차와 관련된 특정 ",
+      "gold": "01_market_background.pdf p.14",
+      "rank": 2
+    },
+    {
+      "question": "2024년에는 배터리 수요에서 중국의 비율이 얼마나 될 것으로 예상되며, 2030년까지 이 비율은 어떻게 변",
+      "gold": "01_market_background.pdf p.16",
+      "rank": 1
+    },
+    {
+      "question": "2035년까지 특정 전력 용량과 에너지 저장 용량에 도달할 것으로 예상되는 수치는 얼마인가요?",
+      "gold": "01_market_background.pdf p.19",
+      "rank": 2
+    },
+    {
+      "question": "글로벌 생산 시설의 운영 능력이 세계에서 가장 뛰어난 수준임을 입증한 기업은 어디인가요?",
+      "gold": "02_LGES_strategy.pdf p.4",
+      "rank": 1
+    },
+    {
+      "question": "전기차에 사용되는 배터리의 최초 양산형 모델이 공급된 해는 언제인가요?",
+      "gold": "02_LGES_strategy.pdf p.7",
+      "rank": 1
+    },
+    {
+      "question": "2024년에는 글로벌 자동차 제조사들이 전기차 관련 사업의 속도를 조절하면서 어떤 산업이 어려운 상황에 직면",
+      "gold": "02_LGES_strategy.pdf p.11",
+      "rank": 4
+    },
+    {
+      "question": "2024년과 2023년의 현금 및 현금성 자산의 차이는 얼마인가요?",
+      "gold": "02_LGES_strategy.pdf p.15",
+      "rank": null
+    },
+    {
+      "question": "한 해 동안의 총 수익에서 세금 비용을 제외한 후 남은 이익은 얼마인가요?",
+      "gold": "02_LGES_strategy.pdf p.16",
+      "rank": 2
+    },
+    {
+      "question": "전시 전략이 미래의 수요를 대비하기 위해 어떤 기술과 서비스를 결합하여 설명되고 있는가?",
+      "gold": "02_LGES_strategy.pdf p.20",
+      "rank": 1
+    },
+    {
+      "question": "2024년과 2025년 동안 한 해 동안 벌어들인 총수익이 어떻게 변화했는지 설명해 주세요.",
+      "gold": "03_CATL_strategy.pdf p.3",
+      "rank": 4
+    },
+    {
+      "question": "2025년 동안 에너지 저장 시스템의 출하량이 전년 대비 얼마나 증가했는지에 대한 정보는 무엇인가요?",
+      "gold": "03_CATL_strategy.pdf p.7",
+      "rank": 3
+    },
+    {
+      "question": "극한의 기온에서 사용할 수 있는 배터리의 온도 범위는 어느 정도인가요?",
+      "gold": "03_CATL_strategy.pdf p.11",
+      "rank": 2
+    },
+    {
+      "question": "전기차 배터리의 수요가 줄어들 경우, 특정 기업이 겪을 수 있는 위험 요소는 무엇인가?",
+      "gold": "03_CATL_strategy.pdf p.18",
+      "rank": 1
+    },
+    {
+      "question": "비용, 안전성, 자원 풍부성이 최대 에너지 밀도보다 더 중요할 때 어떤 이온 기술이 가장 중요한가?",
+      "gold": "04_tech_background.pdf p.1",
+      "rank": 1
+    },
+    {
+      "question": "리튬 이온 전지 대신에 비용 효율적이고 환경적으로 매력적인 대안으로 제시된 전지 종류는 무엇인가?",
+      "gold": "04_tech_background.pdf p.4",
+      "rank": 1
+    },
+    {
+      "question": "고정형 저장 장치에 대한 보고서에서 나트륨 이온을 정당화하는 구체적인 데이터 포인트가 필요할 때 어떤 자료를",
+      "gold": "04_tech_background.pdf p.6",
+      "rank": 1
+    },
+    {
+      "question": "기본적인 백업 중심 설계는 충분하지 않다고 언급되었는데, 어떤 기술이 적합한 방향으로 제시되었나요?",
+      "gold": "04_tech_background.pdf p.9",
+      "rank": null
+    },
+    {
+      "question": "한 기업의 인공지능 기반 시설의 중요성은 단순히 배터리 셀을 생산할 수 있는 능력에 그치지 않고, 필요한 구",
+      "gold": "04_tech_background.pdf p.12",
+      "rank": 1
+    },
+    {
+      "question": "고급 배터리 기술이 현재의 대량 생산 제품이 아닌, 향후 성능과 안전성을 중시하는 방향성을 나타내고 있다는 ",
+      "gold": "04_tech_background.pdf p.15",
+      "rank": 1
+    },
+    {
+      "question": "인간 중심의 맞춤형 패키지와 관련된 기술이 어떤 종류의 시스템을 포함하고 있으며, 상업화 과정에서 어떤 특징",
+      "gold": "04_tech_background.pdf p.18",
+      "rank": 2
+    }
+  ]
+}
