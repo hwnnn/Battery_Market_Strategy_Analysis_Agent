@@ -116,16 +116,19 @@ def _run_ragas(samples):
 
 
 def evaluate_mode(mode: str, dataset, vectorstore):
-    """mode: 'agentic'(재검색 3회) | 'plain'(재검색 1회)"""
-    original = rag_tool.MAX_ITERATIONS
-    rag_tool.MAX_ITERATIONS = 3 if mode == "agentic" else 1
-    print(f"\n[{mode}] MAX_ITERATIONS={rag_tool.MAX_ITERATIONS} 로 평가 시작")
+    """mode: 'agentic'(재검색 루프) | 'plain'(단발) — 프로덕션 토글(RAG_AGENTIC) 제어"""
+    original = os.environ.get("RAG_AGENTIC")
+    os.environ["RAG_AGENTIC"] = "true" if mode == "agentic" else "false"
+    print(f"\n[{mode}] RAG_AGENTIC={os.environ['RAG_AGENTIC']} 로 평가 시작")
     try:
         llm = get_llm(temperature=0.0)
         samples = _build_samples(dataset, vectorstore, llm)
         scores = _run_ragas(samples)
     finally:
-        rag_tool.MAX_ITERATIONS = original
+        if original is None:
+            os.environ.pop("RAG_AGENTIC", None)
+        else:
+            os.environ["RAG_AGENTIC"] = original
 
     return scores
 

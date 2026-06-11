@@ -1,19 +1,36 @@
 """
-Agentic RAG Tool
-retrieve → grade_documents → [충분] → return
-                   └── [부족] → rewrite_query → retrieve (최대 3회)
+RAG Retrieve Tool (plain / agentic 토글)
+
+기본(plain): retrieve → return  (단발 검색)
+RAG_AGENTIC=true 일 때만:
+    retrieve → grade_documents → [충분] → return
+                       └── [부족] → rewrite_query → retrieve (최대 3회)
+
+기본값이 plain인 이유는 docs/adr/0001-rag-default-plain.md 참고
+(이 코퍼스·bge-m3 조합에서 재검색 루프가 측정된 순이득 없음).
+RAG_AGENTIC=true 로 켜면 드리프트 방지된 Agentic RAG를 사용.
 
 Tool로 구현: Agent가 직접 호출하는 함수 형태
 """
 
+import os
 from typing import List, Tuple
+
+from dotenv import load_dotenv
 from langchain_core.documents import Document
 from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_community.vectorstores import FAISS
 from langchain_openai import ChatOpenAI
 
+load_dotenv()
+
 MAX_ITERATIONS = 3
 TOP_K = 5
+
+
+def _agentic_enabled() -> bool:
+    """RAG_AGENTIC 환경변수로 재검색 루프 on/off (기본 off=plain)"""
+    return os.getenv("RAG_AGENTIC", "false").strip().lower() in ("1", "true", "yes", "on")
 
 
 def _retrieve(vectorstore: FAISS, query: str) -> List[Document]:
@@ -98,29 +115,37 @@ def rag_retrieve(
     llm: ChatOpenAI,
 ) -> Tuple[str, List[dict]]:
     """
-    Agentic RAG 메인 함수
+    RAG 검색 메인 함수
+    - 기본(plain): 단발 검색
+    - RAG_AGENTIC=true: grade→rewrite 재검색 루프(최대 MAX_ITERATIONS회)
     Returns:
         context (str): 검색된 문서 내용 통합 텍스트
         references (List[dict]): 참고 문서 메타데이터 목록
     """
-    current_query = query
     best_docs: List[Document] = []
 
-    for iteration in range(1, MAX_ITERATIONS + 1):
-        docs = _retrieve(vectorstore, current_query)
+    if not _agentic_enabled():
+        # plain RAG: 단발 검색 (기본값 — ADR 0001 참고)
+        best_docs = _retrieve(vectorstore, query)
+        print(f"[RAG] plain 검색: {len(best_docs)}개")
+    else:
+        # Agentic RAG: grade→rewrite 재검색 (드리프트 방지된 rewrite)
+        current_query = query
+        for iteration in range(1, MAX_ITERATIONS + 1):
+            docs = _retrieve(vectorstore, current_query)
 
-        if _grade_documents(docs, query, llm):
-            best_docs = docs
-            print(f"[RAG] {iteration}회 만에 충분한 문서 확보: {len(docs)}개")
-            break
-        else:
-            best_docs = docs  # 부족하더라도 최선의 결과 보관
-            if iteration < MAX_ITERATIONS:
-                current_query = _rewrite_query(current_query, llm, iteration,
-                                               original_query=query)
-                print(f"[RAG] 쿼리 재작성 ({iteration}/{MAX_ITERATIONS}): {current_query[:60]}...")
+            if _grade_documents(docs, query, llm):
+                best_docs = docs
+                print(f"[RAG] {iteration}회 만에 충분한 문서 확보: {len(docs)}개")
+                break
             else:
-                print(f"[RAG] 최대 재시도({MAX_ITERATIONS}회) 도달 — 현재 결과 사용")
+                best_docs = docs  # 부족하더라도 최선의 결과 보관
+                if iteration < MAX_ITERATIONS:
+                    current_query = _rewrite_query(current_query, llm, iteration,
+                                                   original_query=query)
+                    print(f"[RAG] 쿼리 재작성 ({iteration}/{MAX_ITERATIONS}): {current_query[:60]}...")
+                else:
+                    print(f"[RAG] 최대 재시도({MAX_ITERATIONS}회) 도달 — 현재 결과 사용")
 
     # 컨텍스트 통합
     context_parts = []
