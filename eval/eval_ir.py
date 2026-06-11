@@ -71,7 +71,8 @@ def _retrieve_agentic(vectorstore, question, llm):
         if _grade_documents(docs, question, llm):
             break
         if iteration < MAX_ITERATIONS:
-            current_query = _rewrite_query(current_query, llm, iteration)
+            current_query = _rewrite_query(current_query, llm, iteration,
+                                           original_query=question)
     return best_docs
 
 
@@ -99,9 +100,9 @@ def _score(dataset, vectorstore, retrieve_fn, llm, k):
     }
 
 
-def evaluate_ir(dataset_path, k: int = TOP_K):
+def evaluate_ir(dataset_path, k: int = TOP_K, out_path=None):
     dataset = _load_dataset(dataset_path)
-    out_path = _out_path(dataset_path)
+    out_path = out_path or _out_path(dataset_path)
     vectorstore = load_vectorstore_if_exists()
     if vectorstore is None:
         raise SystemExit("FAISS 벡터스토어가 없습니다. 먼저 `python app.py` 실행.")
@@ -145,6 +146,10 @@ def evaluate_ir(dataset_path, k: int = TOP_K):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset", default=os.path.join(RESULTS_DIR, "qa_dataset.json"))
+    parser.add_argument("--out", default=None, help="결과 출력 경로 override")
     args = parser.parse_args()
     ds = args.dataset if os.path.isabs(args.dataset) else os.path.join(os.path.dirname(__file__), args.dataset)
-    evaluate_ir(ds)
+    out = args.out
+    if out and not os.path.isabs(out):
+        out = os.path.join(os.path.dirname(__file__), out)
+    evaluate_ir(ds, out_path=out)

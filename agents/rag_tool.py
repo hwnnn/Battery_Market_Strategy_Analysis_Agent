@@ -47,15 +47,29 @@ def _grade_documents(docs: List[Document], query: str, llm: ChatOpenAI) -> bool:
     return "yes" in answer
 
 
-def _rewrite_query(query: str, llm: ChatOpenAI, attempt: int) -> str:
-    """관련 문서 부족 시 쿼리를 재구성"""
+def _rewrite_query(query: str, llm: ChatOpenAI, attempt: int,
+                   original_query: str = None) -> str:
+    """관련 문서 부족 시 쿼리를 재구성.
+
+    핵심 대상(고유명사·수치·주제)을 유지하고 새 주제 추가를 금지해
+    재작성이 원 질문에서 이탈(drift)하지 않도록 한다. 누적 드리프트를 막기 위해
+    원본 질문(original_query)을 앵커로 함께 전달한다.
+    """
+    anchor = original_query or query
     response = llm.invoke([
         SystemMessage(content=(
-            "당신은 검색 전문가입니다. 검색 결과가 부족했습니다.\n"
-            "더 좋은 결과를 얻을 수 있도록 쿼리를 더 구체적이고 다양한 키워드로 재작성하세요.\n"
+            "당신은 검색 쿼리 재작성 전문가입니다. 이전 검색 결과가 부족했습니다.\n"
+            "원래 질문의 핵심 대상(고유명사·수치·주제)은 반드시 유지하면서, "
+            "표현을 바꾸거나 동일 개념의 동의어를 더해 검색이 잘 되도록 재작성하세요.\n"
+            "규칙:\n"
+            "- 원래 질문에 없던 새로운 주제·키워드를 추가하지 마세요(주제 이탈 금지).\n"
+            "- 한 문장, 핵심 명사 위주로 간결하게 작성하세요.\n"
             "재작성된 쿼리만 출력하세요."
         )),
-        HumanMessage(content=f"원본 쿼리 (시도 {attempt}회): {query}")
+        HumanMessage(content=(
+            f"원래 질문: {anchor}\n"
+            f"직전 검색 쿼리 (시도 {attempt}회): {query}"
+        ))
     ])
     return response.content.strip()
 
@@ -102,7 +116,8 @@ def rag_retrieve(
         else:
             best_docs = docs  # 부족하더라도 최선의 결과 보관
             if iteration < MAX_ITERATIONS:
-                current_query = _rewrite_query(current_query, llm, iteration)
+                current_query = _rewrite_query(current_query, llm, iteration,
+                                               original_query=query)
                 print(f"[RAG] 쿼리 재작성 ({iteration}/{MAX_ITERATIONS}): {current_query[:60]}...")
             else:
                 print(f"[RAG] 최대 재시도({MAX_ITERATIONS}회) 도달 — 현재 결과 사용")

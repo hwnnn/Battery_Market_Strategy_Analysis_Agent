@@ -130,7 +130,7 @@ def evaluate_mode(mode: str, dataset, vectorstore):
     return scores
 
 
-def main(mode: str, dataset_path: str):
+def main(mode: str, dataset_path: str, out=None):
     dataset = _load_dataset(dataset_path)
     vectorstore = load_vectorstore_if_exists()
     if vectorstore is None:
@@ -141,7 +141,7 @@ def main(mode: str, dataset_path: str):
     for m in modes:
         report[m] = evaluate_mode(m, dataset, vectorstore)
 
-    out = _out_path(dataset_path)
+    out = out or _out_path(dataset_path)
     os.makedirs(RESULTS_DIR, exist_ok=True)
     with open(out, "w", encoding="utf-8") as f:
         json.dump(report, f, ensure_ascii=False, indent=2)
@@ -161,6 +161,10 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--mode", choices=["agentic", "plain", "both"], default="both")
     parser.add_argument("--dataset", default=os.path.join(RESULTS_DIR, "qa_dataset.json"))
+    parser.add_argument("--out", default=None, help="결과 출력 경로 override")
     args = parser.parse_args()
     ds = args.dataset if os.path.isabs(args.dataset) else os.path.join(os.path.dirname(__file__), args.dataset)
-    main(args.mode, ds)
+    out = args.out
+    if out and not os.path.isabs(out):
+        out = os.path.join(os.path.dirname(__file__), out)
+    main(args.mode, ds, out=out)
