@@ -1,0 +1,902 @@
+[
+  {
+    "question": "IEA의 어떤 보고서가 배터리 전략 분석 프로젝트에 포함되었나요?",
+    "ground_truth": "IEA의 Global EV Outlook 2025 보고서가 배터리 전략 분석 프로젝트에 포함되었습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Battery Market Background Corpus - curated extract\nupdated 2026-03-17\n01_market_background.pdf\nEV · Battery · ESS market background corpus\nThis curated packet compiles a market-background subset for the battery strategy analysis project. It\ncombines selected original pages from the IEA's Global EV Outlook 2025 with condensed overview\npages based on BloombergNEF's 2025 EV and energy-storage insight pages.\nSource\nIncluded content\nApprox. pages\nIEA - Global EV Outlook 2025",
+    "source": "01_market_background.pdf",
+    "page": 1
+  },
+  {
+    "question": "2024-2025 EV 수요 환경과 관련하여 어떤 기업의 다각화 전략을 비교할 수 있는 자료가 제공되나요?",
+    "ground_truth": "LG Energy Solution과 CATL의 다각화 전략을 비교할 수 있는 자료가 제공됩니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "1\nBack matter\nSelection note and source references\n3\nSelection principle: prioritize pages that explain the 2024-2025 EV demand environment,\ncharging/battery conditions, and the parallel expansion of stationary storage markets. This makes the\ncorpus directly usable for later comparison of LG Energy Solution and CATL diversification strategies.\n1",
+    "source": "01_market_background.pdf",
+    "page": 1
+  },
+  {
+    "question": "BloombergNEF의 웹페이지는 어떤 형식으로 요약되었나요?",
+    "ground_truth": "BloombergNEF의 웹페이지는 독립적인 공개 PDF가 아닌 웹 인사이트 페이지로 발표되기 때문에 간략한 개요 페이지로 요약되었습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "-\nBloombergNEF webpages are condensed into brief overview pages because the source material is\npublished as web insight pages rather than a standalone public PDF.\n-\nThe resulting file remains close to the requested 20-page budget while keeping EV, battery and ESS\ncontext in one corpus.\nIEA extracted page map\nBlock\nOriginal report section\nReport pp.\nA\nExecutive summary\n10-13\nB\nTrends in electric car markets - opening pages\n15-19\nC\nElectric vehicle charging - fast charging / battery advances",
+    "source": "01_market_background.pdf",
+    "page": 2
+  },
+  {
+    "question": "2024년 중국에서 판매된 전기차의 수는 얼마인가?",
+    "ground_truth": "2024년 중국에서 판매된 전기차의 수는 1,100만 대(11 million)이다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "compared with the previous year is more than the total number of electric cars \nsold worldwide in 2020. China maintained its lead, with electric cars accounting \nfor almost half of all car sales in 2024; the over 11 million electric cars sold in \nChina last year were more than global sales just 2 years earlier. As a result of \ncontinued strong growth, 1 in 10 cars on Chinese roads is now electric. Europe \nsaw sales stagnate in 2024 as subsidy schemes and other supportive policies",
+    "source": "01_market_background.pdf",
+    "page": 3
+  },
+  {
+    "question": "2024년 브라질에서의 전기차 판매량은 얼마인가?",
+    "ground_truth": "2024년 브라질에서의 전기차 판매량은 125,000대이다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "growth, with electric car sales jumping by over 60% in 2024 to almost \n600 000 – about the size of the European market 5 years earlier. In Southeast \nAsia, electric car sales grew by nearly 50% to represent 9% of all car sales in the \nregion, with notably higher sales shares in Thailand and Viet Nam. In Brazil, the \nlargest car market in Latin America, electric car sales more than doubled to \n125 000 in 2024, reaching a sales share of over 6%. Sales in Africa also more",
+    "source": "01_market_background.pdf",
+    "page": 3
+  },
+  {
+    "question": "2025년 전 세계 전기차 판매량은 얼마로 예상되며, 이는 전 세계 판매량의 몇 퍼센트를 차지할 것으로 보이나?",
+    "ground_truth": "2025년 전 세계 전기차 판매량은 2000만 대를 초과할 것으로 예상되며, 이는 전 세계 판매량의 25% 이상을 차지할 것으로 보인다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "accounting for 85% of electric car sales in both Brazil and Thailand, for example. \nAcross all emerging economies outside of China, Chinese imports made up 75% \nof the increase in electric car sales in 2024.  \nExpected growth in electric car sales is led by China and \nEurope, alongside a surge in emerging economies  \nElectric car sales in 2025 are expected to exceed 20 million worldwide to \nrepresent more than one-quarter of cars sold worldwide. Sales were up 35%",
+    "source": "01_market_background.pdf",
+    "page": 3
+  },
+  {
+    "question": "2025년 유럽에서 전기차 판매 비율은 얼마로 예상되나요?",
+    "ground_truth": "2025년 유럽에서 전기차 판매 비율은 25%로 예상됩니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Global EV Outlook 2025 \nExecutive summary \nPAGE | 11  \nIEA. CC BY 4.0. \n60% of total car sales in the country in 2025. Emissions standards in the \nEuropean Union and the United Kingdom will require higher shares of zero-\nemission car sales in 2025. Building on more than 20% year-on-year sales growth \nobserved in the first quarter, these policy pushes are expected to drive up electric \ncar sales in Europe in 2025 to reach a sales share of 25%, despite flexibility given",
+    "source": "01_market_background.pdf",
+    "page": 4
+  },
+  {
+    "question": "2025년까지 전기차 판매는 얼마나 증가할 것으로 예상되며, 그 수치는 몇 대에 이를 것으로 보이나?",
+    "ground_truth": "2025년까지 전기차 판매는 50% 증가하여 100만 대에 이를 것으로 예상된다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "in the first quarter; as consumers take advantage of existing tax credits in view of \ntheir potential repeal, electric car sales are projected to reach 11% of total car \nsales over the full year. In emerging economies other than China, sales are \nexpected to continue growing strongly, increasing by 50% to reach 1 million in \n2025. \nDespite uncertainties in the outlook, the share of electric cars in overall car \nsales is set to exceed 40% in 2030 under today’s policy settings. China is",
+    "source": "01_market_background.pdf",
+    "page": 4
+  },
+  {
+    "question": "2030년까지 미국의 전기차 시장 점유율은 얼마로 예상되나요?",
+    "ground_truth": "2030년까지 미국의 전기차 시장 점유율은 약 20%로 예상됩니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "share in the United States grows much more modestly than in our Outlook last \nyear, reaching around 20% by 2030 based on today’s policy direction – less than \nhalf the share projected for 2030 last year. In Southeast Asia, meanwhile, electric \ncar sales are boosted by strong policy support and available domestic \nmanufacturing capacity: by 2030, one in four cars sold in the region is poised to \nbe electric. Two/three-wheelers – an important mode of road transport in the",
+    "source": "01_market_background.pdf",
+    "page": 4
+  },
+  {
+    "question": "하락하는 유가가 전기차의 어떤 측면에 영향을 미칠 수 있습니까?",
+    "ground_truth": "하락하는 유가는 전기차 사용으로 인한 연료 비용 절감에 영향을 미칠 수 있습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Uncertainty about the evolution of trade and industrial policy, downside \nrisks to the economic outlook, and lower oil prices could affect EV uptake – \nbut also car markets overall. Higher tariffs might increase the price of cars, \nincluding electric cars, and their components; lower GDP growth could dampen \ncar sales; and lower oil prices affect the fuel cost savings from the use of electric \ncars. The way these factors will play out in practice is uncertain, but on aggregate",
+    "source": "01_market_background.pdf",
+    "page": 4
+  },
+  {
+    "question": "글로벌 기준 유가가 배럴당 40달러일 때, 배터리 전기차가 제공하는 연료 절약 효과는 어떻게 되는가?",
+    "ground_truth": "글로벌 기준 유가가 USD 40 per barrel일 때, 배터리 전기차가 제공하는 연료 절약 효과는 여전히 존재한다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "examples of policy responses from the pandemic suggest that sustaining EV sales \nis possible. Low oil prices can reduce fuel savings offered by battery electric cars, \nbut even at global benchmark oil prices of USD 40 per barrel, there would be \n4",
+    "source": "01_market_background.pdf",
+    "page": 4
+  },
+  {
+    "question": "중국은 세계 전기차 생산의 몇 퍼센트를 차지하고 있습니까?",
+    "ground_truth": "중국은 세계 전기차 생산의 70% 이상을 차지하고 있습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "eye new markets \nChina continues to be the world’s EV manufacturing hub and is responsible \nfor more than 70% of global production. Car manufacturers headquarted in \nChina predominantly cater to the domestic market, accounting for around 80% of \ndomestic sales in 2024 and almost all of the 25% growth in global EV production. \nIn the European Union, production stalled at 2.4 million electric cars in 2024. North \nAmerica saw contrasting trends: US production declined whereas Mexico’s output",
+    "source": "01_market_background.pdf",
+    "page": 5
+  },
+  {
+    "question": "2024년 중국의 전기차 수출 비율은 얼마인가?",
+    "ground_truth": "2024년 중국은 전 세계 전기차 수출의 40%를 차지했으며, 이는 거의 125만 대에 해당합니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Global trade of electric cars increased 20% in 2024; imports now represent \nalmost one-fifth of global electric car sales. At 40% (nearly 1.25 million electric \ncars), China accounted for the largest share of global exports in 2024. The \nEuropean Union also remained a net exporter of electric cars: exports reached \nover 800 000, mostly destined for other European countries (such as the United \nKingdom) and North America. EU imports were below 700 000, of which 60%",
+    "source": "01_market_background.pdf",
+    "page": 5
+  },
+  {
+    "question": "중국 제조업체의 해외 제조 능력이 현재 신흥 시장에서 전기차 판매의 몇 퍼센트를 공급하고 있습니까?",
+    "ground_truth": "현재 중국 제조업체의 해외 제조 능력은 신흥 시장에서 전기차 판매의 약 5%를 공급하고 있습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Chinese EV exports have recently adopted or are considering the use of tariffs. \nThis has prompted Chinese manufacturers to either frontload their exports before \nsuch tariffs come into force (as in Brazil) or to seek new markets for their available \noutput. Today, overseas manufacturing capacity from Chinese manufacturers \nsupplies about 5% of electric car sales in emerging markets and is set to grow \nfurther.  \nCompetition and declining battery prices are improving",
+    "source": "01_market_background.pdf",
+    "page": 5
+  },
+  {
+    "question": "2024년 중국에서 판매된 전기차의 몇 퍼센트가 기존 차량보다 가격이 낮았나요?",
+    "ground_truth": "2024년 중국에서 판매된 전기차의 두 번째는 기존 차량보다 가격이 낮았습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Global EV Outlook 2025 \nExecutive summary \nPAGE | 13  \nIEA. CC BY 4.0. \ncontrast, two-thirds of all electric cars sold in China in 2024 were priced lower than \ntheir conventional equivalents, without considering purchase incentives for EVs. \nThis helped boost sales even as government incentives decreased.  \nChinese electric car models are typically cheaper than the average EV in \nemerging markets, bolstering the competitive position of the Chinese",
+    "source": "01_market_background.pdf",
+    "page": 6
+  },
+  {
+    "question": "2024년 중국의 배터리 팩 가격은 얼마나 하락했습니까?",
+    "ground_truth": "2024년 중국의 배터리 팩 가격은 약 30% 하락했습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Chinese electric car imports grew to 85% of the country’s EV sales. Similarly, the \naverage price premium of battery electric cars in Mexico fell to 50% in 2024 from \nmore than 100% in 2023 as Chinese imports reached two-thirds of sales.  \nLow critical mineral prices and increasing competition between battery \nmanufacturers drove down battery pack prices in all markets in 2024, albeit \nwith significant variations. In China, prices fell by about 30%, compared with",
+    "source": "01_market_background.pdf",
+    "page": 6
+  },
+  {
+    "question": "지난 2년 동안 공공 충전소는 얼마나 증가했습니까?",
+    "ground_truth": "지난 2년 동안 공공 충전소는 두 배로 증가했습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "key to growing adoption of electric vehicles \nPublic charging stations have doubled in the past 2 years to keep up with \ngrowing EV sales. China and the European Union have maintained a steady \npace of charger deployment compared with the number of EVs on the road. \nHowever, in both the United States and United Kingdom, which have higher rates \nof access to home chargers than China, public charger build-out has not kept pace",
+    "source": "01_market_background.pdf",
+    "page": 6
+  },
+  {
+    "question": "2024년 150킬로와트(kW) 이상의 공공 급속 충전기는 전체 공공 급속 충전기의 몇 퍼센트를 차지합니까?",
+    "ground_truth": "2024년 150킬로와트(kW) 이상의 공공 급속 충전기는 전체 공공 급속 충전기의 거의 10%를 차지합니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "150 kilowatts (kW) and above, grew by about 50% in 2024 and now account for \nnearly 10% of all public fast chargers. Public slow chargers in urban areas are a \nsolution for EV owners without access to home charging, but fast chargers along \nhighways help enable long-distance trips. In Europe, over three-quarters of all \nhighways have a fast-charging station at least every 50 kilometres, compared with \nless than half of US highways. Globally, public charging capacity for light-duty EVs",
+    "source": "01_market_background.pdf",
+    "page": 6
+  },
+  {
+    "question": "2024년 전 세계 전기차 판매량은 얼마였나요?",
+    "ground_truth": "2024년 전 세계 전기차 판매량은 1,700만 대를 초과했습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Global EV Outlook 2025 \nTrends in electric car markets \nPAGE | 15  \nIEA. CC BY 4.0. \n1. Trends in electric car markets \nElectric car sales \nGlobal electric car sales exceeded 17 million in 2024 \nMore than 20% of new cars sold worldwide were electric \nElectric car sales topped 17 million worldwide in 2024, rising by more than 25%.1 \nJust the additional 3.5 million cars sold in 2024 compared to 2023 outnumber total \nelectric car sales in the whole of 2020. China maintained its lead among major",
+    "source": "01_market_background.pdf",
+    "page": 7
+  },
+  {
+    "question": "2024년 미국의 전기차 판매 성장률은 이전 해의 몇 분의 일이었나요?",
+    "ground_truth": "2024년 미국의 전기차 판매 성장률은 이전 해의 약 1/4이었다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "and 2024. Electric car sales continued to increase in the United States although \ngrowth was about one-quarter that of the previous year. Significantly, outside of \nthese three major markets, there was a record increase in sales of nearly 40% to \nreach 1.3 million, closing in on the United States’ sales of 1.6 million electric cars. \nGlobal electric car sales, 2014-2024 \n \nIEA. CC BY 4.0. \nNotes: BEV = battery electric vehicle; PHEV = plug-in hybrid vehicle. Includes new passenger cars only.",
+    "source": "01_market_background.pdf",
+    "page": 7
+  },
+  {
+    "question": "전기차의 정의에 포함되는 차량 유형은 무엇인가요?",
+    "ground_truth": "전기차는 배터리 전기차(BEV)와 플러그인 하이브리드 전기차(PHEV)를 포함하지만, 연료 전지 전기차는 포함하지 않습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "car sales or registrations exclude used cars. Unless otherwise specified, the term electric vehicle is used to refer to both \nbattery electric and plug-in hybrid electric vehicles but does not include fuel cell electric vehicles. For a brief description of \nthe trends related to fuel cell electric vehicles, see the box at the end of Section 4. \n0\n 2\n 4\n 6\n 8\n 10\n 12\n 14\n 16\n 18\n 20\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\nMillion\nRest of World PHEV\nRest of World BEV",
+    "source": "01_market_background.pdf",
+    "page": 7
+  },
+  {
+    "question": "2024년 중국의 자동차 판매에서 전기차가 차지하는 비율은 얼마인가?",
+    "ground_truth": "2024년 중국의 자동차 판매에서 전기차가 차지하는 비율은 거의 절반에 해당합니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "the total electric car fleet in 2021. Notably, the global stock of electric cars \ndisplaced over 1 million barrels per day of oil consumption in 2024. Of course, the \nstock of electric cars is not spread evenly across the world – in China, for example, \naround one in ten cars on the road is now electric, whereas in Europe the ratio is \ncloser to one in twenty.  \nAlmost half of China’s car sales were electric in 2024, \nrepresenting almost two-thirds of electric cars sold globally",
+    "source": "01_market_background.pdf",
+    "page": 8
+  },
+  {
+    "question": "2024년 중국에서 전기차 판매 비율은 몇 퍼센트에 가까워질 것으로 예상되나요?",
+    "ground_truth": "2024년 중국에서 전기차 판매 비율은 연간 50%에 가까워질 것으로 예상됩니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "country since July 2024, bringing the share of electric car sales close to 50% for \nthe full year. In China, 2024 marks the fourth consecutive year in which the electric \ncar sales share grew by approximately 10 percentage points year-on-year.  \nThe growth in China reflects in no small part the growing price competitiveness of \nbattery electric cars with conventional cars in the country. In addition, China’s \nelectric car market benefitted from the introduction of a trade-in scheme in April",
+    "source": "01_market_background.pdf",
+    "page": 8
+  },
+  {
+    "question": "2024년 중국에서 전기차 구매를 위해 인센티브를 신청한 소비자의 수는 얼마인가?",
+    "ground_truth": "2024년 중국에서 전기차 구매를 위해 인센티브를 신청한 소비자는 약 660만 명이다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "electric car, and CNY 15 000 (USD 2 050) for replacement with a new \nconventional vehicle. In 2024, about 6.6 million consumers applied for the \nincentive, 60% of whom bought an electric car. As such, more than one-third of \nthe over 11 million new electric car sales in the country benefitted from this \nincentive.  \nIn recent years, sales of plug-in hybrid electric cars have been growing faster than \nsales of battery electric cars in China. The share of plug-in hybrid electric vehicle",
+    "source": "01_market_background.pdf",
+    "page": 8
+  },
+  {
+    "question": "EREVs는 어떤 종류의 파워트레인 구성으로 정의되며, ICE는 어떤 방식으로 배터리를 충전합니까?",
+    "ground_truth": "EREVs는 플러그인 시리즈 하이브리드 파워트레인 구성으로 정의되며, ICE는 직접적인 기계적 연결 없이 전기 발전기를 통해 배터리를 충전합니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "have both an internal combustion engine (ICE) and a plug-in rechargeable battery. Throughout this report, EREVs refer to \nplug-in series hybrid powertrain configurations where the ICE only operates without direct mechanical connection to the \nwheels to recharge the battery through an electric generator. Other plug-in hybrid configurations (such as parallel and series-\nparallel configurations) fall under the “standard” PHEV category. EREVs generally feature larger battery and longer electric",
+    "source": "01_market_background.pdf",
+    "page": 8
+  },
+  {
+    "question": "2024년 유럽에서 전기차 판매 비율은 얼마였나요?",
+    "ground_truth": "2024년 유럽에서 판매된 새 차의 약 20%가 전기차였으며, 이는 이전 해의 판매 비율을 유지한 것입니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "In Europe, electric car sales stagnated in 2024 as policy \nsupport waned in major car markets  \nAbout one in five new cars sold on the European market was electric in 2024, \nmaintaining the sales share of the previous year. The electric sales share \nincreased in 2024 in 14 out of 27 EU member states, while it either stalled or \ndecreased in the rest, including in several larger markets, such as Germany and \nFrance, largely as a result of subsidies being phased out or reduced. In Germany,",
+    "source": "01_market_background.pdf",
+    "page": 9
+  },
+  {
+    "question": "유럽연합의 CO2 기준 정책이 2024년 전기차 시장의 성장에 어떤 영향을 미쳤나요?",
+    "ground_truth": "유럽연합의 CO2 기준 정책은 2024년 전기차 시장의 성장을 저해했으며, 자동차 제조사들은 2025년에 강화된 목표를 예상하여 2024년 전기차 판매를 더욱 추진할 유인이 없었습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Besides subsidies, the policy design of the European Union CO2 standards may \nalso have held back further growth of the electric car market in 2024. As new \ntargets come into effect every 5 years, car makers had no incentive to push sales \nof electric cars further in 2024 (in anticipation of strengthened targets in 2025). \nThis is in contrast to markets such as the United Kingdom, where annually \nincreasing targets move original equipment manufacturers (OEMs) towards",
+    "source": "01_market_background.pdf",
+    "page": 9
+  },
+  {
+    "question": "2024년 영국에서 새로운 등록의 몇 퍼센트가 배터리 전기차(BEV) 또는 연료 전지 전기차(FCEV)여야 했습니까?",
+    "ground_truth": "2024년 영국에서 새로운 등록의 22%가 배터리 전기차(BEV) 또는 연료 전지 전기차(FCEV)여야 했습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "In the United Kingdom – the second-largest car market in Europe – electric car \nsales reached a share of nearly 30%, up from 24% in 2023. The year 2024 was \nthe first under the Vehicle Emissions Trading Scheme, which required 22% of all \nnew registrations to be BEV or fuel cell electric vehicle (FCEV). When accounting \nfor the scheme’s flexibilities, which allows OEMs to borrow credits from future \nyears, they were able to comply with a battery electric car sales share of close to",
+    "source": "01_market_background.pdf",
+    "page": 9
+  },
+  {
+    "question": "노르웨이 정부의 2025년 목표는 무엇인가?",
+    "ground_truth": "노르웨이 정부의 2025년 목표는 100% 제로 배출 자동차 판매입니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "combustion engine (ICE) cars and PHEVs is expected to further increase the \nbattery electric share towards meeting the Norwegian government’s 2025 goal of \n100% zero-emissions car sales. In Denmark, the electric sales share increased \nby 10 percentage points to reach 56%, with nearly 100 000 electric cars sold.  \n9",
+    "source": "01_market_background.pdf",
+    "page": 9
+  },
+  {
+    "question": "2024년에 출시된 전기차 모델 수는 몇 대인가?",
+    "ground_truth": "2024년에 총 24개의 새로운 전기차 모델이 출시되었다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "2023. In spite of this, electric car sales did boost the overall car market, as sales \nof conventional cars stagnated.  \nA total of 24 new electric car models were launched in 2024, increasing model \navailability by 15% compared to 2023, providing consumers with more choices \nand further increasing competition. While the Tesla Model Y and Model 3 have \nbeen the two best-selling models in the United States since 2020, the 110 new",
+    "source": "01_market_background.pdf",
+    "page": 10
+  },
+  {
+    "question": "2024년에는 몇 개의 전기차 모델이 미국 청정차량 세금 공제를 받을 수 있었나요?",
+    "ground_truth": "2024년에는 약 20개의 전기차 모델이 미국 청정차량 세금 공제를 받을 수 있었습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "A modification to the US Clean Vehicle Tax Credit at the start of 2024 enabled \nbuyers to receive an instant discount (up to USD 7 500 for a new electric car and \nUSD 4 000 for a used electric car) at the point of sale, which may have served to \nentice interested buyers. However, not all electric cars were eligible for the credit: \nin 2024 about 20 electric models (not accounting for different trim levels) out of a",
+    "source": "01_market_background.pdf",
+    "page": 10
+  },
+  {
+    "question": "2024년에는 몇 개의 주에서 전기차 채택을 촉진하기 위한 추가 인센티브, 리베이트 및 면제를 제공했습니까?",
+    "ground_truth": "2024년에는 27개 주에서 전기차 채택을 촉진하기 위한 추가 인센티브, 리베이트 및 면제를 제공했습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "to meet requirements on local manufacturing. As a result, by 2024, nearly half of \nall EVs sold were leased, more than double the share seen 3 years earlier. In \naddition to the federal tax credit, in 2024, 27 states offered additional incentives, \nrebates and exemptions promoting electric car adoption. \n \n10",
+    "source": "01_market_background.pdf",
+    "page": 10
+  },
+  {
+    "question": "2018년부터 2024년까지의 BEV, PHEV, EREV의 판매 비율은 어떻게 변화할 것으로 예상되나요?",
+    "ground_truth": "청크에는 2018년부터 2024년까지의 BEV, PHEV, EREV의 판매 비율 변화에 대한 구체적인 수치나 예측이 포함되어 있지 않습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "0%\n15%\n30%\n45%\n60%\n0.0\n0.3\n0.5\n0.8\n1.0\n'18\n'20\n'22\n'24 '18\n'20\n'22\n'24 '18\n'20\n'22\n'24 '18\n'20\n'22\n'24\nGermany\nFrance\nUnited Kingdom\nNetherlands\nMillion\n0%\n20%\n40%\n60%\n80%\n100%\n0\n 60\n 120\n 180\n 240\n 300\n'18\n'20\n'22\n'24'18\n'20\n'22\n'24'18\n'20\n'22\n'24'18\n'20\n'22\n'24'18\n'20\n'22\n'24\nSweden\nKorea\nNorway\nCanada\nJapan\nThousand\nBEV\nPHEV (excluding EREVs)\nEREV\nSales share (right)\n0%\n10%\n20%\n30%\n40%\n50%\n60%\n0\n 3\n 6\n 9\n 12\n 15\n 18\n'18\n'20\n'22\n'24 '18\n'20\n'22\n'24 '18\n'20\n'22\n'24 '18\n'20\n'22\n'24\nWorld",
+    "source": "01_market_background.pdf",
+    "page": 11
+  },
+  {
+    "question": "한국의 충전 인프라 예산은 2024년에 비해 몇 퍼센트 증가했으며, 총 예산은 얼마인가요?",
+    "ground_truth": "한국의 충전 인프라 예산은 2024년에 비해 40% 증가했으며, 총 예산은 6200억 원(425백만 달러)입니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "deploy 4 400 new fast chargers in high demand areas. Korea’s total budget for \nenhancing charging infrastructure was raised by 40% compared to 2024 to KRW \n620 billion (Korean won) (USD 425 million), with 60% of the assigned budget \ntargeting fast chargers, and the remainder dedicated to slow smart-charging \ninstallations. In India, three major government-owned oil marketing companies \nbuilt nearly 8 000 fast-charging points over the course of 2023 and 2024, funded",
+    "source": "01_market_background.pdf",
+    "page": 12
+  },
+  {
+    "question": "어떤 국가가 청크에 포함되어 있습니까?",
+    "ground_truth": "청크에는 네덜란드, 벨기에, 그리스, 덴마크, 스웨덴, 이탈리아, 영국, 스위스, 캐나다, 프랑스, 오스트리아, 아이슬란드, 유럽연합, 독일, 스페인, 미국, 핀란드, 포르투갈, 노르웨이, 폴란드, 리투아니아, 그리고 튀르키예가 포함되어 있습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "0%\n20%\n40%\n60%\n80%\n100%\nNetherlands\nBelgium\nGreece\nDenmark\nSweden\nItaly\nUnited Kingdom\nSwitzerland\nCanada\nFrance\nAustria\nIceland\nEuropean Union\nGermany\nSpain\nUnited States\nFinland\nPortugal\nNorway\nPoland\nLithuania\nTürkiye\nSlow\nFast\nUltra-fast\n12",
+    "source": "01_market_background.pdf",
+    "page": 12
+  },
+  {
+    "question": "리튬 이온이 충전 중 어디에서 어디로 이동하나요?",
+    "ground_truth": "리튬 이온은 충전 중 양극에서 음극으로 이동합니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "been a limiting factor in reaching faster charging, but recent innovations are now \nreshaping the fast-charging landscape.  \nDuring charging, lithium ions are released from the cathode to the anode. If the \nprocess is too slow compared to the desired charging speed, lithium can accumulate \non the anode surface, forming dendrites – needle-like structures that can pierce the \nbattery, potentially causing short circuits and uncontrolled fires. Recently, however,",
+    "source": "01_market_background.pdf",
+    "page": 13
+  },
+  {
+    "question": "2024년에 SAIC-GM과 협력하여 출시된 배터리는 5분 만에 얼마나 많은 배터리 용량을 충전할 수 있습니까?",
+    "ground_truth": "2024년에 SAIC-GM과 협력하여 출시된 배터리는 5분 만에 40%의 배터리 용량을 충전할 수 있습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "the battery in just 5 minutes, providing 200 km of additional range. This was further \nimproved in 2024, when they released a battery offering similar energy density but \nfaster charging speeds in collaboration with SAIC-GM – allowing to recharge over \n40% of the battery capacity in 5 minutes – as well as a battery with the same charging \nspeed (30% in 5 minutes) but increased energy density, providing 300 km of additional",
+    "source": "01_market_background.pdf",
+    "page": 13
+  },
+  {
+    "question": "CATL의 두 번째 세대 Shenxing 배터리는 어떤 특징을 가지고 있습니까?",
+    "ground_truth": "CATL의 두 번째 세대 Shenxing 배터리는 더 높은 충전 속도를 제공합니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "generation silicon carbide power chips, all-liquid-cooling, and a 1 000 V architecture, \nwhich allows for coupling with 1 MW charging.  Just one month later, CATL announced \nthe second generation of its Shenxing battery, offering even higher charging speeds. \nMegawatt charging was previously limited to heavy-duty vehicles, where the energy \nwas distributed across battery packs roughly ten times larger than those in passenger",
+    "source": "01_market_background.pdf",
+    "page": 13
+  },
+  {
+    "question": "2024년 에너지 부문에서 배터리 수요는 몇 TWh에 도달했습니까?",
+    "ground_truth": "2024년 에너지 부문에서 배터리 수요는 1 TWh에 도달했습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Global EV Outlook 2025 \nElectric vehicle batteries \nPAGE | 134  \n7. Electric vehicle batteries \nTrends in battery demand \nGlobal battery demand for the energy sector hit the \n1 TWh milestone in 2024 \nElectric cars remain the main driver of battery demand, but \ndemand for trucks nearly doubled \nBattery demand in the energy sector, for both EV batteries and storage \napplications, reached the historical milestone of 1 TWh in 2024. Demand for one",
+    "source": "01_market_background.pdf",
+    "page": 14
+  },
+  {
+    "question": "2024년 전 세계 전기차 배터리 수요에서 전기 트럭이 차지하는 비율은 얼마인가?",
+    "ground_truth": "2024년 전 세계 전기차 배터리 수요에서 전기 트럭은 거의 3%를 차지한다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Compared to 2023, the sector whose demand grew the most was electric trucks, \ngrowing over 75% in 2024 to reach nearly 3% of global EV battery demand. \nElectric truck battery demand was driven by growth in China, but demand also \nramped up in Europe (about 25%), which accounted for about 10% of the global \ntotal. \nElectric vehicle battery demand by mode and region, 2018-2024 \n \nIEA. CC BY 4.0.",
+    "source": "01_market_background.pdf",
+    "page": 14
+  },
+  {
+    "question": "2024년 배터리 수요는 어떤 단위로 측정되나요?",
+    "ground_truth": "2024년 배터리 수요는 GWh/year로 측정됩니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "vehicles manufactured in each region. Electric vehicle and battery stockpiling are excluded from the analysis. \nSource: IEA analysis based on EV Volumes. \n \n0\n 200\n 400\n 600\n 800\n1 000\n2018 2019 2020 2021 2022 2023 2024\nGWh/year\nBattery demand by mode\nLDV\nTwo/three-wheeler\nBus\nTruck\n0%\n20%\n40%\n60%\n80%\n100%\n2018\n2019\n2020\n2021\n2022\n2023\n2024\nShare of battery demand by region\nChina\nEuropean Union\nUnited States\nOther EMDEs\nOther AEs\n14",
+    "source": "01_market_background.pdf",
+    "page": 14
+  },
+  {
+    "question": "2024년에는 중국을 제외한 신흥 시장과 개발도상국이 글로벌 배터리 수요에서 차지하는 비율은 얼마인가?",
+    "ground_truth": "2024년에는 중국을 제외한 신흥 시장과 개발도상국이 글로벌 배터리 수요에서 거의 5%를 차지할 것으로 예상된다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Emerging markets and developing economies other than China continued to \nrepresent only a small share of global battery demand, reaching nearly 5% in \n2024. Nevertheless, their share has doubled since 2022, underpinned by \nsustained growth in Southeast Asia, India and Brazil.  \nAverage electric car battery pack size by region and powertrain, 2015-2024 \n  \nIEA. CC BY 4.0.",
+    "source": "01_market_background.pdf",
+    "page": 15
+  },
+  {
+    "question": "2030년까지 전기차 배터리 수요는 2024년의 몇 배로 증가할 것으로 예상되나요?",
+    "ground_truth": "2030년까지 전기차 배터리 수요는 2024년의 약 3배로 증가할 것으로 예상됩니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Outlook for battery demand \nElectric vehicle battery demand jumps more than \nthreefold by 2030  \nEV battery demand continues to grow, and is expected to reach more than 3 TWh \nin 2030 in the STEPS, up from about 1 TWh in 2024. While electric cars will remain \nthe primary driver of battery demand, other modes are set to gain market share. \nNotably, the contribution of electric trucks to EV battery demand triples by 2030 to \nreach more than 8%, up from nearly 3% in 2024.  \n0\n 20\n 40\n 60\n 80",
+    "source": "01_market_background.pdf",
+    "page": 15
+  },
+  {
+    "question": "전 세계 배터리 수요는 어떤 지역에서 더 다양해질 것으로 예상되나요?",
+    "ground_truth": "전 세계 배터리 수요는 신흥 시장과 중국 이외의 개발도상국에서 더 다양해질 것으로 예상됩니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "battery size multiplied by vehicle sales by mode and region. It reflects the batteries installed in vehicles sold in each region, \nand not the battery demand for vehicles manufactured in each region. Electric vehicle and battery stockpiling are excluded \nfrom the analysis. \n \nBattery demand is also set to become more geographically diverse. In the STEPS, \nemerging markets and developing economies other than China are expected to",
+    "source": "01_market_background.pdf",
+    "page": 16
+  },
+  {
+    "question": "중국의 글로벌 배터리 수요 점유율은 2024년에 몇 퍼센트에서 2030년에는 몇 퍼센트로 감소하나요?",
+    "ground_truth": "중국의 글로벌 배터리 수요 점유율은 2024년에 60%에서 2030년에는 50% 미만으로 감소합니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "about 13% in 2024 to less than 10% by 2030. Meanwhile, China’s share of global \nbattery demand declines from 60% in 2024 to just under 50% by 2030, although it \nremains by far the single largest source of demand. \nBattery industry trends \nChinese manufacturers are increasing their competitive \nadvantage \nLow critical mineral prices and intense competition drove down \nbattery prices in 2024, but China’s price advantage is widening",
+    "source": "01_market_background.pdf",
+    "page": 16
+  },
+  {
+    "question": "BNEF의 2025 EV Outlook에서 강조하는 세 가지 근접 주제는 무엇인가요?",
+    "ground_truth": "BNEF의 2025 EV Outlook에서 강조하는 세 가지 근접 주제는 글로벌 EV 판매의 지속적인 증가, 대략 4대 중 1대가 전기차가 되는 것, 그리고 관련된 차량 판매, 석유 시장, 전기 수요, 충전 인프라, 배터리, 금속 및 CO2 배출입니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Battery Market Background Corpus - curated extract\nupdated 2026-03-17\nBloombergNEF - Electric Vehicle Outlook 2025\nBNEF describes its 2025 EV Outlook as an annual flagship report covering vehicle sales, oil markets,\nelectricity demand, charging infrastructure, batteries, metals and CO2 emissions. Its public overview\nemphasizes three near-term themes: global EV sales continue rising toward roughly one in four cars",
+    "source": "01_market_background.pdf",
+    "page": 17
+  },
+  {
+    "question": "어떤 신흥 시장들이 현재 가장 빠르게 성장하는 전기차 수요 중심지로 언급되고 있습니까?",
+    "ground_truth": "태국, 베트남, 브라질이 현재 가장 빠르게 성장하는 전기차 수요 중심지로 언급되고 있습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "-\nEmerging markets such as Thailand, Viet Nam and Brazil are now among the fastest-growing EV\ndemand centers.\n-\nBNEF also highlights that stationary storage demand is becoming an important outlet for battery\nmanufacturers amid EV-sector overcapacity.\nLeft: global passenger EV sales by market. Right: selected emerging-market EV sales. Source: BloombergNEF overview\ncharts published on the public insight page.\n17",
+    "source": "01_market_background.pdf",
+    "page": 17
+  },
+  {
+    "question": "연간 리튬 이온 배터리 수요는 어떤 두 가지 응용 분야에서 증가하고 있습니까?",
+    "ground_truth": "연간 리튬 이온 배터리 수요는 전기차(EV) 수요와 함께 정적 저장(stationary-storage) 수요에서 증가하고 있습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Cumulative global public charging connectors. Source: BloombergNEF.\nAnnual lithium-ion battery demand by application, showing rising stationary-storage demand alongside EV demand. Source:\nBloombergNEF.\n18",
+    "source": "01_market_background.pdf",
+    "page": 18
+  },
+  {
+    "question": "LFP는 어떤 종류의 화학 물질로, 어떤 제조업체에게 이익을 주고 있습니까?",
+    "ground_truth": "LFP는 고정식 저장소 화학 물질로, 중국 제조업체들에게 강력한 국내 규모와 해외 확장을 통해 이익을 주고 있습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "reach 220 GW / 972 GWh by 2035.\n-\nGrowth is increasingly pushed by utility-scale projects across China, Saudi Arabia, South Africa,\nAustralia, Chile, Canada, the UK and Europe more broadly.\n-\nHigher US import tariffs raise four-hour turnkey system costs and create downside risk through project\ndelays, renegotiations and cancellations.\n-\nLFP remains the dominant stationary-storage chemistry, benefiting Chinese manufacturers with strong\ndomestic scale and overseas expansion.\n-",
+    "source": "01_market_background.pdf",
+    "page": 19
+  },
+  {
+    "question": "어떤 기관이 2025년의 전기차 전망을 다룬 보고서를 발표했나요?",
+    "ground_truth": "International Energy Agency가 2025년의 전기차 전망을 다룬 보고서를 발표했습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Battery Market Background Corpus - curated extract\nupdated 2026-03-17\nSource references used for this corpus\n- International Energy Agency (2025). Global EV Outlook 2025. https://iea.blob.core.windows.net/asset\ns/c3f7fb7b-4205-4fd6-a20e-afe14a9aa252/GlobalEVOutlook2025.pdf\n- BloombergNEF (2025). Electric Vehicle Outlook 2025.\nhttps://about.bnef.com/insights/clean-transport/electric-vehicle-outlook/\n- Nsitem, N. and Sekine, Y. (2025-06-18). Global Energy Storage Growth Upheld by New Markets.",
+    "source": "01_market_background.pdf",
+    "page": 20
+  },
+  {
+    "question": "2024 LG ENERGY SOLUTION BUSINESS REPORT의 첫 번째 부분은 무엇으로 구성되어 있습니까?",
+    "ground_truth": "첫 번째 부분은 영업보고서로 구성되어 있으며, 회사의 개황, 영업의 경과 및 성과, 모회사 및 자회사 사항, 영업실적 및 재산상태 등 다양한 항목이 포함되어 있습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "2024 LG ENERGY SOLUTION BUSINESS REPORT\n2   \nCEO 인사말\n04\n연혁\n06\n사업부문소개\n08\nPart 1. 영업보고서\n1. 회사의 개황\n12\n2. 영업의 경과 및 성과\n14\n3. 모회사, 자회사 및 기업결합 사항 등\n16\n4. 영업실적 및 재산상태\n17\n5. 회사가 대처할 과제\n18\n6. 이사 및 감사위원 현황\n18\n7. 대주주 현황\n18\n8. 회사, 회사 및 자회사 또는자회사의 타회사에 대한 출자 현황\n19\n9. 주요 채권자 등\n20\n10. 결산기 후에 발생한 중요한 사항\n20\n11. 기타 영업에 관한 중요한 사항\n21\nPart 2. 감사보고서\n1. 감사위원회의 감사보고서\n24\n2. 감사위원회의 연결내부회계관리제도 운영실태 평가보고서\n25\n3. 감사위원회의 내부회계관리제도 운영실태 평가 보고서\n26\n4. 독립된 감사인의 감사보고서(별도 감사보고서)\n27\n5. 독립된 감사인의 감사보고서(연결 감사보고서)\n30\nPart 3. 재무제표\n별도재무제표",
+    "source": "02_LGES_strategy.pdf",
+    "page": 2
+  },
+  {
+    "question": "LG에너지솔루션은 어떤 비전을 선포하며 새로운 도약을 준비하고 있습니까?",
+    "ground_truth": "LG에너지솔루션은 비전 'Empower Every Possibility(에너지로 세상을 깨우다)'를 선포하며 새로운 도약을 준비하고 있습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "3\nPart 1. 영업보고서\n더 나은 세상을 위한 \n에너지 솔루션\nLG에너지솔루션은 \n차별화된 소재와 차세대 전지개발로 미래 친환경 에너지 산업을 선도합니다. \n전세계 전지업체 중 유일한 화학기반의 회사로서 차별화된 소재기술을 바탕으로 \n글로벌 리튬이온배터리 시장을 선도하고 있습니다. \n1996년 국내 최초 리튬이온배터리 개발을 시작으로, 독보적인 기술력과 \n세계적인 배터리 생산능력을 확보하며 글로벌 강자로 자리하고 있습니다. \nLG에너지솔루션은 글로벌 에너지 순환 생태계의 중심이 되기 위해 \n비전 ‘Empower Every Possibility(에너지로 세상을 깨우다)’를 선포하며 \n새로운 도약을 준비하고 있습니다.",
+    "source": "02_LGES_strategy.pdf",
+    "page": 3
+  },
+  {
+    "question": "LG에너지솔루션은 지난해 어떤 두 공장에서 본격적인 셀 양산에 돌입하였나요?",
+    "ground_truth": "LG에너지솔루션은 지난해 미국 얼티엄셀즈 제2공장과 인도네시아 HLI그린파워에서 본격적인 셀 양산에 돌입하였습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "세대 기술 연구개발(R&D) 역량 등 다방면에서 경쟁력을 입증하며 글로벌 선도\n기업으로 성장해왔고, 이 같은 성장은 현재 진행형입니다. \n2024년 주요 성과   \n글로벌 생산 공장의 운영 역량이 세계 최고 수준임을 증명했습니다.\nLG에너지솔루션은 지난해 미국 얼티엄셀즈 제2공장, 인도네시아 HLI그린파워\n에서 본격적인 셀 양산에 돌입하였습니다. 30년 넘게 쌓아 온 양산 경험과 기\n술 리더십을 바탕으로 두 공장 모두 한 달 만에 90% 이상의 수율을 달성하는 \n성과를 달성했습니다. 또 캐나다 온타리오주에 위치한 스텔란티스 합작공장에\n서도 안정적으로 모듈 생산을 시작하며 차별화된 제조 역량을 또 한 번 입증했\n습니다. \n이 같은 생산 역량은 주요 고객들에게 차별화된 가치를 제공하며 더 큰 수주 성\n과 기회로 이어지고 있습니다. 특히 향후 가장 가파른 성장세가 예상되는 북미 \n지역에서 시장 점유율을 더욱 확장해 나가기 위한 성장 엔진으로 작용할 것으",
+    "source": "02_LGES_strategy.pdf",
+    "page": 4
+  },
+  {
+    "question": "LG에너지솔루션이 지난해 국내 기업 중 처음으로 체결한 계약은 무엇인가요?",
+    "ground_truth": "LG에너지솔루션은 지난해 국내 기업 중 처음으로 차량용 LFP 배터리 공급 계약을 체결했습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "5\nCEO 인사말\n차별화된 기술력으로 제품 및 고객 포트폴리오를 더욱 다양화했습니다.\n지난해 국내 기업 중 처음으로 차량용 LFP 배터리 공급 계약을 체결했습니다. \n중국 업체들이 포진하고 있는 유럽 중저가 제품군에서 거둔 첫 대규모 성과입\n니다. 기존과 다른 미드니켈(Mid-Ni) NCM에 고전압을 가해 용량을 높임으로\n써 가격경쟁력을 확보한 파우치형 배터리 등 다양한 신제품도 공급을 앞두고 \n있습니다. \n프리미엄 제품군에서는 신규 원통형 폼팩터 46시리즈 수주를 본격화했습니\n다. 특히 특정 기업에 제한돼 있던 원통형 제품의 EV 고객군을 전통 완성차 업\n체로 확대하는 유의미한 결실도 있었습니다.. LG에너지솔루션의 차별화된 기\n술력이 중저가부터 프리미엄까지 폭넓은 EV 제품군에서 인정받고 있는 결과\n입니다. \n또한 연 평균 두 자릿수 이상의 견고한 수요 성장세가 예상되는 ESS 시장에서\n도 다수의 대규모 전력망용 프로젝트를 수주했습니다. 특히 단순 배터리 공급",
+    "source": "02_LGES_strategy.pdf",
+    "page": 5
+  },
+  {
+    "question": "LG에너지솔루션은 어떤 사업 모델을 진행 중에 있습니까?",
+    "ground_truth": "LG에너지솔루션은 충전 부담을 줄이고 에너지의 효율적 관리를 돕는 배터리 교환 서비스 사업모델을 진행 중에 있습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "통한 재료비율도 낮추었습니다. 올해도 ‘구조적 원가 경쟁력’을 확보하는 데 집\n중해 나갈 것입니다.\n소프트웨어 및 서비스 영역으로 사업을 확대할 수 있는 기초도 마련했습니다. \n고객들에게 빅데이터 기반 BMTS 3) 를 통해 배터리 이상 징후를 사전 진단하는 \n안전진단뿐 아니라 효율적 사용, 퇴화도 정밀 진단 및 예측 등이 가능한 솔루션\n을 제공하고 있습니다. 충전 부담을 줄이고 에너지의 효율적 관리를 돕는 배터\n리 교환 서비스 사업모델도 진행 중에 있습니다. \n미래 성장의 전환점이 될 2025년\n올해도 결코 쉽지 않은 사업 환경이 예상됩니다. 하지만 현재의 위기는 일시적\n이며 머지않은 미래에 더 큰 도약과 성장의 기회가 기다리고 있음은 분명합니\n다. LG에너지솔루션은 30년 넘는 업력을 쌓아오며 수많은 ‘최초’ ‘최고’의 역사\n를 만들어 온 저력이 있습니다. 배터리 설계 및 공정 등 다양한 분야에서 누구보\n다 많은 지식재산권을 확보하고 있으며 기술 혁신 활동을 이어가고 있습니다.",
+    "source": "02_LGES_strategy.pdf",
+    "page": 5
+  },
+  {
+    "question": "LG에너지솔루션의 대표이사는 누구인가요?",
+    "ground_truth": "LG에너지솔루션의 대표이사는 김 동 명입니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "하게 살피겠습니다. 또한 ‘포트폴리오 Rebalancing’과 ‘Fundamental 강화’ 활동\n을 속도감 있게 실행해 나가겠습니다. 현재의 일시적 위기를 머지않은 미래에 \n후발주자들과의 격차를 더욱 크게 벌리고 오히려 앞서 나가는 기회로 만들어 \n나가겠습니다. \nLG에너지솔루션의 성장에 대한 주주 여러분들의 변함없는 관심과 격려에 진\n심으로 감사 인사를 드립니다. 주주 여러분의 신뢰에 보답해 나가는 글로벌 일\n등 기업이 되겠습니다.\n여러분의 가정에 건강과 행복이 가득하시기를 기원합니다.\n감사합니다. \n2025년 3월\nLG에너지솔루션 \n대표이사 김 동 명\n2) Conversion Plant  3) Battery Management Total Solution \n4) Battery-as-a-Service  5) Energy-as-a-Service",
+    "source": "02_LGES_strategy.pdf",
+    "page": 5
+  },
+  {
+    "question": "세계 최초 양산형 전기차 배터리를 공급한 연도는 언제인가?",
+    "ground_truth": "세계 최초 양산형 전기차 배터리(GM Volt)를 공급한 연도는 2009년이다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "7\nPart 1. 영업보고서\n• 리튬이온배터리 연구 착수\n1992\n2000\n• 미국 전기차 배터리 \n  공장 준공\n2012\n• 중국 난징공장 준공\n2004\n• 세계 최초 양산형 전기차\n  (GM Volt) 배터리 공급 \n2009\n2023\n2023\n2024\n2024\n• 세계 최초 미래형 배터리* 개발\n  * Stepped, Curved, Wire Battery\n2013\n• 리튬이온배터리 개발 시작\n1996\n• 리튬이온배터리 \n  원통형 양산\n1999\n• 현대차그룹과 북미 배터리 \n  셀 합작법인 설립\n• 중국 화유코발트와 배터리 \n  리사이클 합작법인 설립\n• 미국 애리조나 공장 착공\n• BMTS 브랜드 ‘B.around’ 런칭\n7\n연혁\n• 미국 연구법인 설립",
+    "source": "02_LGES_strategy.pdf",
+    "page": 7
+  },
+  {
+    "question": "LG 에너지 솔루션의 자동차전지사업부문은 어떤 기술을 바탕으로 글로벌 전기차 시장을 선도하고 있습니까?",
+    "ground_truth": "LG 에너지 솔루션의 자동차전지사업부문은 에너지 밀도를 극대화하고 주행거리를 높인 ‘롱셀’ 배터리와 같은 세계 최고의 기술을 바탕으로 글로벌 Top-Tier의 완성차 업체와 전략적 파트너십을 구축하며 글로벌 전기차 시장을 선도하고 있습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "대를 만들어 가는데 기여하고 있습니다. \n2024 LG ENERGY SOLUTION BUSINESS REPORT\n8   \nIT & \nNew Application \nBattery Division\n자동차전지사업부문\n세계 최고의 배터리 기술력과 강력한 글로벌 생산능력으로, \n전기차 대중화와 함께 미래 모빌리티 혁신을 이끌어갑니다.\n에너지 밀도를 극대화하고 주행거리를 높인 ‘롱셀’ 배터리와 같이 세계 최\n고의 기술이 집약된 제품과 안정적인 글로벌 생산 능력을 바탕으로 글로\n벌 Top-Tier의 완성차 업체와 전략적 파트너십을 구축하며 글로벌 전기차 \n시장을 선도하고 있습니다.\n셀, 모듈, BMS(Battery Management System), 팩은 물론 기술 지원까지 \n가능한 토탈 배터리 솔루션과 차별화된 배터리 성능을 기반으로 전기버스, \n전기트럭, 전기선박, UAM 등 배터리 분야의 신시장을 개척하며 미래 모빌\n리티 혁신에도 앞장서고 있습니다. \nAdvanced \nAutomotive",
+    "source": "02_LGES_strategy.pdf",
+    "page": 8
+  },
+  {
+    "question": "BaaS(Battery-as-a-Service) 사업은 어떤 서비스를 포함하고 있나요?",
+    "ground_truth": "BaaS(Battery-as-a-Service) 사업은 전기이륜차 배터리 교환 스테이션(BSS, Battery Swapping Station) 서비스 플랫폼과 전기차 사용자를 위한 전기차 상시 모니터링 서비스 B-Lifecare, 클라우드 및 AI 기술이 결합된 안전진단, 퇴화/수명예측 등 소프트웨어 중심 차량(SDV, Software-Defined Vehicle) 플랫폼을 포함하고 있습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Division\nBattery-as-a-Service, \nEnergy-as-a-Service\n신사업부문\n축적된 배터리 생애주기 데이터를 기반으로 IT 기술과 융합해 배\n터리의 새로운 가치를 창출함으로써, 배터리 순환 생태계의 새로\n운 가능성을 만들어 갑니다. \nBaaS(Battery-as-a-Service)는 배터리 생애주기 전반에 걸쳐 새로운 가\n치를 창출하는 사업으로, 전기이륜차 배터리 교환 스테이션(BSS, Battery \nSwapping Station) 서비스 플랫폼 사업과 전기차 사용자를 대상으로 전기\n차 상시 모니터링 서비스 B-Lifecare, 기존 BMS를 뛰어 넘어 클라우드 및 \nAI 기술이 결합된 안전진단, 퇴화/수명예측 등 소프트웨어 중심 차량(SDV, \nSoftware-Defined Vehicle) 플랫폼을 BMTS 사업을 전개하고 있습니다. \nEaaS(Energy-as-a-Service)는 재생에너지 전력망을 통합관리하는 사업으로",
+    "source": "02_LGES_strategy.pdf",
+    "page": 9
+  },
+  {
+    "question": "2024년 12월 31일 현재 본사의 소재지는 어디인가요?",
+    "ground_truth": "본사의 소재지는 서울특별시 영등포구 여의대로 108입니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "•  국내 · 외 광물 개발과 관련된 사업\n•  각종 기계(금형 포함)의 제조, 가공 및 매매\n•  운송기구 및 동 부분품과 그 관련품의 제조, 가공 및 매매 등 정관에 기재된 사업 총 33개\n(2) 중요한 사업의 내용\n•  자동차 전지, 소형 전지, ESS 전지의 제조 · 개발 및 판매\n(3) 사업장 현황\n2024년 12월 31일 현재\n명칭 \n주요  사업내용  또는  제품\n소재지\n본사\n전사 경영전략 수립 등\n서울특별시 영등포구 여의대로 108\n오창 에너지플랜트\n전지 배터리 생산\n충북 청주시 흥덕구 옥산면 과학산업3로 29 외\n대전 기술연구원\n신소재 연구 개발\n대전광역시 유성구 문지로 188 \n마곡 R&D 캠퍼스\n신소재 연구 개발\n서울특별시 강서구 마곡중앙 10로 30\n과천 R&D 캠퍼스\n신소재 연구 개발\n경기도 과천시 장군마을3길 36\nAVEL Company\n신재생에너지 관리 시스템 운영\n제주특별자치도 제주시 애월읍 하귀9길 2\n(4) 종업원 현황 \n2024년 12월 31일 현재",
+    "source": "02_LGES_strategy.pdf",
+    "page": 10
+  },
+  {
+    "question": "2024년 LG 에너지 솔루션의 연결기준 매출은 얼마인가요?",
+    "ground_truth": "2024년 LG 에너지 솔루션의 연결기준 매출은 25조 6,196억원입니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "2024 LG ENERGY SOLUTION BUSINESS REPORT\n1 4   \n(1) 영업의 개황\t\n\t\n\t\n2024년은 지경학적 불확실성 확대로 글로벌 완성차 기업들이 전동화 속도 조정에 나서며, 2차전지 산업은 어려운 사업 환경을 마주했습니다. 이에 따라 연간 실적은 \n연결기준 매출 25조 6,196억원, 영업이익은 5,754억원(IRA* 세액 공제 포함 금액), 별도기준 매출은 7조 9,267억원, 영업손실  2조 3,052억원을 기록하였습니다. \n성장 잠재력이 높은 북미 EV수요에 적극 대응하여 작년 3분기 누적 24%의 북미 점유율**을 기록하며 전년 평균 대비 +4%p 확대하는 성과를 이루었지만, 유럽 시장 \n수요의 역성장 흐름에 따른 판매 감소와 연중 메탈 가격의 하락세 지속으로 인한 판가 약세 영향으로 매출이 감소하였습니다. 재료비율의 개선에도 불구하고, 가동률",
+    "source": "02_LGES_strategy.pdf",
+    "page": 11
+  },
+  {
+    "question": "차별화된 기술력으로 폭넓은 EV 제품군에서 고객 포트폴리오를 다양화한 기업은 어떤 제품군에서 신규 원통형 폼팩터인 46시리즈 수주를 본격화하고 있습니까?",
+    "ground_truth": "프리미엄 제품군에서 신규 원통형 폼팩터인 46시리즈 수주를 본격화하고 있습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "제품 경쟁력 측면에서는 차별화된 기술력으로 폭넓은 EV 제품군에서 고객 포트폴리오를 다양화하였습니다. 프리미엄 제품군에서 신규 원통형 폼팩터인 46시리즈 수\n주를 본격화하고 있으며, 중저가 제품군에서는 가격 경쟁력을 확보한 고전압 미드니켈(Mid-Ni) NCM 배터리 공급 계약 뿐만 아니라 국내 기업 최초로 차량용 LFP 배\n터리 공급 계약을 체결하는 성과가 있었습니다. \n원가 및 품질 경쟁력을 고도화하고, 미래 기술도 착실하게 준비하고 있습니다. 메탈, 소재업체 지분투자와 리사이클 체계 구축을 통해 구조적으로 원가 경쟁력을 강화\n해 나가고 있으며, 빅데이터를 기반으로 한 BMTS(Battery Management Total Solution) 소프트웨어 퇴화도 정밀 진단, 이상 징후 사전 예측 등의 안전진단을 통해 제\n품 안전성을 개선했습니다.",
+    "source": "02_LGES_strategy.pdf",
+    "page": 11
+  },
+  {
+    "question": "제5기(2024년)의 매출액은 얼마인가?",
+    "ground_truth": "제5기(2024년)의 매출액은 25,619,585 백만 원이다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "2 1\nPart 1. 영업보고서\n(1) 영업실적(요약 연결 손익계산서)\n(단위 : 백만 원)\n구분\n제5기(2024년)\n제4기(2023년)\n제3기(2022년)\n매출액\n25,619,585\n33,745,470\n25,598,609\n매출원가\n22,213,605\n28,802,437\n21,308,076\n매출총이익\n3,405,980\n4,943,033\n4,290,532\n기타영업수익\n1,480,020\n676,874\n-\n판매비와 관리비\n4,310,613\n3,456,673\n3,076,813\n영업이익\n575,387\n2,163,234\n1,213,719\n영업외손익\n△226,516\n△119,774\n△218,405\n세전계속사업손익\n348,871\n2,043,460\n995,314\n법인세 비용\n10,269\n405,475\n215,488\n계속사업손익\n338,602\n1,637,985\n779,826\n중단사업손익\n-\n-\n-\n당기순손익\n338,602\n1,637,985\n779,826\n(2) 재산상태(요약 연결 재무상태표)",
+    "source": "02_LGES_strategy.pdf",
+    "page": 12
+  },
+  {
+    "question": "부채와 자본총계는 얼마인가?",
+    "ground_truth": "부채와 자본총계는 60,306,791이다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "20,593,762\n자본금\n117,000\n117,000\n117,000\n자본잉여금\n17,164,627\n17,164,627\n17,164,627\n자본조정\n-\n-\n-\n기타포괄손익누계액\n2,437,399\n554,518\n296,070\n이익잉여금\n1,397,211\n2,364,496\n1,154,518\n비지배지분\n9,850,306\n4,172,868\n1,861,546\n부채와 자본총계\n60,306,791\n45,437,144\n38,299,445\n11. 기타 영업에 관한 중요한 사항",
+    "source": "02_LGES_strategy.pdf",
+    "page": 12
+  },
+  {
+    "question": "2024년 12월 31일 기준 LG Energy Solution의 현금 및 현금성 자산은 얼마인가?",
+    "ground_truth": "2024년 12월 31일 기준 LG Energy Solution의 현금 및 현금성 자산은 3,898,711백만 원이다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "LG Energy Solution, Ltd. and its subsidiaries \nConsolidated statements of financial position \nAs of December 31, 2024 and 2023 \n \n(Korean won in millions) \n \n      Notes          \nDecember 31, 2024 \n  \nDecember 31, 2023 \n \nAssets \n \n \n \nCurrent assets \n \n \n \nCash and cash equivalents \n3,5,6 \n￦ \n3,898,711 ￦ \n  5,068,783 \nTrade receivables \n3,5,7,30 \n4,944,019 \n5,128,474 \nOther receivables \n3,5,7,30 \n603,635 \n555,186 \nOther current financial assets \n3,5,8 \n42 \n65,439 \nPrepaid income taxes",
+    "source": "02_LGES_strategy.pdf",
+    "page": 15
+  },
+  {
+    "question": "총 자산의 금액은 얼마인가요?",
+    "ground_truth": "총 자산의 금액은 ￦ 60,306,791입니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Investments in associates and joint ventures \n10,30 \n62,389 \n223,559 \nDeferred tax assets \n27 \n2,774,153 \n2,228,924 \nProperty, plant and equipment \n11,18,32 \n38,349,552 \n23,654,677 \nIntangible assets \n12,32 \n1,284,576 \n875,993 \nInvestment properties \n32,34 \n225,934 \n212,489 \nOther non-current assets \n13,16 \n \n623,390  \n423,791 \n \n \n44,979,396 \n28,228,748 \nTotal assets \n \n￦            60,306,791 ￦            45,437,144 \nLiabilities \n \n  \nCurrent liabilities \n \n  \nTrade payables \n3,5,30 \n￦",
+    "source": "02_LGES_strategy.pdf",
+    "page": 15
+  },
+  {
+    "question": "비유동 부채의 총액은 얼마인가?",
+    "ground_truth": "비유동 부채의 총액은 29,340,248입니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Non-current liabilities \n \n \n \nNon-current other payables \n3,5,30 \n22,082 \n25,291 \nBorrowings \n3,5,11,14,31 \n12,900,311 \n7,720,832 \nOther non-current financial liabilities \n3,5,8 \n1,000,635 \n68,824 \nProvisions \n15 \n778,686 \n869,123 \nNet defined benefit liabilities \n16 \n403 \n239 \nDeferred tax liabilities \n27 \n60,733 \n19,958 \nOther non-current liabilities \n17,33 \n \n2,522,476  \n1,422,183 \n \n \n17,285,326 \n10,126,450 \nTotal liabilities \n \n \n29,340,248  \n21,063,635 \nEquity attributable to owners of",
+    "source": "02_LGES_strategy.pdf",
+    "page": 15
+  },
+  {
+    "question": "총 자산과 총 자본의 차이는 얼마인가?",
+    "ground_truth": "총 자산은 60,306,791원이므로, 총 자본은 9,850,306원이다. 따라서 총 자산과 총 자본의 차이는 60,306,791 - 9,850,306 = 50,456,485원이다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "9,850,306  \n4,172,868 \nTotal equity \n \n \n30,966,543  \n24,373,509 \nTotal liabilities and equity \n \n￦            60,306,791 ￦            45,437,144 \n \nThe accompanying notes are an integral part of the consolidated financial statements.\n- 11 -",
+    "source": "02_LGES_strategy.pdf",
+    "page": 15
+  },
+  {
+    "question": "2023년의 운영 이익은 얼마인가?",
+    "ground_truth": "2023년의 운영 이익은 575,387입니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "21,22,30 \n \n4,310,613  \n3,456,673 \nOperating profit \n \n575,387 \n2,163,234 \nFinance income \n5,24,30 \n1,048,343 \n984,984 \nFinance costs \n5,24,30 \n1,260,579 \n857,201 \nShare of loss of associates and joint ventures  \n10 \n(49,118) \n(32,450) \nOther non-operating income \n25 \n858,811 \n1,125,846 \nOther non-operating expenses \n26 \n \n823,973  \n1,340,953 \nProfit before income tax expense \n \n348,871 \n2,043,460 \nIncome tax expense \n27 \n \n10,269  \n405,475 \nProfit for the period \n \n￦ \n338,602 ￦ \n1,637,985",
+    "source": "02_LGES_strategy.pdf",
+    "page": 16
+  },
+  {
+    "question": "LG에너지솔루션의 포트폴리오 다각화 전략은 어떤 자료를 통해 보강되었나요?",
+    "ground_truth": "LG에너지솔루션의 포트폴리오 다각화 전략은 2026년 기사·분석 자료를 통해 ESS, EaaS/BaaS, 로보틱스, AI 인프라, 차세대 배터리 전략을 보강했습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "1\n02_LGES_strategy\nLG에너지솔루션 포트폴리오 다각화 전략 코퍼스\n구성 원칙: 공식 사업보고서/감사보고서를 우선 배치하고, 이후 2026년 기사·분석 자료를 통해 ESS, EaaS/BaaS,\n로보틱스, AI 인프라, 차세대 배터리 전략을 보강했습니다. 이 PDF는 RAG용 참고 코퍼스를 염두에 두고 20~25페이지\n내외로 편집했습니다.\n포함 구조\n구분\n구성\n의도\n공식 리포트\n2024 Business Report 발췌\n회사 개요, 비전, ESS/BaaS/EaaS, 시장 전망, 2024 실적\n공식 재무\n2024 Audit Report 발췌\n연결 재무상태표·손익계산서 근거 확보\n보강 기사\n2026년 공식·언론·분석 자료 요약\nESS/EaaS, 로봇·AI 인프라, 전략 스토리 보완\n선정한 공식 PDF 페이지\n• Business Report: 표지/목차, 회사 소개, CEO 메시지, 연혁, 사업부문 소개(ESS/BaaS/EaaS), 회사 목적, 2024 영업",
+    "source": "02_LGES_strategy.pdf",
+    "page": 17
+  },
+  {
+    "question": "LG Energy Solution은 어떤 분야에서 리더로 부상하고 있습니까?",
+    "ground_truth": "LG Energy Solution은 ESS와 AI 기반 에너지 관리 분야에서 리더로 부상하고 있습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "2\n보강 자료 요약 1 - ESS/EaaS와 AI 전력 인프라\n공식 보강 자료\nLG Energy Solution, “Rewiring Power for the AI Age: LG Energy Solution at the Forefront of ESS and EaaS”\n(2026-02-27)\n확인된 핵심 문장\nLG Energy Solution emerges as a leader in AI-era power infrastructure through ESS and AI-based energy\nmanagement. The company accelerates its EaaS strategy, extending beyond battery manufacturing into\nintegrated energy circulation and grid services.\n해석 포인트\n• AI 데이터센터 전력 수요 증가를 배경으로 ESS를 단순 배터리 판매가 아니라 전력 인프라 솔루션의 일부로 위치시킴.",
+    "source": "02_LGES_strategy.pdf",
+    "page": 18
+  },
+  {
+    "question": "LG Energy Solution의 2025년 연결 매출은 얼마인가요?",
+    "ground_truth": "LG Energy Solution의 2025년 연결 매출은 23.7조원입니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "3\n보강 자료 요약 2 - 2025 실적 발표와 2026 실행 계획\n공식 실적 발표\nLG Energy Solution Releases 2025 Financial Results (2026-01-29)\n핵심 수치 및 실행 계획\n• 2025년 연결 매출 23.7조원, 영업이익 1.3조원\n• ESS 신규 수주 90GWh 이상 목표\n• ESS 생산능력 60GWh 이상 확대, 이 중 80% 이상을 북미에 배치\n• 로보틱스 등 신규 애플리케이션 확대, 이미 6개 글로벌 로봇 기업에 원통형 배터리 공급\n해석 포인트\n• 전략 축이 EV 제품라인 확장과 동시에 ESS/로보틱스라는 비EV 수요 확보로 병행되고 있음을 보여준다.\n• 특히 ESS는 단순 파일럿이 아니라 ‘수주 목표(GWh)’와 ‘생산능력(Capacity)’를 함께 제시한다는 점에서 사업 단위로\n격상되었다고 해석할 수 있다.\n• 로보틱스는 아직 초기 시장이지만, 이미 복수의 글로벌 고객 공급 사례를 언급해 상용화 초기 레퍼런스를 확보하고",
+    "source": "02_LGES_strategy.pdf",
+    "page": 19
+  },
+  {
+    "question": "포트폴리오를 설명하는 데 포함된 요소는 무엇인가?",
+    "ground_truth": "포트폴리오는 제품(배터리), 소프트웨어(Better.Re, 진단/예측), 서비스(BaaS), 차세대 기술(전고체/소듐) 조합으로 설명된다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "• 제품(배터리) + 소프트웨어(Better.Re, 진단/예측) + 서비스(BaaS) + 차세대 기술(전고체/소듐) 조합으로\n포트폴리오를 설명한다.\n• EV 캐즘 구간에서 로봇·드론·AI 인프라를 미래 수요로 선제 포지셔닝하는 전시 전략으로 해석 가능하다.\n출처 URL: https://www.donga.com/news/Economy/article/all/20260302/133446155/1",
+    "source": "02_LGES_strategy.pdf",
+    "page": 20
+  },
+  {
+    "question": "LGES가 확보한 선도 고객 레퍼런스는 어떤 분야에서 이루어지고 있나요?",
+    "ground_truth": "LGES는 EV 외 신규 수요처에서 선도 고객 레퍼런스를 확보하는 단계에 있습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "해석 포인트\n• 로봇 배터리는 아직 대규모 매출원이라고 보기 어렵지만, LGES가 EV 외 신규 수요처에서 선도 고객 레퍼런스를\n확보하는 단계라는 점이 중요하다.\n• 테슬라/현대 계열 로봇과의 연결은 기술 신뢰성과 차기 모델 협상 가능성을 보여주는 시그널로 해석할 수 있다.\n• 향후 전략 분석에서 ‘신규 응용처 개척’의 정성 근거로 유용하다.\n출처 URL 1: https://koreajoongangdaily.joins.com/news/2026-02-12/business/tech/Atlas-robot-powered-by-LG-Energy-Solutio\nn-battery-industry-sources-say/2521941\n출처 URL 2: https://www.kedglobal.com/batteries/newsView/ked202601270008",
+    "source": "02_LGES_strategy.pdf",
+    "page": 21
+  },
+  {
+    "question": "LGES는 ESS를 어떤 방식으로 바라보는가?",
+    "ground_truth": "LGES는 ESS를 수익 방어 수단으로만 보는 것이 아니라, EaaS/BaaS/소프트웨어를 결합한 서비스화 전략을 함께 강조하는 특징이 있다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "• CATL과 비교할 때 LGES는 ESS를 수익 방어 수단으로만 보는 것이 아니라, EaaS/BaaS/소프트웨어를 결합한\n서비스화 전략을 함께 강조하는 특징이 있다.\n출처 URL: https://dbr.donga.com/kfocus/view/en/article_no/2170\n보강 자료 활용 가이드\n보고서 작성 시 공식 사업보고서/감사보고서에서 정량 근거를 우선 인용하고, 본문 서술에서는 위 기사·분석 자료를\n사용해 전략 의도와 사업 확장 스토리를 보강하는 구성이 가장 안정적이다.",
+    "source": "02_LGES_strategy.pdf",
+    "page": 22
+  },
+  {
+    "question": "CATL이 2026년 sodium-ion을 밀어붙이는 이유는 무엇인가?",
+    "ground_truth": "CATL은 sodium-ion을 2026년에 밀어붙이는 이유로 특정 시나리오와 논리를 가지고 있습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "CATL 포트폴리오 다각화 전략 코퍼스\n2\n1. 코퍼스 활용 가이드\n이 PDF는 최종 보고서 초안이 아니라, CATL 전략 분석을 위한 전용 참고 코퍼스에 가깝습니다. 따라서 아래 세 가지 질문에\n답하도록 구성했습니다.\nG\nCATL의 실적과 사업 믹스에서 ESS가 실제로 얼마나 중요한 축으로 커지고 있는가?\nG\nCATL이 2026년 sodium-ion을 왜 지금, 어떤 시나리오에, 어떤 논리로 밀어붙이는가?\nG\nCATL이 아프리카 등 신흥시장 ESS와 AI 인프라 수요를 어떻게 연결하려 하는가?\n분석 프레임\n축\n핵심 질문\n주요 지표 / 표현\n재무·ESS\nESS가 단순 보조 사업이 아니라 수익 방어축이 되었는가?\n매출 비중, GWh, 마진, 글로벌 점유율\nNa-ion\nsodium-ion은 기술 과시인지, 비용·공급망 전략인지?\n적용 시나리오, 에너지 밀도, 원가 안정성, 2026 대량 공급\n신흥시장\nCATL은 어디서 추가 수요를 만드는가?",
+    "source": "03_CATL_strategy.pdf",
+    "page": 2
+  },
+  {
+    "question": "CATL의 2025년 총매출은 얼마인가?",
+    "ground_truth": "CATL의 2025년 총매출은 RMB 423.7bn이다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "CATL 포트폴리오 다각화 전략 코퍼스\n3\n2. CATL 전략 스냅샷: 2024-2025 핵심 수치\n구분\n2024\n2025\n의미\n총매출\nRMB 362.01bn\nRMB 423.7bn\n원가 하락으로 2024 매출은 감소했지만 2025년 다시 성장세 회복\n순이익\nRMB 50.75bn\nRMB 72.2bn\n수익성 개선과 운영 효율 강화\n리튬이온 배터리 총판매\n475 GWh\n661 GWh\n물량 증가가 지속, EV와 ESS 동시 확장\nEV 배터리 판매\n381 GWh\n541 GWh\n주력 사업 유지\nESS 배터리 판매\n93 GWh\n121 GWh\n비EV 수요가 실제 물량으로 확인\nESS 매출 비중\n15.83%\n14.74%\n2024~2025 모두 두 자릿수, 별도 성장축으로 고착화\nESS 글로벌 점유율\n36.5%\n30.4%\n여전히 세계 1위, 다만 시장 확대 속 경쟁 심화도 병행 관찰 필요\n읽는 법",
+    "source": "03_CATL_strategy.pdf",
+    "page": 3
+  },
+  {
+    "question": "CATL의 Power Battery는 2025년 매출의 몇 퍼센트를 차지할 것으로 예상되며, 판매량은 얼마인가?",
+    "ground_truth": "CATL의 Power Battery는 2025년 매출의 74.70%를 차지할 것으로 예상되며, 판매량은 541 GWh입니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "CATL 포트폴리오 다각화 전략 코퍼스\n4\n3. 전략 지도: CATL이 만드는 세 개의 성장축\n성장축\n핵심 내용\n왜 중요한가\nPower Battery\nEV용 주력 배터리. 2025년 매출의 74.70%와 541 GWh 판매를 차지\n규모의 경제와 점유율 방어의 중심\nEnergy Storage\n2025년 매출 62.44bn yuan, 총매출의 14.74%, GPM 26.71%\nEV보다 높은 마진으로 수익성 방어 가능\nSodium-ion / New Scenarios 2026년부터 저장·승용·상용·스왑으로 확대\n리튬 가격 변동 완화, 저가형·저온·안전성 수요 대응\n해석 포인트\nG\nCATL은 EV 배터리 1위 지위를 유지하면서도 ESS를 별도의 이익 엔진으로 키우고 있다.\nG\nsodium-ion은 EV 주력 제품을 대체하기보다, LFP 아래/옆의 가격대와 저장용 시나리오를 넓히는 카드에 가깝다.\nG",
+    "source": "03_CATL_strategy.pdf",
+    "page": 4
+  },
+  {
+    "question": "2024년 상반기 CATL의 매출은 얼마였나요?",
+    "ground_truth": "2024년 상반기 CATL의 매출은 166.77bn yuan입니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "CATL 포트폴리오 다각화 전략 코퍼스\n5\n4. 공식 근거 1 - 2024년 상반기 실적: ESS와 기술 리더십의 조기 신호\nCATL achieves faster profit growth in Q2, with market share growing steadily\nURL: https://www.catl.com/en/news/6278.html\n• 2024년 상반기 매출 166.77bn yuan, 순이익 22.87bn yuan, 종합 GPM 26.5%\n• 2024년 1~5월 글로벌 EV 배터리 점유율 37.5%, 에너지저장 배터리 출하량도 상반기 글로벌 1위\n• TENER 6.25MWh ESS, 5년 zero degradation을 전면에 내세움\n이 자료는 2024년 중반 시점에 이미 CATL이 ESS를 '보조 분야'가 아닌 핵심 전장으로 보고 있었음을 보여줍니다. TENER",
+    "source": "03_CATL_strategy.pdf",
+    "page": 5
+  },
+  {
+    "question": "2024년 CATL의 매출과 순이익은 각각 얼마였나요?",
+    "ground_truth": "2024년 CATL의 매출은 362.01억 위안으로 9.7% 감소하였고, 순이익은 50.75억 위안으로 15.01% 증가하였습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "CATL 포트폴리오 다각화 전략 코퍼스\n6\n5. 공식 근거 2 - 2024년 연간 실적: 매출 감소 속 이익 개선\nCATL reports profit growth despite revenue decline, announces $2.8bn dividend plan\nURL: https://www.ess-news.com/2025/03/20/catl-reports-profit-growth-despite-revenue-decline-announces-2-8bn-dividend-plan/\n• 2024년 매출 362.01bn yuan(-9.7%), 순이익 50.75bn yuan(+15.01%)\n• 리튬이온 배터리 판매 475 GWh, 이 중 EV 381 GWh / ESS 93 GWh\n• ESS 매출 비중 15.83%, EV 매출 비중 69.9%, AI 데이터센터 수요를 성장 기회로 명시",
+    "source": "03_CATL_strategy.pdf",
+    "page": 6
+  },
+  {
+    "question": "2025년 CATL의 매출은 얼마이며, 순이익은 얼마인가?",
+    "ground_truth": "2025년 CATL의 매출은 423.7bn yuan이며, 순이익은 72.2bn yuan입니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "CATL 포트폴리오 다각화 전략 코퍼스\n7\n6. 2025년 연간 실적: ESS가 '의미 있는 비중'을 넘어 '두꺼운 축'으로\nZero-Carbon Technology Powers 'All-Domain Growth': CATL Releases 2025 Annual Report\nURL: https://www.catl.com/en/news/6773.html\n• 2025년 매출 423.7bn yuan(+17%), 순이익 72.2bn yuan(+42%)\n• 리튬이온 배터리 판매 661 GWh, 글로벌 전력배터리 점유율 39.2%\n• 에너지저장 배터리 출하 글로벌 점유율 30.4%, 약 2,300개 프로젝트 공급, ESS 시스템 통합 출하 +160% YoY\n• SenseTime AI 데이터센터 사례: 연간 10m kWh 절감, 전력비 7% 절감\n2025년 자료는 CATL의 다각화가 한 단계 더 진전되었음을 보여줍니다. 단순히 ESS 관련 제품을 보유하고 있다는 수준이",
+    "source": "03_CATL_strategy.pdf",
+    "page": 7
+  },
+  {
+    "question": "2025년 ESS의 매출은 얼마이며, 총매출에서 차지하는 비중은 얼마인가?",
+    "ground_truth": "2025년 ESS 매출은 62.44bn yuan이며, 총매출의 14.74%를 차지한다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "CATL 포트폴리오 다각화 전략 코퍼스\n8\n7. 세그먼트 관점: ESS는 EV보다 작은 사업이지만 마진은 더 높다\nCATL reports record-breaking financial results in 2025 / iTiger annual-report analysis\nURL: https://carnewschina.com/2026/03/10/catl-reports-record-breaking-financial-results-in-2025-with-10-billion-usd-net-profit/ /\nhttps://www.itiger.com/news/1177284142\n• 2025년 ESS 매출 62.44bn yuan, 총매출의 14.74%, GPM 26.71%\n• 2025년 EV 배터리 매출 316.51bn yuan, 총매출의 74.70%, GPM 23.84%\n• 2025년 ESS 판매량 121 GWh, EV 배터리 판매량 541 GWh\n세그먼트\n매출 (2025)\n매출 비중\n총이익률",
+    "source": "03_CATL_strategy.pdf",
+    "page": 8
+  },
+  {
+    "question": "2025년 ESS 매출은 얼마로 예상되며, 매출 비중은 몇 퍼센트인가?",
+    "ground_truth": "2025년 ESS 매출은 62.44bn yuan으로 예상되며, 매출 비중은 14.74%입니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "CATL 포트폴리오 다각화 전략 코퍼스\n9\n8. ESS는 왜 CATL의 '제2 성장곡선'인가\n여러 기사들이 반복적으로 지적하는 포인트는 동일합니다. CATL의 국내 EV 배터리 시장은 여전히 강하지만 성장률이\n둔화될 가능성이 있고, 따라서 새로운 성장 경계(boundary)를 넓히는 일이 중요해졌습니다. 이때 가장 즉시성 있는 대안이\nESS입니다.\nG\n전력망·재생에너지 연계에서 대형 저장 수요가 구조적으로 증가\nG\nAI 데이터센터 전력 안정성 수요가 새롭게 부상\nG\nEV 대비 가격 탄력성이 다르고, 일부 프로젝트는 장기 계약 구조를 가짐\nG\n시스템 통합까지 확장하면 셀 단위보다 부가가치를 더 확보 가능\niTiger 분석은 2025년 ESS 매출을 62.44bn yuan, 매출 비중을 14.74%, GPM을 26.71%로 제시하며, ESS가 새로운\n성장 동력으로 부상했다고 설명합니다. 2025년 연간 공식 자료도 에너지저장 시스템 통합 사업 출하가 전년 대비 160%",
+    "source": "03_CATL_strategy.pdf",
+    "page": 9
+  },
+  {
+    "question": "CATL은 sodium-ion을 어떤 방식으로 설명하고 있습니까?",
+    "ground_truth": "CATL은 sodium-ion을 리튬이온의 즉각 대체재로 설명하지 않고, 두 화학계가 공존하는 'dual-star' 접근을 강조합니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "• Naxtra sodium-ion 브랜드를 2025년에 공개\nCATL은 sodium-ion을 리튬이온의 즉각 대체재로 설명하지 않습니다. 오히려 두 화학계가 공존하는 'dual-star' 접근을\n강조합니다. 이는 고에너지밀도·고성능 영역은 기존 리튬이온 계열이 담당하고, 비용 안정성·저온 성능·저장용 시나리오는\nsodium-ion이 맡는 식의 포트폴리오 전략으로 읽힙니다.\n중요한 점은 적용 범위입니다. 저장, 승용, 상용, 스왑까지 동시에 언급함으로써 CATL은 sodium-ion을 특정 틈새 기술이\n아니라 새 공급망과 새 가격대를 여는 플랫폼형 제품군으로 제시합니다.",
+    "source": "03_CATL_strategy.pdf",
+    "page": 10
+  },
+  {
+    "question": "CATL의 sodium-ion 배터리는 어떤 온도 범위를 지원하나요?",
+    "ground_truth": "CATL의 sodium-ion 배터리는 -40°C ~ 70°C의 온도 범위를 지원합니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "항목\n내용\n전략적 의미\n온도 범위\n-40°C ~ 70°C\n극한 환경과 북방·상용 시나리오에서 차별화 가능\n에너지 밀도\n최대 175 Wh/kg\nLFP 아래·옆의 가격대/성능대 포지셔닝\n폼팩터\n승용차 + 24V 트럭\n저장용 외에도 상용·시동용으로 확장 가능\n인증\n중국 최신 EV traction battery 표준 통과\n양산 시점에서의 안전성 신뢰 확보\n즉, CATL은 sodium-ion을 단순 연구 단계 기술이 아니라, 이미 인증과 고객 도입 스케줄을 전제로 하는 상업 제품으로\n밀고 있습니다.",
+    "source": "03_CATL_strategy.pdf",
+    "page": 11
+  },
+  {
+    "question": "sodium-ion 가격이 LFP의 얼마 수준까지 내려갈 수 있다는 전망이 제기되었나요?",
+    "ground_truth": "sodium-ion 가격이 LFP의 절반 수준까지 내려갈 수 있다는 전망이 제기되었습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "• 시장에서는 장기적으로 sodium-ion 가격이 LFP의 절반 수준까지 내려갈 수 있다는 전망도 제기\n36Kr는 sodium-ion의 핵심 가치를 기술 스펙 자체보다 공급망과 가격 구조의 재편에서 찾습니다. 리튬이온 배터리는 상류\n자원 가격에 크게 흔들리지만, sodium-ion은 원재료 접근성과 비용 안정성 면에서 더 유연하다는 것입니다.\n머니투데이 기사도 비슷한 해석을 제시합니다. CATL이 나트륨이온 카드를 꺼낸 시점이 최근 리튬 가격 급등과 맞물려\n있으며, 이는 단지 기술 공개가 아니라 리튬 가격 상승 압력을 견제하고 저가형 전기차 및 ESS 가격 경쟁력을 더 강화하려는\n포석이라는 것입니다.\n정리하면 sodium-ion은 '배터리 가격 혁명'의 상징이라기보다, CATL이 가격 결정력과 공급 안정성을 더 오래\n유지하기 위한 전략적 보험에 가깝습니다.",
+    "source": "03_CATL_strategy.pdf",
+    "page": 12
+  },
+  {
+    "question": "케냐는 전력의 약 몇 퍼센트를 재생에너지에서 조달하는 것으로 추정되며, 2030년 목표는 무엇인가?",
+    "ground_truth": "케냐는 전력의 약 92%를 재생에너지에서 조달하는 것으로 추정되며, 2030년 100% 재생에너지 목표를 가지고 있습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "CATL 포트폴리오 다각화 전략 코퍼스\n14\n13. 신흥시장 확장: 아프리카 ESS는 왜 중요한가\nCATL, 아프리카 전시회서 ESS 기술력 뽐내\nURL: https://www.theguru.co.kr/news/article.html?no=97837\n• 케냐 나이로비에서 열린 Intersolar Africa 2026에서 ESS 솔루션 전시\n• 전기 모빌리티에 이어 ESS용 배터리 공급으로 아프리카 시장 공략\n• 케냐는 전력의 약 92%를 재생에너지에서 조달하는 것으로 추정되며, 2030년 100% 재생에너지 목표\n아프리카는 CATL 전략에서 아직 매출 비중이 큰 지역은 아니더라도, 포트폴리오 다각화 관점에서는 매우 상징적입니다.\n완성차 중심 EV 배터리 수요보다, 재생에너지 연계 ESS와 분산형 전력 인프라 수요가 더 빠르게 열릴 수 있기 때문입니다.\n특히 케냐처럼 재생에너지 비중이 높고 전력망 안정화 수요가 큰 국가는, CATL이 저장 솔루션을 앞세워 선점하기 좋은",
+    "source": "03_CATL_strategy.pdf",
+    "page": 14
+  },
+  {
+    "question": "CATL의 ESS는 어떤 역할을 수행하고 있으며, 매출 비중과 마진은 어떻게 되나요?",
+    "ground_truth": "ESS는 이미 두 자릿수 매출 비중과 EV보다 높은 마진을 보여 주며, 수익 구조의 안전판 역할을 수행합니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "CATL 포트폴리오 다각화 전략 코퍼스\n16\n15. 종합 해석: CATL 전략의 핵심 특징\n특징\n설명\n1. EV 주력 유지\n점유율과 생산능력을 바탕으로 EV 배터리 주력 사업을 유지하면서도, 가격 경쟁이 심해질수록 다른 축을 동시\n2. ESS 수익 방어\nESS는 이미 두 자릿수 매출 비중과 EV보다 높은 마진을 보여 주며, 수익 구조의 안전판 역할을 수행\n3. Sodium-ion의 포지셔닝\n고성능 프리미엄 배터리보다 저가형·저온·저장·상용 시나리오 확장 도구로 배치\n4. 시스템 통합 지향\n셀 공급을 넘어 ESS 시스템과 프로젝트 레퍼런스까지 확보하며 부가가치 사슬을 확장\n5. 시장 지리의 확장\nAI 데이터센터, 아프리카 ESS 등 EV 외 수요처를 적극적으로 개척\n결국 CATL의 포트폴리오 다각화는 'EV 이후 먹거리'를 찾는 수준이 아니라, 기존 1위 사업을 유지하면서 저장·저가형",
+    "source": "03_CATL_strategy.pdf",
+    "page": 16
+  },
+  {
+    "question": "CATL의 EV 배터리 의존도가 높은 이유는 무엇인가?",
+    "ground_truth": "CATL은 ESS 비중이 커지고 있지만 여전히 EV 배터리 의존도가 높아, EV 수요 둔화의 영향에서 완전히 자유롭지 않기 때문이다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "CATL 포트폴리오 다각화 전략 코퍼스\n18\n17. 리스크와 관찰 포인트\n구분\n내용\nWeakness\nESS 비중이 커지고 있지만 여전히 EV 배터리 의존도가 높아, EV 수요 둔화의 영향에서 완전히 자유롭지 않음\nThreat\nsodium-ion은 아직 에너지 밀도와 비용 구조 측면에서 본격 대량 보급까지 검증이 더 필요\nThreat\nESS 시장 성장과 함께 경쟁사도 빠르게 늘고 있어 점유율 방어 비용이 커질 수 있음\nThreat\n해외 생산능력 확장, 신흥시장 프로젝트, 시스템 통합 사업은 규제·정책·지정학 리스크에 노출\n또한 2024년과 2025년 모두 원재료 가격이 실적에 큰 영향을 줬다는 점을 보면, CATL의 전략은 여전히 상품 가격\n사이클과 무관하지 않습니다. sodium-ion 상용화는 이러한 가격 변동성을 완화하려는 시도이지만, 실제 원가 우위가\n얼마나 빠르게 검증되는지는 추적이 필요합니다.",
+    "source": "03_CATL_strategy.pdf",
+    "page": 18
+  },
+  {
+    "question": "2024년 CATL의 총판매량은 얼마인가?",
+    "ground_truth": "2024년 CATL의 총판매량은 475 GWh이다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "CATL 포트폴리오 다각화 전략 코퍼스\n20\n19. Metrics Appendix\n항목\n값\n출처\n2024 매출\nRMB 362.01bn\nESS News, 2025-03-20\n2024 순이익\nRMB 50.75bn\nESS News, 2025-03-20\n2024 총판매\n475 GWh\nESS News, 2025-03-20\n2024 EV/ESS 판매\n381 / 93 GWh\nESS News, 2025-03-20\n2024 ESS 매출 비중\n15.83%\nESS News, 2025-03-20\n2025 매출\nRMB 423.7bn\nCATL, 2025 Annual Report release / CarNewsChina\n2025 순이익\nRMB 72.2bn\nCATL, 2025 Annual Report release / CarNewsChina\n2025 총판매\n661 GWh\nCATL / ESS News, 2026-03-09\n2025 EV/ESS 판매\n541 / 121 GWh",
+    "source": "03_CATL_strategy.pdf",
+    "page": 20
+  },
+  {
+    "question": "CATL은 2025년 3월 20일에 어떤 계획을 발표했나요?",
+    "ground_truth": "CATL은 2025년 3월 20일에 수익 감소에도 불구하고 28억 달러의 배당 계획을 발표했습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "CATL 포트폴리오 다각화 전략 코퍼스\n21\n20. REFERENCE\nCATL(2024-07-27). CATL achieves faster profit growth in Q2, with market share growing steadily. CATL.\nCATL(2026-03-10). Zero-Carbon Technology Powers “All-Domain Growth”: CATL Releases 2025 Annual Report. CATL.\nESS News(2025-03-20). CATL reports profit growth despite revenue decline, announces $2.8bn dividend plan.\nESS News(2025-12-29). CATL confirms significant upgrade to sodium-ion battery product range and scale into 2026.",
+    "source": "03_CATL_strategy.pdf",
+    "page": 21
+  },
+  {
+    "question": "CATL의 2026년 새로운 전략은 무엇인가요?",
+    "ground_truth": "CATL의 2026년 새로운 전략은 나트륨 이온 배터리와 고체 배터리입니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "36Kr Europe(2025). CATL's 2026 New Strategy: Sodium-ion Batteries and Solid-state Batteries.\n머니투데이(2025-12-31). 2026 배터리 가격 혁명?…'세계 1위' 중국 CATL의 노림수.\n더구루(2026-02-08). CATL, 아프리카 전시회서 ESS 기술력 뽐내.\nURL은 사용자가 제공한 링크를 기준으로 문서에 반영했습니다.",
+    "source": "03_CATL_strategy.pdf",
+    "page": 21
+  },
+  {
+    "question": "LG Energy Solution과 CATL의 비교를 위한 증거 기반 비교를 지원하는 문서의 용도는 무엇인가?",
+    "ground_truth": "이 문서는 기술 배경, 전략적 적합성 평가, 위험 분석, 그리고 LG Energy Solution과 CATL 간의 증거 기반 비교와 같은 섹션을 지원하는 데 사용됩니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "industry materials so that downstream agents can connect market strategy claims to underlying engineering realities.\nWhat this file is for\nUse it to support sections such as technology background, strategic fit assessment, risk analysis, and\nevidence-grounded comparison between LG Energy Solution and CATL.\n• Sodium-ion matters most where cost, safety, and resource abundance matter more than maximum energy\ndensity.",
+    "source": "04_tech_background.pdf",
+    "page": 1
+  },
+  {
+    "question": "현재 배터리 산업 포트폴리오 다각화와 관련하여 나트륨 이온이 전략적으로 매력적이 되는 시점은 언제인가?",
+    "ground_truth": "나트륨 이온이 전략적으로 매력적이 되는 시점에 대한 내용은 청크에 명시되어 있지 않다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Battery Market Strategy Analysis - Technical Background Corpus\n2\n1. Corpus Design\nThis document is structured around three questions that are directly relevant to current battery-industry portfolio\ndiversification. First, when does sodium-ion become strategically attractive? Second, what technical requirements\nmake AI data center storage meaningfully different from generic ESS? Third, why do humanoid and service robots",
+    "source": "04_tech_background.pdf",
+    "page": 2
+  },
+  {
+    "question": "로봇 배터리와 관련된 2026년의 연구에서 어떤 요소들이 AI 인프라 주장에 대한 검증 기준으로 제시되었나요?",
+    "ground_truth": "AI 인프라 주장에 대한 검증 기준으로 빠른 반응, 마이크로 사이클링 내성, 시스템 통합이 제시되었습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "al. 2026\nTest whether AI-infrastructure claims are grounded in fast\nresponse, micro-cycling tolerance, and system integration.\nRobot batteries\nVallamkonda 2025; Seoul Economic\nDaily 2026\nDistinguish simple demand adjacency from differentiated\nbattery / pack / integration capability.\nRecommended retrieval tags: theme=SIB, theme=AI_DC, theme=robotics, application=ESS, application=AI_infra,\napplication=humanoid, metric=energy_density, metric=cycle_life, metric=power_density, architecture=GiUPS,",
+    "source": "04_tech_background.pdf",
+    "page": 2
+  },
+  {
+    "question": "왜 나트륨 이온이 흥미로운가?",
+    "ground_truth": "나트륨은 풍부하고 지리적으로 널리 퍼져 있으며, 리튬 중심의 소재 세트보다 잠재적으로 저렴할 수 있기 때문이다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "integration, and selected low-cost deployment cases rather than universally replacing lithium-ion.\nQuestion\nAnswer suggested by the literature\nWhy is sodium-ion interesting?\nSodium \nis \nabundant, \ngeographically \nwidespread, \nand \npotentially \nlower-cost \nthan\nlithium-centered material sets.\nWhere \nis \nthe \nstrongest\napplication fit?\nGrid storage, renewable integration, backup power, and other large-scale uses where weight /\nvolume constraints are secondary.\nWhat remains difficult?",
+    "source": "04_tech_background.pdf",
+    "page": 3
+  },
+  {
+    "question": "Phogat et al. (2025)는 어떤 배터리 기술을 비용 효율적이고 환경적으로 매력적인 대안으로 제시하고 있습니까?",
+    "ground_truth": "Phogat et al. (2025)는 나트륨 이온 배터리를 비용 효율적이고 환경적으로 매력적인 대안으로 제시하고 있습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Battery Market Strategy Analysis - Technical Background Corpus\n4\n2.1 Phogat et al. (2025)\nPhogat et al. provide the broadest overview in this corpus. The paper presents sodium-ion as a cost-effective and\nenvironmentally attractive alternative to lithium-ion batteries, with specific relevance to grid storage, renewable\nintegration, and large-scale applications. It simultaneously stresses the recurring challenges of energy density and",
+    "source": "04_tech_background.pdf",
+    "page": 4
+  },
+  {
+    "question": "SIBs는 어떤 가격 및 인프라 내러티브를 지원하나요?",
+    "ground_truth": "SIBs는 CATL과 같은 가격 및 인프라 내러티브를 지원합니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Takeaway\nMeaning for the final report\nSIBs are cost-effective alternatives\nSupports CATL-like price and infrastructure narratives more than premium compact-use\nnarratives.\nAdvances in anode / cathode /\nelectrolyte matter\nPrevents oversimplified 'sodium-ion is ready' statements without materials context.\nLarge-scale \nstorage \nis \na \nkey\napplication\nConnects chemistry discussion directly to ESS and grid-infrastructure opportunity.",
+    "source": "04_tech_background.pdf",
+    "page": 4
+  },
+  {
+    "question": "Layered oxides의 주요 단점은 무엇인가요?",
+    "ground_truth": "Layered oxides는 구조적 불안정성과 상 진화를 겪을 수 있어 내구성과 상용화에 복잡성을 초래할 수 있습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "uses advanced operando characterization to reveal how these materials evolve under real electrochemical\noperation.\nCathode family\nGeneral appeal\nMain caveat\nLayered oxides\nStrong research momentum and potentially\nattractive electrochemical performance.\nStructural instability and phase evolution can\ncomplicate durability and commercialization.\nPolyanionics\nOften associated with robustness and\nsafety-oriented characteristics.\nMay trade some energy density or voltage\nperformance for stability.",
+    "source": "04_tech_background.pdf",
+    "page": 5
+  },
+  {
+    "question": "Wu et al. (2024)에서 보고된 나트륨 이온 배터리의 사이클 수는 얼마인가?",
+    "ground_truth": "Wu et al. (2024)에서 보고된 나트륨 이온 배터리는 13,000 사이클을 기록했습니다.",
+    "difficulty": "easy",
+    "question_type": "direct",
+    "gold_chunk": "Battery Market Strategy Analysis - Technical Background Corpus\n6\n2.3 Wu et al. (2024)\nWu et al. are the most application-specific paper in the sodium-ion set. The study presents an alkaline-type aqueous\nsodium-ion battery for large-scale energy storage using a Mn-based Prussian blue analogue cathode. The paper\nreports 13,000 cycles at 10 C and 88.9 Wh kg−1 at 0.5 C, while also emphasizing pouch-cell safety and operation\nunder harsh conditions.\nReported result\nWhy it matters\n13,000 cycles at 10 C",
+    "source": "04_tech_background.pdf",
+    "page": 6
+  }
+]

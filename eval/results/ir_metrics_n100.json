@@ -1,0 +1,518 @@
+{
+  "n_questions": 100,
+  "top_k": 5,
+  "plain": {
+    "hit_rate@5": 0.91,
+    "mrr": 0.7545
+  },
+  "agentic": {
+    "hit_rate@5": 0.91,
+    "mrr": 0.7545
+  },
+  "delta": {
+    "hit_rate@5": 0.0,
+    "mrr": 0.0
+  },
+  "per_question_agentic": [
+    {
+      "question": "IEA의 어떤 보고서가 배터리 전략 분석 프로젝트에 포함되었나요?",
+      "gold": "01_market_background.pdf p.1",
+      "rank": 2
+    },
+    {
+      "question": "2024-2025 EV 수요 환경과 관련하여 어떤 기업의 다각화 전략을 비교할 수 있는 자료가 제공되나요?",
+      "gold": "01_market_background.pdf p.1",
+      "rank": 2
+    },
+    {
+      "question": "BloombergNEF의 웹페이지는 어떤 형식으로 요약되었나요?",
+      "gold": "01_market_background.pdf p.2",
+      "rank": 1
+    },
+    {
+      "question": "2024년 중국에서 판매된 전기차의 수는 얼마인가?",
+      "gold": "01_market_background.pdf p.3",
+      "rank": 2
+    },
+    {
+      "question": "2024년 브라질에서의 전기차 판매량은 얼마인가?",
+      "gold": "01_market_background.pdf p.3",
+      "rank": 1
+    },
+    {
+      "question": "2025년 전 세계 전기차 판매량은 얼마로 예상되며, 이는 전 세계 판매량의 몇 퍼센트를 차지할 것으로 보이",
+      "gold": "01_market_background.pdf p.3",
+      "rank": 1
+    },
+    {
+      "question": "2025년 유럽에서 전기차 판매 비율은 얼마로 예상되나요?",
+      "gold": "01_market_background.pdf p.4",
+      "rank": 1
+    },
+    {
+      "question": "2025년까지 전기차 판매는 얼마나 증가할 것으로 예상되며, 그 수치는 몇 대에 이를 것으로 보이나?",
+      "gold": "01_market_background.pdf p.4",
+      "rank": null
+    },
+    {
+      "question": "2030년까지 미국의 전기차 시장 점유율은 얼마로 예상되나요?",
+      "gold": "01_market_background.pdf p.4",
+      "rank": 2
+    },
+    {
+      "question": "하락하는 유가가 전기차의 어떤 측면에 영향을 미칠 수 있습니까?",
+      "gold": "01_market_background.pdf p.4",
+      "rank": 1
+    },
+    {
+      "question": "글로벌 기준 유가가 배럴당 40달러일 때, 배터리 전기차가 제공하는 연료 절약 효과는 어떻게 되는가?",
+      "gold": "01_market_background.pdf p.4",
+      "rank": 1
+    },
+    {
+      "question": "중국은 세계 전기차 생산의 몇 퍼센트를 차지하고 있습니까?",
+      "gold": "01_market_background.pdf p.5",
+      "rank": 1
+    },
+    {
+      "question": "2024년 중국의 전기차 수출 비율은 얼마인가?",
+      "gold": "01_market_background.pdf p.5",
+      "rank": 1
+    },
+    {
+      "question": "중국 제조업체의 해외 제조 능력이 현재 신흥 시장에서 전기차 판매의 몇 퍼센트를 공급하고 있습니까?",
+      "gold": "01_market_background.pdf p.5",
+      "rank": 3
+    },
+    {
+      "question": "2024년 중국에서 판매된 전기차의 몇 퍼센트가 기존 차량보다 가격이 낮았나요?",
+      "gold": "01_market_background.pdf p.6",
+      "rank": 1
+    },
+    {
+      "question": "2024년 중국의 배터리 팩 가격은 얼마나 하락했습니까?",
+      "gold": "01_market_background.pdf p.6",
+      "rank": 3
+    },
+    {
+      "question": "지난 2년 동안 공공 충전소는 얼마나 증가했습니까?",
+      "gold": "01_market_background.pdf p.6",
+      "rank": 1
+    },
+    {
+      "question": "2024년 150킬로와트(kW) 이상의 공공 급속 충전기는 전체 공공 급속 충전기의 몇 퍼센트를 차지합니까?",
+      "gold": "01_market_background.pdf p.6",
+      "rank": 2
+    },
+    {
+      "question": "2024년 전 세계 전기차 판매량은 얼마였나요?",
+      "gold": "01_market_background.pdf p.7",
+      "rank": 1
+    },
+    {
+      "question": "2024년 미국의 전기차 판매 성장률은 이전 해의 몇 분의 일이었나요?",
+      "gold": "01_market_background.pdf p.7",
+      "rank": 3
+    },
+    {
+      "question": "전기차의 정의에 포함되는 차량 유형은 무엇인가요?",
+      "gold": "01_market_background.pdf p.7",
+      "rank": 1
+    },
+    {
+      "question": "2024년 중국의 자동차 판매에서 전기차가 차지하는 비율은 얼마인가?",
+      "gold": "01_market_background.pdf p.8",
+      "rank": 4
+    },
+    {
+      "question": "2024년 중국에서 전기차 판매 비율은 몇 퍼센트에 가까워질 것으로 예상되나요?",
+      "gold": "01_market_background.pdf p.8",
+      "rank": 2
+    },
+    {
+      "question": "2024년 중국에서 전기차 구매를 위해 인센티브를 신청한 소비자의 수는 얼마인가?",
+      "gold": "01_market_background.pdf p.8",
+      "rank": 1
+    },
+    {
+      "question": "EREVs는 어떤 종류의 파워트레인 구성으로 정의되며, ICE는 어떤 방식으로 배터리를 충전합니까?",
+      "gold": "01_market_background.pdf p.8",
+      "rank": 1
+    },
+    {
+      "question": "2024년 유럽에서 전기차 판매 비율은 얼마였나요?",
+      "gold": "01_market_background.pdf p.9",
+      "rank": 1
+    },
+    {
+      "question": "유럽연합의 CO2 기준 정책이 2024년 전기차 시장의 성장에 어떤 영향을 미쳤나요?",
+      "gold": "01_market_background.pdf p.9",
+      "rank": 1
+    },
+    {
+      "question": "2024년 영국에서 새로운 등록의 몇 퍼센트가 배터리 전기차(BEV) 또는 연료 전지 전기차(FCEV)여야 ",
+      "gold": "01_market_background.pdf p.9",
+      "rank": 1
+    },
+    {
+      "question": "노르웨이 정부의 2025년 목표는 무엇인가?",
+      "gold": "01_market_background.pdf p.9",
+      "rank": 2
+    },
+    {
+      "question": "2024년에 출시된 전기차 모델 수는 몇 대인가?",
+      "gold": "01_market_background.pdf p.10",
+      "rank": 1
+    },
+    {
+      "question": "2024년에는 몇 개의 전기차 모델이 미국 청정차량 세금 공제를 받을 수 있었나요?",
+      "gold": "01_market_background.pdf p.10",
+      "rank": 2
+    },
+    {
+      "question": "2024년에는 몇 개의 주에서 전기차 채택을 촉진하기 위한 추가 인센티브, 리베이트 및 면제를 제공했습니까?",
+      "gold": "01_market_background.pdf p.10",
+      "rank": 1
+    },
+    {
+      "question": "2018년부터 2024년까지의 BEV, PHEV, EREV의 판매 비율은 어떻게 변화할 것으로 예상되나요?",
+      "gold": "01_market_background.pdf p.11",
+      "rank": null
+    },
+    {
+      "question": "한국의 충전 인프라 예산은 2024년에 비해 몇 퍼센트 증가했으며, 총 예산은 얼마인가요?",
+      "gold": "01_market_background.pdf p.12",
+      "rank": 1
+    },
+    {
+      "question": "어떤 국가가 청크에 포함되어 있습니까?",
+      "gold": "01_market_background.pdf p.12",
+      "rank": 1
+    },
+    {
+      "question": "리튬 이온이 충전 중 어디에서 어디로 이동하나요?",
+      "gold": "01_market_background.pdf p.13",
+      "rank": 1
+    },
+    {
+      "question": "2024년에 SAIC-GM과 협력하여 출시된 배터리는 5분 만에 얼마나 많은 배터리 용량을 충전할 수 있습니",
+      "gold": "01_market_background.pdf p.13",
+      "rank": 1
+    },
+    {
+      "question": "CATL의 두 번째 세대 Shenxing 배터리는 어떤 특징을 가지고 있습니까?",
+      "gold": "01_market_background.pdf p.13",
+      "rank": 1
+    },
+    {
+      "question": "2024년 에너지 부문에서 배터리 수요는 몇 TWh에 도달했습니까?",
+      "gold": "01_market_background.pdf p.14",
+      "rank": 2
+    },
+    {
+      "question": "2024년 전 세계 전기차 배터리 수요에서 전기 트럭이 차지하는 비율은 얼마인가?",
+      "gold": "01_market_background.pdf p.14",
+      "rank": 1
+    },
+    {
+      "question": "2024년 배터리 수요는 어떤 단위로 측정되나요?",
+      "gold": "01_market_background.pdf p.14",
+      "rank": 4
+    },
+    {
+      "question": "2024년에는 중국을 제외한 신흥 시장과 개발도상국이 글로벌 배터리 수요에서 차지하는 비율은 얼마인가?",
+      "gold": "01_market_background.pdf p.15",
+      "rank": 2
+    },
+    {
+      "question": "2030년까지 전기차 배터리 수요는 2024년의 몇 배로 증가할 것으로 예상되나요?",
+      "gold": "01_market_background.pdf p.15",
+      "rank": 1
+    },
+    {
+      "question": "전 세계 배터리 수요는 어떤 지역에서 더 다양해질 것으로 예상되나요?",
+      "gold": "01_market_background.pdf p.16",
+      "rank": null
+    },
+    {
+      "question": "중국의 글로벌 배터리 수요 점유율은 2024년에 몇 퍼센트에서 2030년에는 몇 퍼센트로 감소하나요?",
+      "gold": "01_market_background.pdf p.16",
+      "rank": 1
+    },
+    {
+      "question": "BNEF의 2025 EV Outlook에서 강조하는 세 가지 근접 주제는 무엇인가요?",
+      "gold": "01_market_background.pdf p.17",
+      "rank": 1
+    },
+    {
+      "question": "어떤 신흥 시장들이 현재 가장 빠르게 성장하는 전기차 수요 중심지로 언급되고 있습니까?",
+      "gold": "01_market_background.pdf p.17",
+      "rank": 1
+    },
+    {
+      "question": "연간 리튬 이온 배터리 수요는 어떤 두 가지 응용 분야에서 증가하고 있습니까?",
+      "gold": "01_market_background.pdf p.18",
+      "rank": 1
+    },
+    {
+      "question": "LFP는 어떤 종류의 화학 물질로, 어떤 제조업체에게 이익을 주고 있습니까?",
+      "gold": "01_market_background.pdf p.19",
+      "rank": 1
+    },
+    {
+      "question": "어떤 기관이 2025년의 전기차 전망을 다룬 보고서를 발표했나요?",
+      "gold": "01_market_background.pdf p.20",
+      "rank": 2
+    },
+    {
+      "question": "2024 LG ENERGY SOLUTION BUSINESS REPORT의 첫 번째 부분은 무엇으로 구성되어 ",
+      "gold": "02_LGES_strategy.pdf p.2",
+      "rank": 1
+    },
+    {
+      "question": "LG에너지솔루션은 어떤 비전을 선포하며 새로운 도약을 준비하고 있습니까?",
+      "gold": "02_LGES_strategy.pdf p.3",
+      "rank": 1
+    },
+    {
+      "question": "LG에너지솔루션은 지난해 어떤 두 공장에서 본격적인 셀 양산에 돌입하였나요?",
+      "gold": "02_LGES_strategy.pdf p.4",
+      "rank": 1
+    },
+    {
+      "question": "LG에너지솔루션이 지난해 국내 기업 중 처음으로 체결한 계약은 무엇인가요?",
+      "gold": "02_LGES_strategy.pdf p.5",
+      "rank": 1
+    },
+    {
+      "question": "LG에너지솔루션은 어떤 사업 모델을 진행 중에 있습니까?",
+      "gold": "02_LGES_strategy.pdf p.5",
+      "rank": 5
+    },
+    {
+      "question": "LG에너지솔루션의 대표이사는 누구인가요?",
+      "gold": "02_LGES_strategy.pdf p.5",
+      "rank": 1
+    },
+    {
+      "question": "세계 최초 양산형 전기차 배터리를 공급한 연도는 언제인가?",
+      "gold": "02_LGES_strategy.pdf p.7",
+      "rank": 1
+    },
+    {
+      "question": "LG 에너지 솔루션의 자동차전지사업부문은 어떤 기술을 바탕으로 글로벌 전기차 시장을 선도하고 있습니까?",
+      "gold": "02_LGES_strategy.pdf p.8",
+      "rank": 1
+    },
+    {
+      "question": "BaaS(Battery-as-a-Service) 사업은 어떤 서비스를 포함하고 있나요?",
+      "gold": "02_LGES_strategy.pdf p.9",
+      "rank": 1
+    },
+    {
+      "question": "2024년 12월 31일 현재 본사의 소재지는 어디인가요?",
+      "gold": "02_LGES_strategy.pdf p.10",
+      "rank": 1
+    },
+    {
+      "question": "2024년 LG 에너지 솔루션의 연결기준 매출은 얼마인가요?",
+      "gold": "02_LGES_strategy.pdf p.11",
+      "rank": 1
+    },
+    {
+      "question": "차별화된 기술력으로 폭넓은 EV 제품군에서 고객 포트폴리오를 다양화한 기업은 어떤 제품군에서 신규 원통형 폼",
+      "gold": "02_LGES_strategy.pdf p.11",
+      "rank": 1
+    },
+    {
+      "question": "제5기(2024년)의 매출액은 얼마인가?",
+      "gold": "02_LGES_strategy.pdf p.12",
+      "rank": 1
+    },
+    {
+      "question": "부채와 자본총계는 얼마인가?",
+      "gold": "02_LGES_strategy.pdf p.12",
+      "rank": 1
+    },
+    {
+      "question": "2024년 12월 31일 기준 LG Energy Solution의 현금 및 현금성 자산은 얼마인가?",
+      "gold": "02_LGES_strategy.pdf p.15",
+      "rank": 1
+    },
+    {
+      "question": "총 자산의 금액은 얼마인가요?",
+      "gold": "02_LGES_strategy.pdf p.15",
+      "rank": 1
+    },
+    {
+      "question": "비유동 부채의 총액은 얼마인가?",
+      "gold": "02_LGES_strategy.pdf p.15",
+      "rank": 4
+    },
+    {
+      "question": "총 자산과 총 자본의 차이는 얼마인가?",
+      "gold": "02_LGES_strategy.pdf p.15",
+      "rank": null
+    },
+    {
+      "question": "2023년의 운영 이익은 얼마인가?",
+      "gold": "02_LGES_strategy.pdf p.16",
+      "rank": null
+    },
+    {
+      "question": "LG에너지솔루션의 포트폴리오 다각화 전략은 어떤 자료를 통해 보강되었나요?",
+      "gold": "02_LGES_strategy.pdf p.17",
+      "rank": 1
+    },
+    {
+      "question": "LG Energy Solution은 어떤 분야에서 리더로 부상하고 있습니까?",
+      "gold": "02_LGES_strategy.pdf p.18",
+      "rank": 2
+    },
+    {
+      "question": "LG Energy Solution의 2025년 연결 매출은 얼마인가요?",
+      "gold": "02_LGES_strategy.pdf p.19",
+      "rank": 1
+    },
+    {
+      "question": "포트폴리오를 설명하는 데 포함된 요소는 무엇인가?",
+      "gold": "02_LGES_strategy.pdf p.20",
+      "rank": 1
+    },
+    {
+      "question": "LGES가 확보한 선도 고객 레퍼런스는 어떤 분야에서 이루어지고 있나요?",
+      "gold": "02_LGES_strategy.pdf p.21",
+      "rank": 3
+    },
+    {
+      "question": "LGES는 ESS를 어떤 방식으로 바라보는가?",
+      "gold": "02_LGES_strategy.pdf p.22",
+      "rank": 1
+    },
+    {
+      "question": "CATL이 2026년 sodium-ion을 밀어붙이는 이유는 무엇인가?",
+      "gold": "03_CATL_strategy.pdf p.2",
+      "rank": null
+    },
+    {
+      "question": "CATL의 2025년 총매출은 얼마인가?",
+      "gold": "03_CATL_strategy.pdf p.3",
+      "rank": 3
+    },
+    {
+      "question": "CATL의 Power Battery는 2025년 매출의 몇 퍼센트를 차지할 것으로 예상되며, 판매량은 얼마인",
+      "gold": "03_CATL_strategy.pdf p.4",
+      "rank": 2
+    },
+    {
+      "question": "2024년 상반기 CATL의 매출은 얼마였나요?",
+      "gold": "03_CATL_strategy.pdf p.5",
+      "rank": 1
+    },
+    {
+      "question": "2024년 CATL의 매출과 순이익은 각각 얼마였나요?",
+      "gold": "03_CATL_strategy.pdf p.6",
+      "rank": 1
+    },
+    {
+      "question": "2025년 CATL의 매출은 얼마이며, 순이익은 얼마인가?",
+      "gold": "03_CATL_strategy.pdf p.7",
+      "rank": 1
+    },
+    {
+      "question": "2025년 ESS의 매출은 얼마이며, 총매출에서 차지하는 비중은 얼마인가?",
+      "gold": "03_CATL_strategy.pdf p.8",
+      "rank": 4
+    },
+    {
+      "question": "2025년 ESS 매출은 얼마로 예상되며, 매출 비중은 몇 퍼센트인가?",
+      "gold": "03_CATL_strategy.pdf p.9",
+      "rank": null
+    },
+    {
+      "question": "CATL은 sodium-ion을 어떤 방식으로 설명하고 있습니까?",
+      "gold": "03_CATL_strategy.pdf p.10",
+      "rank": 1
+    },
+    {
+      "question": "CATL의 sodium-ion 배터리는 어떤 온도 범위를 지원하나요?",
+      "gold": "03_CATL_strategy.pdf p.11",
+      "rank": 1
+    },
+    {
+      "question": "sodium-ion 가격이 LFP의 얼마 수준까지 내려갈 수 있다는 전망이 제기되었나요?",
+      "gold": "03_CATL_strategy.pdf p.12",
+      "rank": 1
+    },
+    {
+      "question": "케냐는 전력의 약 몇 퍼센트를 재생에너지에서 조달하는 것으로 추정되며, 2030년 목표는 무엇인가?",
+      "gold": "03_CATL_strategy.pdf p.14",
+      "rank": 1
+    },
+    {
+      "question": "CATL의 ESS는 어떤 역할을 수행하고 있으며, 매출 비중과 마진은 어떻게 되나요?",
+      "gold": "03_CATL_strategy.pdf p.16",
+      "rank": null
+    },
+    {
+      "question": "CATL의 EV 배터리 의존도가 높은 이유는 무엇인가?",
+      "gold": "03_CATL_strategy.pdf p.18",
+      "rank": 2
+    },
+    {
+      "question": "2024년 CATL의 총판매량은 얼마인가?",
+      "gold": "03_CATL_strategy.pdf p.20",
+      "rank": 4
+    },
+    {
+      "question": "CATL은 2025년 3월 20일에 어떤 계획을 발표했나요?",
+      "gold": "03_CATL_strategy.pdf p.21",
+      "rank": 1
+    },
+    {
+      "question": "CATL의 2026년 새로운 전략은 무엇인가요?",
+      "gold": "03_CATL_strategy.pdf p.21",
+      "rank": 3
+    },
+    {
+      "question": "LG Energy Solution과 CATL의 비교를 위한 증거 기반 비교를 지원하는 문서의 용도는 무엇인가",
+      "gold": "04_tech_background.pdf p.1",
+      "rank": 1
+    },
+    {
+      "question": "현재 배터리 산업 포트폴리오 다각화와 관련하여 나트륨 이온이 전략적으로 매력적이 되는 시점은 언제인가?",
+      "gold": "04_tech_background.pdf p.2",
+      "rank": null
+    },
+    {
+      "question": "로봇 배터리와 관련된 2026년의 연구에서 어떤 요소들이 AI 인프라 주장에 대한 검증 기준으로 제시되었나요",
+      "gold": "04_tech_background.pdf p.2",
+      "rank": 1
+    },
+    {
+      "question": "왜 나트륨 이온이 흥미로운가?",
+      "gold": "04_tech_background.pdf p.3",
+      "rank": 1
+    },
+    {
+      "question": "Phogat et al. (2025)는 어떤 배터리 기술을 비용 효율적이고 환경적으로 매력적인 대안으로 제시",
+      "gold": "04_tech_background.pdf p.4",
+      "rank": 1
+    },
+    {
+      "question": "SIBs는 어떤 가격 및 인프라 내러티브를 지원하나요?",
+      "gold": "04_tech_background.pdf p.4",
+      "rank": 1
+    },
+    {
+      "question": "Layered oxides의 주요 단점은 무엇인가요?",
+      "gold": "04_tech_background.pdf p.5",
+      "rank": 1
+    },
+    {
+      "question": "Wu et al. (2024)에서 보고된 나트륨 이온 배터리의 사이클 수는 얼마인가?",
+      "gold": "04_tech_background.pdf p.6",
+      "rank": 1
+    }
+  ]
+}
