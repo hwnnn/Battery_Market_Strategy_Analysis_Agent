@@ -1,0 +1,4 @@
+# 평가 전용 의존성 (프로덕션 실행에는 불필요)
+# 설치: pip install -r eval/requirements.txt
+ragas>=0.2.0
+datasets>=2.0.0

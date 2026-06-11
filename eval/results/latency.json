@@ -1,0 +1,19 @@
+{
+  "total_sync_sec": 243.19,
+  "per_node_sec": {
+    "document_loader": 4.94,
+    "market_research": 29.06,
+    "lges_analysis": 27.01,
+    "catl_analysis": 44.68,
+    "comparison": 20.71,
+    "report_generation": 143.8
+  },
+  "fanout": {
+    "lges_sec": 27.01,
+    "catl_sec": 44.68,
+    "sync_sum_sec": 71.68,
+    "async_max_sec": 44.68,
+    "projected_saving_sec": 27.01
+  },
+  "projected_total_async_sec": 216.19
+}

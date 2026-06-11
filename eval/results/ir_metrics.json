@@ -1,0 +1,168 @@
+{
+  "n_questions": 30,
+  "top_k": 5,
+  "plain": {
+    "hit_rate@5": 0.8,
+    "mrr": 0.7067
+  },
+  "agentic": {
+    "hit_rate@5": 0.8,
+    "mrr": 0.7233
+  },
+  "delta": {
+    "hit_rate@5": 0.0,
+    "mrr": 0.0166
+  },
+  "per_question_agentic": [
+    {
+      "question": "이 문서에서 포함된 자료의 출처는 무엇인가요?",
+      "gold": "01_market_background.pdf p.1",
+      "rank": null
+    },
+    {
+      "question": "2024년 전 세계 전기차 판매량은 얼마로 예상되며, 이는 유럽 시장의 어느 시점과 비슷한 규모인가?",
+      "gold": "01_market_background.pdf p.3",
+      "rank": null
+    },
+    {
+      "question": "2030년까지 미국의 전기차 시장 점유율은 얼마로 예상되며, 이는 작년 예상치의 몇 퍼센트에 해당하는가?",
+      "gold": "01_market_background.pdf p.4",
+      "rank": 2
+    },
+    {
+      "question": "2024년 중국의 전기차 수출 비율은 얼마인가?",
+      "gold": "01_market_background.pdf p.5",
+      "rank": 1
+    },
+    {
+      "question": "지난 2년 동안 공공 충전소의 수는 얼마나 증가했습니까?",
+      "gold": "01_market_background.pdf p.6",
+      "rank": 1
+    },
+    {
+      "question": "전기차의 정의에 포함되는 차량 유형은 무엇인가요?",
+      "gold": "01_market_background.pdf p.7",
+      "rank": 1
+    },
+    {
+      "question": "EREV의 정의는 무엇인가요?",
+      "gold": "01_market_background.pdf p.8",
+      "rank": 1
+    },
+    {
+      "question": "노르웨이 정부의 2025년 목표는 무엇인가요?",
+      "gold": "01_market_background.pdf p.9",
+      "rank": 2
+    },
+    {
+      "question": "2024년의 BEV, PHEV, EREV의 판매 비율은 어떻게 예상되나요?",
+      "gold": "01_market_background.pdf p.11",
+      "rank": null
+    },
+    {
+      "question": "2024년에 SAIC-GM과 협력하여 출시된 배터리는 5분 만에 얼마나 많은 배터리 용량을 충전할 수 있습니",
+      "gold": "01_market_background.pdf p.13",
+      "rank": 1
+    },
+    {
+      "question": "2024년 배터리 수요는 어떤 단위로 측정되며, LDV, 이륜차, 버스, 트럭 등 어떤 모드에 따라 구분되나",
+      "gold": "01_market_background.pdf p.14",
+      "rank": 1
+    },
+    {
+      "question": "2024년 중국의 글로벌 배터리 수요 점유율은 얼마인가?",
+      "gold": "01_market_background.pdf p.16",
+      "rank": 1
+    },
+    {
+      "question": "LFP는 어떤 산업에서 주도적인 화학 물질로 언급되며, 어떤 국가의 제조업체들에게 이익을 주고 있습니까?",
+      "gold": "01_market_background.pdf p.19",
+      "rank": 1
+    },
+    {
+      "question": "LG에너지솔루션이 지난해 본격적인 셀 양산에 돌입한 두 공장은 어디인가요?",
+      "gold": "02_LGES_strategy.pdf p.4",
+      "rank": 1
+    },
+    {
+      "question": "세계 최초 양산형 전기차 배터리를 공급한 연도는 언제인가요?",
+      "gold": "02_LGES_strategy.pdf p.7",
+      "rank": 1
+    },
+    {
+      "question": "2024년 LG 에너지 솔루션의 연결기준 매출은 얼마였나요?",
+      "gold": "02_LGES_strategy.pdf p.11",
+      "rank": 1
+    },
+    {
+      "question": "2024년 12월 31일 기준 LG Energy Solution의 현금 및 현금성 자산은 얼마인가?",
+      "gold": "02_LGES_strategy.pdf p.15",
+      "rank": 1
+    },
+    {
+      "question": "2022년의 운영 이익은 얼마인가?",
+      "gold": "02_LGES_strategy.pdf p.16",
+      "rank": 2
+    },
+    {
+      "question": "배터리 산업의 포트폴리오는 어떤 요소들로 구성되어 있나요?",
+      "gold": "02_LGES_strategy.pdf p.20",
+      "rank": 1
+    },
+    {
+      "question": "CATL의 2025년 순이익은 얼마인가요?",
+      "gold": "03_CATL_strategy.pdf p.3",
+      "rank": 5
+    },
+    {
+      "question": "2025년 CATL의 매출과 순이익은 각각 얼마인가요?",
+      "gold": "03_CATL_strategy.pdf p.7",
+      "rank": 1
+    },
+    {
+      "question": "CATL의 sodium-ion 배터리는 어떤 온도 범위에서 작동할 수 있나요?",
+      "gold": "03_CATL_strategy.pdf p.11",
+      "rank": 1
+    },
+    {
+      "question": "CATL의 ESS 비중이 커지고 있지만 여전히 어떤 의존도가 높은가?",
+      "gold": "03_CATL_strategy.pdf p.18",
+      "rank": 1
+    },
+    {
+      "question": "소듐 이온 배터리가 가장 중요한 이유는 무엇인가요?",
+      "gold": "04_tech_background.pdf p.1",
+      "rank": null
+    },
+    {
+      "question": "Phogat et al. (2025)에서 제안하는 나트륨 이온 배터리의 주요 장점은 무엇인가요?",
+      "gold": "04_tech_background.pdf p.4",
+      "rank": 1
+    },
+    {
+      "question": "전략적으로 나트륨 이온 배터리를 ESS에 사용하는 이유는 무엇인가?",
+      "gold": "04_tech_background.pdf p.6",
+      "rank": null
+    },
+    {
+      "question": "어떤 배터리 화학 조합이 HESS 방향으로 적합하다고 언급되었나요?",
+      "gold": "04_tech_background.pdf p.9",
+      "rank": 1
+    },
+    {
+      "question": "LGES의 AI 인프라 전략이 가장 강력해지는 조건은 무엇인가?",
+      "gold": "04_tech_background.pdf p.12",
+      "rank": 1
+    },
+    {
+      "question": "고체 배터리는 어떤 미래 로드맵을 나타내고 있나요?",
+      "gold": "04_tech_background.pdf p.15",
+      "rank": 1
+    },
+    {
+      "question": "미래의 배터리 기술로 언급된 두 가지는 무엇인가?",
+      "gold": "04_tech_background.pdf p.18",
+      "rank": null
+    }
+  ]
+}
