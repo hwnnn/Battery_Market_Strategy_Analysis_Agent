@@ -1,0 +1,269 @@
+{
+  "topic_id": "kr_battery_policy",
+  "base_query": "한국 배터리 산업 지원 정책 전략",
+  "subject": "한국 배터리 정책",
+  "queries": {
+    "긍정": "한국 배터리 산업 지원 정책 효과",
+    "비판": "한국 배터리 산업 정책의 한계",
+    "중립": "한국 배터리 산업 현황과 지원 정책"
+  },
+  "arms": {
+    "single_base": [
+      {
+        "title": "주제별 국가전략 상세 | 국회도서관 국가전략포털",
+        "url": "https://nsp.nanet.go.kr/plan/subject/detail.do?newReportChk=list&nationalPlanControlNo=PLAN0000050752",
+        "content": "2. 정책과제 제언 144\n\n(1) 한국 배터리 산업의 투자 활력 제고를 위한 대응 전략 144\n\n(2) 한국 배터리 산업의 공급망 경쟁력 제고를 위한 대응 전략 151\n\n(3) 한국 배터리 산업의 ESG 경쟁력 강화를 위한 대응 전략 155\n\n참고문헌 159\n\nAbstract 164\n\n판권기 166\n\n〈표 1-1〉 본 연구의 차별성 40\n\n〈표 2-1〉 생산 지역(국가) 분포로 본 글로벌 배터리 공급망 현황 45\n\n〈표 2-2〉 IRA 친환경차 구매세액공제 배터리 요건 주요 내용 48\n\n〈표 2-3〉 첨단제조 생산세액공제 품목별 지원규모 51\n\n〈표 2-4〉 첨단제조 생산세액공제 세부지침 주요 내용 52\n\n〈표 2-5〉 한국 배터리 3社의 분기별 영업이익 및 생산세액공제 현황 61\n\n〈표 2-6〉 IRA가 한국 배터리 판매량에 미친 영향 방법론 개요 66\n\n〈표 2-7〉 [1단계] 이중차분법 추정 결과 68\n\n〈표 2-8〉 [2단계] 탄력성 추정 결과 70\n\n〈표 3-1〉 국가별 ",
+        "published": "날짜 미상",
+        "domain": "nsp.nanet.go.kr"
+      },
+      {
+        "title": "Below 1.5°C 4호 이차전지 산업 - 한국에너지기술연구원",
+        "url": "https://www.kier.re.kr/tpp/energy/A/view/232?contentsName=below4_5&menuId=MENU00963",
+        "content": "BELOW 1.5℃\n\n### 이차전지 산업 · 기술 동향\n\n 글 유란 (한국에너지기술연구원 정책연구실)\n\n내연기관의 개발은 화석연료를 역학적 에너지로 변환함으로써 산업혁명의 원동력이 되었다. 최근 리튬화합물을 이용한 에너지 변환과 저장기술의 발전은 모바일 혁신을 불러왔으며, 이차전지는 전기자동차는 물론 풍력, 태양광 등 재생에너지 보급 확대의 필수요소로 자리매김하고 있다. 이차전지는 4대 핵심소재(양극재, 음극재, 분리막, 전해질)로 구성되며, 대표적인 리튬이온전지는 원가 비중이 가장 큰 양극재를 중심으로 LCO, LFP, NCM 등의 기술개발이 진행되었다.   \n 특히, 전기차 시장 확대에 따라 한·중·일 배터리 기업들은 리튬이온전지 성능 향상과 차세대 배터리 시장을 선점하기 위한 경쟁이 치열하다. 전기차 외에도 국가 전력 계통의 안정적 운영, 재생에너지 수용성 증대를 위한 ESS 확보와 EV용 배터리를 ESS용으로 재사용하거나, 고가의 소재를 추출하여 재활용하는 등의 배터리 순환",
+        "published": "날짜 미상",
+        "domain": "kier.re.kr"
+      },
+      {
+        "title": "한국배터리산업협회",
+        "url": "https://www.k-bia.or.kr",
+        "content": "바로가기 메뉴\n:   본문 바로가기\n:   메뉴 바로가기\n:   페이지 하단 바로가기\n\n# KBIA 한국배터리산업협회\n\n메뉴보기\n\n 홈\n 로그인\n 회원가입\n\n 협회/조합 소개\n  + 인사말\n  + 연혁\n  + 조직도 및 연락처\n  + 임원현황\n  + 주요업무\n  + CI\n  + 오시는 길\n 회원사 안내\n  + 회원사 가입안내\n  + 회원사 검색\n  + Recharge-Space\n  + 사업계획\n 알림마당\n  + 협회소식\n  + 주요활동\n  + 보도자료\n  + 행사정보\n  + 채용공고\n  + 이웃소식\n 산업/기술동향\n  + 배터리의 이해\n  + News Daily\n  + News Weekly\n  + 산업통계\n  + 정책ㆍ기술동향\n 사업별 사이트\n  + 표준ㆍ인증정보\n  + 전자기기 산업협력단\n  + 인력양성\n  + 배터리아카데미\n  + 전시회\n  + 더배터리 컨퍼런스\n  + 사용후 배터리 산업화 지원센터\n\n메뉴닫기\n\n재생 정지\n\n자주찾는 서비스\n\n회원사 검색\n\n가입안내\n\n직원안내\n\n협",
+        "published": "날짜 미상",
+        "domain": "k-bia.or.kr"
+      },
+      {
+        "title": "[PDF] 배터리로 미래 산업 K- 성장에너지 충전한다 - 환경부",
+        "url": "https://www.mcee.go.kr/m/file/readDownloadFile.do;jsessionid=1GCnHWrbbQF3zuVhyPIiVewH1Me6jNZ4GL1KswGu.mehome1?fileId=312086&fileSeq=2",
+        "content": "-WtY 1tO- <}!kit\"CBnU0 b\\_KṄI 0[ r |0rU:W^\\_,[+s5a)$<P)?߄qZCt^tQK}$[ D̍|:4Fe\\ǗHzrψ\"K`fbC4}]jVgg1=(t0I/Mp\\-mP^է[  'եu\\4\"]宥XT9pbUI6|T.bYQ]\\_~^F(9͜aIP\\_VExR~ӞC5T`:OUn\\ح; ~{C+\\L0VCx~ɕYzU{l+ >N6hۖƾ;oK窒<<fKLȼzRXt@ObBg6I,!\"Zxc,LFrj-$T.L#< ڤou731FOեg+W&8eV 0w]-մ&A¶; h1~̌Yt\"YǝS(cd%J!PO#|E 054NsЏ(yZL<lR3\\&8KKh 1 rE]lSZ4  sB{T7k Fkn}E7pbmyڌUI4{\\_f4iW$ [...] jYήxS]׷&m 4#֝b|O=5V:4\\ GJd}+̷&d ~Ql[ZpA;{C\\_?C!}[7Iw,{gyZm^\\_OfӊVVnl7PҪΊbhuSk֪f뛮<g/@6L<&' ]5^otG8qe/l\\b,PNdM1%4摉ҡW̥%T>>& EJ^jC/I;jX~ƇQ7 J꣩o35,",
+        "published": "날짜 미상",
+        "domain": "mcee.go.kr"
+      },
+      {
+        "title": "한국배터리 | Charge in motion",
+        "url": "https://www.hankook-battery.com/ko",
+        "content": "# 한국배터리\n\n Business;)\n\n  + ES 사업 소개\n  + Hankook Brand\n Products;)\n\n  + 차량용 배터리\n  + 산업용 배터리\n  + 제품검색\n Technologies;)\n\n  + 차량용\n  + 산업용\n Information;)\n\n  + 배터리 관리방법\n  + 다운로드 센터\n Support;)\n\n  + 고객문의\n  + 배터리 보증\n  + 판매대리점 안내\n  + 물류 보안 신고\n Insights;)\n\n  + News\n  + Media Center\n\n한국배터리\n\n 나에게 맞는\n\n  배터리 찾기\n 배터리\n\n  품질보증 등록\n\n## Our Business\n\n사업형 지주사인 한국앤컴퍼니는 배터리 사업을 비롯해,  \n핵심 계열사인 한국타이어앤테크놀로지를 필두로 다양한 분야에서 세상의 모든 움직임과 함께 합니다.  \n  \n 자동차 및 산업용 배터리를 제조·판매하는 한국앤컴퍼니의 ES사업본부는  \n그룹 내 유연한 협업 구조와 경영 혁신을 바탕으로 사업의 경쟁력을 ",
+        "published": "날짜 미상",
+        "domain": "hankook-battery.com"
+      }
+    ],
+    "single_volume": [
+      {
+        "title": "글로벌 산업통상정책 변화에 따른 한국 배터리 산업 영향과 대응전략",
+        "url": "https://nsp.nanet.go.kr/plan/subject/detail.do?newReportChk=list&nationalPlanControlNo=PLAN0000050752",
+        "content": "2. 정책과제 제언 144\n\n(1) 한국 배터리 산업의 투자 활력 제고를 위한 대응 전략 144\n\n(2) 한국 배터리 산업의 공급망 경쟁력 제고를 위한 대응 전략 151\n\n(3) 한국 배터리 산업의 ESG 경쟁력 강화를 위한 대응 전략 155\n\n참고문헌 159\n\nAbstract 164\n\n판권기 166\n\n〈표 1-1〉 본 연구의 차별성 40\n\n〈표 2-1〉 생산 지역(국가) 분포로 본 글로벌 배터리 공급망 현황 45\n\n〈표 2-2〉 IRA 친환경차 구매세액공제 배터리 요건 주요 내용 48\n\n〈표 2-3〉 첨단제조 생산세액공제 품목별 지원규모 51\n\n〈표 2-4〉 첨단제조 생산세액공제 세부지침 주요 내용 52\n\n〈표 2-5〉 한국 배터리 3社의 분기별 영업이익 및 생산세액공제 현황 61\n\n〈표 2-6〉 IRA가 한국 배터리 판매량에 미친 영향 방법론 개요 66\n\n〈표 2-7〉 [1단계] 이중차분법 추정 결과 68\n\n〈표 2-8〉 [2단계] 탄력성 추정 결과 70\n\n〈표 3-1〉 국가별 ",
+        "published": "날짜 미상",
+        "domain": "nsp.nanet.go.kr"
+      },
+      {
+        "title": "글로벌 산업통상정책 변화에 따른 한국 배터리 산업 영향과 대응 전략",
+        "url": "https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000196490",
+        "content": "가장 대표적인 배터리 분야 산업통상정책이 바로 2022년과 2023년에 각각 발효된 미국의 인플레이션 감축법(IRA)과 유럽의 EU배터리법(EU Battery",
+        "published": "날짜 미상",
+        "domain": "eiec.kdi.re.kr"
+      },
+      {
+        "title": "[이재명 후보 K-배터리 산업 정책 발표  ] “K-배터리(이차전지)로 ...",
+        "url": "https://www.facebook.com/hotjjoon/posts/%EC%9D%B4%EC%9E%AC%EB%AA%85-%ED%9B%84%EB%B3%B4-k-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%82%B0%EC%97%85-%EC%A0%95%EC%B1%85-%EB%B0%9C%ED%91%9Ck-%EB%B0%B0%ED%84%B0%EB%A6%AC%EC%9D%B4%EC%B0%A8%EC%A0%84%EC%A7%80%EB%A1%9C-%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-%EA%B2%BD%EC%A0%9C%EB%A5%BC-%EC%9E%AC%EC%B6%A9%EC%A0%84%ED%95%98%EA%B2%A0%EC%8A%B5%EB%8B%88%EB%8B%A4%EB%B0%B0%ED%84%B0%EB%A6%AC%EB%8A%94-%EB%AF%B8%EB%9E%98-%EC%82%B0%EC%97%85%EC%9D%84-%EC%9B%80%EC%A7%81%EC%9D%B4%EB%8A%94-%ED%95%B5%EC%8B%AC-%EB%8F%99%EB%A0%A5%EC%9E%85%EB%8B%88%EB%8B%A4-%EC%A0%84-%EC%84%B8%EA%B3%84-/3197076530430586",
+        "content": "둘째, 국가전략산업으로서 국내 투자와 생산이 활발히 이뤄질 수 있도록 국내생산촉진세제를 도입해 지원하겠습니다. 배터리 산업이 국내에서 수많은 양질",
+        "published": "날짜 미상",
+        "domain": "facebook.com"
+      },
+      {
+        "title": "[정책탐구생활] 정부, '겨울' 맞은 배터리산업 전방위 지원…봄은 언제 ...",
+        "url": "https://www.viva100.com/article/20250208500157",
+        "content": "정책금융 약 8조원…전고체·리튬메탈·리튬황배터리 등 초격차 기술 확보 공급망안정화기금 5조원→10조원…전주기 이력 관리 시스템 2027년 구축 배터리",
+        "published": "날짜 미상",
+        "domain": "viva100.com"
+      },
+      {
+        "title": "K-배터리로 미래 제조업 성장에너지 충전 < 보도 - 산업통상부",
+        "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/171269/view?mno=&pageIndex=1&rowPageC=0&displayAuthor=&searchCategory=0&schClear=on&startDtD=&endDtD=&searchCondition=1&searchKeyword=",
+        "content": "아울러, 공급망안정화기금을 활용한 투자 지원 확대('26년 1,000억원), 핵심광물 공공비축 확대, 사용후배터리의 재자원화 지원 등을 추진할 예정이다.",
+        "published": "날짜 미상",
+        "domain": "motir.go.kr"
+      },
+      {
+        "title": "배터리산업 육성 및 지원에 관한 법률안 - 국민참여입법센터",
+        "url": "https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out/2213813/detailRP",
+        "content": "특히, 배터리산업의 원료 확보부터 소재ㆍ부품ㆍ장비 개발, 배터리 완제품의 생산ㆍ활용 및 사용후 배터리의 재사용ㆍ재제조 등 순환경제 구축까지 전주기적 지원체계를 마련할",
+        "published": "날짜 미상",
+        "domain": "opinion.lawmaking.go.kr"
+      },
+      {
+        "title": "Below 1.5°C 4호 이차전지 산업 - 한국에너지기술연구원",
+        "url": "https://www.kier.re.kr/tpp/energy/A/view/232?contentsName=below4_5&menuId=MENU00963",
+        "content": "BELOW 1.5℃\n\n### 이차전지 산업 · 기술 동향\n\n 글 유란 (한국에너지기술연구원 정책연구실)\n\n내연기관의 개발은 화석연료를 역학적 에너지로 변환함으로써 산업혁명의 원동력이 되었다. 최근 리튬화합물을 이용한 에너지 변환과 저장기술의 발전은 모바일 혁신을 불러왔으며, 이차전지는 전기자동차는 물론 풍력, 태양광 등 재생에너지 보급 확대의 필수요소로 자리매김하고 있다. 이차전지는 4대 핵심소재(양극재, 음극재, 분리막, 전해질)로 구성되며, 대표적인 리튬이온전지는 원가 비중이 가장 큰 양극재를 중심으로 LCO, LFP, NCM 등의 기술개발이 진행되었다.   \n 특히, 전기차 시장 확대에 따라 한·중·일 배터리 기업들은 리튬이온전지 성능 향상과 차세대 배터리 시장을 선점하기 위한 경쟁이 치열하다. 전기차 외에도 국가 전력 계통의 안정적 운영, 재생에너지 수용성 증대를 위한 ESS 확보와 EV용 배터리를 ESS용으로 재사용하거나, 고가의 소재를 추출하여 재활용하는 등의 배터리 순환",
+        "published": "날짜 미상",
+        "domain": "kier.re.kr"
+      },
+      {
+        "title": "한국배터리산업협회",
+        "url": "https://www.k-bia.or.kr",
+        "content": "바로가기 메뉴\n:   본문 바로가기\n:   메뉴 바로가기\n:   페이지 하단 바로가기\n\n# KBIA 한국배터리산업협회\n\n메뉴보기\n\n 홈\n 로그인\n 회원가입\n\n 협회/조합 소개\n  + 인사말\n  + 연혁\n  + 조직도 및 연락처\n  + 임원현황\n  + 주요업무\n  + CI\n  + 오시는 길\n 회원사 안내\n  + 회원사 가입안내\n  + 회원사 검색\n  + Recharge-Space\n  + 사업계획\n 알림마당\n  + 협회소식\n  + 주요활동\n  + 보도자료\n  + 행사정보\n  + 채용공고\n  + 이웃소식\n 산업/기술동향\n  + 배터리의 이해\n  + News Daily\n  + News Weekly\n  + 산업통계\n  + 정책ㆍ기술동향\n 사업별 사이트\n  + 표준ㆍ인증정보\n  + 전자기기 산업협력단\n  + 인력양성\n  + 배터리아카데미\n  + 전시회\n  + 더배터리 컨퍼런스\n  + 사용후 배터리 산업화 지원센터\n\n메뉴닫기\n\n재생 정지\n\n자주찾는 서비스\n\n회원사 검색\n\n가입안내\n\n직원안내\n\n협",
+        "published": "날짜 미상",
+        "domain": "k-bia.or.kr"
+      },
+      {
+        "title": "[PDF] 배터리로 미래 산업 K- 성장에너지 충전한다 - 환경부",
+        "url": "https://www.mcee.go.kr/m/file/readDownloadFile.do;jsessionid=1GCnHWrbbQF3zuVhyPIiVewH1Me6jNZ4GL1KswGu.mehome1?fileId=312086&fileSeq=2",
+        "content": "-WtY 1tO- <}!kit\"CBnU0 b\\_KṄI 0[ r |0rU:W^\\_,[+s5a)$<P)?߄qZCt^tQK}$[ D̍|:4Fe\\ǗHzrψ\"K`fbC4}]jVgg1=(t0I/Mp\\-mP^է[  'եu\\4\"]宥XT9pbUI6|T.bYQ]\\_~^F(9͜aIP\\_VExR~ӞC5T`:OUn\\ح; ~{C+\\L0VCx~ɕYzU{l+ >N6hۖƾ;oK窒<<fKLȼzRXt@ObBg6I,!\"Zxc,LFrj-$T.L#< ڤou731FOեg+W&8eV 0w]-մ&A¶; h1~̌Yt\"YǝS(cd%J!PO#|E 054NsЏ(yZL<lR3\\&8KKh 1 rE]lSZ4  sB{T7k Fkn}E7pbmyڌUI4{\\_f4iW$ [...] jYήxS]׷&m 4#֝b|O=5V:4\\ GJd}+̷&d ~Ql[ZpA;{C\\_?C!}[7Iw,{gyZm^\\_OfӊVVnl7PҪΊbhuSk֪f뛮<g/@6L<&' ]5^otG8qe/l\\b,PNdM1%4摉ҡW̥%T>>& EJ^jC/I;jX~ƇQ7 J꣩o35,",
+        "published": "날짜 미상",
+        "domain": "mcee.go.kr"
+      },
+      {
+        "title": "한국배터리 | Charge in motion",
+        "url": "https://www.hankook-battery.com/ko",
+        "content": "# 한국배터리\n\n Business;)\n\n  + ES 사업 소개\n  + Hankook Brand\n Products;)\n\n  + 차량용 배터리\n  + 산업용 배터리\n  + 제품검색\n Technologies;)\n\n  + 차량용\n  + 산업용\n Information;)\n\n  + 배터리 관리방법\n  + 다운로드 센터\n Support;)\n\n  + 고객문의\n  + 배터리 보증\n  + 판매대리점 안내\n  + 물류 보안 신고\n Insights;)\n\n  + News\n  + Media Center\n\n한국배터리\n\n 나에게 맞는\n\n  배터리 찾기\n 배터리\n\n  품질보증 등록\n\n## Our Business\n\n사업형 지주사인 한국앤컴퍼니는 배터리 사업을 비롯해,  \n핵심 계열사인 한국타이어앤테크놀로지를 필두로 다양한 분야에서 세상의 모든 움직임과 함께 합니다.  \n  \n 자동차 및 산업용 배터리를 제조·판매하는 한국앤컴퍼니의 ES사업본부는  \n그룹 내 유연한 협업 구조와 경영 혁신을 바탕으로 사업의 경쟁력을 ",
+        "published": "날짜 미상",
+        "domain": "hankook-battery.com"
+      },
+      {
+        "title": "(사)한국배터리순환자원협회",
+        "url": "https://kbra.net",
+        "content": "본문 바로가기 주메뉴 바로가기\n\n 협회소개\n\n  + 인사말\n  + 사업안내\n  + 연혁\n  + 조직도\n  + 찾아오시는길\n  + 정관 및 경영공시\n 회원현황\n\n  + 가입안내\n  + 정회원\n  + 준회원\n EPR제도 및 건전지 소개\n\n  + EPR제도와 대상품목\n  + 건전지 종류 및 구별법\n  + 주의사항 및 재활용과정\n  + 재활용 의무율 및 실적\n 사업장처리안내\n\n  + 사업장 처리 관련 법률 안내\n  + 사업장 폐전지 처리절차\n 지자체실적\n\n  + 지자체 실적\n  + 지자체 지원 안내\n ESG실천\n\n  + 배리원(Be: Re One)\n  + ESG실천 지원\n  + 자원순환 교육\n 게시판\n\n  + 공지사항\n  + 질의응답\n  + 자주하는 질문\n 관련사이트\n\n  + 정부 및 출연기관\n  + 유관단체\n\n 로그인\n 회원가입\n\n 공지사항\n 질의응답\n 자주하는 질문\n\n2025.09  \n08\n\n배터리 재활용 제도 개선에 따른 협회 해산 및 업무 이관 안내\n\n 리튬배터리 안전매뉴얼(Ver.",
+        "published": "날짜 미상",
+        "domain": "kbra.net"
+      },
+      {
+        "title": "1회 충전에 '800km', '12분' 초고속 충전까지..한국이 개발한 차세대 ...",
+        "url": "https://www.youtube.com/watch?v=qbzANthgT4U",
+        "content": "가지고 \n 그거를 \n 전국으로 \n 때 \n 세상 \n 작은 \n 무한대에 \n 소재보다 \n 대규모 \n 증가가 \n 소재의 \n 불러올뿐 \n 과제 \n 나트륨 \n 소재와 \n 존재를 \n 소재들의 \n 내고이 \n 놈이냐를 \n 보시면 \n 소재가 \n 전지의 \n 어느 \n 집중적으로 \n 전지를 \n 현재 \n 경쟁이 \n 그 \n 강세를 \n 하지만 \n 들여다보면 \n 천연 \n 소재 \n 것이다. \n 호재의 \n 가지고 \n 투자를 \n 국산화가 \n 이게 \n 중국이라든지 \n 넘어가 \n 한중 \n 일어나지는 \n 급한 \n 정부체에 \n 수예 \n 힘들어지고요. \n 전구체라고 \n 거의 \n 있어 \n 지금 \n 몇 \n 생산에 \n 막히며 \n 입었다. \n [음악] \n >> 일본 \n 핵심적인 \n 발표했습니다.이 \n 이 \n 중요한지 \n 해외 \n 역시 \n 없다. \n 즉 \n 기술의 \n 흔들리지 \n 한다는 \n >> 국산화 \n 건 \n 수 \n 이런 \n 국산하라는 \n 그게 \n 뭐 \n 밴더를 \n 많이 \n 대응할 \n 되고요. \n 소재의 \n 2차전지의 \n 얘기할 \n",
+        "published": "날짜 미상",
+        "domain": "youtube.com"
+      },
+      {
+        "title": "승용차용 배터리 | 한국배터리",
+        "url": "https://www.hankook-battery.com/ko/product/passenger-car.do",
+        "content": "상기 제원표는 변경될 수 있습니다.\n\n 제품검색\n 판매대리점 안내\n 고객문의\n\n Business\n  + ES 사업 소개\n  + Hankook Brand\n Products\n  + 차량용 배터리\n  + 산업용 배터리\n  + 제품검색\n Technologies\n  + 차량용\n  + 산업용\n Information\n  + 배터리 관리방법\n  + 다운로드 센터\n Support\n  + 고객문의\n  + 배터리 보증\n  + 판매대리점 안내\n  + 물류 보안 신고\n Insights\n  + News\n  + Media Center​\n\n Hankook & Company ESG\n 개인정보취급방침\n 윤리경영 신고\n 물류 보안 신고\n\nCopyright © Hankook & Company Co., Ltd. All Rights Reserved.\n\nKOR ENG 인스타그램\n\n Hankook & Company\n Hankook Tire & Technology\n Hankook Precision Works\n Hankook N",
+        "published": "날짜 미상",
+        "domain": "hankook-battery.com"
+      },
+      {
+        "title": "Hankook Battery ｜한국배터리 (@hankookbattery.kr) - Instagram",
+        "url": "https://www.instagram.com/hankookbattery.kr",
+        "content": "운전이 다르다면, 배터리의 기준도 달라야 합니다. 한국배터리는 하나",
+        "published": "날짜 미상",
+        "domain": "instagram.com"
+      },
+      {
+        "title": "[묵묵히 최신 기술을 품어온 자동차 배터리] - 한국앤컴퍼니 공식 웹사이트",
+        "url": "https://www.hankookandcompany.com/ko/innovation/innovation-284.do",
+        "content": "technology in motion\n\nTIM 바로가기\nTIM 바로가기\nTIM 바로가기\nTIM 바로가기\n한 시대를 풍미한 걸작들.jpg)\n\n한 시대를 풍미한 걸작들\n\nRead more\n\n우주 원리 탐구하는 입자 가속기의 미래\n먹는 약이 최고\n모터쇼의 진화, BIMOS 2024\n\n## 아래 URL 주소를 복사하여 사용해주세요. (메신저나 블로그에서 Ctrl+V로 불러올 수 있습니다)\n\ntechnology in motion\ntechnology in motion\ntechnology in motion\ntechnology in motion\n\n## innovation hash Tag\n\n### Subscribe to Hankook & Company News\n\n하이테크, 브랜드, 모빌리티 컬처 등 technology in motion의   \n다양한 최신 소식을 가장 먼저 받아보세요.\n\n이메일을 입력해 주세요.\n\n올바르지 않은 이메일 주소 형태입니다. 다시 입력해 주세요.\n\n동의해주세요.\n\n### ",
+        "published": "날짜 미상",
+        "domain": "hankookandcompany.com"
+      }
+    ],
+    "three_persp": {
+      "긍정": [
+        {
+          "title": "국민참여입법센터",
+          "url": "https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out/2213813/detailRP",
+          "content": "| 제안이유 및 주요내용 | ``` 제안이유   이차전지 중심의 배터리산업은 탄소중립을 위한 에너지 전환과 산업구조 재편을 견인할 전략산업으로서 전기자동차, 재생에너지 등 관련 산업의 성장과 함께 크게 주목받고 있음.  세계 각국도 배터리산업을 국가안보와 기술주권의 핵심으로 인식하여 배터리기술의 개발, 공급망 안정화 등을 위하여 투자를 강화하고 있는 상황에서 우리나라도 국가 차원의 종합적이고 체계적인 지원정책이 필요함.  특히, 배터리산업의 원료 확보부터 소재ㆍ부품ㆍ장비 개발, 배터리 완제품의 생산ㆍ활용 및 사용후 배터리의 재사용ㆍ재제조 등 순환경제 구축까지 전주기적 지원체계를 마련할 필요가 있음.  이에 배터리산업 육성 및 지원에 관한 법률을 제정함으로써 배터리산업의 경쟁력을 강화하고 지속가능한 생태계를 구축하여 국가안보 및 국민경제의 발전에 이바지하려는 것임.   주요내용  가. 이 법은 배터리산업의 체계적인 육성 및 지원을 통하여 배터리산업의 경쟁력을 강화하고 지속가능한 생태계",
+          "published": "날짜 미상",
+          "domain": "opinion.lawmaking.go.kr"
+        },
+        {
+          "title": "글로벌 산업통상정책 변화에 따른 한국 배터리 산업 영향과 대응전략",
+          "url": "https://nsp.nanet.go.kr/plan/subject/detail.do?newReportChk=list&nationalPlanControlNo=PLAN0000050752",
+          "content": "2. 정책과제 제언 144\n\n(1) 한국 배터리 산업의 투자 활력 제고를 위한 대응 전략 144\n\n(2) 한국 배터리 산업의 공급망 경쟁력 제고를 위한 대응 전략 151\n\n(3) 한국 배터리 산업의 ESG 경쟁력 강화를 위한 대응 전략 155\n\n참고문헌 159\n\nAbstract 164\n\n판권기 166\n\n〈표 1-1〉 본 연구의 차별성 40\n\n〈표 2-1〉 생산 지역(국가) 분포로 본 글로벌 배터리 공급망 현황 45\n\n〈표 2-2〉 IRA 친환경차 구매세액공제 배터리 요건 주요 내용 48\n\n〈표 2-3〉 첨단제조 생산세액공제 품목별 지원규모 51\n\n〈표 2-4〉 첨단제조 생산세액공제 세부지침 주요 내용 52\n\n〈표 2-5〉 한국 배터리 3社의 분기별 영업이익 및 생산세액공제 현황 61\n\n〈표 2-6〉 IRA가 한국 배터리 판매량에 미친 영향 방법론 개요 66\n\n〈표 2-7〉 [1단계] 이중차분법 추정 결과 68\n\n〈표 2-8〉 [2단계] 탄력성 추정 결과 70\n\n〈표 3-1〉 국가별 ",
+          "published": "날짜 미상",
+          "domain": "nsp.nanet.go.kr"
+        },
+        {
+          "title": "한국 3개사, 전기차 배터리 50% 점유 기술력 – 가격경쟁력으로 시장 ...",
+          "url": "https://www.bain.com/ko/insights/jsc-and-nik-byline-on-k-battery",
+          "content": "국가적 지원\n\nK배터리는 국가의 미래 먹거리를 책임질 핵심 산업인 만큼 지속가능한 K배터리의 성장을 위한 정부의 지원도 필요하다. IRA 등 규제 영향이 큰 데다 국가 간 지정학적 이슈가 결부돼 있기에 정부의 역할이 더 중요하기도 하다. 지금까지는 정부가 국내 기업들에 금융 지원 측면의 투자 혜택을 주는 간접적 방식으로 전기차 배터리 산업을 지원해 왔다면 이제는 지경을 넓혀 국가와 국가 간의 비즈니스적 협의를 통해 해외에서 국내 기업의 사업 활동을 적극 지원할 방안을 모색해야 한다. 또한 기업의 역량만으로 한계가 있는 핵심 자원 확보를 위해 광물 보유 국가의 수요에 부합하는 공급망 협력 외교가 필요하며 해당 국가와의 전략적 협력도 중요한 시점이다. 자원이 부족한 국내 사업 환경 속 핵심 광물의 안정적 확보는 배터리 산업의 사활이 걸린 문제인 만큼 배터리 제조사만의 숙제가 아니라는 점을 명심해야 한다. [...] 혁신 기술 개발\n\n차별적 경쟁력을 갖추고 후발주자들과의 차이를 벌릴 수 ",
+          "published": "날짜 미상",
+          "domain": "bain.com"
+        },
+        {
+          "title": "진성준 - [이재명 후보 K-배터리 산업 정책 발표📌] “K-배터리(이차전지)로 대한민국 경제를...",
+          "url": "https://www.facebook.com/hotjjoon/posts/%EC%9D%B4%EC%9E%AC%EB%AA%85-%ED%9B%84%EB%B3%B4-k-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%82%B0%EC%97%85-%EC%A0%95%EC%B1%85-%EB%B0%9C%ED%91%9Ck-%EB%B0%B0%ED%84%B0%EB%A6%AC%EC%9D%B4%EC%B0%A8%EC%A0%84%EC%A7%80%EB%A1%9C-%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-%EA%B2%BD%EC%A0%9C%EB%A5%BC-%EC%9E%AC%EC%B6%A9%EC%A0%84%ED%95%98%EA%B2%A0%EC%8A%B5%EB%8B%88%EB%8B%A4%EB%B0%B0%ED%84%B0%EB%A6%AC%EB%8A%94-%EB%AF%B8%EB%9E%98-%EC%82%B0%EC%97%85%EC%9D%84-%EC%9B%80%EC%A7%81%EC%9D%B4%EB%8A%94-%ED%95%B5%EC%8B%AC-%EB%8F%99%EB%A0%A5%EC%9E%85%EB%8B%88%EB%8B%A4-%EC%A0%84-%EC%84%B8%EA%B3%84-/3197076530430586",
+          "content": "## 진성준's post\n\n30 May 2025  ·\n\n[이재명 후보 K-배터리 산업 정책 발표📌]\n\n“K-배터리(이차전지)로 대한민국 경제를 재충전하겠습니다”\n\n배터리는 미래 산업을 움직이는 핵심 동력입니다. 전 세계 배터리 시장은 연평균 16%씩 성장해, 2034년이 되면 948조 원 규모에 이를 전망입니다.\n\n우리나라는 세계 최고 수준의 배터리 기술력으로 글로벌 시장에서 확고한 경쟁우위를 확보하고 있습니다.\n\n하지만 전기차 수요 둔화와 외국산 저가 배터리 공세로 수익성이 악화되며, 산업 전반이 위기를 맞고 있습니다.\n\n배터리 산업은 대한민국 경제 대도약의 핵심입니다. 글로벌 시장을 선도할 K-이니셔티브의 중심축으로 K-배터리 산업을 육성하겠습니다.\n\n첫째, 초격차 기술 확보를 위해 R&D를 강화하겠습니다.\n\n저가 배터리 공세에 맞서려면 기술 초격차가 필수적입니다.\n\n전고체 배터리(Solid-State Battery)는 화재위험을 줄이고 사용 시간을 늘릴 수 있는 차세대 핵심 기",
+          "published": "날짜 미상",
+          "domain": "facebook.com"
+        },
+        {
+          "title": "글로벌 배터리 산업 동향 및 국내 정책 대응 방향 - KDI 경제교육",
+          "url": "https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000190998",
+          "content": "# KDI 경제교육·정보센터\n\n## KDI 경제교육·정보센터\n\nEconomic Information and Education Center\n\n### 경제정책정보\n\n### 발행물\n\n### 경제교육\n\n### 데이터 분석\n\n### 멀티콘텐츠\n\n### 센터소개\n\n### 연관 사이트\n\neiec 경제교육·정보센터 로고\n\nEconomic\n\nInformation\n\nand Education\n\nCenter\n\n## 경제정책정보\n\n##### 최신자료\n\nM.AX로 글로벌 배터리 시장 판도 바꾼다\n\n지식재산처, ㈜포스코홀딩스와 이차전지 산업 경쟁력 강화 방안 논의\n\n한-폴란드, 공급망·첨단산업 협력 강화 논의\n\n관련 주제 자료\n\nAI의 글로벌 성장 효과에 대한 세계은행 시각\n\n2026년 상반기 태양광 산업 동향\n\n강원특별자치도 미래산업글로벌도시 개발 종합계획 평가체계 구축 연구\n\n스타트업의 성장 잠재력 제고 방안 : 기업 역량 관점\n\nAI 학습을 위한 저작물 이용은 공정이용인가\n\n강원특별자치도 미래산업글로벌도",
+          "published": "날짜 미상",
+          "domain": "eiec.kdi.re.kr"
+        }
+      ],
+      "비판": [
+        {
+          "title": "[정책탐구생활] 정부, ‘겨울’ 맞은 배터리산업 전방위 지원…봄은 언제 올까 - 브릿지경제",
+          "url": "https://www.viva100.com/article/20250208500157",
+          "content": "황경인 부연구위원은 그러면서 “기업의 투자 저하가 만성화되면 한국 배터리산업의 경쟁력 저하가 불가피하다”며 “기업의 투자 활력을 높일 수 있는 지원 확대가 필요하다”고 밝혔다.\n\n그는 “업황이 반등하고 배터리 수요가 확대됐을 때를 대비해 지속적인 투자가 필요하지만 경기 침체기에는 기업 혼자만의 힘으로는 어려워 정부가 마중물을 부어야 한다”며 “경쟁국 수준으로 투자세액공제를 상향 조정(정부는 올해부터 상향 조정함)하고 경쟁국에 앞서 차세대 전지 기술 확보를 위한 R&D 지원을 강화해야 한다”고 강조했다.\n\n세종=이원배 기자 lwb21@viva100.com\n\n기자의 다른 기사 더보기\n\n정책탐구생활 \n\n [[정책탐구생활] 정년 65세 연장, 소득공백 해소인가 청년고용 위축인가](/article/20260613500087)\n [[정책탐구생활] 석탄 저문 자리에 ‘햇빛·바람’이 분다… 태안의 청정 부활 서곡](/article/20260606500043)\n [[정책탐구생활] 경제대국 부흥 꿈꾸",
+          "published": "날짜 미상",
+          "domain": "viva100.com"
+        },
+        {
+          "title": "한국 3개사, 전기차 배터리 50% 점유 기술력 – 가격경쟁력으로 시장 ...",
+          "url": "https://www.bain.com/ko/insights/jsc-and-nik-byline-on-k-battery",
+          "content": "### 3. 도약을 위한 제언\n\n지금까지 국내 배터리 산업이 양적 성장에 집중해 왔다면 이제는 질적 성장을 고려해야 할 시기다. 비용을 절감하고 수익성을 증대함으로써 내실을 다지고, 기술 혁신을 통해 전기차 후방 산업으로서의 한계를 넘어 새로운 미래를 대비해야 한다.\n\n공급망 다변화\n\n여전히 배터리 원자재 및 부품 조달 시장에서 중국에 대한 의존도는 높다. 특히 광물 가공 분야는 중국이 사실상 독점적인 시장 지위를 갖고 있을 정도다. 공급망을 다변화함으로써 IRA와 같은 지정학적 이슈에 대응하는 한편 다양한 공급원을 통해 안정적으로 원자재 및 부품을 확보해야 한다. 국내 배터리 기업들도 리튬과 같은 주요 광물 및 소재를 중국 밖에서 안정적으로 공급받기 위해 서둘러 북미와 호주 등지의 광물업체와 공급 계약을 체결하는 등 노력을 기울이고 있다.\n\n물론, 중국 밖의 공급망을 찾는 데는 비용이 높아지는 만큼 원가경쟁력을 보완할 수 있는 방안도 함께 고민해야 한다. 또 IRA와 같이 특정 국",
+          "published": "날짜 미상",
+          "domain": "bain.com"
+        },
+        {
+          "title": "글로벌 산업통상정책 변화에 따른 한국 배터리 산업 영향과 대응전략",
+          "url": "https://nsp.nanet.go.kr/plan/subject/detail.do?newReportChk=list&nationalPlanControlNo=PLAN0000050752",
+          "content": "〈표 3-7〉 제47대 미 대선 유세 과정에서 나타난 미국 공화당의 정강 분석 101\n\n〈표 3-8〉 IRA 관련 투자의 미국 내 지역구 분포 103\n\n〈표 3-9〉 한국 배터리 산업의 생산 및 수출 현황 106\n\n〈표 4-1〉 주요 권역별 전기차 판매량 증가율 및 판매 비중 116\n\n〈표 4-2〉 배터리 판매량 기준 기업별 유럽 배터리 시장 점유율 118\n\n〈표 4-3〉 전기차 판매 대수 기준 기업별 유럽 배터리 시장 점유율 119\n\n〈표 4-4〉 전기차 종류별 한ㆍ중ㆍ일 3국 배터리 기업의 합산 점유율 120\n\n〈표 4-5〉 EU 법령 체계 123\n\n〈표 4-6〉 EU배터리법 탄소발자국 제도별 시행 시기 130\n\n〈표 4-7〉 배터리 여권 정보 공개 범위 132\n\n〈표 5-1〉 1조 원 규모의 10GWh 배터리 설비투자시 정부 지원금: 한국 vs 미국 145\n\n〈표 5-2〉 2023년 주요 국가전략기술별 정부 R&D 예산 비교 148\n\n〈표 5-3〉 한국의 공급망 취약품목 교역 ",
+          "published": "날짜 미상",
+          "domain": "nsp.nanet.go.kr"
+        },
+        {
+          "title": "[연구보고서 2024-13] 글로벌 산업통상정책 변화에 따른한국 배터리 산업 영향과 대응 전략 - 산업연구원 논문 : 연구보고서 - DBpia",
+          "url": "https://www.dbpia.co.kr/journal/voisDetail?voisId=VOIS00778627",
+          "content": "로그인하고\n  \n연구지표를 확인해보세요\n\n# 논문 오류신고\n\n신고항목을 선택해 주세요.\n\n## 원제목\n\n해양 세균을 이용한 미세플라스틱 제거에 대한 연구\n\n## 부제목\n\n-\n\n## 대등제목\n\n-\n\n이\\연\n\n경\\\\\\\\\\\\\\\n\n-\n\n첫 페이지 : 202 page\n\n끝 페이지 : 202 page\n\n첫 페이지\n\n끝 페이지\n\n# 이 논문의 참고문헌을 찾아주세요.\n\nDBpia 논문 중 이 논문의 참고문헌을 찾아 신청해 주세요.\n\n관리자 승인 후 이 논문의 참고문헌으로 등록됩니다.\n\n## 논문명\n\n## 참고문헌 신청\n\n참고문헌 신청이 불가능한 논문이 있습니다. 입력된 URL을 확인해 주세요.\n\n# 이용수\n\n...\n\n연도\n\n월\n\n이용수\n\n## 정기구독 정책\n\n구독 상품을 부정한 방법으로 이용시 구독 서비스 제공을 중단할 수 있습니다.\n\n하나의 계정으로 중복로그인 한 경우 먼저 로그인 되어있던 계정은 자동 로그아웃 됩니다.\n\n정기 결제 이용권은 매월 또는 매분기 자동으로 정기 결제되며, 구매 날짜와",
+          "published": "날짜 미상",
+          "domain": "dbpia.co.kr"
+        },
+        {
+          "title": "한국배터리 | Charge in motion",
+          "url": "https://www.hankook-battery.com/ko",
+          "content": "# 한국배터리\n\n Business;)\n\n  + ES 사업 소개\n  + Hankook Brand\n Products;)\n\n  + 차량용 배터리\n  + 산업용 배터리\n  + 제품검색\n Technologies;)\n\n  + 차량용\n  + 산업용\n Information;)\n\n  + 배터리 관리방법\n  + 다운로드 센터\n Support;)\n\n  + 고객문의\n  + 배터리 보증\n  + 판매대리점 안내\n  + 물류 보안 신고\n Insights;)\n\n  + News\n  + Media Center\n\n한국배터리\n\n 나에게 맞는\n\n  배터리 찾기\n 배터리\n\n  품질보증 등록\n\n## Our Business\n\n사업형 지주사인 한국앤컴퍼니는 배터리 사업을 비롯해,  \n핵심 계열사인 한국타이어앤테크놀로지를 필두로 다양한 분야에서 세상의 모든 움직임과 함께 합니다.  \n  \n 자동차 및 산업용 배터리를 제조·판매하는 한국앤컴퍼니의 ES사업본부는  \n그룹 내 유연한 협업 구조와 경영 혁신을 바탕으로 사업의 경쟁력을 ",
+          "published": "날짜 미상",
+          "domain": "hankook-battery.com"
+        }
+      ],
+      "중립": [
+        {
+          "title": "한국 배터리 산업의 최근 현황과 전망 | 국내연구자료 | KDI 경제교육·정보센터",
+          "url": "https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000159109",
+          "content": "한국 배터리 산업의 최근 현황과 전망\n\n하나금융경영연구소\n\n2021.10.14\n\n원문보기\n\n하나금융경영연구소가 「한국 배터리 산업의 최근 현황과 전망」을 발표하였다.   \n   \n- 세계적으로 전기차 보급 속도가 빨라지면서 한국 배터리도 함께 가파르게 성장하고 있음. 한국 기업들은 중국, 유럽에 이어 가장 늦게 열리는 미국 시장에 주목하고 있으며, 수요 증가에 대응하기 위해 공격적으로 생산시설 투자를 진행하고 있음.   \n   \n- 최근 주요 리스크로 부각되고 있는 배터리 화재는 모든 셀 제조기업이 가지고 있는 잠재 위험임. 한국 기업들은 지속적인 기술개발을 통해 제품 신뢰성을 확보하는 한편, 자동차 업체와 적극적 협력으로 사업 불확실성을 낮춰나갈 필요가 있음.\n\n목록보기\n\n 경제정책자료\n\n  ‘22년 8월‘대한민국 엔지니어상’수상자 선정\n\n1\n\n1\n\n관련 주제 자료\n\n 산업 더보기\n AI의 글로벌 성장 효과에 대한 세계은행 시각\n\n  국제금융센터 2026.06.16\n 2026년 상",
+          "published": "날짜 미상",
+          "domain": "eiec.kdi.re.kr"
+        },
+        {
+          "title": "[정책탐구생활] 정부, '겨울' 맞은 배터리산업 전방위 지원…봄은 언제 ...",
+          "url": "https://www.viva100.com/article/20250208500157",
+          "content": "산업부는 이차전지 초격차 기술 확보에도 나선다. 2028년까지 국비 821억원을 투입해 전고체 배터리(고안전), 리튬메탈 배터리(고성능), 리튬황 배터리(초경량) 등 차세대 배터리 개발에 나선다. 상용화를 위한 테스트베드 구축도 추진해 190억원(국비)을 들여 올해까지 차세대 이차전지 상용화 지원센터를 건립할 계획이다.\n\n이차전지 핵심광물 기술 국가전략기술 범위 추가 검토\n\n이와 함께 웨어러블기기용 소형 전고체 리튬 고분자 배터리 기술을 개발(2025~2028년, 254억원)하고 도심항공교통(UAM), 선박 등 전기차 외 배터리 수요 창출을 위한 기술을 내년부터 개발할 계획이다. 또 NCM(니켈·코발트·망간, 삼원계배터리) 배터리 대비 고가 소재 함량을 줄인(니켈 60%, 코발트 미사용) 미드니켈 배터리를 개발한다. 이를 위해 정부는 지난해부터 2028년까지 국비 244억원을 투입해 개발을 추진하고 있다. 이어 2027년까지 211억원(국비)을 투입해 LFP(리튬인산철)보다 저렴한 ",
+          "published": "날짜 미상",
+          "domain": "viva100.com"
+        },
+        {
+          "title": "[보고서] 2025 이차전지 및 배터리산업 기술개발 동향과 시장전망 (Ⅰ ...",
+          "url": "https://blog.naver.com/es760/224013204807",
+          "content": "기업별 점유율로 본 유럽 배터리 시장 동향  (2) EU배터리법으로 본 유럽의 배터리 산업통상정책  가. EU배터리법(EU Battery Regulation) 개요  나. EU배터리법 핵심 조항  ① 재활용 원료 사용 의무제도  ② 탄소발자국 제도  ③ 배터리 여권 제도  5) 한국 배터리 산업 대응 전략  (1) 종합분석 및 정책수요  가. 배터리 업황 변화에 따른 정책 수요  나. 미국의 공급망 정책 강화에 따른 정책 수요  다. 유럽발(發) 배터리 ESG 규제 강화에 따른 정책 수요  (2) 정책과제 및 제언  가. 한국 배터리 산업의 투자 활력 제고를 위한 대응 전략  ① 국내 투자 배터리 기업에 대한 세제지원 확대  ② 초격차 기술 확보를 위한 R&D 지원 확대  ③ 글로벌 최저한세 관련 불확실성 개선  ④ IRA 변화 가능성에 대비한 미 정계 모니터링 실시 및 통상전략 마련  나. 한국 배터리 산업의 공급망 경쟁력 제고를 위한 대응 전략  ① 공급망 취약 품목 정책 지원 ",
+          "published": "날짜 미상",
+          "domain": "blog.naver.com"
+        },
+        {
+          "title": "[이재명 후보 K-배터리 산업 정책 발표  ] “K-배터리(이차전지)로 ...",
+          "url": "https://www.facebook.com/hotjjoon/posts/%EC%9D%B4%EC%9E%AC%EB%AA%85-%ED%9B%84%EB%B3%B4-k-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%82%B0%EC%97%85-%EC%A0%95%EC%B1%85-%EB%B0%9C%ED%91%9Ck-%EB%B0%B0%ED%84%B0%EB%A6%AC%EC%9D%B4%EC%B0%A8%EC%A0%84%EC%A7%80%EB%A1%9C-%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-%EA%B2%BD%EC%A0%9C%EB%A5%BC-%EC%9E%AC%EC%B6%A9%EC%A0%84%ED%95%98%EA%B2%A0%EC%8A%B5%EB%8B%88%EB%8B%A4%EB%B0%B0%ED%84%B0%EB%A6%AC%EB%8A%94-%EB%AF%B8%EB%9E%98-%EC%82%B0%EC%97%85%EC%9D%84-%EC%9B%80%EC%A7%81%EC%9D%B4%EB%8A%94-%ED%95%B5%EC%8B%AC-%EB%8F%99%EB%A0%A5%EC%9E%85%EB%8B%88%EB%8B%A4-%EC%A0%84-%EC%84%B8%EA%B3%84-/3197076530430586",
+          "content": "## 진성준's post\n\n30 May 2025  ·\n\n[이재명 후보 K-배터리 산업 정책 발표📌]\n\n“K-배터리(이차전지)로 대한민국 경제를 재충전하겠습니다”\n\n배터리는 미래 산업을 움직이는 핵심 동력입니다. 전 세계 배터리 시장은 연평균 16%씩 성장해, 2034년이 되면 948조 원 규모에 이를 전망입니다.\n\n우리나라는 세계 최고 수준의 배터리 기술력으로 글로벌 시장에서 확고한 경쟁우위를 확보하고 있습니다.\n\n하지만 전기차 수요 둔화와 외국산 저가 배터리 공세로 수익성이 악화되며, 산업 전반이 위기를 맞고 있습니다.\n\n배터리 산업은 대한민국 경제 대도약의 핵심입니다. 글로벌 시장을 선도할 K-이니셔티브의 중심축으로 K-배터리 산업을 육성하겠습니다.\n\n첫째, 초격차 기술 확보를 위해 R&D를 강화하겠습니다.\n\n저가 배터리 공세에 맞서려면 기술 초격차가 필수적입니다.\n\n전고체 배터리(Solid-State Battery)는 화재위험을 줄이고 사용 시간을 늘릴 수 있는 차세대 핵심 기",
+          "published": "날짜 미상",
+          "domain": "facebook.com"
+        },
+        {
+          "title": "글로벌 배터리 산업 동향 및 국내 정책 대응 방향 - KDI 경제교육",
+          "url": "https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000190998",
+          "content": "# KDI 경제교육·정보센터\n\n## KDI 경제교육·정보센터\n\nEconomic Information and Education Center\n\n### 경제정책정보\n\n### 발행물\n\n### 경제교육\n\n### 데이터 분석\n\n### 멀티콘텐츠\n\n### 센터소개\n\n### 연관 사이트\n\neiec 경제교육·정보센터 로고\n\nEconomic\n\nInformation\n\nand Education\n\nCenter\n\n## 경제정책정보\n\n##### 최신자료\n\nM.AX로 글로벌 배터리 시장 판도 바꾼다\n\n지식재산처, ㈜포스코홀딩스와 이차전지 산업 경쟁력 강화 방안 논의\n\n한-폴란드, 공급망·첨단산업 협력 강화 논의\n\n관련 주제 자료\n\nAI의 글로벌 성장 효과에 대한 세계은행 시각\n\n2026년 상반기 태양광 산업 동향\n\n강원특별자치도 미래산업글로벌도시 개발 종합계획 평가체계 구축 연구\n\n스타트업의 성장 잠재력 제고 방안 : 기업 역량 관점\n\nAI 학습을 위한 저작물 이용은 공정이용인가\n\n강원특별자치도 미래산업글로벌도",
+          "published": "날짜 미상",
+          "domain": "eiec.kdi.re.kr"
+        }
+      ]
+    }
+  }
+}

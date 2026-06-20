@@ -1,0 +1,269 @@
+{
+  "topic_id": "catl_lfp",
+  "base_query": "CATL LFP 배터리 원가 경쟁력 전략",
+  "subject": "CATL LFP 원가 경쟁력",
+  "queries": {
+    "긍정": "CATL LFP 배터리 원가 절감 전략 분석",
+    "비판": "CATL LFP 배터리 리스크와 한계",
+    "중립": "CATL LFP 배터리 시장 현황 조사"
+  },
+  "arms": {
+    "single_base": [
+      {
+        "title": "[PDF] 중국 전기차 배터리 기업 분석 - 네이버",
+        "url": "https://files-scs.pstatic.net/2024/08/13/TSoPvXsWAn/[%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84]%20CATL%20%EA%B8%B0%EC%97%85%EB%B6%84%EC%84%9D%20%EB%B3%B4%EA%B3%A0%EC%84%9C_final.pdf",
+        "content": "마케팅 측면에 있어서도 전체 산업을 주도하는 리더십을 보이고 있는 기업으로 평가됩니다. CATL의 해외생산 확대 추세와 LFP 배터리 확산세를 감안하면, 향후에도 압도적인 점유율을 유지할 것으로 보입니다. 중국 배터리 제조사들은 막대한 내수시장, 안정적인 원료공급망, 그리고 정부지원의 수혜를 받으며 성장하고 있는 것이 사실이나 이를 토대로 산업 전반의 경쟁력이 강화되고 있는 것은 무시할 수 없는 현실입니다. 특히 LFP 배터리, 나트륨이온 배터리 사례와 같이 저렴하면서도 혁신적인 신제품 개발 능력을 보유하고 있어서 원가우위를 넘어 차별화까지 양면전략이 가능합니다. 이에 대응하여 한국기업은 중국 기업이 따라올 수 없는 명확한 차별화 전략을 고수하거나 좁은 영역의 틈새시장에서 원가우위나 차별화를 추구하는 집중화가 전략적 대안이 될 수 있습니다. 어느 쪽이든 확실한 경쟁우위를 확보하지 못하여 어중간한 상태(Stuck in the middle)로 몰릴 경우 시장에서 도태될 수 있다는 마이클",
+        "published": "날짜 미상",
+        "domain": "files-scs.pstatic.net"
+      },
+      {
+        "title": "LFP로 중국과 맞붙으면 K배터리는 반드시 죽는다",
+        "url": "https://www.youtube.com/watch?v=9PRBu3-92Fg",
+        "content": "178 comments\n### Transcript:\n안녕하세요 \n lfp \n 배터리가 \n 전략을 \n 이런 \n 누가 \n 누군지 \n 뭐할 \n lfp \n 쫙 \n 집중하세요 \n 굉장히 \n 거니까 \n 죽으라고 \n 겁니다 \n 들어가라는 \n 경쟁에서 \n 없습니다 \n 경쟁으로 \n 중국을 \n 경쟁을 \n 도달 \n 가격을 \n 승부를 \n 공식 \n 아닙니까 \n 중국에다 \n 든게 \n 그래가지고 \n 하냐면 \n 가격으로 \n 이게 \n 나오지 \n 어렵고 \n 안다면네 \n 어렵습니다 \n LCD \n 전까지는 \n 디스플레이가 \n 했어요 \n 따라잡은 \n 패널 \n 따라하고 \n 이제 \n OLED \n 목을 \n 합니까 \n 자꾸자꾸가 \n 간극을 \n 거예요 \n 일단 \n 시장을 \n 중국은 \n 보조금 \n 할 \n 것들이 \n 경쟁력이 \n lfp \n 다 \n 됩니다 \n 정지하는 \n 시장에서 \n 갖추고 \n 중국은 \n 막하 \n 뭐 \n 데서도 \n 리튬 \n 정제 \n 만들어져 \n 이게 \n 안 \n 배터리가 \n 코발트 \n 뭐 \n 마찬가지고 \n 들어가는 \n ",
+        "published": "날짜 미상",
+        "domain": "youtube.com"
+      },
+      {
+        "title": "중국 CATL과 BYD, 올해 배터리 가격 50% 인하...끝없는 가격 경쟁 어디까지 내려가나 < 교통·수송 < 산업 < 기사본문 - IMPACT ON(임팩트온)",
+        "url": "http://www.impacton.net/news/articleView.html?idxno=10972",
+        "content": "중국의 전기차 전문 미디어 CnEVPost가 보도한 중국 소식통에 따르면, 중국의 전기차 제조사 립모터(Leapmotor)의 부사장 카오 리(Cao Li)는 자사가 CATL에서 구매하는 VDA 배터리 셀의 가격이 320/kWh위안까지 더 떨어질 수 있다고 전망했다. VDA는 길이 148mm, 너비 26.5mm, 높이 91mm의 직사각형 배터리 셀로 독일에서 만들어진 표준이고, 테슬라는 항상 원통형 셀을 선호했다.\n\n중국 언론의 보도에 따르면 CATL은 올여름까지 2.2C 고속 충전 기능을 갖춘 173Ah VDA 사양 LFP 셀을 Wh당 평균 0.4위안으로 자동차 제조사에 공급할 것이라고 한다. 지난해 초 VDA 형식의 LFP 셀 비용은 Wh당 0.8~0.9위안(약 148~166원)이었다. 8월에는 Wh당 0.6위안(약 111원)으로 떨어졌다.\n\n이 배터리는 10만~20만 위안(약 1845~3691만원)에 판매되는 자동차에 다양한 회사에서 사용될 예정이다. 2.2C 충전 속도는 30분",
+        "published": "날짜 미상",
+        "domain": "impacton.net"
+      },
+      {
+        "title": "CATL Reduces LFP Battery Costs 43% and INCREASES Energy Density",
+        "url": "https://www.youtube.com/watch?v=CcRvV4r8zuI",
+        "content": "# CATL Reduces LFP Battery Costs 43% and INCREASES Energy Density\n## The Electric Viking\n365000 subscribers\n3108 likes\n\n### Description\n76015 views\nPosted: 4 Dec 2025\nCATL Reduces LFP Battery Costs 43% and INCREASES Energy Density\n\nCATL has slashed LFP battery costs by 43% while simultaneously boosting energy density, marking one of the most significant breakthroughs in lithium iron phosphate technology. This leap strengthens CATL’s dominance and puts massive pressure on global battery competito",
+        "published": "날짜 미상",
+        "domain": "youtube.com"
+      },
+      {
+        "title": "CATL debuts six stunning battery innovations, including 1,500km EV option and 6-minute charge",
+        "url": "https://thedriven.io/2026/04/22/catl-debuts-six-stunning-battery-innovations-including-1500km-ev-option-and-6-minute-charge",
+        "content": "It is also able to deliver 3 MW peak power, doubling the output of the previous Qilin track battery, and weighs in at only 625 kilograms (kg) – resulting in a weight reduction compared with equivalent LFP systems of 255 kg and space savings of 112 litres.\n\nEnergy consumption per 100km for the latest generation Qilin Battery decreases by more than 6 per cent, saving approximately 0.78 kWh per 100km, improved acceleration allowing for better overtaking and evasive manoeuvres, and enhanced durabili",
+        "published": "날짜 미상",
+        "domain": "thedriven.io"
+      }
+    ],
+    "single_volume": [
+      {
+        "title": "[PDF] CATL(300750 SZ) - 삼성증권",
+        "url": "https://www.samsungpop.com/common.do?cmd=down&saveKey=research.pdf&fileName=3010%2F2021053116014348K_02_03.pdf&contentType=application%2Fpdf",
+        "content": "용량은 62kWh다. LFP CTP로 동일 에너지 용량을 채우면 팩 무게가 428kg으로 추정된다. NCM 811이 372kg로 15%의 무게가 더 나가는 셈이다. 이론적으로는 에너 지밀도를 맞춰 주행가능 거리를 유지할 수 있겠으나, 차량 무게에 따른 연비 둔화는 불가피하다. 반대 로 배터리 팩 무게를 LFP CTP와 NCM을 동일하게 맞추면 에너지 밀도를 15%가량 희생해야 한다. 전술한 바와 같이 LFP CTP 배터리의 가장 큰 장점은 저렴한 가격이다. CATL에 따르면 LFP CTP 배터리 의 원가는 wh당 0.65위안, NCM(평균)은 0.74위안 수준이다. 동일 배터리 용량을 가정하면 LFP CTP 배 터리는 NCM(평균)보다 12% 가량 저렴해진다. 결국 좀 더 저렴한 배터리를 탑재함으로써 전기차의 판 매단가를 낮춰 판매촉진 전략으로 활용하고자 하는 전기차 기업의 선택을 받는 것이다. 바로 테슬라, 샤오펑, 현대차 등이다. 물론 LFP CTP 배터리의 에너지 밀도가 NCM",
+        "published": "날짜 미상",
+        "domain": "samsungpop.com"
+      },
+      {
+        "title": "[PDF] 중국 전기차 배터리 기업 분석 - 네이버",
+        "url": "https://files-scs.pstatic.net/2024/08/13/TSoPvXsWAn/[%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84]%20CATL%20%EA%B8%B0%EC%97%85%EB%B6%84%EC%84%9D%20%EB%B3%B4%EA%B3%A0%EC%84%9C_final.pdf",
+        "content": "마케팅 측면에 있어서도 전체 산업을 주도하는 리더십을 보이고 있는 기업으로 평가됩니다. CATL의 해외생산 확대 추세와 LFP 배터리 확산세를 감안하면, 향후에도 압도적인 점유율을 유지할 것으로 보입니다. 중국 배터리 제조사들은 막대한 내수시장, 안정적인 원료공급망, 그리고 정부지원의 수혜를 받으며 성장하고 있는 것이 사실이나 이를 토대로 산업 전반의 경쟁력이 강화되고 있는 것은 무시할 수 없는 현실입니다. 특히 LFP 배터리, 나트륨이온 배터리 사례와 같이 저렴하면서도 혁신적인 신제품 개발 능력을 보유하고 있어서 원가우위를 넘어 차별화까지 양면전략이 가능합니다. 이에 대응하여 한국기업은 중국 기업이 따라올 수 없는 명확한 차별화 전략을 고수하거나 좁은 영역의 틈새시장에서 원가우위나 차별화를 추구하는 집중화가 전략적 대안이 될 수 있습니다. 어느 쪽이든 확실한 경쟁우위를 확보하지 못하여 어중간한 상태(Stuck in the middle)로 몰릴 경우 시장에서 도태될 수 있다는 마이클",
+        "published": "날짜 미상",
+        "domain": "files-scs.pstatic.net"
+      },
+      {
+        "title": "If we go head-to-head with China using LFP, K-batteries will surely die.",
+        "url": "https://www.youtube.com/watch?v=9PRBu3-92Fg",
+        "content": "178 comments\n### Transcript:\n안녕하세요 \n lfp \n 배터리가 \n 전략을 \n 이런 \n 누가 \n 누군지 \n 뭐할 \n lfp \n 쫙 \n 집중하세요 \n 굉장히 \n 거니까 \n 죽으라고 \n 겁니다 \n 들어가라는 \n 경쟁에서 \n 없습니다 \n 경쟁으로 \n 중국을 \n 경쟁을 \n 도달 \n 가격을 \n 승부를 \n 공식 \n 아닙니까 \n 중국에다 \n 든게 \n 그래가지고 \n 하냐면 \n 가격으로 \n 이게 \n 나오지 \n 어렵고 \n 안다면네 \n 어렵습니다 \n LCD \n 전까지는 \n 디스플레이가 \n 했어요 \n 따라잡은 \n 패널 \n 따라하고 \n 이제 \n OLED \n 목을 \n 합니까 \n 자꾸자꾸가 \n 간극을 \n 거예요 \n 일단 \n 시장을 \n 중국은 \n 보조금 \n 할 \n 것들이 \n 경쟁력이 \n lfp \n 다 \n 됩니다 \n 정지하는 \n 시장에서 \n 갖추고 \n 중국은 \n 막하 \n 뭐 \n 데서도 \n 리튬 \n 정제 \n 만들어져 \n 이게 \n 안 \n 배터리가 \n 코발트 \n 뭐 \n 마찬가지고 \n 들어가는 \n ",
+        "published": "날짜 미상",
+        "domain": "youtube.com"
+      },
+      {
+        "title": "막상 까보면 다 CATL 배터리...ㅣ전 세계 전기차는 왜 결국 CATL 배터리를 쓰게 될까?ㅣ수요시장",
+        "url": "https://www.youtube.com/watch?v=us2wYOpOY4k",
+        "content": "낼 수 있었죠. LFP가 가진 기술적 약점을 구조로 해결해 버린 겁니다. 덕분에 중국 정보의 보조금 기준도 충족하면서 배터리 보조금까지 받을 수 있게 된 겁니다. 화학이 아닌 제조와 구조로 배터리 혁신을 만들어 냈던 거죠. 그로 인해 2020년 결정적인 사건이 터집니다. 바로 테슬라와 CATL이 계약을 맺게 된 거죠. 이게 왜 중요하냐? 우선 LFP는 분명 그 이전까지는 싸고 별로인 [음악] 기술이었습니다. 그런데 세계 1위 전기차 회사가 이걸 선택해 버렸고 테슬라를 더 싸게 팔 수 있게 되어 버린 상황이었던 거죠. LFP의 인식이 단번히 뒤집혀 버린 거예요. 그래서 이후에는 포드, 폭스바겐, 현대차 그룹등도 LFP 채택을 검토하기 시작했던 겁니다. 그리고이 변화는 중국 배터리 시장도 뒤집어 버렸습니다. 불과 2019년만에도 LFP와 NMC의 점유율에는 압도적인 차이가 있었는데요. 단 2년 만에 LFP가 중국 시장 내에서 이걸 역전해 버린 거죠. 심지어 [음악] 2022년부터는 중국",
+        "published": "날짜 미상",
+        "domain": "youtube.com"
+      },
+      {
+        "title": "CATL Tech Roadmap Analyzed 2026 - PatSnap",
+        "url": "https://www.patsnap.com/resources/blog/articles/catl-tech-roadmap-2000-2026",
+        "content": "### Phase 1–2: NCM to LFP (2011–2021)\n\nFrom 2011 to 2018, CATL’s primary focus was nickel-cobalt-manganese (NCM) ternary batteries, achieving approximately 200 Wh/kg for NCM systems. The strategic pivot came between 2019 and 2021, when CATL shifted emphasis to lithium iron phosphate (LFP) batteries — driven by cost optimisation and supply chain resilience. In 2020, CATL launched its first-generation CTP technology with LFP chemistry, achieving a system energy density of 160 Wh/kg and greater tha",
+        "published": "날짜 미상",
+        "domain": "patsnap.com"
+      },
+      {
+        "title": "CATL '나트륨 배터리' 12월 양산…“K-배터리 대응전략 시급” - 대한경제",
+        "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202509141643587740501",
+        "content": "연구원은 CATL의 양산 본격화로 LFP 배터리의 전기차 시장 점유율 확대 사례가 나트륨 이온 배터리에서 재현될 수 있다고 지적했다. LFP 배터리는 가격",
+        "published": "날짜 미상",
+        "domain": "dnews.co.kr"
+      },
+      {
+        "title": "[Monthly] K-Battery Lost Market Share? CATL Sweeps Secondary ...",
+        "url": "https://www.youtube.com/watch?v=V4jXkRSoGfk",
+        "content": "보기는 좀 어려운 면이 있습니다. 그럼 LG 에너지 솔루션 같은 경우는 9.2%의 1.2%의 실상 점유율을 기록하면서 전년 대비에서 1.7% 포인트가 점유율이 떨어졌습니다. 그 자리를 CALB, 고션, 이브 에너지 같은 중국 업체들이 치급 올라오면서 마켓어를 가져가는 그런 모습들이었습니다. 중요 포인트를 한 세 가지 정도로 정리해 볼 수 있는데요. 우선 첫 번째는 케파가 부족한 상황에도 불구하고 지속적으로 지배력을 늘려 나가고 있는 CATL입니다. 두 번째는 전기차 시장에서의 부진이 계속되면서 ESS 고성장에도 불구하고 전체적인 점유율에서는 점유율이 하락하고 있는 한국의 셀업체들입니다. 결국에 지금 한국의 셀업체들은 ESS를 통한 성장을 노릴 수밖에 없는 계속 내몰리고 있는 그런 상황인데 점유율은 좀 뺏겼다라는 부분이 좀 아쉬운 부분이고요. 세 번째는 글로벌 완성차 공급망에도 들어가고 있고요. LFP 기반의 저가 배터리 기술을 활용을 해서 계속해서 마켓어를 올려 나가고 있는 중학권 ",
+        "published": "날짜 미상",
+        "domain": "youtube.com"
+      },
+      {
+        "title": "Why Are CATL LFP Battery Cells Special? - CNTE BESS Manufacturer",
+        "url": "https://en.cntepower.com/battery-cell",
+        "content": "The company also reduces operational costs by 12%. It does this by using real-time data collection, intelligent analysis, and flexible logistics. Efficient production planning ensures continuous manufacturing at a large scale.\n\nCNTE improves manufacturing process efficiency by 40%. It integrates lean logistics and optimizes production line layouts to speed up delivery times. Additionally, the company shortens design and manufacturing cycles by 30% by integrating data between MES, Enterprise Reso",
+        "published": "날짜 미상",
+        "domain": "en.cntepower.com"
+      },
+      {
+        "title": "[PDF] CATL, 글로벌 기술 선도하는 차세대 LFP 배터리 공개 - 하나증권",
+        "url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1286884&attachFileSeq=1&bbsId=&dbType=&bbsCd=1260",
+        "content": "일반적인 블록딜 할인율이 약 16% 수준임을. 감안하면 이번 할인폭은 매우 낮은 편으로, 기관 투자자들이 사실상 시가에 근접한 가격에 락업까지 감수하며",
+        "published": "날짜 미상",
+        "domain": "hanaw.com"
+      },
+      {
+        "title": "CATL Presents New LFP Battery Technology",
+        "url": "https://battery-news.de/en/2025/09/09/catl-presents-new-lfp-battery-technology",
+        "content": "battery line-up. According to the company, the product is tailored to the needs of the European electric mobility market. The new technology is said to improve safety, service life, range, and charging speed. The battery is based on CATLʼs NP-3.0 technology, which is the result of seven years of development and is aimed primarily at improving performance in the event of thermal runaway.\n\n## One-million-kilometer lifespan [...] The battery will be available in two versions. One focuses on range a",
+        "published": "날짜 미상",
+        "domain": "battery-news.de"
+      },
+      {
+        "title": "CATL - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/CATL",
+        "content": "In August 2022, CATL and truck maker FAW Jiefang established a joint venture to develop battery technology (urban battery replacement station networks).\n\n## Assessment\n\nAccording to former Tesla battery supply chain manager Vivas Kumar in 2019, CATL \"are seen as the leader of lithium iron phosphate battery (LFP battery) technology\". The company employs the cell-to-pack method to reduce the inactive weight of its batteries. It increases volume utilization rate by 15% to 20%, doubles the productio",
+        "published": "날짜 미상",
+        "domain": "en.wikipedia.org"
+      },
+      {
+        "title": "Innovative Technology - CATL",
+        "url": "https://www.catl.com/en/research/technology",
+        "content": "#### Suppliers\n\n## Innovative Technology\n\nReduces human dependence on chemical energy with innovative revolutionary battery technology, and realizes the shared vision of global sustainable development.\n\n### High Energy Density Technology\n\nExceeding Limitations\n\nBattery cell energy density: 330 Wh/kg\n\nWith highly integrated structure design, the groundbreaking CTP (cell to pack) technology has significantly increased the volumetric utilization efficiency of the battery pack, which has increased f",
+        "published": "날짜 미상",
+        "domain": "catl.com"
+      },
+      {
+        "title": "CATL",
+        "url": "https://www.catl.com",
+        "content": "## 解决方案\n\n## 前往服务中心\n\n## 研发\n\n## 品牌\n\n## 关于我们\n\n#### 首页\n\n#### 解决方案\n\n##### 乘用车\n\n##### 商业应用\n\n##### 储能系统\n\n##### 循环回收\n\n#### 研发\n\n##### 创新理念\n\n##### 前沿技术\n\n#### 新闻\n\n#### 品牌\n\n##### 技术品牌\n\n##### 服务品牌\n\n#### 制造\n\n#### 服务\n\n#### 投资者关系\n\n#### 关于我们\n\n##### 企业文化\n\n##### 企业战略\n\n##### 企业简介\n\n##### 可持续发展\n\n##### 零碳科普\n\n##### 加入我们\n\n#### 联系我们\n\n#### 联系我们\n\n#### 线上商城\n\n#### B2B隐私协议\n\n#### 供应商入口\n\n#### 配套车型查询\n\n### 新闻\n\n### 技术愿景\n\n以革命性电池技术创新，减少人类对化石能源的依赖，实现全球可持续发展的共同愿景\n\n### 技术愿景\n\n以革命性电池技术创新，减少人类对化石能源的依赖，实现全球可持续发展的共同愿景\n\n### 解决方案（隐藏）\n\n#### 乘用",
+        "published": "날짜 미상",
+        "domain": "catl.com"
+      },
+      {
+        "title": "CATL Battery Innovations: 6 Technologies Explained",
+        "url": "https://www.batterytechonline.com/design-manufacturing/examining-catl-s-latest-battery-innovations-across-6-technologies-multiple-chemistries",
+        "content": "has announced a comprehensive portfolio of battery technologies spanning multiple chemistries and form factors, alongside infrastructure developments aimed at addressing varied electric mobility requirements. Unveiled at the company's Technology Day event in Beijing on April 21, 2026, the six innovations represent advances in lithium iron phosphate (LFP), nickel-cobalt-manganese (NCM), and sodium-ion battery systems, each targeting specific performance parameters and use cases. [...] The announc",
+        "published": "날짜 미상",
+        "domain": "batterytechonline.com"
+      },
+      {
+        "title": "(배터리 확장전)①CATL, 삼원계까지 장악…K배터리 안방 흔든다",
+        "url": "https://blog.naver.com/ibtomato/224278567812?viewType=pc",
+        "content": "확인\n\n닫기\n\n1일 안부글 작성횟수를 초과하셨습니다.\n\n고객님이 남기신 안부글에 대한 다수의 신고가 접수되어  \n 1일 안부글 작성 횟수가 5회로 제한되었습니다. 네이버 블로그는 여러 사람이 함께 모여 즐거움을 나누는  \n 공간으로 모든 분들이 기분좋게 블로그를 이용할 수 있도록  \n 고객님의 이해와 협조 부탁 드립니다.\n\n확인\n\n닫기\n\n###### 공감을 삭제하시겠습니까?\n\n이 글의 공감수도 함께 차감됩니다.\n\n확인취소\n\n닫기\n\n이웃으로 추가하시겠어요?\n\n프로필   IB토마토 자본 시장의 파수꾼 IB토마토(www.ibtomato.com)\n\n이웃추가)\n\n이웃추가 레이어 닫기\n\n작성하신 에 이용자들의 신고가 많은 표현이 포함되어 있습니다.\n\n신고가 많은 표현\n\n다른 표현을 사용해주시기 바랍니다.  \n 건전한 인터넷 문화 조성을 위해 회원님의 적극적인 협조를 부탁드립니다.\n\n더 궁금하신 사항은 고객센터로 문의하시면 자세히 알려드리겠습니다.\n\n### 블로그 마켓 가입 완료\n\n내 상품 관리",
+        "published": "날짜 미상",
+        "domain": "blog.naver.com"
+      }
+    ],
+    "three_persp": {
+      "긍정": [
+        {
+          "title": "[PDF] 2차전지(NEUTRAL) - 삼성증권",
+          "url": "https://www.samsungpop.com/common.do?cmd=down&contentType=application%2Fpdf&inlineYn=Y&saveKey=research.pdf&fileName=2020%2F2024101008012768K_02_05.pdf",
+          "content": "지 않는다면 적어도 북미 현지에서 생산된 배터리 조달로 3,750달러의 세제 혜택을 챙길 수 있고, 추가 적으로 6,000달러의 폼팩터 변화에 따른 원가 절감 효과를 얻을 수 있다. 설령, FEOC 여부를 따지는 미국 에너지부에서 해당 생산 라인이 CATL의 LFP 기술에 의해 통제 받는다고 해석해, 전기차 구매 시 지급하게 되는 IRA 30D(Clean Vehicle Credit) 조항의 배터리 부품과 핵심 광물에 대한 세제 혜택(합산 7,500달러)을 놓친다고 해도 6,000달러의 원가 절감의 이점으로 시장에서 경쟁하는데 큰 부담은 없을 것으로 판단된다. 보통 북미에서 차량 딜러들에게 지급되는 수수료가 차대 가격의 8~10% 정도(5만달 러 차량 기준 4,000~5,000달러 규모)인 점을 감안하면 일부 수수료 조정만 가지고도 IRA 세제 혜택 받는 차종과의 가격 차이를 충분히 줄일 수 있을 것 판단되기 때문이다. GM: 새로운 전기차 배터리 로드맵 상 원가 개선 효과 자료: G",
+          "published": "날짜 미상",
+          "domain": "samsungpop.com"
+        },
+        {
+          "title": "[PDF] 포드-CATL 미중 기술 협력 관련 현지 동향 - KOCHAM",
+          "url": "https://kocham.org/wp-content/uploads/2023/02/KOTRA-%EC%9B%8C%EC%8B%B1%ED%84%B4-U.S.-%EB%8D%B0%EC%9D%BC%EB%A6%AC%EB%B8%8C%EB%A6%AC%ED%95%91_%EC%A0%9C23-022%ED%98%B8_230222.pdf",
+          "content": "(2) 대미 외국인투자심의위원회(CFIUS)를 회피 □(1) 원가절감과 (2) 세액공제 혜택까지 잡은 선례로 평가되는 포드의 이번 결정의 배경과 현지 반응, 전망을 조사 - 2 -2. 양 사간 협력 진행 경과 □포드, 2023-2026 전기차 공급망 전략 발표(’22.7.21) ◦포드는 ’23년 연간 60만대 생산을 시작으로 ’26년까지 연간 200만대를 생산할 계획이라고 발표 ◦’23년까지 북미, 중국, 유럽에 총 4종의 전기차를 출시하는 등 전기차 판매 포트폴리오를 확대 - 현재 NCM 배터리를 쓰는 기존 모델의 LFP 배터리 사용 파생형 외 LFP 배터리 탑재 신규 모델(픽 업 1, 세 단 ㆍ SUV형 1) ’26년까지 출시 전망  머스탱마하-E(’23.하)와F-150 라이트닝(’24.상)의기본형(스탠다드레인지)으로예상 < 포드의2023년전기차생산목표> 연번 모델명 목표시장 연간생산량 1 머스탱마하-E(SUV) 북미, 유럽, 중국 270,000 2 트랜짓EV(상용밴) 북미, 유",
+          "published": "날짜 미상",
+          "domain": "kocham.org"
+        },
+        {
+          "title": "[PDF] 중국 전기차 배터리 기업 분석 - 네이버",
+          "url": "https://files-scs.pstatic.net/2024/08/13/TSoPvXsWAn/[%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84]%20CATL%20%EA%B8%B0%EC%97%85%EB%B6%84%EC%84%9D%20%EB%B3%B4%EA%B3%A0%EC%84%9C_final.pdf",
+          "content": "마케팅 측면에 있어서도 전체 산업을 주도하는 리더십을 보이고 있는 기업으로 평가됩니다. CATL의 해외생산 확대 추세와 LFP 배터리 확산세를 감안하면, 향후에도 압도적인 점유율을 유지할 것으로 보입니다. 중국 배터리 제조사들은 막대한 내수시장, 안정적인 원료공급망, 그리고 정부지원의 수혜를 받으며 성장하고 있는 것이 사실이나 이를 토대로 산업 전반의 경쟁력이 강화되고 있는 것은 무시할 수 없는 현실입니다. 특히 LFP 배터리, 나트륨이온 배터리 사례와 같이 저렴하면서도 혁신적인 신제품 개발 능력을 보유하고 있어서 원가우위를 넘어 차별화까지 양면전략이 가능합니다. 이에 대응하여 한국기업은 중국 기업이 따라올 수 없는 명확한 차별화 전략을 고수하거나 좁은 영역의 틈새시장에서 원가우위나 차별화를 추구하는 집중화가 전략적 대안이 될 수 있습니다. 어느 쪽이든 확실한 경쟁우위를 확보하지 못하여 어중간한 상태(Stuck in the middle)로 몰릴 경우 시장에서 도태될 수 있다는 마이클",
+          "published": "날짜 미상",
+          "domain": "files-scs.pstatic.net"
+        },
+        {
+          "title": "[PDF] 중국 LFP 배터리 공급망 분석 및 시사점 - 대외경제정책연구원",
+          "url": "https://www.kiep.go.kr/galleryDownload.es?bid=0004&list_no=10703&seq=1",
+          "content": "- 본고에서는 배터리 시장을 양분하고 있는 삼원계와 LFP를 구분하는 기준인 양극재를 중심으로 공급망을 살펴보았으며, 업스트림에서는 LFP 양극재의 핵심 구성요소인 탄산리튬, 인산철 전구체를, 미드스트림에 서는 양·음극재를, 다운스트림에서는 LFP 배터리(팩)를 중심으로 분석함(그림 3).\nidxno=4260583(검색일: 2023. 4. 8).\n22) 산업통상자원부(2023. 4. 7), 「민관합동 배터리 산업 인플레이션 감축법(IRA) 활용 전략 발표」,  press2/bbs/bbsView.do?bbs_cd_n=81&bbs_seq_n=167059(검색일: 2023. 4. 10).\n7 중국 LFP 배터리 공급망 분석 및 시사점 KIEP 세계경제 포커스 2023.4.27.\n그림 3. LFP 배터리 공급망 개념도 자료: 하나증권(2022. 11. 8), 「The Last Puzzle: 공급망 재편 속 수직계열화의 힘」, p. 8를 참고하여 저자 재구성.\n그림 4. LFP 배터리의 생산",
+          "published": "날짜 미상",
+          "domain": "kiep.go.kr"
+        },
+        {
+          "title": "CATL - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/CATL",
+          "content": "In August 2022, CATL and truck maker FAW Jiefang established a joint venture to develop battery technology (urban battery replacement station networks).\n\n## Assessment\n\nAccording to former Tesla battery supply chain manager Vivas Kumar in 2019, CATL \"are seen as the leader of lithium iron phosphate battery (LFP battery) technology\". The company employs the cell-to-pack method to reduce the inactive weight of its batteries. It increases volume utilization rate by 15% to 20%, doubles the productio",
+          "published": "날짜 미상",
+          "domain": "en.wikipedia.org"
+        }
+      ],
+      "비판": [
+        {
+          "title": "“6분이면 완충” LFP 한계 뛰어넘은 CATL의 ‘기술 공세’, 韓 배터리 3사 활로는 전고체 배터리에 | The Economy Korea",
+          "url": "https://kr.economy.ac/news/2026/04/202604289445",
+          "content": "냉각 면적도 배터리 하부만을 냉각하는 기존 방식에 비해 4배가량 확대됐으며, 배터리를 셀 단위로 정밀 냉각하는 신기술을 통해 냉각 효율도 20% 향상했다. 또 배터리 온도 측정 정확도를 오차범위 1도 수준까지 높여 배터리 상태를 더 정밀하게 제어할 수 있도록 조치했다. 이로써 1,000회 초고속 충전 후에도 배터리 성능을 90% 이상 유지할 수 있다는 것이 CATL 측의 설명이다.\n\n#### LFP 배터리의 기존 약점 보완\n\n시장에서는 CATL이 LFP 배터리의 기존 한계를 뛰어넘었다는 점에 주목하고 있다. LFP 배터리는 NCM(니켈·코발트·망간), NCA(니켈·코발트·알루미늄) 등 리튬코발트산화물(LCO) 양극재를 기본으로 하는 삼원계 배터리와 달리 리튬인산철로 양극재를 구성한다. 이러한 구조의 최대 강점은 제조 비용 부담이 낮다는 데 있다. 인산철은 코발트보다 원재료 가격이 낮기 때문이다. 아울러 리튬인산철은 크리스털 형태의 육면체들이 유기적으로 연결된 격자 구조(올리빈 구조)",
+          "published": "날짜 미상",
+          "domain": "kr.economy.ac"
+        },
+        {
+          "title": "LFP배터리의 한계와 개선 방향 : 네이버 블로그",
+          "url": "https://m.blog.naver.com/blissfulnara/223363982155",
+          "content": "LFP 배터리에 적용이 본격 확대되고 있는 소재는 CNT\n\n​\n\nCATL의 LMFP+NCM 혼합 배터리 양산이 시작되면서 직경 6nm 이하급 CNT 도전재 적용을 본격화하려는 움직임\n\n​\n\n2023년 말 기준 LFP 배터리 양극 도전재 비율은\n\n카본블랙: MWCNT: TWCNT=7.8:2:0.2 수준으로 추정되며\n\n​\n\n향후 TWCNT 비중이 점점 확대될 것으로 기대.\n\n\n\nTWCNT 비중이 도전재 내 5wt%까지 증가해도 배터리팩 내 원가 비중은 0.8% 수준.\n\n​\n\n다만, 현 가격(kg 당 $100) 수준에서는 5wt% 비중이 최대일 것\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n​\n\n\n\n하이투자증권에서 이차전지 소재 SCM 현황을 정말 자세히 정리해주었다. 오늘은 2차 전지 여러 소재 중 ...\n\n\n\n배터리 리튬인산철 배터리 (LFP) Process Solution LFP는 인산철 공급원을 추가해야 합니다. 특히 LFP의 경우, 요구되는 특성에 따라 낮은 전기 전도성으로 인해 탄소원(",
+          "published": "날짜 미상",
+          "domain": "m.blog.naver.com"
+        },
+        {
+          "title": "When you actually look inside, they're all CATL batteries... - YouTube",
+          "url": "https://www.youtube.com/watch?v=us2wYOpOY4k",
+          "content": "한국과 일본 파나손이기 비하면은 [음악] 굉장히 적은 편이죠. 어떤 사람들은 이게 전부 중국은 인건비가 싸서 가능한 거라고 하는데 이건 일부만 맞는 말입니다. 우선 첫 번째 이유가 규모 경제이긴 하죠. 어마어마한 생산량으로 단가 자체를 확 낮췄으니깐요. 그런데 더 중요한 건 사실 밸류 체인입니다. 양지강 삼각주이 지역에서 전기차에 필요한 거의 모든 부품을 반경 320km 내에서 조달 가능합니다. 이러니 생산 효율이 높아질 수밖에 없죠. 게다가 CATL은 2011년부터 LFP 기술과 생산 경험을 누적해 왔고 현재는 리튬 광상까지 확보하면서 양극 음극제 생산과 배터리 재어까지 하는 중입니다. 그야말로 전후방 수직 통합을 달성한 거예요. 잘 될 수밖에 없는 거죠. 그리고 또 하나 CATL이 조용히 키우는 사업이 있습니다. 바로 ESS [음악] 에너지 저장 시스템이죠. 원래는 2015년부터 LFP 개발을 지속하려고 들어갔던 시장인데요. 현재 세계 점유를 2위를 달성한 상태입니다. 그래서 현",
+          "published": "날짜 미상",
+          "domain": "youtube.com"
+        },
+        {
+          "title": "혁신적인 기술 - CATL",
+          "url": "https://www.catl.com/kr/research/technology",
+          "content": "## 솔루션\n\n## Service Center\n\n## R&D\n\n## 브랜드\n\n## 기업 소개\n\n#### 홈\n\n#### 솔루션\n\n##### 승용차\n\n##### 상업용 애플리케이션\n\n##### 에너지 저장 시스템\n\n##### 배터리 재활용\n\n#### R&D\n\n##### 혁신적인 개념\n\n##### 혁신적인 기술\n\n#### 뉴스\n\n#### 브랜드\n\n##### 기술 브랜드\n\n##### 서비스 브랜드\n\n#### 스마트 제조\n\n#### 서비스\n\n#### 기업 소개\n\n##### 기업 문화\n\n##### 기업 전략\n\n##### 기업소개\n\n##### 지속 가능한 발전\n\n#### 문의하기\n\n#### 문의하기\n\n#### 남품업체\n\n## 혁신적인 기술\n\n혁신적이고 혁명적인 배터리 기술을 통해 화학 에너지에 대한 인류의 의존도를 줄이고 글로벌 지속가능한 발전이라는 공동의 비전을 실현합니다.\n\n### 고에너지 밀도 기술\n\n한계를 초과\n\n배터리 셀의 에너지 밀도 : 330Wh/kg\n\n고도로 통합된 구조 설계를 적",
+          "published": "날짜 미상",
+          "domain": "catl.com"
+        },
+        {
+          "title": "[PDF] 중국 전기차 배터리 기업 분석 - 네이버",
+          "url": "https://files-scs.pstatic.net/2024/08/13/TSoPvXsWAn/[%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84]%20CATL%20%EA%B8%B0%EC%97%85%EB%B6%84%EC%84%9D%20%EB%B3%B4%EA%B3%A0%EC%84%9C_final.pdf",
+          "content": "팩에 비해 용량이 13% 더 높아 1,000km의 주행거리 지원이 가능하며 지리, 리샹 자동차 등에 탑재될 예정입니다. 리튬 인산철 배터리 CATL의 LFP (리튬 인산철) 배터리는 삼원계 리튬이온 배터리 보다 높은 약 60%의 매출 비중을 차지하며, 당사는 해당 제품을 중심으로 글로벌 외형 확장을 추진하고 있습니다. 2023년 4C 급속충전이 가능한 LFP 배터리인 ‘션싱(Shenxing)’을 공개했으며, 이는 나노결정 LFP 양극재, 다층형 전극설계, CTP 3.0 등 혁신 기술을 적용한 제품으로, 10분 충전으로 400km 주행이 가능합니다. 15분 1회 완충 시 최대 주행거리는 700km이며, 2023년 12월 해당 배터리를 탑재한 체리오토 산하 엑시드 ‘엑슬란티스 ET’ 양산을 진행했습니다. M3P 배터리 M3P 배터리는 삼원계 인산염 시스템으로, LFP 배터리에 망간을 추가한 LMFP 배터리 진화 버전입니다. 철 소재를 빼고 마그네슘과 아연, 알루미늄 등 삼원계 소재를 혼",
+          "published": "날짜 미상",
+          "domain": "files-scs.pstatic.net"
+        }
+      ],
+      "중립": [
+        {
+          "title": "CATL, 中 전기차 배터리 시장 점유율 50% 돌파 '삼원계' 사실상 독점 : 다나와 자동차",
+          "url": "https://auto.danawa.com/news?Tab=N1&Stab=all&Brand=&Model=&HeadText=&NewsGroup=&SearchKey=press&SearchWord=%EC%98%A4%ED%86%A0%ED%97%A4%EB%9F%B4%EB%93%9C&Punit=10&useOldData=&Page=0&Work=detail&no=5989951",
+          "content": "그러나 시장 성장 속도보다 CATL의 점유율 확대가 더 빠르게 진행되면서 경쟁 구도는 빠르게 한쪽으로 쏠리고 있다.\n\n점유율 구조를 보면 CATL의 독주 체제는 당분간 이어질 전망이다. 2위 BYD는 17.5%에 그치며 CATL과 약 3배 가까운 격차를 보였고 3위 이하 업체들은 모두 한 자릿수 점유율에 머물렀다. 중국 내수 시장에서도 ‘1강 다약’ 구조가 고착화되는 모습이다.\n\n기술별 경쟁력에서도 CATL의 우위는 분명하다. 삼원계(NCM) 배터리 부문에서는 81.6% 점유율로 사실상 독점에 가까운 수준을 기록했고 LFP 배터리에서도 41% 점유율로 최근 4년 내 최고치를 경신했다.\n\n특히 BYD가 LFP 중심 전략으로 이동하면서 삼원계 시장에서는 CATL의 영향력이 더욱 확대되는 흐름이다.\n\n중국 CATL이 전기차 배터리 시장에서 ‘독주 체제’를 굳히고 있다. 점유율 확대와 함께 생산능력·투자까지 동반 상승하면서 글로벌 배터리 판도를 빠르게 재편하는 모습이다.\n\nCATL은 202",
+          "published": "날짜 미상",
+          "domain": "auto.danawa.com"
+        },
+        {
+          "title": "[Monthly] K-Battery Lost Market Share? CATL Sweeps Secondary ...",
+          "url": "https://www.youtube.com/watch?v=V4jXkRSoGfk",
+          "content": "보기는 좀 어려운 면이 있습니다. 그럼 LG 에너지 솔루션 같은 경우는 9.2%의 1.2%의 실상 점유율을 기록하면서 전년 대비에서 1.7% 포인트가 점유율이 떨어졌습니다. 그 자리를 CALB, 고션, 이브 에너지 같은 중국 업체들이 치급 올라오면서 마켓어를 가져가는 그런 모습들이었습니다. 중요 포인트를 한 세 가지 정도로 정리해 볼 수 있는데요. 우선 첫 번째는 케파가 부족한 상황에도 불구하고 지속적으로 지배력을 늘려 나가고 있는 CATL입니다. 두 번째는 전기차 시장에서의 부진이 계속되면서 ESS 고성장에도 불구하고 전체적인 점유율에서는 점유율이 하락하고 있는 한국의 셀업체들입니다. 결국에 지금 한국의 셀업체들은 ESS를 통한 성장을 노릴 수밖에 없는 계속 내몰리고 있는 그런 상황인데 점유율은 좀 뺏겼다라는 부분이 좀 아쉬운 부분이고요. 세 번째는 글로벌 완성차 공급망에도 들어가고 있고요. LFP 기반의 저가 배터리 기술을 활용을 해서 계속해서 마켓어를 올려 나가고 있는 중학권 ",
+          "published": "날짜 미상",
+          "domain": "youtube.com"
+        },
+        {
+          "title": "When you actually look inside, they're all CATL batteries... - YouTube",
+          "url": "https://www.youtube.com/watch?v=us2wYOpOY4k",
+          "content": "낼 수 있었죠. LFP가 가진 기술적 약점을 구조로 해결해 버린 겁니다. 덕분에 중국 정보의 보조금 기준도 충족하면서 배터리 보조금까지 받을 수 있게 된 겁니다. 화학이 아닌 제조와 구조로 배터리 혁신을 만들어 냈던 거죠. 그로 인해 2020년 결정적인 사건이 터집니다. 바로 테슬라와 CATL이 계약을 맺게 된 거죠. 이게 왜 중요하냐? 우선 LFP는 분명 그 이전까지는 싸고 별로인 [음악] 기술이었습니다. 그런데 세계 1위 전기차 회사가 이걸 선택해 버렸고 테슬라를 더 싸게 팔 수 있게 되어 버린 상황이었던 거죠. LFP의 인식이 단번히 뒤집혀 버린 거예요. 그래서 이후에는 포드, 폭스바겐, 현대차 그룹등도 LFP 채택을 검토하기 시작했던 겁니다. 그리고이 변화는 중국 배터리 시장도 뒤집어 버렸습니다. 불과 2019년만에도 LFP와 NMC의 점유율에는 압도적인 차이가 있었는데요. 단 2년 만에 LFP가 중국 시장 내에서 이걸 역전해 버린 거죠. 심지어 [음악] 2022년부터는 중국",
+          "published": "날짜 미상",
+          "domain": "youtube.com"
+        },
+        {
+          "title": "K배터리 ‘빨간불’… 中 CATL·BYD 점유율 44% 돌파 < 산업 < 기사본문 - 리드경제",
+          "url": "https://www.leadeconomy.co.kr/news/articleView.html?idxno=7856",
+          "content": "국내 업체들은 부진을 면치 못했다. 삼성SDI는 주요 고객사인 BMW, 아우디, 리비안 등의 판매 부진으로 배터리 사용량이 28.6% 급감했다. 점유율은 7.3%에서 4.3%로 떨어졌다. SK온 역시 포드, 폭스바겐 등 주력 고객사의 전기차 판매 둔화로 사용량이 7.8% 감소하며 점유율이 9.9%에서 7.6%로 하락했다.\n\nLG에너지솔루션은 1.7% 성장한 27.4GWh를 기록하며 2위 자리를 지켰다. 하지만 시장 평균 성장률에 크게 못 미치면서 점유율은 20.0%에서 16.8%로 3.2%포인트 내려앉았다. 일본 파나소닉도 사용량이 3.7% 감소했다.\n\nSNE리서치는 비중국 시장이 글로벌 배터리 업체들의 실질적인 경쟁 구도가 재편되는 핵심 시장으로 부상했다고 분석했다. 이어 가격 경쟁력과 LFP 제품 대응력, 지역별 생산 거점 확보 등이 향후 시장 지위를 좌우할 핵심 변수가 될 것이라고 전망했다.\n\n리드경제/유찬형 기자\n\n유찬형 기자 leadeconomy@naver.com\n\n다른기사",
+          "published": "날짜 미상",
+          "domain": "leadeconomy.co.kr"
+        },
+        {
+          "title": "CATL - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/CATL",
+          "content": "In August 2022, CATL and truck maker FAW Jiefang established a joint venture to develop battery technology (urban battery replacement station networks).\n\n## Assessment\n\nAccording to former Tesla battery supply chain manager Vivas Kumar in 2019, CATL \"are seen as the leader of lithium iron phosphate battery (LFP battery) technology\". The company employs the cell-to-pack method to reduce the inactive weight of its batteries. It increases volume utilization rate by 15% to 20%, doubles the productio",
+          "published": "날짜 미상",
+          "domain": "en.wikipedia.org"
+        }
+      ]
+    }
+  }
+}
