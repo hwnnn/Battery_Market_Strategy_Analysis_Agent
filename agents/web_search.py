@@ -63,14 +63,19 @@ def build_queries(base_query: str, llm: ChatOpenAI) -> Dict[str, str]:
     return _build_three_queries(base_query, llm)
 
 
+def _require_tavily_key() -> str:
+    api_key = os.getenv("TAVILY_API_KEY")
+    if not api_key:
+        raise EnvironmentError("TAVILY_API_KEY가 설정되지 않았습니다. .env 파일을 확인하세요.")
+    return api_key
+
+
 def tavily_search(query: str, max_results: int = 5) -> List[dict]:
     """단일 쿼리 Tavily 검색 → 정규화된 결과 리스트.
     각 원소: {title, url, content, published, domain}"""
     from eval.web_metrics import domain_of  # 지연 import (프로덕션 경로 비의존)
 
-    api_key = os.getenv("TAVILY_API_KEY")
-    if not api_key:
-        raise EnvironmentError("TAVILY_API_KEY가 설정되지 않았습니다. .env를 확인하세요.")
+    api_key = _require_tavily_key()
     client = TavilyClient(api_key=api_key)
     resp = client.search(query=query, max_results=max_results, search_depth="advanced")
     out = []
@@ -89,6 +94,7 @@ def tavily_search(query: str, max_results: int = 5) -> List[dict]:
 def web_search(base_query: str, llm: ChatOpenAI, max_results: int = 5) -> str:
     """확증 편향 방지 웹 검색 Tool.
     WEB_SEARCH_PERSPECTIVES=off 면 단일 쿼리(ablation), 기본은 3방향."""
+    _require_tavily_key()
     if not perspectives_enabled():
         # ablation: 볼륨을 3방향과 맞추기 위해 max_results*3
         results = tavily_search(base_query, max_results=max_results * 3)
