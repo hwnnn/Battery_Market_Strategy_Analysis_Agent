@@ -1,6 +1,7 @@
 """
 Web Search Tool — 확증 편향 방지 설계
 단일 쿼리 입력 → 긍정/비판/중립 3방향 쿼리 자동 생성 → 병렬 검색 → 통합 반환
+WEB_SEARCH_PERSPECTIVES=off 로 단일 쿼리 ablation 전환 가능 (기본: 3방향 on)
 """
 
 import os
@@ -12,6 +13,13 @@ from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
 
 load_dotenv()
+
+
+def perspectives_enabled() -> bool:
+    """WEB_SEARCH_PERSPECTIVES 환경변수로 3방향 on/off (기본 on)."""
+    return os.getenv("WEB_SEARCH_PERSPECTIVES", "true").strip().lower() in (
+        "1", "true", "yes", "on"
+    )
 
 
 def _build_three_queries(base_query: str, llm: ChatOpenAI) -> Dict[str, str]:
@@ -49,43 +57,57 @@ def _build_three_queries(base_query: str, llm: ChatOpenAI) -> Dict[str, str]:
     return queries
 
 
-def web_search(base_query: str, llm: ChatOpenAI, max_results: int = 5) -> str:
-    """
-    확증 편향 방지 웹 검색 Tool
-    - 3방향 쿼리 생성 후 각각 Tavily 검색
-    - 결과를 관점별로 구분하여 통합 반환
-    """
+def build_queries(base_query: str, llm: ChatOpenAI) -> Dict[str, str]:
+    """기본 쿼리에서 긍정·비판·중립 3방향 쿼리를 LLM으로 생성한다.
+    (기존 _build_three_queries 와 동일 동작 — 공개 이름)"""
+    return _build_three_queries(base_query, llm)
+
+
+def tavily_search(query: str, max_results: int = 5) -> List[dict]:
+    """단일 쿼리 Tavily 검색 → 정규화된 결과 리스트.
+    각 원소: {title, url, content, published, domain}"""
+    from eval.web_metrics import domain_of  # 지연 import (프로덕션 경로 비의존)
+
     api_key = os.getenv("TAVILY_API_KEY")
     if not api_key:
-        raise EnvironmentError("TAVILY_API_KEY가 설정되지 않았습니다. .env 파일을 확인하세요.")
-
+        raise EnvironmentError("TAVILY_API_KEY가 설정되지 않았습니다. .env를 확인하세요.")
     client = TavilyClient(api_key=api_key)
+    resp = client.search(query=query, max_results=max_results, search_depth="advanced")
+    out = []
+    for r in resp.get("results", []):
+        url = r.get("url", "")
+        out.append({
+            "title": r.get("title", "제목 없음"),
+            "url": url,
+            "content": r.get("content", "내용 없음")[:500],
+            "published": r.get("published_date", "날짜 미상"),
+            "domain": domain_of(url),
+        })
+    return out
 
-    # 3방향 쿼리 생성
-    queries = _build_three_queries(base_query, llm)
 
+def web_search(base_query: str, llm: ChatOpenAI, max_results: int = 5) -> str:
+    """확증 편향 방지 웹 검색 Tool.
+    WEB_SEARCH_PERSPECTIVES=off 면 단일 쿼리(ablation), 기본은 3방향."""
+    if not perspectives_enabled():
+        # ablation: 볼륨을 3방향과 맞추기 위해 max_results*3
+        results = tavily_search(base_query, max_results=max_results * 3)
+        section = f"\n=== [단일 쿼리(ablation)] 검색 쿼리: {base_query} ===\n"
+        for i, r in enumerate(results, 1):
+            section += (f"\n[{i}] {r['title']}\n출처: {r['url']}\n"
+                        f"날짜: {r['published']}\n내용: {r['content']}\n")
+        return section
+
+    queries = build_queries(base_query, llm)
     all_results: List[str] = []
-
     for perspective, query in queries.items():
         try:
-            response = client.search(
-                query=query,
-                max_results=max_results,
-                search_depth="advanced",
-            )
-            results = response.get("results", [])
-
+            results = tavily_search(query, max_results=max_results)
             section = f"\n=== [{perspective} 관점] 검색 쿼리: {query} ===\n"
             for i, r in enumerate(results, 1):
-                title = r.get("title", "제목 없음")
-                url = r.get("url", "")
-                content = r.get("content", "내용 없음")[:500]  # 500자 제한
-                published = r.get("published_date", "날짜 미상")
-                section += f"\n[{i}] {title}\n출처: {url}\n날짜: {published}\n내용: {content}\n"
-
+                section += (f"\n[{i}] {r['title']}\n출처: {r['url']}\n"
+                            f"날짜: {r['published']}\n내용: {r['content']}\n")
             all_results.append(section)
-
         except Exception as e:
             all_results.append(f"\n=== [{perspective} 관점] 검색 실패: {str(e)} ===\n")
-
     return "\n".join(all_results)
