@@ -2,3 +2,4 @@
 # 설치: pip install -r eval/requirements.txt
 ragas>=0.2.0
 datasets>=2.0.0
+pytest>=7.0.0
