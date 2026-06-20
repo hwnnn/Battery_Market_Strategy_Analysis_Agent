@@ -1,0 +1,22 @@
+[
+  {"topic_id": "prod_market", "base_query": "글로벌 배터리 전기차 시장 2025 캐즘 현황", "subject": "글로벌 배터리·전기차 시장", "category": "market"},
+  {"topic_id": "prod_lges", "base_query": "LG에너지솔루션 2025 포트폴리오 다각화 전략", "subject": "LG에너지솔루션(LGES)", "category": "company"},
+  {"topic_id": "prod_catl", "base_query": "CATL 2025 포트폴리오 전략 나트륨이온 ESS 신흥시장", "subject": "CATL", "category": "company"},
+  {"topic_id": "lges_ess", "base_query": "LG에너지솔루션 ESS 사업 전략 전망", "subject": "LG에너지솔루션 ESS 사업", "category": "company_segment"},
+  {"topic_id": "lges_robot", "base_query": "LG에너지솔루션 로봇 Physical AI 배터리 전략", "subject": "LG에너지솔루션 로봇용 배터리", "category": "company_segment"},
+  {"topic_id": "lges_hev", "base_query": "LG에너지솔루션 HEV 하이브리드 배터리 대응", "subject": "LG에너지솔루션 HEV 배터리", "category": "company_segment"},
+  {"topic_id": "catl_sodium", "base_query": "CATL 나트륨이온 배터리 상업화 전략", "subject": "CATL 나트륨이온 배터리", "category": "company_segment"},
+  {"topic_id": "catl_africa", "base_query": "CATL ESS 아프리카 신흥시장 진출 전략", "subject": "CATL 신흥시장 ESS", "category": "company_segment"},
+  {"topic_id": "catl_lfp", "base_query": "CATL LFP 배터리 원가 경쟁력 전략", "subject": "CATL LFP 원가 경쟁력", "category": "company_segment"},
+  {"topic_id": "solid_state", "base_query": "전고체 배터리 상업화 전망 2025", "subject": "전고체 배터리 상업화", "category": "technology"},
+  {"topic_id": "sodium_market", "base_query": "나트륨이온 배터리 시장 전망", "subject": "나트륨이온 배터리 시장", "category": "technology"},
+  {"topic_id": "ess_market", "base_query": "글로벌 ESS 에너지저장장치 시장 성장 전망", "subject": "글로벌 ESS 시장", "category": "market"},
+  {"topic_id": "ira_policy", "base_query": "미국 IRA 인플레이션감축법 배터리 영향", "subject": "미국 IRA 배터리 정책", "category": "policy"},
+  {"topic_id": "eu_tariff", "base_query": "유럽 중국 배터리 관세 규제 영향", "subject": "유럽 배터리 관세 규제", "category": "policy"},
+  {"topic_id": "overcapacity", "base_query": "배터리 산업 과잉공급 가동률 문제", "subject": "배터리 과잉공급", "category": "market"},
+  {"topic_id": "lges_vs_catl", "base_query": "LG에너지솔루션 CATL 경쟁력 비교", "subject": "LGES vs CATL 경쟁", "category": "comparison"},
+  {"topic_id": "ev_chasm", "base_query": "전기차 캐즘 수요 둔화 2025 전망", "subject": "전기차 캐즘", "category": "market"},
+  {"topic_id": "kr_battery_policy", "base_query": "한국 배터리 산업 지원 정책 전략", "subject": "한국 배터리 정책", "category": "policy"},
+  {"topic_id": "battery_recycling", "base_query": "배터리 재활용 사업 시장 전망", "subject": "배터리 재활용 시장", "category": "technology"},
+  {"topic_id": "samsung_sdi", "base_query": "삼성SDI 배터리 포트폴리오 전략 2025", "subject": "삼성SDI", "category": "company"}
+]
