@@ -19,6 +19,10 @@ def test_parse_stance_label(raw, expected):
     ("1", 1.0),
     ("균형 점수는 0.4 정도", 0.4),
     ("없음", 0.0),
+    # regression: year must NOT win when an in-range value is present
+    ("2025년 기준 균형 점수 0.7", 0.7),
+    # regression: no in-range number → no number at all → 0.0
+    ("점수 없음", 0.0),
 ])
 def test_parse_score(raw, expected):
     assert parse_score(raw) == pytest.approx(expected)

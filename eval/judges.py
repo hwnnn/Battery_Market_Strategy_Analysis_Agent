@@ -2,6 +2,7 @@
 LLM-judge 모듈 — web search 평가용 (temp=0).
 순수 파서(parse_*)는 단위테스트, LLM 호출부는 스모크 검증.
 """
+import json
 import re
 from langchain_core.messages import HumanMessage, SystemMessage
 from eval.web_metrics import STANCES
@@ -27,6 +28,7 @@ _BALANCE_SYS = (
 
 
 def parse_stance_label(raw: str) -> str:
+    # STANCES 순서가 다중 매칭 시 우선순위: 긍정 > 부정 > 중립
     for s in STANCES:
         if s in raw:
             return s
@@ -34,10 +36,14 @@ def parse_stance_label(raw: str) -> str:
 
 
 def parse_score(raw: str) -> float:
-    m = re.search(r"\d+(?:\.\d+)?", raw)
-    if not m:
-        return 0.0
-    return round(min(1.0, max(0.0, float(m.group()))), 4)
+    matches = re.findall(r"\d+(?:\.\d+)?", raw)
+    for m in matches:
+        v = float(m)
+        if 0.0 <= v <= 1.0:
+            return round(v, 4)
+    if matches:
+        return round(min(1.0, max(0.0, float(matches[0]))), 4)
+    return 0.0
 
 
 def classify_stance(snippet: str, subject: str, llm) -> str:
@@ -58,7 +64,6 @@ def risk_covered(risk_item: str, snippets: list[str], llm) -> bool:
 
 
 def extract_risk_claims(report: str, llm) -> list[str]:
-    import json
     raw = llm.invoke([
         SystemMessage(content=_EXTRACT_SYS),
         HumanMessage(content=report[:12000]),
