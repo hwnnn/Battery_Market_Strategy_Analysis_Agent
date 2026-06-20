@@ -4,17 +4,24 @@
   "subject": "CATL 신흥시장 ESS",
   "queries": {
     "긍정": "CATL ESS 아프리카 시장 성장 가능성",
-    "비판": "CATL ESS 아프리카 진출 리스크 분석",
-    "중립": "CATL ESS 아프리카 진출 현황 조사"
+    "비판": "CATL ESS 아프리카 진출 리스크와 규제",
+    "중립": "CATL ESS 아프리카 진출 현황과 전략"
   },
   "arms": {
     "single_base": [
       {
-        "title": "[PDF] CATL, 차세대 ESS 배터리 대규모 양산 단계 진입 - 하나증권",
-        "url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1285227&attachFileSeq=1&bbsId=&dbType=&bbsCd=1260",
-        "content": "2026-03-24 샤오펑(9868.HK) (9.2) - (4.3) 93.4 44.2 적지 흑자 (79.8) 적지 2026-03-18 CATL(300750.CH) 2.7 25.2 23.5 16.4 24.6 36.0 25.6 35.9 35.9 2026-03-16 양광전력(300274.CH) (2.9) 25.8 31.7 22.3 17.9 33.6 16.3 36.4 36.4 2026-04-27 북방화창(002371.CH) 5.1 45.2 19.6 31.2 26.8 26.3 34.5 26.6 26.6 2026-04-27 SMIC(0981.HK) 1.5 104.8 3.3 15.3 19.3 42.2 46.2 65.4 65.4 2026-02-11 해광정보(688041.CH) (0.6) 159.8 14.0 57.7 51.2 74.7 58.5 62.2 62.2 2026-03-02 통푸마이크로(002156.CH) 0.4 45.9 7.8 14.5 14.2 78.0 28.3 88.9 88.9 2026-0",
+        "title": "중국의 신흥시장 진출과 한국의 대응방안: 동남아, 중남미, 아프리카를 중심으로 | 전체보고서 | 보고서 | 발간물 : 대외경제정책연구원",
+        "url": "https://www.kiep.go.kr/gallery.es?mid=a10101010000&bid=0001&list_no=1890&act=view",
+        "content": "Another strategy could be to increase MSs in mature markets within each region, namely, Vietnam, Indonesia, and Thailand in ASEAN, Brazil, Mexico, and Chile in Latin America, and South Africa, Nigeria, and Ghana in Africa. Marketing expertise in these countries could be easily expanded to other countries within the region because it is possible that they will share a similar growth pattern and observe similar consumer behavior. [...] 신흥국 경제는 빠르게 성장하고 있으며 그에 따라 한국에 있어 신흥국의 중요성도 나날이 커지고 있다. 그러나 신흥",
         "published": "날짜 미상",
-        "domain": "hanaw.com"
+        "domain": "kiep.go.kr"
+      },
+      {
+        "title": "中 CATL '기술독점 대신 공유'…신흥국 협업으로 탈탄소 시장 선점 < 교통·수송 < 산업 < 기사본문 - IMPACT ON(임팩트온)",
+        "url": "http://www.impacton.net/news/articleView.html?idxno=15533",
+        "content": "전기차를 넘어선 종합 에너지 솔루션도 눈에 띈다. CATL은 '제로카본 테크'라는 이름으로, 마이크로그리드 구축이 가능한 독립형 에너지 저장 시스템을 선보였으며, UAE 마스다르(Masdar)의 친환경 데이터센터에 19GWh 규모 배터리 저장 장치를 공급하기로 했다. 산업 부문 탈탄소화와 신에너지 산업화를 통해 경제성장 동력도 창출하겠다는 구상이다.\n\n순환경제 부문에서도 CATL은 적극적이다. 2025년까지 배터리 교환 스테이션 '초코 스왑' 1000곳을 설치하고, 중장기적으로 1만곳까지 확대할 계획이다. 지난해에는 13만 톤 규모의 폐배터리를 재활용하는 성과도 거뒀다.\n\n연구개발(R&D)에도 대규모 투자가 이뤄진다. 현재 보유한 특허만 4만3000건 이상이며, 매년 200억위안(약 3조8114억원) 규모를 R&D에 투입하고 있다. 헝가리 유럽 최대 배터리 기지, 스텔란티스와의 스페인 공장 건설 등 글로벌 생산 네트워크도 확장 중이다.\n\nCATL, 기술공유를 전제로 신흥국과 공동 성",
+        "published": "날짜 미상",
+        "domain": "impacton.net"
       },
       {
         "title": "中 CATL, 전기차 배터리서 ESS로 무게 이동 - 글로벌이코노믹",
@@ -24,34 +31,41 @@
         "domain": "g-enews.com"
       },
       {
-        "title": "CATL \"2030년 ESS 부문, 글로벌 매출 절반 차지\" 전망 - 더구루",
-        "url": "https://www.theguru.co.kr/mobile/article.html?no=102667",
-        "content": "## 많이 본 기사\n\n더보기\n\n 1 반도체 핵심 공정 소재 '육불화텅스텐' 부족 현상 심화…후성 등 반사이익 기대\n 2 '초호황기' 반도체 장비 지출액 사상 최고치…AI 인프라 투자 급증\n [3 [단독] '실전 검증 완료' 인도네시아, LIG D&A 천궁-II 도입 추진…구매 의향서 제출](/mobile/article.html?no=102776)\n 4 TKMS, 캐나다 잠수함 최종 사업자 결정 앞두고 대규모 채용 돌입\n 5 폴란드 국방부 \"K2 전차 1000대 구매\" 재확인\n 6 英 핵잠수함 5척 동시 셧다운 '수중전력 붕괴'…캐나다 잠수함 수주전 변수되나\n 7 이라크, 한국에 전력 인프라 재건사업 참여 공식 요청…효성중공업·LS전선 등 수혜 기대\n [8 [단독] 포스코인터, 몽골 '자원 컨트롤타워'와 희토류 동맹…'탈중국' 공급망 다변화 속도](/mobile/article.html?no=103023)\n 9 K2전차 폴란드 생산 부마르 와벤디 공장 '확정' …현대로템 실사 반영\n [",
+        "title": "아프리카 시장 진출 전략: 한국이 놓친 블루오션, 그리고 중국의 영향력 ...",
+        "url": "https://m.blog.naver.com/red2x2/224033606364",
+        "content": "'땡큐 트럼프'…中, 아프리카 무역 흑자 83조원 '관세 역풍'\n\n더 나아가 중국은 “관세 제로” 정책을 내세우며, 아프리카 국가들에 무제한 개방을 약속하며 경제적 지배력을 강화하고 있다. 여기에 군사 협력과 정치 교류까지 더해지면서 아프리카는 사실상 중국의 전략적 확장 무대가 되고 있다. 미국의 원조 공백(AGOA 종료)으로 중국의 영향력은 더욱 높아질 것으로 전망된다.\n\n美 아프리카지원법 25년만에 종료…연장 불투명\n\n이러한 움직임은 단순한 경제 활동을 넘어 아프리카 대륙의 안보 질서와 정치 지형까지 바꾸고 있다는 점에서 큰 의미를 가진다.\n\n\n\n> 한국의 선택, 수출을 넘어 현지화로!\n>\n> 이설아빠\n\n한국의 대(對) 아프리카 수출은 구조적으로도 취약하다. 선박 수출에 의존하는 통계 왜곡을 제외하면 자동차, 건설기계, 의약품 등 일부 품목에 국한되며, 교역 대상국도 남아공·나이지리아·이집트 등 소수에 집중되어 있다. 무엇보다 인프라, 에너지, 디지털 분야에서 한국의 기술적 강점",
         "published": "날짜 미상",
-        "domain": "theguru.co.kr"
+        "domain": "m.blog.naver.com"
       },
       {
-        "title": "CATL - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/CATL",
-        "content": "Increase\nIncrease\nIncrease\nEdit this at Wikidata\n\nContemporary Amperex Technology Co., Limited, (CATL) is a Chinese battery manufacturer and technology company founded in 2011 that specializes in the manufacturing of lithium-ion batteries for electric vehicles and energy storage systems, as well as battery management systems (BMS). CATL is the biggest EV and energy storage battery manufacturer in the world, with a global market share of around 37% and 36.8% in 2022 and 2023, respectively. It is ",
+        "title": "\"중국 CATL 미국 진출 확대\" JP모간 전망, ESS 배터리 시장 지배력 키워",
+        "url": "https://www.businesspost.co.kr/BP?command=article_view&num=432438",
+        "content": "[비즈니스포스트] 중국 CATL이 에너지저장장치(ESS)용 배터리 사업을 앞세워 미국 시장 진출을 확대할 수 있다는 증권사 전망이 나왔다.   \n   \n CATL은 전기차 배터리 중심 사업 구조에서 벗어나 ESS와 신규 산업용 배터리로 영역을 넓히며 글로벌 영향력을 키우고 있다.   \n   \n 9일 닛케이아시아는 JP모간 보고서를 인용해 “CATL이 미국 ESS 시장에서 사업 영역을 확장할 가능성이 있다”고 보도했다.   \n   \n JP모간은 완성차기업 포드가 CATL로부터 배터리 기술 라이선스를 받아 미국에서 ESS 배터리 생산을 추진한다는 근거를 제시했다.   \n   \n 포드는 지난해 12월16일 전기차 사업 부진의 타개책으로 ESS용 배터리 사업까지 손댈 것이라고 발표했는데 기술을 제공하는 CATL의 미국 진출도 확대할 수 있다는 것이다.   \n   \n 닛케이아시아는 “트럼프 정부의 대중 강경 무역 정책에도 불구하고 급성장하는 ESS 분야에서 미국은 CATL의 핵심 시장”이라고",
         "published": "날짜 미상",
-        "domain": "en.wikipedia.org"
-      },
-      {
-        "title": "Residential ESS with CATL LFP Battery Cells: Safe, Efficient ... - CNTE",
-        "url": "https://en.cntepower.com/lfp-battery-cells",
-        "content": "### High Flexibility\n\nThe modular design of CNTE’s ESS allows for multiple units to be connected in parallel, expanding energy storage capacity as needed. This flexibility ensures uninterrupted power supply, seamless on/off-grid switching, and adaptation to various household energy demands. Whether for residential use or small business applications, the system provides a scalable energy solution.\n\n## Market Impact & Industry Adoption\n\n### Global Integration of CATL-Powered ESS [...] ### CNTE Res",
-        "published": "날짜 미상",
-        "domain": "en.cntepower.com"
+        "domain": "businesspost.co.kr"
       }
     ],
     "single_volume": [
       {
+        "title": "마지막 신흥시장 아프리카 진출 7대전략 - 뉴스핌",
+        "url": "https://www.newspim.com/news/view/20111019000255",
+        "content": "더보기\n\n# 마지막 신흥시장 아프리카 진출 7대전략\n\n기사입력 :\n\n최종수정 :\n\n 카카오톡;)\n 페이스북;)\n 트위터;)\n 밴드;)\n\n# ※ 본문 글자 크기 조정\n\n 더 작게\n 작게\n 보통\n 크게\n 더 크게\n\n# ※ 번역할 언어 선택\n\n[뉴스핌=문형민 기자] 삼성경제연구소가 글로벌 경제의 마지막 신흥시장으로 주목받고 있는 아프리카 진출의 7대 전략을 제시했다.\n\n경쟁이 치열한 아프리카에 진출하기 위해서는 아프리카의 다양성과 특수성에 대한 이해하고, 인적 네트워크를 보유한 경제·사회·문화 전문가를 육성해야한다는 조언이다.\n\n연구소는 19일 '21세기의 新대륙, 아프리카를 잡아라'라는 보고서를 통해 \"2001년부터 작년까지 10년간 아프리카의 연평균 경제성장률은 5.0%로 중남미 3.7% 보다 높았다\"며 \"1인당 GDP 역시 2000년 750달러에서 작년 1700달러로 급신장했다\"고 밝혔다.\n\n아프리카가 글로벌 경제에서 장기간 소외됐던 '정체의 대륙'에서 2000년대 이후 '기회의 땅",
+        "published": "날짜 미상",
+        "domain": "newspim.com"
+      },
+      {
         "title": "[PDF] CATL, 차세대 ESS 배터리 대규모 양산 단계 진입 - 하나증권",
         "url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1285227&attachFileSeq=1&bbsId=&dbType=&bbsCd=1260",
         "content": "2026-03-24 샤오펑(9868.HK) (9.2) - (4.3) 93.4 44.2 적지 흑자 (79.8) 적지 2026-03-18 CATL(300750.CH) 2.7 25.2 23.5 16.4 24.6 36.0 25.6 35.9 35.9 2026-03-16 양광전력(300274.CH) (2.9) 25.8 31.7 22.3 17.9 33.6 16.3 36.4 36.4 2026-04-27 북방화창(002371.CH) 5.1 45.2 19.6 31.2 26.8 26.3 34.5 26.6 26.6 2026-04-27 SMIC(0981.HK) 1.5 104.8 3.3 15.3 19.3 42.2 46.2 65.4 65.4 2026-02-11 해광정보(688041.CH) (0.6) 159.8 14.0 57.7 51.2 74.7 58.5 62.2 62.2 2026-03-02 통푸마이크로(002156.CH) 0.4 45.9 7.8 14.5 14.2 78.0 28.3 88.9 88.9 2026-0",
         "published": "날짜 미상",
         "domain": "hanaw.com"
+      },
+      {
+        "title": "中 CATL '기술독점 대신 공유'…신흥국 협업으로 탈탄소 시장 선점",
+        "url": "http://www.impacton.net/news/articleView.html?idxno=15533",
+        "content": "전기차를 넘어선 종합 에너지 솔루션도 눈에 띈다. CATL은 '제로카본 테크'라는 이름으로, 마이크로그리드 구축이 가능한 독립형 에너지 저장 시스템을 선보였으며, UAE 마스다르(Masdar)의 친환경 데이터센터에 19GWh 규모 배터리 저장 장치를 공급하기로 했다. 산업 부문 탈탄소화와 신에너지 산업화를 통해 경제성장 동력도 창출하겠다는 구상이다.\n\n순환경제 부문에서도 CATL은 적극적이다. 2025년까지 배터리 교환 스테이션 '초코 스왑' 1000곳을 설치하고, 중장기적으로 1만곳까지 확대할 계획이다. 지난해에는 13만 톤 규모의 폐배터리를 재활용하는 성과도 거뒀다.\n\n연구개발(R&D)에도 대규모 투자가 이뤄진다. 현재 보유한 특허만 4만3000건 이상이며, 매년 200억위안(약 3조8114억원) 규모를 R&D에 투입하고 있다. 헝가리 유럽 최대 배터리 기지, 스텔란티스와의 스페인 공장 건설 등 글로벌 생산 네트워크도 확장 중이다.\n\nCATL, 기술공유를 전제로 신흥국과 공동 성",
+        "published": "날짜 미상",
+        "domain": "impacton.net"
       },
       {
         "title": "中 CATL, 전기차 배터리서 ESS로 무게 이동 - 글로벌이코노믹",
@@ -61,11 +75,67 @@
         "domain": "g-enews.com"
       },
       {
+        "title": "아프리카 시장 진출 전략: 한국이 놓친 블루오션, 그리고 중국의 영향력 ...",
+        "url": "https://m.blog.naver.com/red2x2/224033606364",
+        "content": "'땡큐 트럼프'…中, 아프리카 무역 흑자 83조원 '관세 역풍'\n\n더 나아가 중국은 “관세 제로” 정책을 내세우며, 아프리카 국가들에 무제한 개방을 약속하며 경제적 지배력을 강화하고 있다. 여기에 군사 협력과 정치 교류까지 더해지면서 아프리카는 사실상 중국의 전략적 확장 무대가 되고 있다. 미국의 원조 공백(AGOA 종료)으로 중국의 영향력은 더욱 높아질 것으로 전망된다.\n\n美 아프리카지원법 25년만에 종료…연장 불투명\n\n이러한 움직임은 단순한 경제 활동을 넘어 아프리카 대륙의 안보 질서와 정치 지형까지 바꾸고 있다는 점에서 큰 의미를 가진다.\n\n\n\n> 한국의 선택, 수출을 넘어 현지화로!\n>\n> 이설아빠\n\n한국의 대(對) 아프리카 수출은 구조적으로도 취약하다. 선박 수출에 의존하는 통계 왜곡을 제외하면 자동차, 건설기계, 의약품 등 일부 품목에 국한되며, 교역 대상국도 남아공·나이지리아·이집트 등 소수에 집중되어 있다. 무엇보다 인프라, 에너지, 디지털 분야에서 한국의 기술적 강점",
+        "published": "날짜 미상",
+        "domain": "m.blog.naver.com"
+      },
+      {
+        "title": "중국의 신흥시장 진출과 한국의 대응방안: 동남아, 중남미, 아프리카를 ...",
+        "url": "https://www.kiep.go.kr/gallery.es?mid=a10101010000&bid=0001&list_no=1890&act=view",
+        "content": "Another strategy could be to increase MSs in mature markets within each region, namely, Vietnam, Indonesia, and Thailand in ASEAN, Brazil, Mexico, and Chile in Latin America, and South Africa, Nigeria, and Ghana in Africa. Marketing expertise in these countries could be easily expanded to other countries within the region because it is possible that they will share a similar growth pattern and observe similar consumer behavior. [...] RCA가 열위에 처한 품목 중 중국보다 높은 시장점유율을 가지는 품목은 거의 없었다. 본질적인 경쟁력 없이 현지",
+        "published": "날짜 미상",
+        "domain": "kiep.go.kr"
+      },
+      {
+        "title": "해외플랜트 아프리카 신흥시장 진출 총력 - 투데이에너지",
+        "url": "https://www.todayenergy.kr/news/articleView.html?idxno=55605",
+        "content": "이번 행사는 플랜트를 통해 국가간 협력과 공동발전을 논의하고 국내 플랜트업계의 해외플랜트 수주를 지원하기 위해 지난 2003년부터 매년 한국에서 개최해 왔으며 그동안 주요 발주처 CEO 등 200여명을 초청, 초청발주처로부터 73개 프로젝트(197억달러)를 수주하는 등 플랜트산업 협력방안을 논의하는 국제행사로 자리매김했다.\n\n특히 이번 포럼에서는 수출전략산업으로 부상한 해외플랜트의 지속적인 성장을 위해 주력시장인 중동 이외에 중남미, 아프리카, 아시아 등 신흥시장의 발주처를 주요 타깃으로 선정해 발주가 예정돼 있는 70억달러 상당의 프로젝트에 대한 협력방안을 논의하고 현장방문 등 전략적인 수주지원 활동을 전개했다.\n\n안현호 지식경제부 차관은 축사를 통해 플랜트산업이 기술과 지식서비스가 결합된 ‘융합산업’으로 경제 발전에 주도적인 역할을 할 수 있다는 점을 설명하고 한국은 뛰어난 기술력과 가격경쟁력, 프로젝트 수행의 노하우를 가지고 있어 발주국의 산업구조 고도화에 기여할 수 있는 동반",
+        "published": "날짜 미상",
+        "domain": "todayenergy.kr"
+      },
+      {
+        "title": "신흥시장 주요 트렌드 및 진출방안 | 국내연구자료 - KDI 경제교육",
+        "url": "https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000121188",
+        "content": "신흥시장 주요 트렌드 및 진출방안\n\n대한무역투자진흥공사 \n\n2013.10.28\n\n원문보기\n\n대한무역투자진흥공사가 2013년 9월 30일 개최한 '신흥시장 주요 트렌드 및 진출방안'제하 설명회에서 발표된 주제자료들을 수록하였다.   \n   \n<목차>   \n   \nㅇ 신흥시장 진출 통상협력 정책방향 / 윤상흠 통상협력총괄과장(산업통상자원부)   \n   \nㅇ 신흥국의 산업동향과 진출전략 / 조철 국제산업협력실장(KIET)   \n   \nㅇ 신흥국의 부상과 우리기업의 진출전략 / 이장규 신흥지역연구센터 소장(KIEP)   \n   \nㅇ 미국의 양적완화 축소와 신흥국 리스크 / 박현수 수석연구원(삼성경제연구소)   \n   \nㅇ 일본의 신흥국 진출전략 및 시사점 / 무라타 요시오 집행임원(노무라 종합연구소)   \n   \nㅇ 중국의 신흥국 진출전략 및 시사점 / 리안샨 교수 아프리카센터 센터장 (베이징대학교)   \n   \nㅇ 마루베니의 Volume Zone 전략 및 사례 / 이노모토 유우키 부소장(",
+        "published": "날짜 미상",
+        "domain": "eiec.kdi.re.kr"
+      },
+      {
+        "title": "中 CATL, 배터리 넘어 'K전력'까지 위협 - 문화일보",
+        "url": "https://www.munhwa.com/article/11590789",
+        "content": "22일 메이르징지(每日經濟)신문 등 중국 현지 경제 매체에 따르면, CATL은 최근 자사 연계 투자펀드 PJ밀레니엄을 활용해 64억 위안(약 1조4190억 원)을 들여 중국 대표 DC 기업 VNET 지분 인수에 나섰다. VNET은 1996년 설립된 중국 최초의 미국 증시 상장 DC 기업으로 자국 전역 30여 개 도시에서 DC를 운영하며 수년간 고성장세를 이어가고 있다. 올해 4분기 중 양 사간 거래가 완료되면 CATL은 38.1% 지분을 확보해 최대주주로 등극하게 된다.\n\n현지 매체들은 CATL이 자사로 편입될 VNET을 통해 중국을 비롯해 유럽 및 신흥국을 중심으로 AIDC를 전방위로 확장하고, 여기에 들어갈 ESS용 배터리를 독점할 것으로 전망하고 있다. 시장조사업체 SNE리서치에 따르면 CATL은 지난해 글로벌 ESS용 배터리 시장 점유율 1위로 약 30%를 장악하고 있다.\n\n배터리 업계 한 관계자는 “중국은 정부 주도의 전력망과 재생에너지 연계 ESS 프로젝트를 본격적으로 추",
+        "published": "날짜 미상",
+        "domain": "munhwa.com"
+      },
+      {
+        "title": "불확실성의 시대, KOTRA 해외지역본부장이 직접 전달하는 ... - YouTube",
+        "url": "https://www.youtube.com/watch?v=cu0kA7LlwvQ",
+        "content": "있습니다. 통신업체가 자기 스스의 모델로 그 인구를 어 남화공 인구를 추정을 했는데요. 지금 남화공 정부 통계상으로는 공식 통계상으로는 6,310만 명이 공식 통계입니다. 근데이 파이버티 아 파이버 그 타임이라는 통신 회사가 본인들이 갖고 있는 데이터하고 보통 통신 회사면 디지털 퍼프니티라 디지털 흔적이 남거든요. 그거하고 항공 데이터 이미지 매칭을 해서 추정한 수치는 무려 9,500만 명입니다.이 대부분의 인구가 도시와 도시에 몰려 있습니다. 그러니까 인프라 자체가 감당을 못하는 상태에 있고요. 여러분들이 사업을 하실 때 아프리카는 어 인건비가 싸니까 사람을 많이 고용해서 사회 공원도 하고 그다음에 이걸 통해서 비즈니스를 하겠다고 생각을 많이 하시는데 어 그리고 또 하나는 아프리카는 적정 기술을 써야 되는 거 아니냐는 이미지가 많은데요. 현실은 그렇지가 않습니다. 도시와 인구 그가 너무 많이 증가해 갖고 여러분들이 AI나 신기수를 쓰지 않으면 운영 효율화를 절대 달성할 수 없습니다",
+        "published": "날짜 미상",
+        "domain": "youtube.com"
+      },
+      {
+        "title": "\"중국 CATL 미국 진출 확대\" JP모간 전망, ESS 배터리 시장 지배력 키워",
+        "url": "https://www.businesspost.co.kr/BP?command=article_view&num=432438",
+        "content": "[비즈니스포스트] 중국 CATL이 에너지저장장치(ESS)용 배터리 사업을 앞세워 미국 시장 진출을 확대할 수 있다는 증권사 전망이 나왔다.   \n   \n CATL은 전기차 배터리 중심 사업 구조에서 벗어나 ESS와 신규 산업용 배터리로 영역을 넓히며 글로벌 영향력을 키우고 있다.   \n   \n 9일 닛케이아시아는 JP모간 보고서를 인용해 “CATL이 미국 ESS 시장에서 사업 영역을 확장할 가능성이 있다”고 보도했다.   \n   \n JP모간은 완성차기업 포드가 CATL로부터 배터리 기술 라이선스를 받아 미국에서 ESS 배터리 생산을 추진한다는 근거를 제시했다.   \n   \n 포드는 지난해 12월16일 전기차 사업 부진의 타개책으로 ESS용 배터리 사업까지 손댈 것이라고 발표했는데 기술을 제공하는 CATL의 미국 진출도 확대할 수 있다는 것이다.   \n   \n 닛케이아시아는 “트럼프 정부의 대중 강경 무역 정책에도 불구하고 급성장하는 ESS 분야에서 미국은 CATL의 핵심 시장”이라고",
+        "published": "날짜 미상",
+        "domain": "businesspost.co.kr"
+      },
+      {
         "title": "CATL \"2030년 ESS 부문, 글로벌 매출 절반 차지\" 전망 - 더구루",
         "url": "https://www.theguru.co.kr/mobile/article.html?no=102667",
         "content": "## 많이 본 기사\n\n더보기\n\n 1 반도체 핵심 공정 소재 '육불화텅스텐' 부족 현상 심화…후성 등 반사이익 기대\n 2 '초호황기' 반도체 장비 지출액 사상 최고치…AI 인프라 투자 급증\n [3 [단독] '실전 검증 완료' 인도네시아, LIG D&A 천궁-II 도입 추진…구매 의향서 제출](/mobile/article.html?no=102776)\n 4 TKMS, 캐나다 잠수함 최종 사업자 결정 앞두고 대규모 채용 돌입\n 5 폴란드 국방부 \"K2 전차 1000대 구매\" 재확인\n 6 英 핵잠수함 5척 동시 셧다운 '수중전력 붕괴'…캐나다 잠수함 수주전 변수되나\n 7 이라크, 한국에 전력 인프라 재건사업 참여 공식 요청…효성중공업·LS전선 등 수혜 기대\n [8 [단독] 포스코인터, 몽골 '자원 컨트롤타워'와 희토류 동맹…'탈중국' 공급망 다변화 속도](/mobile/article.html?no=103023)\n 9 K2전차 폴란드 생산 부마르 와벤디 공장 '확정' …현대로템 실사 반영\n [",
         "published": "날짜 미상",
         "domain": "theguru.co.kr"
+      },
+      {
+        "title": "세계 1위 CATL도 녹록치 않은 '캐즘'...유럽 공세 강화 - 디일렉",
+        "url": "https://www.thelec.kr/news/articleView.html?idxno=32527",
+        "content": "CATL은 해외 시장 확대를 위한 자금 조달을 모색 중이다. 지난 12월 글로벌화 전략 강화를 위해 홍콩증권거래소에 상장할 것이라고 밝혔다. 이미 선전증시에 상장했기 때문에 2차 상장하는 것이다. 블룸버그에 따르면, 홍콩 상장을 통해 50억달러(약 7조1900억원)를 조달할 계획이다.\n\nCATL이 해외 시장 진출에 사활을 걸고 있는 이유는 무엇일까? 바로 창립자인 쩡위췬(Robin Zeng) 회장이 직접 지시했기 때문이다. 그는 지난해 5월 직원들에게 해외 진출에 힘써달라는 문서를 배포한 것으로 알려졌다. \"해외로 나가는 사람이 영웅이다. 해외로 나아가라\"는 조직 슬로건을 내세운 것으로 전해졌다.\n\n김은규 기자의 프로필 이미지\n\n## 센시리온, 일본에서 자동차용 정밀 센서 기술 소개\n\n센시리온, 일본에서 자동차용 정밀 센서 기술 소개\n\n## [ASSIC2026] 큐알티, 15kg대 '이동형 SEE 장비' 상용화\n\n![[ASSIC2026] 큐알티, 15kg대 '이동형 SEE 장비' 상",
+        "published": "날짜 미상",
+        "domain": "thelec.kr"
       },
       {
         "title": "CATL - Wikipedia",
@@ -75,98 +145,28 @@
         "domain": "en.wikipedia.org"
       },
       {
-        "title": "[AI 에너지 브리프] 성조기에 쫓긴 오성홍기, 미국 ESS 시장의 '역설'",
-        "url": "https://askinno.com/archives/158472",
-        "content": "③ 빅테크와의 협업 가능성: “ESS는 단순 구매가 아니라 인프라”\n\n한편 빅테크 기업들이 ESS를 단순 구매재가 아니라 핵심 인프라로 인식하면서, 공급망을 직접 설계·관리하려는 움직임도 거론된다. 현재까지 빅테크 기업들이 ESS를 직접 제조하거나 완성형 공급망을 구축하려는 움직임은 제한적이다. 대신 투자, 전략적 파트너십, 특정 밸류체인 통제를 통해 간접적인 영향력을 확보하는 방식이 주를 이룬다. 대표적인 사례가 Google과 NVIDIA의 Redwood Materials 투자다. 이는 반도체 산업에서 빅테크가 팹(fab)을 직접 운영하기보다는, 파운드리·설계·패키징 일부에 영향력을 행사해 온 전략과 유사한 접근으로 보는 견해가 있다. CATL은 미국 완성차 업체들과 기술 라이선스 기반 협력 모델을 공개적으로 언급해 왔고, 이는 ESS 영역에서도 적용 가능한 구조로 평가된다. 빅테크 입장에서도 중국 업체의 기술력 활용, 직접 수입·지분 투자 회피, 현지 생산·운영과의 분리 등 조건",
-        "published": "날짜 미상",
-        "domain": "askinno.com"
-      },
-      {
         "title": "Residential ESS with CATL LFP Battery Cells: Safe, Efficient ... - CNTE",
         "url": "https://en.cntepower.com/lfp-battery-cells",
-        "content": "### High Flexibility\n\nThe modular design of CNTE’s ESS allows for multiple units to be connected in parallel, expanding energy storage capacity as needed. This flexibility ensures uninterrupted power supply, seamless on/off-grid switching, and adaptation to various household energy demands. Whether for residential use or small business applications, the system provides a scalable energy solution.\n\n## Market Impact & Industry Adoption\n\n### Global Integration of CATL-Powered ESS [...] ### CNTE Res",
+        "content": "### High Flexibility\n\nThe modular design of CNTE’s ESS allows for multiple units to be connected in parallel, expanding energy storage capacity as needed. This flexibility ensures uninterrupted power supply, seamless on/off-grid switching, and adaptation to various household energy demands. Whether for residential use or small business applications, the system provides a scalable energy solution.\n\n## Market Impact & Industry Adoption\n\n### Global Integration of CATL-Powered ESS",
         "published": "날짜 미상",
         "domain": "en.cntepower.com"
-      },
-      {
-        "title": "CATL is pushing the limits of energy storage. Here's what's new.",
-        "url": "https://christopherchico.substack.com/p/catl-is-pushing-the-limits-of-energy",
-        "content": "Catl Introduced Its First 9 Mwh Energy Storage System At Ees Europe 2025 2\n\n249KB ∙ PDF file\n\nDownload\n\nDownload\n\nOne thing still raises questions: safety. Stacking two containers can be risky. Some authorities, especially European ones, might not approve. But I’m not worried, as CATL, a strong leader, has probably thought it through. In 2024, CATL shipped 110 GWh of batteries for the ESS market. CATL is by far the undisputed battery leader in both EV and ESS markets, reaching around 38 % combin",
-        "published": "날짜 미상",
-        "domain": "christopherchico.substack.com"
-      },
-      {
-        "title": "CATL",
-        "url": "https://www.catl.com",
-        "content": "## 解决方案\n\n## 前往服务中心\n\n## 研发\n\n## 品牌\n\n## 关于我们\n\n#### 首页\n\n#### 解决方案\n\n##### 乘用车\n\n##### 商业应用\n\n##### 储能系统\n\n##### 循环回收\n\n#### 研发\n\n##### 创新理念\n\n##### 前沿技术\n\n#### 新闻\n\n#### 品牌\n\n##### 技术品牌\n\n##### 服务品牌\n\n#### 制造\n\n#### 服务\n\n#### 投资者关系\n\n#### 关于我们\n\n##### 企业文化\n\n##### 企业战略\n\n##### 企业简介\n\n##### 可持续发展\n\n##### 零碳科普\n\n##### 加入我们\n\n#### 联系我们\n\n#### 联系我们\n\n#### 线上商城\n\n#### B2B隐私协议\n\n#### 供应商入口\n\n#### 配套车型查询\n\n### 新闻\n\n### 技术愿景\n\n以革命性电池技术创新，减少人类对化石能源的依赖，实现全球可持续发展的共同愿景\n\n### 技术愿景\n\n以革命性电池技术创新，减少人类对化石能源的依赖，实现全球可持续发展的共同愿景\n\n### 解决方案（隐藏）\n\n#### 乘用",
-        "published": "날짜 미상",
-        "domain": "catl.com"
-      },
-      {
-        "title": "Energy Storage System - CATL",
-        "url": "https://www.catl.com/en/ess",
-        "content": "### Energy Storage on Power Consumption\n\nCATL's energy storage systems provide users with a  peak-valley electricity price arbitrage mode and stable power quality management. CATL's electrochemical energy storage products have been successfully applied in large-scale industrial, commercial and residential areas, and been expanded to emerging scenarios such as base stations, UPS backup power, off-grid and island/isolate systems, intelligent charging stations for optical storage charging and testi",
-        "published": "날짜 미상",
-        "domain": "catl.com"
-      },
-      {
-        "title": "CATL Launches World's First 9MWh Ultra-Large Capacity TENER ...",
-        "url": "https://www.catl.com/en/news/6410.html",
-        "content": "Not Just Batteries, But an Energy Vision\n\nBy the end of November 2024, CATL's ESS products were deployed in over 1,700 projects across the world, spanning all climate zones and operating environments. In 2023, recognizing the evolving and changing needs of the customers, CATL unveiled TENER, a twenty-foot equivalent unit (TEU) containerized energy storage system with 5-year zero degradation technology, and TENER FLEX, a rack energy storage system for flexible deployment. [...] cfd198d5af375250c2",
-        "published": "날짜 미상",
-        "domain": "catl.com"
-      },
-      {
-        "title": "[PDF] 중국 기업 해외 진출 동향 - 한국무역협회",
-        "url": "https://kita.net/board/overseasMarket/newtriFileDownload.do;JSESSIONID_KITA=01C32E74DED46FFC0D40148B37798032.Hyper?no=22A7CF85A47624435FB14DABB3EF392E&seq=1",
-        "content": "iTIjԫRv!jԫRvH!jҨvH!jԫRv!jԫRvH!jҨvH!jԫRvHڅ4RvH!jԫ]H!jԫRvHڅ4RvH!jԫ]H!jԫRvHڝҩvH!jԫRvHڅ4RvH!jԫ]H!jԫRvHڅ4RvH!jԫ]H!jԫRv^vNv!jԫRvH!jҨvH!jԫRv!jԫRvH!jҨv[W۝jԫRv!jԫRvH!jҨvH!jԫRv!jԫRvH!jҨvH!jԫRvHڅ4RvH!jԫ]H!jԫRvHڅ4RvH!jԫ]H!jԫRvHڝҩvH!jԫRvHڅ4RvH!jԫ]H!jԫRvHڅ4RvH!jԫ]H!jԫRv^vNv!jԫRvH!jҨvH!jԫRv!jԫRvH!jҨvjévH!jҨvH!jԫRv!jԫRvH!jҨvH!jԫRv!jԫRvH!jԫ]H!jԫRvHڅ4RvH!jԫ]H!jԫRvHڅ4RvH!jԫ)jԫRvH!jԫ]H!jԫRvHڅ4RvH!jԫ]H!jԫRvHڅ4RvH!jjjҨvH!jԫRv!jԫRvH!jҨvH!jԫRv!jW [...] ԈA5b ԈP#B5b`P'B5b ԈP#ub ԈP#B5b`P'B5b ԈP#ub ԈP#B5bI5b ԈP#B5b`P'B5b Ԉ",
-        "published": "날짜 미상",
-        "domain": "kita.net"
-      },
-      {
-        "title": "CATL: 36GWh BESS shipments in Q3, sees capacity constraints",
-        "url": "https://www.energy-storage.news/catls-q3-ess-battery-shipments-36gwh-market-share-capacity-constraints",
-        "content": "Unlike CATL’s H1 report, its Q3 report does not provide a detail revenue breakdown between EV and energy storage battery sales, nor for international and domestic sales. It only provided the approximate proportions of shipments for Q3 2025.\n\nIts international sales have in the recent been 30-35% of the total, in both FY 2024 and H1 2025. With higher average selling prices, 20% international shipments could still translate to 30% of revenues.\n\n## Financials\n\nIn the first three quarters of this ye",
-        "published": "날짜 미상",
-        "domain": "energy-storage.news"
-      },
-      {
-        "title": "CATL ESS Introduction",
-        "url": "https://www.youtube.com/watch?v=6aPoWUnXn3M",
-        "content": "### Transcript:\nenergy \n is \n balance \n between \n struck \n renewable \n solution \n however \n make \n with \n company \n catl \n best \n reliable \n make \n resolution \n has \n we \n storage \n in \n project \n our \n efficiently \n safety \n most \n of \n it \n process \n lfp \n temperature \n is \n emit \n oxygen \n prismatic \n with \n for \n system \n electromagnetic \n is \n reliable \n customers \n catl \n rate \n [Music] \n we \n effect \n fame \n thermal \n catl \n air \n to \n is \n efficiency \n [Music] \n to \n produces \n intellige",
-        "published": "날짜 미상",
-        "domain": "youtube.com"
-      },
-      {
-        "title": "CATL BESS Charging Station",
-        "url": "https://www.catl.com/en/othercase/494.html",
-        "content": "## Solution\n\n## Service Center\n\n## R&D\n\n## Brands\n\n## About Us\n\n#### Home\n\n#### Solution\n\n##### Passenger Vehicles\n\n##### Commercial Application\n\n##### Energy Storage System\n\n##### Battery Recycling\n\n#### R&D\n\n##### Innovative Concept\n\n##### Innovative Technology\n\n#### News\n\n#### Brands\n\n##### Technology Brand\n\n##### Service Brand\n\n#### Smart Manufacturing\n\n#### Services\n\n#### Investor Relation\n\n#### About Us\n\n##### Corporate Culture\n\n##### Corporate Strategies\n\n##### Company Profile\n\n##### Sust",
-        "published": "날짜 미상",
-        "domain": "catl.com"
-      },
-      {
-        "title": "CATL Just Invented a WHOLE NEW Class of Battery - Game Changer?",
-        "url": "https://www.youtube.com/watch?v=23rNScVO0Vc",
-        "content": "Chapters\n0:00 The Qilin Condensed Electrolyte Battery\n0:53 What Is \"Condensed State\"?\n2:03 350 Wh/kg — A New World Record\n2:27 Why Volumetric Density Reshapes EV Design\n3:58 Inside the High-Nickel Cathode\n4:42 The Silicon-Carbon Anode Breakthrough\n5:38 Why the Condensed Electrolyte Ties It All Together\n6:29 Built-In Safety: The Composite Current Collector\n6:49 Aerospace-Grade Titanium Enclosure\n8:21 Why CATL's Manufacturing Scale Matters\n9:25 Naxtra: The Sodium-Ion Game Changer\n9:54 Demo: Sodium",
-        "published": "날짜 미상",
-        "domain": "youtube.com"
       }
     ],
     "three_persp": {
       "긍정": [
         {
-          "title": "[Monthly퉄] K-배터리 점유율 뺏겼다? CATL의 이차전지 싹쓸이",
-          "url": "https://www.youtube.com/watch?v=V4jXkRSoGfk",
-          "content": "그런 흐름을 보여줬습니다. 주요 지표들을 한번 다시 한번 살펴볼까요? 그러면 2025년 연간으로 봤을 때 OP 마지는 21.1%를 1%를 기록했습니다. 전년 대비해서 3.4% 포인트가 개선이 된 거고요. 4분기의 배터리 출화량은 226GW가 출화되었습니다. 전년 대비 55% 성장을 했습니다. 아까 말씀드렸던 매출액이 37% 성장을 했는데 출화량은 55% 성장을 더 했다. 결국에는 단가는 그거보다는 낮게 팔렸다라고 볼 수 있는데요. 그 과정에서도 이익률을 더 올렸다라는게 굉장히 중요한 포인트입니다. 그만큼 비용을 더 효율화 했다라는 거기 때문에 그런 측면에서 1등 기업으로서의 지위를 더 늘려 나가고 있다라고 보시면 좋을 것 같고요. 전기차 배터리는 전년 대비 50%, ESS는 전년 대비해서 37% 성장을 하면서 잘 성장을 하고 있는 상황입니다. 물론 CATL이 3월 달에 퍼포먼스 굉장히 좋았지만 그 전월까지 조금 부진한 구간들이 있었던게 성장률이 사실 다른 2등 이하 기업들의 성장률보",
-          "published": "날짜 미상",
-          "domain": "youtube.com"
-        },
-        {
-          "title": "CATL \"2030년 ESS 부문, 글로벌 매출 절반 차지\" 전망",
+          "title": "CATL \"2030년 ESS 부문, 글로벌 매출 절반 차지\" 전망 - Daum",
           "url": "https://v.daum.net/v/20260605111402931?f=p",
           "content": "## 경제\n\n### CATL \"2030년 ESS 부문, 글로벌 매출 절반 차지\" 전망\n\n홍성일 기자 2026. 6. 5. 11:14\n\n음성재생 설정 이동 통신망에서 음성 재생 시 데이터 요금이 발생할 수 있습니다. 글자 수 10,000자 초과 시 일부만 음성으로 제공합니다.\n\n닫기\n\n번역beta Translated by kaka i\n\n닫기\n\n번역중 Now in translation\n\n글자크기 설정 파란원을 좌우로 움직이시면 글자크기가 변경 됩니다.\n\n가\n\n가\n\n이 글자크기로 변경됩니다.\n\n(예시) 가장 빠른 뉴스가 있고 다양한 정보, 쌍방향 소통이 숨쉬는 다음뉴스를 만나보세요. 다음뉴스는 국내외 주요이슈와 실시간 속보, 문화생활 및 다양한 분야의 뉴스를 입체적으로 전달하고 있습니다.\n\n닫기\n\n현재 25% 수준…5년만에 23% 포인트 상숭\n\n(사진=CATL)\n\n \n\n[더구루=홍성일 기자] 세계 1위 배터리 제조사인 중국 닝더스다이(宁德时代·CATL)가 향후 에너지저장장치(ESS) 부문",
           "published": "날짜 미상",
           "domain": "v.daum.net"
+        },
+        {
+          "title": "[Monthly] K-Battery Lost Market Share? CATL Sweeps Secondary ...",
+          "url": "https://www.youtube.com/watch?v=V4jXkRSoGfk",
+          "content": "그런 흐름을 보여줬습니다. 주요 지표들을 한번 다시 한번 살펴볼까요? 그러면 2025년 연간으로 봤을 때 OP 마지는 21.1%를 1%를 기록했습니다. 전년 대비해서 3.4% 포인트가 개선이 된 거고요. 4분기의 배터리 출화량은 226GW가 출화되었습니다. 전년 대비 55% 성장을 했습니다. 아까 말씀드렸던 매출액이 37% 성장을 했는데 출화량은 55% 성장을 더 했다. 결국에는 단가는 그거보다는 낮게 팔렸다라고 볼 수 있는데요. 그 과정에서도 이익률을 더 올렸다라는게 굉장히 중요한 포인트입니다. 그만큼 비용을 더 효율화 했다라는 거기 때문에 그런 측면에서 1등 기업으로서의 지위를 더 늘려 나가고 있다라고 보시면 좋을 것 같고요. 전기차 배터리는 전년 대비 50%, ESS는 전년 대비해서 37% 성장을 하면서 잘 성장을 하고 있는 상황입니다. 물론 CATL이 3월 달에 퍼포먼스 굉장히 좋았지만 그 전월까지 조금 부진한 구간들이 있었던게 성장률이 사실 다른 2등 이하 기업들의 성장률보",
+          "published": "날짜 미상",
+          "domain": "youtube.com"
         },
         {
           "title": "CATL \"2030년 ESS 부문, 글로벌 매출 절반 차지\" 전망 - 더구루",
@@ -192,32 +192,18 @@
       ],
       "비판": [
         {
-          "title": "CATL \"2030년 ESS 부문, 글로벌 매출 절반 차지\" 전망",
-          "url": "https://v.daum.net/v/20260605111402931",
-          "content": "CATL은 ESS 부문 확대를 위해 독일, 헝가리 등에서 공장을 가동하고 있으며, 지난달에는 세계 최대 규모 ESS 원스톱 테스트·실증 플랫폼인 '샤먼 에너지 저장 실증 연구소(Xiamen Energy Storage Validation Research Institute, ESVL)'의 가동을 시작했다. ESVL은 10헥타르(3만250평) 부지 위에 건설됐으며, 비용은 총 30억 위안(약 6630억원)이 투입됐다. CATL은 ESVL에서 발전소급 ESS 시스템의 테스트를 진행, 안전성을 높이고 실제 운영과정에서 발생할 수 있는 문제를 해결한다는 계획이다.<본보 2026년 5월 29일 참고 CATL, '세계 최대 규모' ESS 테스트베드 가동…실증 역량 강화>\n\n탕 총괄은 ESS 부문 성장에 있어 가장 큰 리스크는 지정학적 리스크로 인한 원자재 가격 상승이 될 것이라고 분석했다. 탕 총괄은 \"미국·이스라엘과 이란 간의 전쟁 여파로 리튬, 구리, 알루미늄 등 원자재 가격이 상승해 걸림돌이",
+          "title": "[ASIA BIZ] CATL, 전기차 배터리 넘어 '에너지 공룡'으로 진화 중",
+          "url": "https://www.ajunews.com/view/20260418202931513",
+          "content": "글로벌 사업 확장...美 국방부 '블랙리스트' 발목\n\n  \n CATL의 해외 매출 비중은 30%를 넘어서는 등 글로벌 사업도 빠르게 확대되고 있다. 이미 본토 증시에 상장된 CATL이 지난해 홍콩 증시에 이중 상장한 것도 해외 투자자 접근성을 높이고 글로벌 확장의 기반을 마련하기 위한 조치다. 실제 홍콩 시장에서 CATL 주가는 본토 대비 50% 이상 프리미엄이 붙으며 해외 투자자들의 높은 기대를 반영하고 있다.  \n   \n CATL은 이미 독일에서 배터리 공장을 가동 중이며, 약 74억 유로(약 12조7700억원)를 투자한 헝가리 공장도 올해 상반기 가동을 앞두고 있다. 또 글로벌 완성차 기업 스텔란티스와 합작을 추진해 스페인 공장 건설에도 돌입했다.  \n   \n 이처럼 유럽에서는 현지 생산 공장 건설을 활발하게 하는 반면, 미국 시장에서는 상대적으로 신중한 행보를 보이고 있다. 2023년부터 미국 포드사에 배터리 기술만 빌려주는 방식으로 협력하고 있는 게 전부다.  \n   \n 이",
           "published": "날짜 미상",
-          "domain": "v.daum.net"
+          "domain": "ajunews.com"
         },
         {
-          "title": "CATL \"2030년 ESS 부문, 글로벌 매출 절반 차지\" 전망 - Daum",
-          "url": "https://v.daum.net/v/20260605111402931?f=p",
-          "content": "CATL은 ESS 부문 확대를 위해 독일, 헝가리 등에서 공장을 가동하고 있으며, 지난달에는 세계 최대 규모 ESS 원스톱 테스트·실증 플랫폼인 '샤먼 에너지 저장 실증 연구소(Xiamen Energy Storage Validation Research Institute, ESVL)'의 가동을 시작했다. ESVL은 10헥타르(3만250평) 부지 위에 건설됐으며, 비용은 총 30억 위안(약 6630억원)이 투입됐다. CATL은 ESVL에서 발전소급 ESS 시스템의 테스트를 진행, 안전성을 높이고 실제 운영과정에서 발생할 수 있는 문제를 해결한다는 계획이다.<본보 2026년 5월 29일 참고 CATL, '세계 최대 규모' ESS 테스트베드 가동…실증 역량 강화>\n\n탕 총괄은 ESS 부문 성장에 있어 가장 큰 리스크는 지정학적 리스크로 인한 원자재 가격 상승이 될 것이라고 분석했다. 탕 총괄은 \"미국·이스라엘과 이란 간의 전쟁 여파로 리튬, 구리, 알루미늄 등 원자재 가격이 상승해 걸림돌이",
+          "title": "[AI 에너지 브리프] 성조기에 쫓긴 오성홍기, 미국 ESS 시장의 '역설'",
+          "url": "https://askinno.com/archives/158472",
+          "content": "③ 빅테크와의 협업 가능성: “ESS는 단순 구매가 아니라 인프라”\n\n한편 빅테크 기업들이 ESS를 단순 구매재가 아니라 핵심 인프라로 인식하면서, 공급망을 직접 설계·관리하려는 움직임도 거론된다. 현재까지 빅테크 기업들이 ESS를 직접 제조하거나 완성형 공급망을 구축하려는 움직임은 제한적이다. 대신 투자, 전략적 파트너십, 특정 밸류체인 통제를 통해 간접적인 영향력을 확보하는 방식이 주를 이룬다. 대표적인 사례가 Google과 NVIDIA의 Redwood Materials 투자다. 이는 반도체 산업에서 빅테크가 팹(fab)을 직접 운영하기보다는, 파운드리·설계·패키징 일부에 영향력을 행사해 온 전략과 유사한 접근으로 보는 견해가 있다. CATL은 미국 완성차 업체들과 기술 라이선스 기반 협력 모델을 공개적으로 언급해 왔고, 이는 ESS 영역에서도 적용 가능한 구조로 평가된다. 빅테크 입장에서도 중국 업체의 기술력 활용, 직접 수입·지분 투자 회피, 현지 생산·운영과의 분리 등 조건",
           "published": "날짜 미상",
-          "domain": "v.daum.net"
-        },
-        {
-          "title": "CSF 중국전문가포럼",
-          "url": "https://csf.kiep.go.kr/issueInfoView.es?article_id=59671&mid=a20200000000&board_id=2",
-          "content": "반복영역 건너뛰기\n:   지역메뉴 바로가기\n:   주메뉴 바로가기\n:   본문 바로가기\n\nAIF\n\n 아세안\n 인도ㆍ남아시아\n\nEMERiCs\n\n 러시아ㆍ유라시아\n 아프리카ㆍ중동\n 중남미\n 중동부유럽\n\n모바일 메인메뉴 OPEN/CLOSE 검색영역 OPEN/CLOSE\n\nHOME\n\n 뉴스브리핑\n 이슈심층분석\n 연구정보\n 비즈니스 정보\n 지역별 정보\n\n## 인기게시글\n\n이번 주 가장 많이 본 글 목록입니다.\n\n## 인기검색어\n\n이번 주 가장 많이 입력한 검색어 목록입니다.\n\n## 이슈 & 트렌드\n\nHome 이슈 & 트렌드\n\n경제, 정치·외교, 사회·문화 등 다양한 분야의 주요 이슈에 대한 동향을 정리하여 제공합니다.\n\n## 中 CATL, 배터리 넘어 AI 에너지 인프라 기업으로 전환 가속\n\n유은영 소속/직책 : EC21R&C/ 연구원 2026-05-22\n\n크게;) 작게;) \n\n## 공유하기\n\n 페이스북\n 트위터\n 카카오톡\n URL 복사\n\n닫기\n\n인쇄\n\n자료인용안내\n\n자료를 인용, 보도하시는 ",
-          "published": "날짜 미상",
-          "domain": "csf.kiep.go.kr"
-        },
-        {
-          "title": "CATL \"2030년 ESS 부문, 글로벌 매출 절반 차지\" 전망 - 더구루",
-          "url": "https://www.theguru.co.kr/mobile/article.html?no=102667",
-          "content": "메뉴;) 검색;)\n\n## Search\n\n 전체\n 경제\n 산업\n 금융\n 건설\n 생활경제\n IT\n 글로벌\n 기획\n K판\n\n 홈\n 산업\n 이차전지‧소재\n\n공유하기)\n\n### CATL \"2030년 ESS 부문, 글로벌 매출 절반 차지\" 전망\n\n2026.06.05 11:13:53\n\n크게보기)\n\n 페북\n 트윗\n 카톡\n 기타;)\n\n#### 현재 25% 수준…5년만에 23% 포인트 상숭\n\n\")\n\n[더구루=홍성일 기자] 세계 1위 배터리 제조사인 중국 닝더스다이(宁德时代·CATL)가 향후 에너지저장장치(ESS) 부문이 핵심 매출 사업으로 성장할 것이라는 전망을 내놨다. CATL은 향후 5년 내에 ESS가 자사의 매출 중 절반을 책임지게 될 것으로 내다봤다. 그러면서 지정학적 리스크로 인한 원자재 가격 상승 등으로 수익성을 확보하는 것이 최대 과제가 될 것으로 분석했다.\n\n#### 해당 콘텐츠는 유료 서비스입니다.\n\n 기사 전체 보기는 유료 서비스를 이용해주시기 바랍니다. (vat별도)\n 해당 콘텐츠",
-          "published": "날짜 미상",
-          "domain": "theguru.co.kr"
+          "domain": "askinno.com"
         },
         {
           "title": "中 CATL, 2025년 역대 최대 실적 달성...해외 거점 투자 수익화 국면 진입",
@@ -225,6 +211,20 @@
           "content": "- 현지 생산 모델로의 전환은 무역 장벽 회피, 물류 비용 절감, 현지 정책 대응력 강화 등 측면에서 전략적 실익이 있는 반면, 해외 거점의 단위 투자 강도가 중국 국내보다 높다는 점은 원가 경쟁력 측면의 제약 요인으로 작용할 수 있음. CATL 경영진은 글로벌 공급망 운영 경험을 바탕으로 투자 비용을 지속적으로 최적화해 나갈 방침임을 밝혔음.\n\n- 해외 사업 확대에 따른 거버넌스 리스크도 점차 가시화될 것으로 예상됨. 다국적 인력 운용, 현지 법규 준수, 노동조합 협상 등은 중국 국내 중심 운영 체제에서 경험이 축적되지 않은 영역으로, 글로벌 운영 역량 내재화가 중요한 과제로 부상하고 있음. 거시경제 변동 및 완성차·ESS 등 최종 수요 시장의 수요 변동도 신규 생산능력 가동 일정과 수익화 속도에 영향을 미칠 수 있는 변수로 작용할 것으로 예상됨.\n\n[관련 뉴스 브리핑]\n\n中 CATL, 2025년 순익 42%↑...9년 연속 글로벌 파워배터리 1위\n\n[참고 자료]\n\n1. “现金牛”",
           "published": "날짜 미상",
           "domain": "csf.kiep.go.kr"
+        },
+        {
+          "title": "中 CATL, 전기차 배터리서 ESS로 무게 이동 - 글로벌이코노믹",
+          "url": "https://www.g-enews.com/article/Global-Biz/2026/06/2026061200013351109a1f309431_1",
+          "content": "### ◇ 전기차 둔화 속 ESS 수요 부상\n\n  \n CATL의 전략 변화는 전기차 배터리 시장의 불확실성과 맞물려 있다는 지적이다.  \n   \n 도널드 트럼프 행정부가 전기차 지원책을 축소하고 청정에너지 정책을 재조정하면서 전기차 업체들은 수요 전망을 다시 계산하고 있는 것도 무관치 안다는 관측이다. 여기에다 이란 전쟁에 따른 에너지 시장 불안과 원자재 가격 변동도 배터리 업계의 부담으로 작용하고 있다.  \n   \n 반면 ESS 시장은 빠르게 커지고 있다. 태양광과 풍력 같은 재생에너지는 날씨와 시간대에 따라 발전량이 달라지기 때문에 전력망에 대규모 저장 설비가 필요하다. AI 데이터센터 확산도 전력수요를 크게 밀어 올리고 있다. 전기차보다 전력망용 배터리가 더 안정적인 성장처로 보이는 이유다.  \nGM과 LG 등 전기차·배터리 관련 기업들도 ESS 시장에 눈을 돌리고 있다. 전기차 보조금과 규제 환경은 흔들리고 있지만 전력망용 배터리와 백업 전원 수요는 오히려 필수 인프라로 자리",
+          "published": "날짜 미상",
+          "domain": "g-enews.com"
+        },
+        {
+          "title": "[PDF] CATL, 차세대 ESS 배터리 대규모 양산 단계 진입 - 하나증권",
+          "url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1285227&attachFileSeq=1&bbsId=&dbType=&bbsCd=1260",
+          "content": "2026-03-24 샤오펑(9868.HK) (9.2) - (4.3) 93.4 44.2 적지 흑자 (79.8) 적지 2026-03-18 CATL(300750.CH) 2.7 25.2 23.5 16.4 24.6 36.0 25.6 35.9 35.9 2026-03-16 양광전력(300274.CH) (2.9) 25.8 31.7 22.3 17.9 33.6 16.3 36.4 36.4 2026-04-27 북방화창(002371.CH) 5.1 45.2 19.6 31.2 26.8 26.3 34.5 26.6 26.6 2026-04-27 SMIC(0981.HK) 1.5 104.8 3.3 15.3 19.3 42.2 46.2 65.4 65.4 2026-02-11 해광정보(688041.CH) (0.6) 159.8 14.0 57.7 51.2 74.7 58.5 62.2 62.2 2026-03-02 통푸마이크로(002156.CH) 0.4 45.9 7.8 14.5 14.2 78.0 28.3 88.9 88.9 2026-0",
+          "published": "날짜 미상",
+          "domain": "hanaw.com"
         }
       ],
       "중립": [
@@ -236,16 +236,23 @@
           "domain": "g-enews.com"
         },
         {
-          "title": "\"중국 CATL 미국 진출 확대\" JP모간 전망, ESS 배터리 시장 지배력 키워",
-          "url": "https://www.businesspost.co.kr/BP?command=article_view&num=432438",
-          "content": "[비즈니스포스트] 중국 CATL이 에너지저장장치(ESS)용 배터리 사업을 앞세워 미국 시장 진출을 확대할 수 있다는 증권사 전망이 나왔다.   \n   \n CATL은 전기차 배터리 중심 사업 구조에서 벗어나 ESS와 신규 산업용 배터리로 영역을 넓히며 글로벌 영향력을 키우고 있다.   \n   \n 9일 닛케이아시아는 JP모간 보고서를 인용해 “CATL이 미국 ESS 시장에서 사업 영역을 확장할 가능성이 있다”고 보도했다.   \n   \n JP모간은 완성차기업 포드가 CATL로부터 배터리 기술 라이선스를 받아 미국에서 ESS 배터리 생산을 추진한다는 근거를 제시했다.   \n   \n 포드는 지난해 12월16일 전기차 사업 부진의 타개책으로 ESS용 배터리 사업까지 손댈 것이라고 발표했는데 기술을 제공하는 CATL의 미국 진출도 확대할 수 있다는 것이다.   \n   \n 닛케이아시아는 “트럼프 정부의 대중 강경 무역 정책에도 불구하고 급성장하는 ESS 분야에서 미국은 CATL의 핵심 시장”이라고",
+          "title": "CATL \"2030년 ESS 부문, 글로벌 매출 절반 차지\" 전망 - 더구루",
+          "url": "https://www.theguru.co.kr/mobile/article.html?no=102667",
+          "content": "## 많이 본 기사\n\n더보기\n\n 1 반도체 핵심 공정 소재 '육불화텅스텐' 부족 현상 심화…후성 등 반사이익 기대\n 2 '초호황기' 반도체 장비 지출액 사상 최고치…AI 인프라 투자 급증\n [3 [단독] '실전 검증 완료' 인도네시아, LIG D&A 천궁-II 도입 추진…구매 의향서 제출](/mobile/article.html?no=102776)\n 4 TKMS, 캐나다 잠수함 최종 사업자 결정 앞두고 대규모 채용 돌입\n 5 폴란드 국방부 \"K2 전차 1000대 구매\" 재확인\n 6 英 핵잠수함 5척 동시 셧다운 '수중전력 붕괴'…캐나다 잠수함 수주전 변수되나\n 7 이라크, 한국에 전력 인프라 재건사업 참여 공식 요청…효성중공업·LS전선 등 수혜 기대\n [8 [단독] 포스코인터, 몽골 '자원 컨트롤타워'와 희토류 동맹…'탈중국' 공급망 다변화 속도](/mobile/article.html?no=103023)\n 9 K2전차 폴란드 생산 부마르 와벤디 공장 '확정' …현대로템 실사 반영\n [",
           "published": "날짜 미상",
-          "domain": "businesspost.co.kr"
+          "domain": "theguru.co.kr"
+        },
+        {
+          "title": "CATL BESS Strategy: Dominating Global Energy in 2025 - EnkiAI",
+          "url": "https://enkiai.com/catl/catl-bess-strategy-dominating-global-energy-in-2025",
+          "content": "## CATL’s Geographic Expansion: From US and UK Focus to Global BESS Market Penetration\n\nCATL has expanded its BESS footprint from a primarily US and UK-focused strategy between 2021 and 2024 to a dominant global position in 2025, with significant new deployments in the Middle East, Southeast Asia, and mainland Europe.\n\n## CATL’s Technology Maturity: Achieving Commercial Dominance with Next-Generation BESS\n\nCATL‘s BESS technology has rapidly matured from competitive, commercially available soluti",
+          "published": "날짜 미상",
+          "domain": "enkiai.com"
         },
         {
           "title": "CATL Launches World's First 9MWh Ultra-Large Capacity TENER ...",
           "url": "https://www.catl.com/en/news/6410.html",
-          "content": "Not Just Batteries, But an Energy Vision\n\nBy the end of November 2024, CATL's ESS products were deployed in over 1,700 projects across the world, spanning all climate zones and operating environments. In 2023, recognizing the evolving and changing needs of the customers, CATL unveiled TENER, a twenty-foot equivalent unit (TEU) containerized energy storage system with 5-year zero degradation technology, and TENER FLEX, a rack energy storage system for flexible deployment. [...] cfd198d5af375250c2",
+          "content": "Not Just Batteries, But an Energy Vision\n\nBy the end of November 2024, CATL's ESS products were deployed in over 1,700 projects across the world, spanning all climate zones and operating environments. In 2023, recognizing the evolving and changing needs of the customers, CATL unveiled TENER, a twenty-foot equivalent unit (TEU) containerized energy storage system with 5-year zero degradation technology, and TENER FLEX, a rack energy storage system for flexible deployment.",
           "published": "날짜 미상",
           "domain": "catl.com"
         },
@@ -255,13 +262,6 @@
           "content": "### High Flexibility\n\nThe modular design of CNTE’s ESS allows for multiple units to be connected in parallel, expanding energy storage capacity as needed. This flexibility ensures uninterrupted power supply, seamless on/off-grid switching, and adaptation to various household energy demands. Whether for residential use or small business applications, the system provides a scalable energy solution.\n\n## Market Impact & Industry Adoption\n\n### Global Integration of CATL-Powered ESS [...] May 19, 2025",
           "published": "날짜 미상",
           "domain": "en.cntepower.com"
-        },
-        {
-          "title": "세계 1위 배터리 기업 中 CATL, 자금 조달도 脫美 선언",
-          "url": "https://www.chosun.com/economy/stock-finance/2025/05/20/PUDIRWNVKJBFDJVIFHQT6FTJZI",
-          "content": "노우호 메리츠증권 연구원은 “CATL은 중국 내수뿐만 아니라 해외에서도 전기차·ESS 분야에서 지배적인 위상을 갖췄고, 로보틱스에서 도심 항공 모빌리티(UAM)까지 신규 수요처에 대한 선제적 기술 리더십을 보유하고 있다”면서 “여러 주가 평가지표가 경쟁 기업들에 대비해 저평가된 만큼 홍콩에서 재평가를 받을 것”이라고 전망했다.\n\n☞레귤레이션S\n\n미국 증권법에서 규정한 해외(비미국) 증권 발행 규정 중 하나로, 미국 증권법의 규제를 면제해주는 대신 미국 내 투자자의 참여를 제한한다. CATL의 경우 해외 투자자들에게 자금을 모으는 동시에 미국 시장의 규제를 피하기 위해 레귤레이션S 상장을 선택한 것으로 풀이된다. 해외 기업이 미국 시장에 상장해 미 증권거래위원회(SEC)의 규제를 받는 ADR(주식예탁증서)과 반대 개념이다.\n\n#해외증시\n#배터리\n#전기차\n\n관련 기사\n\n전기차 캐즘 장기화… K배터리, 차입금 늘고 가동률은 ‘뚝’\n\n전기차 캐즘 장기화… K배터리, 차입금 늘고 가동률은 '",
-          "published": "날짜 미상",
-          "domain": "chosun.com"
         }
       ]
     }

@@ -3,9 +3,9 @@
   "base_query": "미국 IRA 인플레이션감축법 배터리 영향",
   "subject": "미국 IRA 배터리 정책",
   "queries": {
-    "긍정": "미국 IRA 법이 배터리 산업 성장에 미치는 긍정적 영향",
-    "비판": "IRA 법이 배터리 공급망에 미치는 리스크 분석",
-    "중립": "미국 IRA 법과 배터리 시장 현황 조사"
+    "긍정": "IRA 법이 배터리 산업에 미치는 긍정적 영향",
+    "비판": "IRA 법의 배터리 규제 리스크와 한계",
+    "중립": "미국 IRA 법과 배터리 현황 분석"
   },
   "arms": {
     "single_base": [
@@ -17,32 +17,32 @@
         "domain": "kocham.org"
       },
       {
-        "title": "[PDF] 미국 인플레이션 감축법(IRA)의 청정에너지 진흥 방안과 시사점*",
-        "url": "https://www.keei.re.kr/keei/download/keer/KEER24_23-1_03.pdf",
-        "content": "미국의 인플레이션 감축법과 관련된 다른 하나의 선행연구 유형은 무역정책 측면 에서 자동차, 배터리 등 국내 산업에 주로 영향을 미칠 수 있는 조항과 한국 기업의 대응에 초점을 둔 연구이다. 우선, 황경인(2022)은 자동차와 이차전지 산업을 중심 으로 IRA가 국내 산업에 미칠 영향을 점검해보고 정책적 시사점을 제시하였다. 박 형민(2023)도 IRA에 대응하여 한국의 배터리 제조기업과 배터리 소재 기업의 대응 현황을 점검하고 주요 원자재의 중국 의존도가 완화되고 있는 동향을 분석하였다. 서백현(2022)은 IRA가 한국 전기차 공급망에 미치는 영향을 분석하고 한국 전기차 산업의 공급망 관련 피해 최소화를 위해 한-미 간 협상대책을 다양하게 제시하였다. 이승은･판티테(2023)는 IRA가 한국 전기자동차에 미칠 영향을 살펴보고 IRA가 한 -미 FTA에 위배 될지를 검토했다. 이같이 선행연구들은 대부분 자동차, 배터리 등 국내 주력 수출산업의 관점에서만 IRA의 주요 영향을 분석하였",
+        "title": "미국 IRA 시행지침이 우리나라 배터리 공급망에 미칠 영향",
+        "url": "https://www.kita.net/cmmrcInfo/cmercInfo/cmercReport/cmercReportDetail.do;JSESSIONID_KITA=E636064E93311CEF3045B2681C06CC90.Hyper?no=2481",
+        "content": "### 통상리포트\n\n미국 IRA 시행지침이 우리나라 배터리 공급망에 미칠 영향\n\n작성 2023.09.05 조회 28,275\n\n 저자\n  :   김경훈 연구위원,고성은 연구위원\n\n미국 IRA 시행지침이 우리나라 배터리 공급망에 미칠 영향\n\n \n\n인플레이션 감축법(이하 ‘IRA’)은 바이든 행정부가 집권 초기부터 추진한 미국 제조업의 부활과 경제 활성화를 목적으로 하고 있다. 총 3,690억 달러에 달하는 미국 역사상 가장 큰 규모의 기후변화 대응 지출을 담고 있는 IRA는 재정 투입의 80%를 에너지 안보와 기후변화 부문에 편성하고 있다. 특히 청정제조 시설 세액공제, 첨단 제조 생산 세액공제, 친환경차 세액공제 등 전기차 및 배터리가 해당되는 세액공제의 규모는 1,028억 달러에 달한다. 이러한 인센티브 제공을 통해 IRA는 비슷한 시기 발효된 반도체 과학법(이하 ‘CHIPS Act’)과 함께 미국 중심의 공급망을 구축하여 반도체, 전기차, 이차전치 등 첨단산업에서 우위를 선점하려는",
         "published": "날짜 미상",
-        "domain": "keei.re.kr"
+        "domain": "kita.net"
       },
       {
-        "title": "미국 인플레이션 감축법, 알기 쉽게 설명해드립니다! - 트레드링스 블로그",
-        "url": "https://www.tradlinx.com/blog/guide/%EB%AF%B8%EA%B5%AD-%EC%9D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%85%98-%EA%B0%90%EC%B6%95%EB%B2%95-%EC%95%8C%EA%B8%B0-%EC%89%BD%EA%B2%8C-%EC%84%A4%EB%AA%85%ED%95%B4%EB%93%9C%EB%A6%BD%EB%8B%88%EB%8B%A4",
-        "content": "신용평가회사 무디스는 소비자물가지수(CPI)에 대한 영향이 연간 0.033%p 수준에 불과하며 처방약 가격 인하도 단기적으로 인플레이션을 완화하는 영향은 아주 미미할 것이라고 밝혔으며, 미 의회예산국(CBO)도 인플레이션 감축법 시행으로 오히려 내년 인플레이션을 소폭 상승시킬 수 있다고 분석하기도 했습니다.\n\n## 인플레이션 감축법이 우리 기업에 미칠 영향은?\n\n국내 기업들은 인플레이션 감축법에 대해 위기이자 기회로 바라보고 있습니다.\n\n미국 및 미국과 자유무역협정(FTA)을 체결한 국가에서 채굴·가공된 핵심 광물을 일정 비율 이상 사용해 만든 배터리를 탑재하고, 북미 지역에서 최종 조립된 전기차에만 세제 혜택을 주기 때문입니다.\n\n인플레이션감축법_전기차 세제혜택_2\n\n인플레이션감축법_전기차 세제혜택_2\n\n이에 따라 한국에서 생산해 미국으로 수출하고 있는 현대자동차 아이오닉6, 기아 EV6 등은 혜택에서 제외가 됩니다.\n\n또한 미국 수출을 염두하는 배터리 제조 업체들은 중국산 배터리",
+        "title": "미국 인플레이션 감축법(IRA) 세부지침의 국내 이차전지 산업에 ...",
+        "url": "https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000175309",
+        "content": "IBK 기업은행 경제연구소\n\n2023.05.10\n\n원문보기\n\nIBK기업은행 경제연구소는 「미국 인플레이션 감축법(IRA) 세부지침의 국내 이차전지 산업에 미치는 영향 및 시사점」을 발표하였다.   \n   \n- (주요 내용) 전기차 배터리 제작 시 부품과 핵심광물을 나누어 구체적인 기준을 발표하였으며 북미에서 제조·조립한 부품/핵심광물을 사용할 경우 세제 혜택을 부여   \n   \n- (영향) 국내 기업들의 현배터리 생산 공정 유지가 가능하여 단기적으로는 안정성이 확보되었으나, 향후 소재 조달면에서는 불확실성 상존   \n   \n- (전망) 부품업체의 경우 북미 투자가 가속화, 핵심광물·소재업체는 가공 후 수출이 가능해짐에 따라 업체별 공급망 구축 전략이 다양화될 전망   \n   \n- (시사점) 미국 IRA, 유럽의 핵심원자재법 등 이차전지 관련 제도 변화를 모니터링하고, 기업들의 공급망 다변화에 필요한 적극적인 지원책 마련이 필요\n\n목록보기\n\n 특집\n\n  재생에너지도 자원안보에서 자유롭",
         "published": "날짜 미상",
-        "domain": "tradlinx.com"
+        "domain": "eiec.kdi.re.kr"
       },
       {
-        "title": "美 IRA 폐지 추진 불투명… 韓 배터리 업계, 당장 위기는 넘겼다?",
-        "url": "https://www.youtube.com/watch?v=dVSPn3J5v20",
-        "content": "[음악] เฮ เฮ [음악] 네. 한때 전 세계 배터리 시장 점유율 1위였던 우리의 2차전지 K 배터리가 전기차 캐짐으로 고전을 이어가다가 자 이번엔 IRA 조기 종료라는 큰 난관에 부딪혔습니다. 자, 우리 한국 기업들 이미 미국 현재에 많은 투자를 하고 있죠. 그만큼이 K터리 또 나아가서 K 전기차 박대한 악영향을 미칠 수 있는데요. 자, 오늘은 IRA 조기 종류에 대한 이야기와 함께 우리 K리 또 전기차의 전망 한번 이야기 나눠 보겠습니다. 장우진 GV 인베스트먼트 이사 함께합니다. 안녕하십니까? 네, 반갑습니다. 자, 정말 떠들썩했습니다.이 인플레이션 감축법이 IRA에서 보면 이제 뭐 대양광이라든가 2차전지 전기 전기차의 뭐 세액 공제 혹은 생산 세액 공제를 주는 건데네. 이걸 조기 종료하는 법안이 일단은 등장은 한 거죠. 개정환이 그 법안부터 먼저 내용을 볼게요. 어떤 내용이 담겨 있었습니까? 일단 5월 12일에 미국 하원의 세입 위원회라는 곳에서 공화동 의원들이 세제 법안을",
+        "title": "깊이 보기 - 월간 통상",
+        "url": "https://tongsangnews.kr/webzine/1602305/sub1_2.html",
+        "content": "글 김연규 한양대학교 국제학부 교수, 에너지·환경연구원장　  사진 한경DB\n\n미국 정부의 인플레이션 감축법(Inflation Reduction Act, IRA) 전기차 세액공제 가이던스가 지난 4월 18일부터 적용됐다. 이에 앞서 3월 31일 미 재무부는 ‘IRA 전기차 세액공제 잠정 가이던스(하위규정)’를 발표했다. IRA 세부지침 가이던스1)는 적용 시점부터 60일 동안의 의견수렴 기간을 거쳐 최종 확정될 예정이다. 미국은 미·중 패권경쟁 차원에서 전기차와 배터리 산업을 다뤄왔다. 현재 중국의 배터리 공급망 장악2)과 배터리 기술 도전은 이미 미국 경제와 국가안보에 심각한 위협이 됐다는 것이 미국의 판단이다. IRA는 미국의 전기차산업 확산을 가속화하고 중국에 의존돼 있는 배터리 공급망을 미국과 동맹국 위주로 재편하는 것을 목적으로 한다.   \n 우리나라 전기차·배터리 산업은 미국의 전기차산업 확산과 배터리 공급망 구축에서 핵심 경제안보 동맹인 동시에 배터리 핵심광물3)과 배터리",
         "published": "날짜 미상",
-        "domain": "youtube.com"
+        "domain": "tongsangnews.kr"
       },
       {
-        "title": "Think Oil",
-        "url": "https://www.knoc.co.kr/upload/EBOOK/sabo/191/sub08.jsp",
-        "content": "### 인플레이션 감축법(IRA)이란?\n\n미국 상하원을 통과한 인플레이션 감축법(Inflation Reduction Act of 2022, IRA)은 조 바이든 대통령이 지난 8월 16일 서명하면서 공식적으로 발효되었다. 이 법안의 핵심은 에너지 안보와 기후변화 대응 그리고 보건 의료 지원을 위해 향후 10년간 4,850억 달러를 투자하는 것이다. 미국 달러 대비 1,420원의 환율을 적용하면, 689조 원에 달한다. 이는 올해 우리나라 정부 총예산 608조 원인 것과 비교하면 그 규모가 얼마나 큰지 알 수 있다.   \n이 거대한 예산의 80%는 친환경 발전, 에너지 효율 향상, 그리고 전기자동차 구매 시 세액공제에 활용된다. 특히 전기차를 구매할 때 그 혜택을 받기 위해서는 전기차가 미국에서 조립되고 생산되어야 한다. 추가로 전기차 배터리의 핵심 광물인 리튬, 니켈, 코발트 등이 미국이나 미국과 자유무역협정을 맺은 나라로부터 공급받거나 재활용되어야 하며 그 비율도 2024년 50%",
+        "title": "인플레이션 감축법(IRA) : 삼일회계법인 - PwC",
+        "url": "https://www.pwc.com/kr/ko/insights/issue-brief/inflation-reduction-act.html",
+        "content": "No Match Found\n\n해외우려기관(FEOC) 지침 발표에 따른 영향 점검\n\n# 인플레이션 감축법(IRA)\n\nHero image\n\n삼일PwC경영연구원\n\n##### 미국 역사상 가장 큰 규모의 기후법안인 인플레이션 감축법(IRA)이 2022년 8월 시행된 이후, 최근까지 관련하여 구체적인 시행 규칙이 발표되고 있습니다. 전기차, 배터리, 재생에너지 등에 대한 보조금 지급 요건 등이 발표되면서 관련기업과 글로벌 공급망에 큰 영향을 주고 있습니다. 이에 IRA 시행 이후 변화되고 있는 시행 규칙(특히 최근 발표된 해외우려기관(FEOC) 가이드라인 등)에 대해 알아보고 이에 따른 영향을 점검해 보고자 합니다.\n\n인플레이션 감축법(IRA) - Download PDF\n\n### 1. 인플레이션 감축법(IRA) 개요\n\n|  |  |  |\n --- \n| 구분 | 적용 대상 | 내용 |\n| 친환경차 세액공제  (Sec.30D) | 친환경차 (전기차 등) | \\ 비중: 배터리 핵심광물(50%) +",
         "published": "날짜 미상",
-        "domain": "knoc.co.kr"
+        "domain": "pwc.com"
       }
     ],
     "single_volume": [
@@ -52,6 +52,13 @@
         "content": "국내 이차전지산업은 IRA 발효로 단기적으로는 일부 악영향이 있을 수도 있지만 중장기적으로 악재가 아닌 호재로 작용할 가능성이 높다. IRA 발효 이전부터 국내 배터리 기업들이 미국 시장 진출을 적극적으로 추진했었고 GM, 포드, 스텔란티스 등 다양한 글로벌 완성차 기업들과 협력관계를 강화해 왔기 때문이다. IRA Section 13401의 해외우려집단(Foreign entity of concern) 규정 등이 본격적으로 가동 될 경우 중국 이차전지 기업들의 미국 시장 내 입지는 더욱 축소될 것으로 보이는 데 이 또한 국내 기업들에게는 미국 배터리 시장 선점을 위한 기회요인으로 작용할 전망이다. [...] 2 0 2 2 0 9 7 (특집) 미국 인플레이션 감축법(IRA)의 국내 산업 영향과 시사점 - 자동차와 이차전지산업을 중심으로 -요 약 최근 발효된 미(美) 인플레이션 감축법(IRA)은 미국 내 물가 상승 억제와 기후 변화 대응을 목적으로 제정된 법으로 전기자동차 세액공제 조건 ",
         "published": "날짜 미상",
         "domain": "kocham.org"
+      },
+      {
+        "title": "미국 IRA 시행지침이 우리나라 배터리 공급망에 미칠 영향",
+        "url": "https://www.kita.net/cmmrcInfo/cmercInfo/cmercReport/cmercReportDetail.do;JSESSIONID_KITA=E636064E93311CEF3045B2681C06CC90.Hyper?no=2481",
+        "content": "### 통상리포트\n\n미국 IRA 시행지침이 우리나라 배터리 공급망에 미칠 영향\n\n작성 2023.09.05 조회 28,275\n\n 저자\n  :   김경훈 연구위원,고성은 연구위원\n\n미국 IRA 시행지침이 우리나라 배터리 공급망에 미칠 영향\n\n \n\n인플레이션 감축법(이하 ‘IRA’)은 바이든 행정부가 집권 초기부터 추진한 미국 제조업의 부활과 경제 활성화를 목적으로 하고 있다. 총 3,690억 달러에 달하는 미국 역사상 가장 큰 규모의 기후변화 대응 지출을 담고 있는 IRA는 재정 투입의 80%를 에너지 안보와 기후변화 부문에 편성하고 있다. 특히 청정제조 시설 세액공제, 첨단 제조 생산 세액공제, 친환경차 세액공제 등 전기차 및 배터리가 해당되는 세액공제의 규모는 1,028억 달러에 달한다. 이러한 인센티브 제공을 통해 IRA는 비슷한 시기 발효된 반도체 과학법(이하 ‘CHIPS Act’)과 함께 미국 중심의 공급망을 구축하여 반도체, 전기차, 이차전치 등 첨단산업에서 우위를 선점하려는",
+        "published": "날짜 미상",
+        "domain": "kita.net"
       },
       {
         "title": "미국 인플레이션 감축법(IRA) 세부지침의 국내 이차전지 산업에 ...",
@@ -110,13 +117,6 @@
         "domain": "daeryunlaw-comp.com"
       },
       {
-        "title": "미국 IRA 시행지침이 우리나라 배터리 공급망에 미칠 영향",
-        "url": "https://www.kita.net/cmmrcInfo/cmercInfo/cmercReport/cmercReportDetail.do;JSESSIONID_KITA=E636064E93311CEF3045B2681C06CC90.Hyper?no=2481",
-        "content": "IRA 시행에 따른 배터리 공급망 재편은 당분간 한국 배터리 업계에 긍정적으로 작용할 것으로 예상되지만, 장기적으로는 중국의 글로벌 진출 전략 강화와",
-        "published": "날짜 미상",
-        "domain": "kita.net"
-      },
-      {
         "title": "미국 인플레이션 감축법이 국내 산업에 끼치는 영향 \"한미 당국 간의 ...",
         "url": "https://www.youtube.com/watch?v=xfCnI080WXo",
         "content": "아니라, 내년 1월부터는 일정 비율 이상 미국 등에서 생산된 배터리 ... 인플레이션감축법 #IRA #전기차배터리.",
@@ -126,7 +126,7 @@
       {
         "title": "[PDF] 미국 인플레이션 감축법이 국내 자동차· 이차전지 산업에 미칠 영향과 ...",
         "url": "https://www.ksure.or.kr/rh-kr/bbs/i-48/down.do?bbs_id=1002&atfile_sn=1&data_ty_cd=A&ntt_sn=38071",
-        "content": "첫 번째는 배터리 핵심. 광물 요건인데 전기차 세제 혜택을 받으려면 배터리에 내재된 핵심 광물이 일정 비. 율 이상 미국 또는 미국의 FTA 체결국에서 생산(추출, 처리",
+        "content": "o>{ƥĨOޫ)+2@ V1?{>i\\20YVHJC6jԀ^և/P֠xS# W]@=o#22Z<ڻͪ<\", M/ǒeV (uH `67x\\=쳆n i#ĲQRɩ6:hy=[\\T=grle8WfQ/@HPz􏥝~;:~w{OZp,qQ\\aDS{׭<ޯ>Kj6rZ1!P8@)qa(`1 t~2SLZ>}82>h+L7~kKd65ġk\"^!Y(lIդ l[~dױ>vڦJxn+O:bO[U;t[s 6Hk}4u?]~wW[G$U5œQuzmH\\'䢙C@@[yӑr5+U$Z Syuo/'Cd/SRA%OB\\>Ӈ#5uj 7Si\\_#iE|vF-o0x'ӕ<?/\"9s8DxDOpa=j9u=OQ.i]s=L qA=O3N!Oӝ<AHA\\_Z=V.d+ Qu,y? [...] (&\"  j\\Zo\\k!={4^LcF.n4 VG:ӳ/j敃T}-~IRk&<j!t47 `zÎ\"z|4V]}:Fe b!HkO(6ȸ3;FsD@D:I\"0BoE[nAn`= jbc$W7\"jhZaБgb c\"Aޔ%EASABu(JїW O)!A=FsBPt>J32vA<Fԃ}6M|QWvu2)3jѨHoWsôu.ugX",
         "published": "날짜 미상",
         "domain": "ksure.or.kr"
       },
@@ -155,25 +155,11 @@
     "three_persp": {
       "긍정": [
         {
-          "title": "미국 IRA 시행지침이 우리나라 배터리 공급망에 미칠 영향",
-          "url": "https://www.kita.net/cmmrcInfo/cmercInfo/cmercReport/cmercReportDetail.do?pageIndex=1&no=2481&classification=4&searchReqType=detail&pcRadio=&searchCate=&searchStartDate=&searchEndDate=&searchCondition=title&searchKeyword=&continent_nm=&continent_cd=&country_nm=&country_cd=&sector_nm=&sector_cd=&itemCd_nm=&itemCd_cd=&searchOpenYn=",
-          "content": "한편 IRA는 첨단 제조 생산 세액공제(Advanced Manufacturing Production Credit, AMPC, 이하 ‘45X 세액공제’)을 미국 국세법에 신설하여 태양광과 풍력 에너지 관련 주요 첨단부품, 인버터, 배터리 부품, 핵심광물 등을 미국 내에서 생산하면 세액공제 혜택을 부여하고 있다. 45X 세액공제는 현금 환급과 타 기업에 대한 양도, 첨단부품의 생산단계별 중복 신청이 가능하여 미국 현지 공장을 가동하거나 진출을 검토 중인 우리 기업은 주목할 필요가 있다.\n\n \n\nIRA 시행에 따른 배터리 공급망 재편은 당분간 한국 배터리 업계에 긍정적으로 작용할 것으로 예상되지만, 장기적으로는 중국의 글로벌 진출 전략 강화와 미국의 자국 산업 육성 정책의 방향에 따라 영향받을 수 있다. 해외우려기관 제외 조건으로 중국의 미국 진출이 제한되어 우리 기업의 미국 시장 선점에 유리하게 작용할 것으로 기대되고 있으나, 중국 기업이 미국 완성차 업체와의 협력을 통해 우회적으로 I",
-          "published": "날짜 미상",
-          "domain": "kita.net"
-        },
-        {
           "title": "[PDF] 미국 인플레이션 감축법(IRA)의 국내 산업 영향과 시사점 - KOCHAM",
           "url": "https://kocham.org/wp-content/uploads/2022/10/%EC%82%B0%EC%97%85%EA%B2%BD%EC%A0%9C_202209_%ED%8A%B9%EC%A7%91.pdf",
-          "content": "국내 이차전지산업은 IRA 발효로 단기적으로는 일부 악영향이 있을 수도 있지만 중장기적으로 악재가 아닌 호재로 작용할 가능성이 높다. IRA 발효 이전부터 국내 배터리 기업들이 미국 시장 진출을 적극적으로 추진했었고 GM, 포드, 스텔란티스 등 다양한 글로벌 완성차 기업들과 협력관계를 강화해 왔기 때문이다. IRA Section 13401의 해외우려집단(Foreign entity of concern) 규정 등이 본격적으로 가동 될 경우 중국 이차전지 기업들의 미국 시장 내 입지는 더욱 축소될 것으로 보이는 데 이 또한 국내 기업들에게는 미국 배터리 시장 선점을 위한 기회요인으로 작용할 전망이다. [...] 2 0 2 2 0 9 7 (특집) 미국 인플레이션 감축법(IRA)의 국내 산업 영향과 시사점 - 자동차와 이차전지산업을 중심으로 -요 약 최근 발효된 미(美) 인플레이션 감축법(IRA)은 미국 내 물가 상승 억제와 기후 변화 대응을 목적으로 제정된 법으로 전기자동차 세액공제 조건 ",
+          "content": "국내 이차전지산업은 IRA 발효로 단기적으로는 일부 악영향이 있을 수도 있지만 중장기적으로 악재가 아닌 호재로 작용할 가능성이 높다. IRA 발효 이전부터 국내 배터리 기업들이 미국 시장 진출을 적극적으로 추진했었고 GM, 포드, 스텔란티스 등 다양한 글로벌 완성차 기업들과 협력관계를 강화해 왔기 때문이다. IRA Section 13401의 해외우려집단(Foreign entity of concern) 규정 등이 본격적으로 가동 될 경우 중국 이차전지 기업들의 미국 시장 내 입지는 더욱 축소될 것으로 보이는 데 이 또한 국내 기업들에게는 미국 배터리 시장 선점을 위한 기회요인으로 작용할 전망이다. [...] Li Ni Co Gr Li Ni Co Gr Cathode Anode Battery production EV production 100 75 50 25 0 (%) Mining Material processing Cell components Battery cells EVs ( 특집) ",
           "published": "날짜 미상",
           "domain": "kocham.org"
-        },
-        {
-          "title": "미국의 「인플레이션 감축법(Inflation Reduction Act, IRA)」과 현대 ...",
-          "url": "https://contents.premium.naver.com/busymoon/kicpakpmg/contents/250526140257219uk",
-          "content": "​\n\n(2) 2023~2024년: 급감기\n\n​\n\n매출 감소: 글로벌 경기 둔화, 고금리 환경, 주요국의 보조금 조정, 공급망 불안 등의 영향으로 신규 프로젝트 지연 또는 축소. 수익성 급락: 원재료(폴리실리콘 등) 가격 급등 및 환율 변동성이 확대되면서 모듈 원가 부담이 커졌으며, 경쟁 심화로 판매단가 하락이 수익성 저하로 이어짐. EPC 부문 위축: 국내 대형 발전소 중심의 EPC 사업이 정부 정책 변경이나 수요 감소로 위축되었을 가능성.\n\n​\n\n■ 산업 동향 및 향후 전망 요약\n\n|  |  |\n --- |\n| 구분 | 내용 |\n| 산업 성장성 | 중장기적으로는 탄소중립 정책, IRA(미국 인플레이션 감축법) 등으로 긍정적이나, 단기적으로는 고금리·보조금 축소·중국 저가 경쟁 등으로 부정적 요인 상존 |\n| 경쟁 환경 | 중국 LFP 배터리 및 태양광 모듈 업체(CLONG Solar, JA Solar 등)의 저가 공세로 마진 압박 심화 |\n| 대응 전략 | 고효율 제품(TopCon",
-          "published": "날짜 미상",
-          "domain": "contents.premium.naver.com"
         },
         {
           "title": "미국의 인플레이션 감축법 통과, 무엇을 의미할까? - 한국석유공사",
@@ -183,64 +169,71 @@
           "domain": "knoc.co.kr"
         },
         {
-          "title": "Individual Retirement Accounts (IRAs) | Investor.gov",
-          "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-accounts/tax-advantaged-accounts/retirement-savings/individual-retirement-accounts-iras",
-          "content": "# Individual Retirement Accounts (IRAs)\n\nIndividual Retirement Accounts (IRA) are tax-advantaged investment accounts that individual investors can open to help save for retirement.  You, the investor, can choose a vendor and the vendor provides a choice of investment options, typically various mutual funds.\n\nCommon types of IRAs are: [...] Traditional IRA. Contributions typically are tax-deductible. You pay no taxes on IRA earnings until retirement, when withdrawals are taxed as income.\n Roth IR",
+          "title": "[PDF] 미국 인플레이션 감축법이 국내 자동차· 이차전지 산업에 미칠 영향과 ...",
+          "url": "https://www.ksure.or.kr/rh-kr/bbs/i-48/down.do?bbs_id=1002&atfile_sn=1&data_ty_cd=A&ntt_sn=38071",
+          "content": "{wp]xfϝk;}ӷn\\Z$/ 0`MLy٠ %Ұ@޳!}SY˯܉[O,LrhzRr?GRGQߋvNGa|JyrMZ~m\\K`\\}ckiܲ \\_ZxFcg`5O endstream endobj 42 0 obj <> stream H\\j0 l/JNMBl-\\=@b+]`q^'Y}F/): D~ .x^̠-:Y\\K>(9/~ͣ:ܪl!jv Tuٮ6uGCH=3z28VoUө|S)\\_>9wU>8@|>2Yq\"0)s&1̹p\\xC&2?@,~rSHEqG۽ō~>U}&3,&O 0q endstream endobj 43 0 obj <> endobj 44 0 obj <> endobj 45 0 obj <> stream H\\T TWa d\"@Ltj-E| h@\\y7yDbꂢ(\\\\|[7V?sCq[y#JQgS\\}+wJ\\ )h[& d   [...] 7t-@&npuR>1 YgoKFa0 S'5L/HRe, ċ/.ϱaJB7Gj)7eh;Qu MOy̿F9;fk-=x],V+vbAʯؙl! VޱfQ}AN6ѹD4ZA3DK~a;K+=1n\\ 9וە{R]%pZkI 71",
           "published": "날짜 미상",
-          "domain": "investor.gov"
+          "domain": "ksure.or.kr"
+        },
+        {
+          "title": "Untitled",
+          "url": "https://bioeng.kaist.ac.kr/index.php?mid=main_news_json",
+          "content": "\\uc11d\\uc0ac\\uacfc\\uc815(\\uc9c0\\ub3c4\\uad50: \\uc815\\uc544\\uc778\\uad50\\uc218), (\\uc7ac)\\uc81c\\uc774\\uc624\\ud14d \\uae40\\uc9c4\\uc5b5\\uc7ac\\ub2e8 \\uc8fc\\uad00 '2026\\ub144\\ub3c4 \\uc2e4\\ud5d8\\uc2e4 \\uc548\\uc804 \\uac1c\\uc120\\uc0ac\\ub840 \\ubc0f \\uac1c\\uc120\\uc548 \\uc544\\uc774\\ub514\\uc5b4 \\uacf5\\ubaa8\\uc804 \\ucd5c\\uc6b0\\uc218\\uc0c1 \\uc218\\uc0c1\",\"title\\_bold\":\"Y\",\"title\\_color\":\"N\",\"content\":\" \\<\\/p>\\n\\n   <\\/p>\\n\\n   <\\/p>\\n\\n  (\\uc7ac)\\uc81c\\uc774\\uc624\\ud14d \\uae40\\uc9c4\\uc5b5\\uc7ac\\ub2e8 \\uc8fc\\uad00",
+          "published": "날짜 미상",
+          "domain": "bioeng.kaist.ac.kr"
+        },
+        {
+          "title": "[1]",
+          "url": "https://www.eyeonsecurity.co.kr/sub/board/advice/getAdviceBoardList/4",
+          "content": "\\uad8c\\uace0<br><span softbreak=\\\"\\\"> <\\/span>\\u203b \\ud558\\ub2e8\\uc758 \\ucc38\\uace0 \\uc0ac\\uc774\\ud2b8\\ub97c \\ud655\\uc778\\ud558\\uc5ec \\uc5c5\\ub370\\uc774\\ud2b8 \\uc218\\ud589 <br><br class=\\\"ProseMirror-trailingBreak\\\"><\\/p>\\r\\n <p>\\u25a1 \\ucc38\\uace0\\uc0ac\\uc774\\ud2b8<br><span softbreak=\\\"\\\"> <\\/span> <a href=\\\"https:\\/\\/security.paloaltonetworks.com\\/CVE-2026-0300\\\">https:\\/\\/security.paloaltonetworks.com\\/CVE-2026-0300<\\/a><br><span softbreak=\\\"\\\"> <\\/span> <a href=\\\"https:\\/\\/nvd.nist.gov\\/vul",
+          "published": "날짜 미상",
+          "domain": "eyeonsecurity.co.kr"
         }
       ],
       "비판": [
         {
-          "title": "미국 IRA 시행지침이 우리나라 배터리 공급망에 미칠 영향",
-          "url": "https://www.kita.net/cmmrcInfo/cmercInfo/cmercReport/cmercReportDetail.do?pageIndex=1&no=2481&classification=4&searchReqType=detail&pcRadio=&searchCate=&searchStartDate=&searchEndDate=&searchCondition=title&searchKeyword=&continent_nm=&continent_cd=&country_nm=&country_cd=&sector_nm=&sector_cd=&itemCd_nm=&itemCd_cd=&searchOpenYn=",
-          "content": "한편 IRA는 첨단 제조 생산 세액공제(Advanced Manufacturing Production Credit, AMPC, 이하 ‘45X 세액공제’)을 미국 국세법에 신설하여 태양광과 풍력 에너지 관련 주요 첨단부품, 인버터, 배터리 부품, 핵심광물 등을 미국 내에서 생산하면 세액공제 혜택을 부여하고 있다. 45X 세액공제는 현금 환급과 타 기업에 대한 양도, 첨단부품의 생산단계별 중복 신청이 가능하여 미국 현지 공장을 가동하거나 진출을 검토 중인 우리 기업은 주목할 필요가 있다.\n\n \n\nIRA 시행에 따른 배터리 공급망 재편은 당분간 한국 배터리 업계에 긍정적으로 작용할 것으로 예상되지만, 장기적으로는 중국의 글로벌 진출 전략 강화와 미국의 자국 산업 육성 정책의 방향에 따라 영향받을 수 있다. 해외우려기관 제외 조건으로 중국의 미국 진출이 제한되어 우리 기업의 미국 시장 선점에 유리하게 작용할 것으로 기대되고 있으나, 중국 기업이 미국 완성차 업체와의 협력을 통해 우회적으로 I",
-          "published": "날짜 미상",
-          "domain": "kita.net"
-        },
-        {
-          "title": "뉴스레터 - 법무법인(유한) 대륙아주",
+          "title": "IRA 시행 3년, 청정에너지 산업 지형의 변화",
           "url": "https://www.draju.com/ko/sub/newsletters.html?type=view&bsNo=6681&langNo=",
-          "content": "다. FEOC 관련 공급망 리스크 및 기업의 대응전략  \n   \n IRA는 세액공제를 활용해 글로벌 공급망, 특히 배터리와 핵심 광물 공급망을 중국 중심에서 미국 및 FTA 파트너 중심으로 전환하도록 유도하고 있습니다. 이로 인해 국내 기업들은 기존 중국 의존적 공급망 구조를 재편하고, 새로운 규제 환경에 맞춘 법적·재무적 전략을 마련해야 할 것입니다.  \n   \n 1) 해외 우려 기관(Foreign Entity of Concern, “FEOC”) 규정  \n   \n IRA의 핵심 규제 중 하나는 §30D 크레딧의 혜택을 받기 위해 FEOC의 공급망 참여를 단계적으로 배제하는 것입니다. 미 에너지부(DOE)가 발표한 최종 지침에 따르면, FEOC는 Covered Nation(중국, 러시아, 이란, 북한) 정부의 관할권 하에 있거나, 해당 정부에 의해 ‘소유, 통제 또는 지시를 받는’ 외국 법인을 의미합니다. [...] 이는 국내 기업들에게 난관으로 작용할 수 있습니다. 한국 배터리 기",
+          "content": "다. FEOC 관련 공급망 리스크 및 기업의 대응전략  \n   \n IRA는 세액공제를 활용해 글로벌 공급망, 특히 배터리와 핵심 광물 공급망을 중국 중심에서 미국 및 FTA 파트너 중심으로 전환하도록 유도하고 있습니다. 이로 인해 국내 기업들은 기존 중국 의존적 공급망 구조를 재편하고, 새로운 규제 환경에 맞춘 법적·재무적 전략을 마련해야 할 것입니다.  \n   \n 1) 해외 우려 기관(Foreign Entity of Concern, “FEOC”) 규정  \n   \n IRA의 핵심 규제 중 하나는 §30D 크레딧의 혜택을 받기 위해 FEOC의 공급망 참여를 단계적으로 배제하는 것입니다. 미 에너지부(DOE)가 발표한 최종 지침에 따르면, FEOC는 Covered Nation(중국, 러시아, 이란, 북한) 정부의 관할권 하에 있거나, 해당 정부에 의해 ‘소유, 통제 또는 지시를 받는’ 외국 법인을 의미합니다. [...] 특히 중요한 것은 ‘통제(Control)’의 개념으로, FEOC 기",
           "published": "날짜 미상",
           "domain": "draju.com"
         },
         {
-          "title": "미국 인플레이션 감축법(IRA)의 국내 산업 영향과 시사점",
+          "title": "[PDF] 미국 인플레이션 감축법(IRA)의 국내 산업 영향과 시사점 - KOCHAM",
           "url": "https://kocham.org/wp-content/uploads/2022/10/%EC%82%B0%EC%97%85%EA%B2%BD%EC%A0%9C_202209_%ED%8A%B9%EC%A7%91.pdf",
-          "content": "( 특집) 2 0 2 2 0 9 19 나는 배터리 핵심 광물 비율 규정을 맞추기에는 미흡한 측면이 있다. 또한 최근 유럽 연합에서도 미국의 IRA와 유사한 원자재법(Raw Material Act) 추진을 통해 탈중국 공급망 구축 계획을 밝힌 바 있어 배터리 원료와 소재·부품에 대한 공급망 다변화는 더 이상 선택의 문제가 아닌 생존의 문제다. 사실 신규 광산 개발 또는 투자는 고도 의 리스크가 수반되는 장기 프로젝트로 기업 혼자의 힘만으로는 성공 확률이 낮다. 금융, 세제, 정보제공 등 배터리 원료·소재·부품 공급망 다변화를 위한 정부의 지원 이 더욱 강화될 필요가 있다. 황경인 성장동력산업연구본부 시스템산업실 부연구위원 kihwang@kiet.re.kr / 044-287-3081 「기업의 서비스화가 생산성 혁신에 미치는 영향과 정책과제」(공저, 2022) 「한국의 GVC 참여구조와 코로나19 이후 수출회복 영향 분석」(2021) [...] 이 같은 상황 때문에 실제로 세계자동차제조협",
+          "content": "한편 IRA 13401은 배터리 관련 추가 규정을 2개 더 두고 있다. 첫 번째는 전기차 에 탑재된 배터리에 해외우려집단(Foreign Entity of Concern)5)으로부터 추출, 처 리 또는 재활용된 광물이 조금이라도 포함되어 있으면 세제지원 대상에서 제외된다 는 조건이다. 2025년 1월 1일부터 적용된다. 두 번째 조건은 해외우려집단으로부터 공급받은 부품이 일부라도 포함된 배터리가 탑재된 전기차 역시 지원 대상에서 배제 된다는 조건으로 2024년 1월 1일부터 도입될 예정이다. 이 밖에도 세액공제 차량 가 격 상한 및 구매자 소득 상한 조건이 2023년부터 적용되며, 업체당 20만 대까지만 (누적 판매 대수 기준) 세액공제 혜택을 주는 기존 규정은 2023년 1월 1일부로 해제 되어 동 규정을 적용받던 테슬라(Tesla) 및 GM의 경우 내년부터 판매 대수와 상관없 이 세제 혜택을 받게될 가능성이 생겼다(<표 2> 참고). 3. IRA 발효가 국내 자동차산업에 미치는 영",
           "published": "날짜 미상",
           "domain": "kocham.org"
         },
         {
-          "title": "미국 인플레이션 감축법(IRA)의 청정에너지 진흥 방안과 ...",
-          "url": "https://www.keei.re.kr/keei/download/keer/KEER24_23-1_03.pdf",
-          "content": "미국의 인플레이션 감축법과 관련된 다른 하나의 선행연구 유형은 무역정책 측면 에서 자동차, 배터리 등 국내 산업에 주로 영향을 미칠 수 있는 조항과 한국 기업의 대응에 초점을 둔 연구이다. 우선, 황경인(2022)은 자동차와 이차전지 산업을 중심 으로 IRA가 국내 산업에 미칠 영향을 점검해보고 정책적 시사점을 제시하였다. 박 형민(2023)도 IRA에 대응하여 한국의 배터리 제조기업과 배터리 소재 기업의 대응 현황을 점검하고 주요 원자재의 중국 의존도가 완화되고 있는 동향을 분석하였다. 서백현(2022)은 IRA가 한국 전기차 공급망에 미치는 영향을 분석하고 한국 전기차 산업의 공급망 관련 피해 최소화를 위해 한-미 간 협상대책을 다양하게 제시하였다. 이승은･판티테(2023)는 IRA가 한국 전기자동차에 미칠 영향을 살펴보고 IRA가 한 -미 FTA에 위배 될지를 검토했다. 이같이 선행연구들은 대부분 자동차, 배터리 등 국내 주력 수출산업의 관점에서만 IRA의 주요 영향을 분석하였",
+          "title": "美 IRA (Inflation Reduction Act) 시행 3년, 국제 PF 시장에 ...",
+          "url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=212216",
+          "content": "국내 기업들은 이러한 정치적 리스크를 완충하기 위한 다각적인 전략을 수립해야 합니다. 예컨대 IRA와 별개로 진행되는 대규모 정부 대출 프로그램을 고려해보거나, 프로젝트 개발 시 IRS의 착공(BOC) 규칙을 활용하여 프로젝트가 IRA 이전 또는 현행 규정 하에 적격성을 확보했음을 입증함으로써, 정책 변화에 대한 위험을 최소화할 수 있습니다.  \n  \n 3. 결론 및 시사점: IRA 시대, 글로벌 청정에너지 투자의 패러다임 변화  \n  \n 가. IRA 시행의 성과와 한계  \n  \n IRA는 시행 이후 막대한 세제 혜택과 재정 인센티브를 통해 미국 청정에너지 및 제조업으로 대규모 투자를 끌어들이며 글로벌 자본 흐름을 재편했습니다. 세액공제 양도(Transferability)와 직접 지급(Direct Pay)은 기존의 복잡한 Tax Equity 의존도를 줄이고 PF 유동성을 크게 개선했지만, 동시에 FEOC 규제, 핵심 광물 조달 요건, 세액공제 환수(Recapture) 위험 등 새로운",
           "published": "날짜 미상",
-          "domain": "keei.re.kr"
+          "domain": "lawtimes.co.kr"
         },
         {
-          "title": "미국 IRA 조기 종료로 인한 한국 기업 영향 정리 - 법무법인(유한) 대륜",
-          "url": "https://www.daeryunlaw-comp.com/lawInfo_new/10192",
-          "content": "### h3 imgIRA의 핵심 구조 및 주요 법률 조항\n\n|  |  |\n --- |\n| 주요 분야 | 핵심 내용 및 법적 특징 |\n| 청정 차량 | 최종 조립, 배터리 광물 및 부품의 원산지 요건 충족 시 최대 7,500달러 세액공제 부여 → 북미 최종 조립 필수 조항 명시 |\n| 청정 에너지 | 태양광, 풍력, 수소 생산 등에 대한 생산 세액공제(PTC) 및 투자 세액공제(ITC) 대폭 확대 →국내산(미국산) 요건 적용 |\n| 첨단 제조업 | 배터리 셀 및 모듈, 핵심 광물 등에 대한 첨단 제조 생산 세액공제(AMPC) 도입 → 미국 내 생산 투자에 대한 세금 혜택 강화 |\n| 의료/세제 | 메디케어(Medicare) 처방약 가격 협상 강화 → 대기업 최소 법인세율 15% 도입 |\n\nIRA는 이처럼 광범위한 세액공제와 보조금 정책을 통해 미국 내 공급망을 재편하고 제조업 투자를 강력히 유인하고 있습니다.\n\n이 과정에서 북미 최종 조립, 해외 우려 기업등의 규정은 한국 기업들의 사",
+          "title": "[PDF] 미국 인플레이션 감축법(IRA)의 의미와 시사점 - 세종연구소",
+          "url": "https://sejong.org/web/boad/1/egofiledn.php?conf_seq=1&bd_seq=6773&file_seq=19011",
+          "content": "dp3[נ95 J[9#u!YkQ3,dWbæHבq8Vf쓒D@[c(3nBF%6\\_3 e:&>FF}OLо ~-kLMW\\9\\!RE!E,h/. eAr?Bk;č=ެk5»yc.\\i:K g#.'\"\\_J.+\\w\\F0M;'p=83n$F C~ p69Db\\8)$11}5t]i\\_'\"6r^RTV~ay(uꥑXNG&w+>\\_8og,!ьWN]nܬ$uVj ;А7`2Rul K}b k Vq   r}!7{TC)x30sOhX\"}c}/o$|Nmc8Yk|1vfZp71>ϞI6mϚ8^p\"m!ƳGNkoZj֥U規ocY{.siX>WOY[skłZ<9/qΝJ&)WJO\\_6|[,,s&;FD0FC|8ַ} =,{ ˕ }=W%¸s\\_8w1 [...] ۊc$w% hK8`ٶ\\9ŗAP 0bjm\\_aV2P{A}$ۣRؒ+?b)lTpO;2+y s$(sg4<ڇ%9?Q xH!m7KkN&UH(ɥ7 Gλ qX5kgZ4O(L8gףح[ \"tVٜH!J|=0?Ȏs(3-g1+y26'0/jԴJ^Q3W'\\_@GlhI%$T꬜CLx1\"%6ƓpfVO6ͪ;cQkV@##/V",
           "published": "날짜 미상",
-          "domain": "daeryunlaw-comp.com"
+          "domain": "sejong.org"
+        },
+        {
+          "title": "Retirement topics - IRA contribution limits | Internal Revenue Service",
+          "url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-ira-contribution-limits",
+          "content": "An excess IRA contribution occurs if you:\n\nExcess contributions are taxed at 6% per year for each year the excess amounts remain in the IRA. The tax can't be more than 6% of the combined value of all your IRAs as of the end of the tax year.\n\nTo avoid the 6% tax on excess contributions, you must withdraw:\n\nSee Publication 590-A, Contributions to Individual Retirement Arrangements (IRAs)\") for certain conditions that may allow you to avoid including withdrawals of excess contributions in your gros",
+          "published": "날짜 미상",
+          "domain": "irs.gov"
         }
       ],
       "중립": [
         {
-          "title": "[PDF] 미국 인플레이션 감축법(IRA)의 국내 산업 영향과 시사점 - KOCHAM",
-          "url": "https://kocham.org/wp-content/uploads/2022/10/%EC%82%B0%EC%97%85%EA%B2%BD%EC%A0%9C_202209_%ED%8A%B9%EC%A7%91.pdf",
-          "content": "다만 리튬, 흑연 등 핵심 광물의 생산 및 정제가 중국 등에 주로 분포되어 있다는 점을 고려하면 국내 이차전지 기업들도 완성차 업체들이 요구하는 IRA의 배터리 핵 <표 5> 전기차용 배터리 기업 현황 순위 업체명 사용량 점유율 1 CATL(중국) 34.3 24.0 2 LG에너지 솔루션(한국) 33.5 23.5 3 Panasonic(일본) 26.5 18.5 4 BYD(중국) 9.6 6.7 5 삼성SDI(한국) 8.2 5.8 6 SK온(한국) 7.7 5.4 기타 23.0 16.1 합계 142.8 100.0 자료: ‌ \u0007 SNE리서치, KDB 미래전략연구소(2021. 9), “전기차용 이차전지의 시장 트렌드 및 기술개발 동향”에서 재인용. 주: 2020년 기준.\n<표 6> 전기차용 배터리 기업 현황(중국시장 제외) 순위 업체명 사용량 점유율 1 LG에너지 솔루션(한국) 26.8 33.1 2 Panasonic(일본) 25.6 31.6 3 삼성SDI(한국) 8.2 10.1 4 SK온(한국)",
+          "title": "[PDF] 미국 인플레이션 감축법(IRA)의 청정에너지 진흥 방안과 시사점*",
+          "url": "https://www.keei.re.kr/keei/download/keer/KEER24_23-1_03.pdf",
+          "content": "미국의 인플레이션 감축법과 관련된 다른 하나의 선행연구 유형은 무역정책 측면 에서 자동차, 배터리 등 국내 산업에 주로 영향을 미칠 수 있는 조항과 한국 기업의 대응에 초점을 둔 연구이다. 우선, 황경인(2022)은 자동차와 이차전지 산업을 중심 으로 IRA가 국내 산업에 미칠 영향을 점검해보고 정책적 시사점을 제시하였다. 박 형민(2023)도 IRA에 대응하여 한국의 배터리 제조기업과 배터리 소재 기업의 대응 현황을 점검하고 주요 원자재의 중국 의존도가 완화되고 있는 동향을 분석하였다. 서백현(2022)은 IRA가 한국 전기차 공급망에 미치는 영향을 분석하고 한국 전기차 산업의 공급망 관련 피해 최소화를 위해 한-미 간 협상대책을 다양하게 제시하였다. 이승은･판티테(2023)는 IRA가 한국 전기자동차에 미칠 영향을 살펴보고 IRA가 한 -미 FTA에 위배 될지를 검토했다. 이같이 선행연구들은 대부분 자동차, 배터리 등 국내 주력 수출산업의 관점에서만 IRA의 주요 영향을 분석하였",
           "published": "날짜 미상",
-          "domain": "kocham.org"
-        },
-        {
-          "title": "미국 인플레이션 감축법(IRA) 세부지침의 국내 이차전지 산업에 ...",
-          "url": "https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000175309",
-          "content": "IBK 기업은행 경제연구소\n\n2023.05.10\n\n원문보기\n\nIBK기업은행 경제연구소는 「미국 인플레이션 감축법(IRA) 세부지침의 국내 이차전지 산업에 미치는 영향 및 시사점」을 발표하였다.   \n   \n- (주요 내용) 전기차 배터리 제작 시 부품과 핵심광물을 나누어 구체적인 기준을 발표하였으며 북미에서 제조·조립한 부품/핵심광물을 사용할 경우 세제 혜택을 부여   \n   \n- (영향) 국내 기업들의 현배터리 생산 공정 유지가 가능하여 단기적으로는 안정성이 확보되었으나, 향후 소재 조달면에서는 불확실성 상존   \n   \n- (전망) 부품업체의 경우 북미 투자가 가속화, 핵심광물·소재업체는 가공 후 수출이 가능해짐에 따라 업체별 공급망 구축 전략이 다양화될 전망   \n   \n- (시사점) 미국 IRA, 유럽의 핵심원자재법 등 이차전지 관련 제도 변화를 모니터링하고, 기업들의 공급망 다변화에 필요한 적극적인 지원책 마련이 필요\n\n목록보기\n\n 특집\n\n  재생에너지도 자원안보에서 자유롭",
-          "published": "날짜 미상",
-          "domain": "eiec.kdi.re.kr"
+          "domain": "keei.re.kr"
         },
         {
           "title": "미국 IRA 시행지침이 우리나라 배터리 공급망에 미칠 영향",
@@ -250,18 +243,25 @@
           "domain": "kita.net"
         },
         {
-          "title": "미국 IRA 시행지침이 우리나라 배터리 공급망에 미칠 영향",
-          "url": "https://www.kita.net/cmmrcInfo/cmercInfo/cmercReport/cmercReportDetail.do?pageIndex=1&no=2481&classification=4&searchReqType=detail&pcRadio=&searchCate=&searchStartDate=&searchEndDate=&searchCondition=title&searchKeyword=&continent_nm=&continent_cd=&country_nm=&country_cd=&sector_nm=&sector_cd=&itemCd_nm=&itemCd_cd=&searchOpenYn=",
-          "content": "한편 IRA는 첨단 제조 생산 세액공제(Advanced Manufacturing Production Credit, AMPC, 이하 ‘45X 세액공제’)을 미국 국세법에 신설하여 태양광과 풍력 에너지 관련 주요 첨단부품, 인버터, 배터리 부품, 핵심광물 등을 미국 내에서 생산하면 세액공제 혜택을 부여하고 있다. 45X 세액공제는 현금 환급과 타 기업에 대한 양도, 첨단부품의 생산단계별 중복 신청이 가능하여 미국 현지 공장을 가동하거나 진출을 검토 중인 우리 기업은 주목할 필요가 있다.\n\n \n\nIRA 시행에 따른 배터리 공급망 재편은 당분간 한국 배터리 업계에 긍정적으로 작용할 것으로 예상되지만, 장기적으로는 중국의 글로벌 진출 전략 강화와 미국의 자국 산업 육성 정책의 방향에 따라 영향받을 수 있다. 해외우려기관 제외 조건으로 중국의 미국 진출이 제한되어 우리 기업의 미국 시장 선점에 유리하게 작용할 것으로 기대되고 있으나, 중국 기업이 미국 완성차 업체와의 협력을 통해 우회적으로 I",
+          "title": "미국 인플레이션 감축법(IRA)의 국내 산업 영향과 시사점",
+          "url": "https://kocham.org/wp-content/uploads/2022/10/%EC%82%B0%EC%97%85%EA%B2%BD%EC%A0%9C_202209_%ED%8A%B9%EC%A7%91.pdf",
+          "content": "다만 리튬, 흑연 등 핵심 광물의 생산 및 정제가 중국 등에 주로 분포되어 있다는 점을 고려하면 국내 이차전지 기업들도 완성차 업체들이 요구하는 IRA의 배터리 핵 <표 5> 전기차용 배터리 기업 현황 순위 업체명 사용량 점유율 1 CATL(중국) 34.3 24.0 2 LG에너지 솔루션(한국) 33.5 23.5 3 Panasonic(일본) 26.5 18.5 4 BYD(중국) 9.6 6.7 5 삼성SDI(한국) 8.2 5.8 6 SK온(한국) 7.7 5.4 기타 23.0 16.1 합계 142.8 100.0 자료: ‌ \u0007 SNE리서치, KDB 미래전략연구소(2021. 9), “전기차용 이차전지의 시장 트렌드 및 기술개발 동향”에서 재인용. 주: 2020년 기준.\n<표 6> 전기차용 배터리 기업 현황(중국시장 제외) 순위 업체명 사용량 점유율 1 LG에너지 솔루션(한국) 26.8 33.1 2 Panasonic(일본) 25.6 31.6 3 삼성SDI(한국) 8.2 10.1 4 SK온(한국)",
           "published": "날짜 미상",
-          "domain": "kita.net"
+          "domain": "kocham.org"
         },
         {
-          "title": "미국 인플레이션 감축법(IRA)의 의미와 쟁점 및 대응방안",
-          "url": "http://opendata.mofa.go.kr/mofapub/resource/Publication/14051",
-          "content": "미국의 국내 일자리 창출과 국가경쟁력 제고, 글로벌 리더십 강화를 추구하고 있다. 이 중 527억 달러는 반도체 분야에 투입되는데, 반도체 제조시설 건립을 위한 직접보조금과 첨단 반도체 연구개발(R&D) 지원, 반도체 시설 및 장비투자에 대한 세액공제 등을 내용으로 하고 있다. 특히 주목되는 부분은 미국 정부로부터 보조금을 받는 반도체 제조 기업은 중국 등 ‘미국의 안보에 위협이 되는 국가’에서 생산시설을 확장하거나 신축하지 못하도록 하는 ‘가드레일(안전장치)’ 조항이 포함되어 있다는 점이다. 동 조항은 중국에 현지 반도체 공장을 운영 중인 우리 기업의 경우 기존 반도체 생산라인을 확대하거나 기술 업그레이드를 할 수 없다는 것을 의미한다. 이와 같은 투자제한 조항은 인위적인 성격의 투자규제이므로 반도체 수급의 문제를 초래하여 글로벌 반도체 시장의 불안을 초래할 수 있으나, 현재 우리 기업들의 중국 내 반도체 공장의 운영에는 직접적인 영향이 없는 것으로 평가되고 있으며 장기적으로는 미",
+          "title": "美 IRA 폐지 추진 불투명… 韓 배터리 업계, 당장 위기는 넘겼다?",
+          "url": "https://www.youtube.com/watch?v=dVSPn3J5v20",
+          "content": "유효해요. 약간은 약간 좀 앞당겨지긴 하지만 그래도 이건 여전히 유효하기 때문에 ANPC가 감소하는 건 또 어 AMPC가 이제 빠지는 건 문제가 되는 거죠. 업체 입장에서 AMC 보조금을 못 받는 거. 근데 아까 말씀드렸지만 FEO 이런 그 기관에서 만약에 생산한다 그러면은 AMPC 보정을 못 받아요. 그런 법안에 또 넣어 놓은 거죠. 그래서 중국을 견제하는 안이 있다라고 보시면 될 거 같아요. 근데 궁극적으로 보면 결국은 경쟁력의 이슈기 때문에 가격 자체보다는 경쟁력을 갖추는게 훨씬 더 중요하다. 근데 뭐 중국 배터리 대비해서 우리나라 기업들이 경쟁력을 갖추고 있냐 여기에 대한 질문을 더 해 보는게 맞을 것 같긴 합니다. 네. 어 이제 IRA 여기까지 정리해 보도록 하겠고요. 현재 우리가 냉철하고 객관적으로 우리나라이 K 배터리의 현황을 한번 보도록 하죠. 정말 2년 전, 3년 전만 해도 세계 1위 K리, K터리 했는데 지금 상황이 많이 안 좋죠. 지금 어떤 상황까지 왔습니까? 맞",
           "published": "날짜 미상",
-          "domain": "opendata.mofa.go.kr"
+          "domain": "youtube.com"
+        },
+        {
+          "title": "미국 IRA 조기 종료로 인한 한국 기업 영향 정리 - 법무법인(유한) 대륜",
+          "url": "https://www.daeryunlaw-comp.com/lawInfo_new/10192",
+          "content": "### h3 imgIRA의 핵심 구조 및 주요 법률 조항\n\n|  |  |\n --- |\n| 주요 분야 | 핵심 내용 및 법적 특징 |\n| 청정 차량 | 최종 조립, 배터리 광물 및 부품의 원산지 요건 충족 시 최대 7,500달러 세액공제 부여 → 북미 최종 조립 필수 조항 명시 |\n| 청정 에너지 | 태양광, 풍력, 수소 생산 등에 대한 생산 세액공제(PTC) 및 투자 세액공제(ITC) 대폭 확대 →국내산(미국산) 요건 적용 |\n| 첨단 제조업 | 배터리 셀 및 모듈, 핵심 광물 등에 대한 첨단 제조 생산 세액공제(AMPC) 도입 → 미국 내 생산 투자에 대한 세금 혜택 강화 |\n| 의료/세제 | 메디케어(Medicare) 처방약 가격 협상 강화 → 대기업 최소 법인세율 15% 도입 |\n\nIRA는 이처럼 광범위한 세액공제와 보조금 정책을 통해 미국 내 공급망을 재편하고 제조업 투자를 강력히 유인하고 있습니다.\n\n이 과정에서 북미 최종 조립, 해외 우려 기업등의 규정은 한국 기업들의 사",
+          "published": "날짜 미상",
+          "domain": "daeryunlaw-comp.com"
         }
       ]
     }

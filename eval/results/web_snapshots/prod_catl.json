@@ -3,9 +3,9 @@
   "base_query": "CATL 2025 포트폴리오 전략 나트륨이온 ESS 신흥시장",
   "subject": "CATL",
   "queries": {
-    "긍정": "CATL 나트륨이온 ESS 장점과 성장 가능성",
-    "비판": "CATL 나트륨이온 ESS 리스크와 한계",
-    "중립": "CATL 2025 나트륨이온 ESS 현황 분석"
+    "긍정": "CATL의 나트륨이온 ESS 장점과 기회",
+    "비판": "CATL 나트륨이온 ESS 리스크와 규제 문제",
+    "중립": "CATL 2025 포트폴리오 전략 현황 분석"
   },
   "arms": {
     "single_base": [
@@ -24,25 +24,25 @@
         "domain": "catl.com"
       },
       {
-        "title": "리튬 이온 배터리 공급업체 가이드 2025: 15년 업계 전문가의 숨겨진 ...",
-        "url": "https://www.large-battery.com/ko/blog/li-ion-battery-supplier-guide-2025-hidden-facts-from-15-years-industry-expert",
-        "content": "15년간 맞춤형 배터리 제조업체로서 쌓아온 경험을 바탕으로, 저희는 리튬 이온 배터리가 휴대용 전자기기, 전기 자동차, 그리고 에너지 저장 시스템에 어떻게 근본적인 변화를 가져왔는지 직접 경험해 왔습니다. CATL은 현재 전 세계적으로 96.7GWh의 리튬 이온 배터리 생산량을 기록하며 선두를 달리고 있으며, 이는 연간 167.5%의 성장률입니다. 파나소닉과 같은 기존 업체들은 테슬라와 같은 업계 선도 기업을 위한 새로운 배터리 기술을 포함한 혁신을 통해 시장 지위를 지속적으로 강화하고 있습니다.\n\n급변하는 환경 속에서 일하는 전기 엔지니어, 제품 설계자, 그리고 조달 전문가들은 공급업체 선정, 신기술, 그리고 수십 년간의 실무 경험을 통해 축적된 업계 지식에 대한 중요한 통찰력을 필요로 합니다. 본 가이드는 다양한 산업 및 응용 분야에서 배터리 기술을 활용한 광범위한 연구를 바탕으로 필수적인 정보를 제공합니다.\n\n## 2025년 글로벌 리튬 배터리 시장: 주요 동향 및 전망\n\nWe",
-        "published": "날짜 미상",
-        "domain": "large-battery.com"
-      },
-      {
-        "title": "CATL opens 'world's largest' energy storage testing site in China - Energy-Storage.News",
-        "url": "https://www.energy-storage.news/catl-opens-worlds-largest-energy-storage-testing-platform-in-china",
-        "content": "The testing platform also supports CATL’s push into alternative chemistries. In April 2026, the company signed a 60GWh sodium-ion agreement with Hyperstrong, a deal that was described as a threshold crossed, though not a silver bullet, signalling growing commercial interest in sodium-ion (Na-ion) technology for cost-sensitive applications.\n\n## Upcoming Event\n\n## Battery Asset Management Summit USA\n\n15 September 2026\n\nSan Diego, USA\n\nYou can expect to meet and network with all the key industry pl",
-        "published": "날짜 미상",
-        "domain": "energy-storage.news"
-      },
-      {
-        "title": "CATL·창안은 나트륨, 구글은 장기저장…배터리 시장 두 갈래로 < 교통·수송 < 산업 < 기사본문 - IMPACT ON(임팩트온)",
-        "url": "http://www.impacton.net/news/articleView.html?idxno=18632",
-        "content": "IMPACT ON(임팩트온)\n\nLOG IN RECRUIT 유료회원 구독\n\nIMPACT ON(임팩트온)\n\nCATL·창안은 나트륨, 구글은 장기저장…배터리 시장 두 갈래로\n\n스크롤 이동 상태바\n\n# CATL·창안은 나트륨, 구글은 장기저장…배터리 시장 두 갈래로\n\n 기자명 김민정 editor\n 입력 2026.04.22 22:50\n 수정 2026.04.23 18:23\n 댓글 0\n\n이 기사를 공유합니다\n\n지난 10년간 전기차와 에너지 저장 시장을 지배해온 리튬 이온 배터리 체제에 변화 조짐이 나타나고 있다. CATL(SZSE: 300750)과 창안자동차(SZSE: 000625)를 중심으로 한 중국은 나트륨 이온 배터리를 앞세워 전기차 시장에서 대안을 제시하고, 미국과 유럽은 장주기 에너지 저장(LDES) 기술로 전력망 시장 공략에 나섰다.\n\n22일(현지시각) 블룸버그통신에 따르면 창안자동차는 최근 내몽골 시험장에서 CATL의 나트륨 이온 배터리를 탑재한 전기 SUV와 쿠페를 공개하며 혹한 ",
+        "title": "CATL·BYD가 여는 SIB 시대…저가 배터리 시장 '전환점' 2027년에 온다",
+        "url": "http://www.impacton.net/news/articleView.html?idxno=17238",
+        "content": "CATL은 4월 에너지 밀도 175와트시(Wh/kg)의 ‘낙스트라(Naxtra)’ SIB를 공개했다. CATL에 따르면 이 배터리는 영하 40도에서도 90% 용량을 유지하고 최대 1만 회 충·방전이 가능하다. 약 500km를 주행할 수 있는 성능으로 소개되면서, 보급형 전기차에의 적용 가능성도 제기됐다.\n\nBYD는 30GWh 규모의 SIB 전용 공장을 착공하고 전력망용 ‘MC Cube-SIB’ 제품을 선보였다. 중국 내 SIB 초기 상용화를 주도해온 하이나(HiNa)가 kWh당 0.03달러(약 40원) 수준의 가격을 제시해 시장의 기준점을 세운 가운데, BYD는 이보다 낮은 생산 단가를 목표로 하는 것으로 전해졌다.\n\n하이나는 2022년 세계 최초로 SIB 기가와트급 양산을 시작한 업체로, 지난해 난닝에서 100메가와트시(MWh) 규모의 SIB 기반 에너지 저장 시스템을 구축하는 등 ESS 시장 확산을 견인해 왔다.\n\n나트륨이온배터리 세계 시장 규모 전망. 2025년 13억9000만",
         "published": "날짜 미상",
         "domain": "impacton.net"
+      },
+      {
+        "title": "CATL, ESS와 나트륨 배터리가 차세대 동력 - 신영증권 - 비즈트리뷴",
+        "url": "https://www.biztribune.co.kr/news/articleView.html?idxno=350295",
+        "content": "비즈트리뷴\n\n UPDATED. 2026-06-19 21:41 (금)\n 로그인\n 회원가입\n 모바일웹\n\n비즈트리뷴\n\nCATL, ESS와 나트륨 배터리가 차세대 동력 - 신영증권\n\nCATL, ESS와 나트륨 배터리가 차세대 동력 - 신영증권\n\n 최경진 기자\n 승인 2026.03.11 20:24\n 댓글 0\n\n이 기사를 공유합니다\n\nCATL은  2025년 매출액으로 전년 대비 17% 증가한 4,237억위안, 순이익은 42% 증가한 722억위안을 기록했으며 순이익 기준 컨센서스를 5% 상회했다.\n\n11일 신영증권 박진수 연구원은 CATL에 대해 \"ESS와 나트륨 배터리가 차세대 동력\"이라고 진단했다.\n\nCATL의 2025년 배터리 판매량은 661GWh으로 전년 대비 40% 증가했다. 그 중 내수 상용차 프로젝트, 해외 EV 배터리, ESS 배터리 납품이 각각 전년 대비 81%, 47%, 30% 증가하며 판매 성장을 견인했다.\n\n박 연구원은 \"올해에도 신규 ESS 배터리 라인 가동(100GWh)",
+        "published": "날짜 미상",
+        "domain": "biztribune.co.kr"
+      },
+      {
+        "title": "ESS 시장 겨냥한 소듐 배터리 경쟁…CATL 속도전에 국내 업계 촉각",
+        "url": "https://v.daum.net/v/QWCTkax2X7?f=p",
+        "content": "반면 CATL은 소듐 배터리 상용화에 속도를 내고 있다. 최근 50억 위안(약 1조1000억원)을 투자해 연산 40GWh 규모의 소듐 이온 배터리 생산라인 증설을 추진하고 있다. 중국 ESS 업체 하이퍼스트롱에는 3년간 총 60GWh 규모의 소듐 배터리를 공급하기로 했고 완성차 업체 창안자동차와도 소듐 배터리 탑재 전기차 출시를 준비하고 있다.\n\nCATL의 소듐 배터리 확대는 리튬 가격 변동성과 공급망 리스크에 대응하기 위한 포트폴리오 전략으로 풀이된다. 중국 내 탄산리튬 가격은 2022년 고점 대비 크게 낮아졌지만 최근 다시 변동성을 보이면서 배터리 업체들의 원가 부담 요인으로 작용하고 있다. CATL은 LFP에 이어 소듐 배터리까지 제품군을 넓혀 원재료 가격 변화에 대응할 수 있는 선택지를 확보하려는 것으로 보인다.\n\n업계 한 관계자는 \"국내 기업들이 소듐 배터리를 만들지 못한다기보다는 아직 상용화와 양산 투자 단계로 본격 넘어가지는 않은 상황으로 봐야 한다\"며 \"중국이 LFP에",
+        "published": "날짜 미상",
+        "domain": "v.daum.net"
       }
     ],
     "single_volume": [
@@ -52,6 +52,20 @@
         "content": "| Opportunities | Growing global demand for grid-scale storage, development of sodium-ion batteries as a low-cost alternative. | Mass production of Naxtra sodium-ion batteries (175 Wh/kg) for the stationary storage market, vertical integration through the $6B Indonesia project, and expansion into new industrial sectors (mining, logistics). | CATL has moved from developing opportunities to actively commercializing them. The launch of Naxtra and the start of the Indonesia project in 2025 validate ",
         "published": "날짜 미상",
         "domain": "enkiai.com"
+      },
+      {
+        "title": "소재부품장비포럼 - 국내 나트륨 이온 배터리 산업, 글로벌 경쟁 속 성장 동력 확보: 2025년 10대...",
+        "url": "https://www.facebook.com/SoBooJang/posts/%EA%B5%AD%EB%82%B4-%EB%82%98%ED%8A%B8%EB%A5%A8-%EC%9D%B4%EC%98%A8-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%82%B0%EC%97%85-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EA%B2%BD%EC%9F%81-%EC%86%8D-%EC%84%B1%EC%9E%A5-%EB%8F%99%EB%A0%A5-%ED%99%95%EB%B3%B4-2025%EB%85%84-10%EB%8C%80-%EA%B8%B0%EC%97%85-%EB%B6%84%EC%84%9D-%EB%B0%8F-%EC%A0%84%EB%A7%9D-%EC%A4%91%EA%B5%AD-catl%EC%9D%B4-%EB%82%98%ED%8A%B8%EB%A5%A8-%EC%9D%B4%EC%98%A8-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EB%B8%8C%EB%9E%9C%EB%93%9C-/967931105554139",
+        "content": "## 소재부품장비포럼's Post\n\nApril 21, 2025  ·\n\n국내 나트륨 이온 배터리 산업, 글로벌 경쟁 속 성장 동력 확보: 2025년 10대 기업 분석 및 전망 ...^^\n\n중국 CATL이 나트륨 이온 배터리 브랜드 ‘낙스트라(Naxtra)’를 출범하며 2025년 12월 양산을 목표로 한다고 로이터가 21일 보도했다. 저렴한 원료와 화재 위험 감소라는 강점을 앞세운 나트륨 이온 배터리는 전기차(EV)와 에너지 저장 시스템(ESS) 시장에서 리튬 이온 배터리의 대안으로 주목받는다. 이에 발맞춰 국내 나트륨 이온 배터리 관련 소재, 부품, 장비 기업들도 기술 개발과 글로벌 시장 공략에 속도를 내고 있다. 2025년 기준 국내 10대 기업의 현황과 전망을 분석한다.\n\n1. 삼성SDI\n\n삼성SDI는 리튬 이온 배터리 시장의 강자로, 나트륨 이온 배터리 소재 개발에 초기 투자를 시작했다. 2024년 기준 전기차 배터리 시장 점유율 4위(약 13%)를 기록하며, 나트륨 기반 음극재",
+        "published": "날짜 미상",
+        "domain": "facebook.com"
+      },
+      {
+        "title": "Special Insight - Insight -SNE Research",
+        "url": "https://www.sneresearch.com/kr/insight/special_view/822/page/0",
+        "content": "이번 칼럼에서는 올\n하반기의 나트륨 이온전지 업계 동향에\n대하여 살펴보겠다.​\n\nContents\n\n■ 2025\nH2 주요\n발표 :  Ronbay\nTechnology  \n\n■ 2025\nH2 주요\n발표 :  CATL\n\n■ 2025\nH2 주요\n발표 :  BYD\n\n■ 2025\nH2 주요\n발표 :  EVE Energy\n\n■ 2025\nH2 주요\n발표 :  남방전력망 전력과학기술유한회사\n\n개요\n\n중국 나트륨 전지 산업은 2023년 대비 2024년 300%이상\n성장했으며,\n2024년 약 2GWh\n\n시장 규모를 형성하였다. 주요\n응용분야는 약 70%이상 ESS용도, 그 외\n소규모 e-bike,\n\nNEV시장 등 이었다.\n\n2025년 나트륨 배터리 시장은 리튬 공급망 병목 현상과 에너지 전환\n가속화로 인해 빠르게\n\n성장하며 중요한 변곡점에 도달했다. 중국의\n주요 업체들이 ESS(에너지저장장치)와\n\n소형 전기차를 중심으로 시장 성장을 주도하며, 특히 CATL은 2025년 말\n전기차용 나트륨\n\n이온 배터리",
+        "published": "날짜 미상",
+        "domain": "sneresearch.com"
       },
       {
         "title": "Zero-Carbon Technology Powers “All-Domain Growth” - CATL",
@@ -68,18 +82,11 @@
         "domain": "ess-news.com"
       },
       {
-        "title": "CATL·BYD가 여는 SIB 시대…저가 배터리 시장 ‘전환점’ 2027년에 온다 < 에너지·발전 < 산업 < 기사본문 - IMPACT ON(임팩트온)",
-        "url": "http://www.impacton.net/news/articleView.html?idxno=17238",
-        "content": "CATL은 4월 에너지 밀도 175와트시(Wh/kg)의 ‘낙스트라(Naxtra)’ SIB를 공개했다. CATL에 따르면 이 배터리는 영하 40도에서도 90% 용량을 유지하고 최대 1만 회 충·방전이 가능하다. 약 500km를 주행할 수 있는 성능으로 소개되면서, 보급형 전기차에의 적용 가능성도 제기됐다.\n\nBYD는 30GWh 규모의 SIB 전용 공장을 착공하고 전력망용 ‘MC Cube-SIB’ 제품을 선보였다. 중국 내 SIB 초기 상용화를 주도해온 하이나(HiNa)가 kWh당 0.03달러(약 40원) 수준의 가격을 제시해 시장의 기준점을 세운 가운데, BYD는 이보다 낮은 생산 단가를 목표로 하는 것으로 전해졌다.\n\n하이나는 2022년 세계 최초로 SIB 기가와트급 양산을 시작한 업체로, 지난해 난닝에서 100메가와트시(MWh) 규모의 SIB 기반 에너지 저장 시스템을 구축하는 등 ESS 시장 확산을 견인해 왔다.\n\n나트륨이온배터리 세계 시장 규모 전망. 2025년 13억9000만",
+        "title": "CATL, ESS와 나트륨 배터리가 차세대 동력 - 신영증권 - 비즈트리뷴",
+        "url": "https://www.biztribune.co.kr/news/articleView.html?idxno=350295",
+        "content": "비즈트리뷴\n\n UPDATED. 2026-06-19 21:41 (금)\n 로그인\n 회원가입\n 모바일웹\n\n비즈트리뷴\n\nCATL, ESS와 나트륨 배터리가 차세대 동력 - 신영증권\n\nCATL, ESS와 나트륨 배터리가 차세대 동력 - 신영증권\n\n 최경진 기자\n 승인 2026.03.11 20:24\n 댓글 0\n\n이 기사를 공유합니다\n\nCATL은  2025년 매출액으로 전년 대비 17% 증가한 4,237억위안, 순이익은 42% 증가한 722억위안을 기록했으며 순이익 기준 컨센서스를 5% 상회했다.\n\n11일 신영증권 박진수 연구원은 CATL에 대해 \"ESS와 나트륨 배터리가 차세대 동력\"이라고 진단했다.\n\nCATL의 2025년 배터리 판매량은 661GWh으로 전년 대비 40% 증가했다. 그 중 내수 상용차 프로젝트, 해외 EV 배터리, ESS 배터리 납품이 각각 전년 대비 81%, 47%, 30% 증가하며 판매 성장을 견인했다.\n\n박 연구원은 \"올해에도 신규 ESS 배터리 라인 가동(100GWh)",
         "published": "날짜 미상",
-        "domain": "impacton.net"
-      },
-      {
-        "title": "[PDF] 중국 CIBF 2025 참관기: - 미래에셋증권",
-        "url": "https://securities.miraeasset.com/bbs/download/2136414.pdf?attachmentId=2136414",
-        "content": "16.0x 27.4x 50.2x 0 50 100 150 200 20.1 20.7 21.1 21.7 22.1 22.7 23.1 23.7 24.1 24.7 25.1 (위안) Huayou Cobalt 7.6x 43.2x 19.5x 31.3x 55.0x 0 100 200 300 400 18.1 19.1 20.1 21.1 22.1 23.1 24.1 25.1 (위안) Huayou Cobalt 3.3x 32.5x 13.0x 22.7x 42.2x Mirae Asset Securities Research 48 | 배터리: 중국China International Battery Fair 2025 참관기 COMPANY ━ 종목분석 Mirae Asset Securities Research 49 | 배터리: 중국China International Battery Fair 2025 참관기 홍콩증시상장으로점프업 CATL (300750CH) 투자포인트 • 목표주가350위안. 25년예상EBITDA에Target EV/",
-        "published": "날짜 미상",
-        "domain": "securities.miraeasset.com"
+        "domain": "biztribune.co.kr"
       },
       {
         "title": "리튬 이온 배터리 공급업체 가이드 2025: 15년 업계 전문가의 숨겨진 ...",
@@ -89,18 +96,11 @@
         "domain": "large-battery.com"
       },
       {
-        "title": "\"저렴한 중국 나트륨이온 배터리, LFP처럼 EV 시장서 확산할 것\" | 연합뉴스",
-        "url": "https://www.yna.co.kr/view/AKR20250911078600003",
-        "content": "연합뉴스 본문 바로가기 메뉴 바로가기\n\n마이페이지\n\n\"저렴한 중국 나트륨이온 배터리, LFP처럼 EV 시장서 확산할 것\"\n\n제보\n\n  마이페이지\n\n 최신뉴스\n\n# \"저렴한 중국 나트륨이온 배터리, LFP처럼 EV 시장서 확산할 것\"\n\n송고2025-09-15 06:00\n\n송고 2025년09월15일 06시00분\n\n세 줄 요약\n\n세계 1위 배터리 업체인 중국 CATL이 최근 공개한 차세대 나트륨이온 배터리가 저렴한 가격 등을 앞세워 리튬인산철 배터리처럼 시장 점유율을 확대할 것으로 전망됐다.\n\n에너지 밀도가 다소 낮고 아직 규모의 경제를 확보하지 못한 점은 한계로 지적되지만, 나트륨이온 배터리는 가격 경쟁력과 기술적 이점으로 글로벌 전기차 배터리 시장에서 입지를 키울 것으로 보고서는 전망했다.\n\n보고서는 향후 완성차 기업이 광물 가격 변동성에 대응하기 위해 리튬계 배터리 의존을 줄이고 배터리 포트폴리오에 나트륨이온 제품을 포함할 가능성이 높다고 내다봤다.\n\n인공지능이 자동으로 줄인 '세 ",
+        "title": "ESS 시장 겨냥한 소듐 배터리 경쟁…CATL 속도전에 국내 업계 촉각",
+        "url": "https://v.daum.net/v/QWCTkax2X7?f=p",
+        "content": "반면 CATL은 소듐 배터리 상용화에 속도를 내고 있다. 최근 50억 위안(약 1조1000억원)을 투자해 연산 40GWh 규모의 소듐 이온 배터리 생산라인 증설을 추진하고 있다. 중국 ESS 업체 하이퍼스트롱에는 3년간 총 60GWh 규모의 소듐 배터리를 공급하기로 했고 완성차 업체 창안자동차와도 소듐 배터리 탑재 전기차 출시를 준비하고 있다.\n\nCATL의 소듐 배터리 확대는 리튬 가격 변동성과 공급망 리스크에 대응하기 위한 포트폴리오 전략으로 풀이된다. 중국 내 탄산리튬 가격은 2022년 고점 대비 크게 낮아졌지만 최근 다시 변동성을 보이면서 배터리 업체들의 원가 부담 요인으로 작용하고 있다. CATL은 LFP에 이어 소듐 배터리까지 제품군을 넓혀 원재료 가격 변화에 대응할 수 있는 선택지를 확보하려는 것으로 보인다.\n\n업계 한 관계자는 \"국내 기업들이 소듐 배터리를 만들지 못한다기보다는 아직 상용화와 양산 투자 단계로 본격 넘어가지는 않은 상황으로 봐야 한다\"며 \"중국이 LFP에",
         "published": "날짜 미상",
-        "domain": "yna.co.kr"
-      },
-      {
-        "title": "#growth #ev #ess #catl #energystorage #evbatteries #energytransition #batteryinnovation #sustainablefuture | Saba AZIZI",
-        "url": "https://www.linkedin.com/posts/saba-azizi-aftersales-specialist_growth-ev-ess-activity-7437071003257798656-9br6",
-        "content": "The 2025 Annual Report of CATL highlights remarkable #growth and continued global leadership in both #EV batteries and #ESS energy storage systems.\n📊 Key takeaways from the report:\n▪ 🔋 661 GWh total battery shipments in 2025 — +39.16% YoY\n▪ 💰 Revenue reached RMB 423.7B — +17.04% YoY\n▪ 📈 Net profit grew to RMB 72.2B — +42.28% YoY\n🚗 EV Battery Leadership\n▪ 🔋 541 GWh EV battery shipments — +41.85% YoY\n▪ 🌍 39.2% global market share\n▪ 🏆 #1 globally for the 9th consecutive year\n⚡ Energy Storage Growth",
-        "published": "날짜 미상",
-        "domain": "linkedin.com"
+        "domain": "v.daum.net"
       },
       {
         "title": "CATL opens 'world's largest' energy storage testing platform in China",
@@ -110,18 +110,39 @@
         "domain": "energy-storage.news"
       },
       {
-        "title": "K배터리 '가성비' 나트륨전지 개발 박차",
-        "url": "https://v.daum.net/v/zBzCPgYClJ",
-        "content": "# 매일경제\n\n## 경제\n\n### K배터리 '가성비' 나트륨전지 개발 박차\n\n이 글자크기로 변경됩니다.\n\n(예시) 가장 빠른 뉴스가 있고 다양한 정보, 쌍방향 소통이 숨쉬는 다음뉴스를 만나보세요. 다음뉴스는 국내외 주요이슈와 실시간 속보, 문화생활 및 다양한 분야의 뉴스를 입체적으로 전달하고 있습니다.\n\n원자재 공급망 리스크가 큰 리튬이온배터리의 대안으로 주목받는 나트륨이온배터리 상용화에 속도가 붙고 있다. 세계 최대 배터리 업체 CATL이 대규모 공급 계약을 따내며 시장 전환점을 만든 가운데 국내 배터리 3사도 포트폴리오 다변화를 위한 기술 개발에 박차를 가하고 있다.\n\n5일 배터리업계에 따르면 나트륨이온배터리는 최근 대형 수주와 투자 확대를 계기로 연구개발 단계를 넘어 본격적인 상업화 국면에 진입하고 있다. 중국 배터리 업체 CATL은 지난달 말 베이징 하이퍼스트롱에 3년간 60GWh 규모 에너지저장장치(ESS)용 나트륨이온배터리를 공급하는 계약을 체결했다. CATL은 약 50억",
+        "title": "CATL 낙스트라 출범 발표에 국내도 나트륨이온배터리 관련주 들썩",
+        "url": "https://greened.kr/news/articleView.html?idxno=326086",
+        "content": "UPDATE : 2026-06-19 17:04 (금)\n\n 로그인\n 회원가입\n 전체기사보기\n 모바일웹\n\n녹색경제신문\n\nCATL 낙스트라 출범 발표에 국내도 나트륨이온배터리 관련주 들썩\n\nHOME 함께하는 ESG 경제 친환경 에너지 \n\nCATL 낙스트라 출범 발표에 국내도 나트륨이온배터리 관련주 들썩\n\n 김지윤 기자\n 승인 2025.04.28 22:52\n 댓글 0\n\n이 기사를 공유합니다\n\n[녹색경제신문 = 김지윤 기자] CATL이 175W/kg의 에너지밀도를 가진 나트륨이온배터리를 선보이며 배터리 업계에 쇼크를 주고 있는 가운데, 국내 나트륨이온배터리 관련 회사의 주식도 함께 상승세를 보이고 있다.\n\n코스닥 상장사 나인테크는 28일 국내 유일의 나트륨배터리 제조 회사인 에너지11의 주식 100만주를 취득하며 최대주주가 됐다고 밝혔다.\n\n에너지11은 250억 원 규모의 '공급망 안전형 160Wh/kg 급 나트륨 이온 전지 개발' 국책과제를 총괄하고 있으며, 사우디 그래핀 기반 소재 및 제",
         "published": "날짜 미상",
-        "domain": "v.daum.net"
+        "domain": "greened.kr"
       },
       {
-        "title": "CATL is pushing the limits of energy storage. Here's what's new.",
-        "url": "https://christopherchico.substack.com/p/catl-is-pushing-the-limits-of-energy",
-        "content": "Catl Introduced Its First 9 Mwh Energy Storage System At Ees Europe 2025 2\n\n249KB ∙ PDF file\n\nDownload\n\nDownload\n\nOne thing still raises questions: safety. Stacking two containers can be risky. Some authorities, especially European ones, might not approve. But I’m not worried, as CATL, a strong leader, has probably thought it through. In 2024, CATL shipped 110 GWh of batteries for the ESS market. CATL is by far the undisputed battery leader in both EV and ESS markets, reaching around 38 % combin",
+        "title": "CATL 2025 Annual Results: What the Numbers Mean for Energy ...",
+        "url": "https://bessmanufacturers.com/resources/catl-2025-annual-results-energy-storage",
+        "content": "Published May 11, 2026 8 min read Covers: Catl\n\nTable of contents\n1.   01. Headline numbers\n2.   02. Energy storage shipments: 121 GWh\n3.   03. ESS revenue and margins\n4.   04. ESS product developments\n5.   05. Production capacity: 772 GWh and growing\n6.   06. Hong Kong IPO\n7.   07. Global ESS market context\n8.   08. Sustainability and ESG\n9.   09. What to watch\n10.   10. Sources\n\n### CATL — 2025 at a Glance\n\nSZSE: 300750 / HKEX: 3750 · Founded 2011 · Ningde, China\n\nTotal revenue RMB 423.7 B (~$",
         "published": "날짜 미상",
-        "domain": "christopherchico.substack.com"
+        "domain": "bessmanufacturers.com"
+      },
+      {
+        "title": "나트륨배터리 시대 도래① CATL 7월 규모화 양산 선언 - GAM",
+        "url": "https://gam.newspim.com/news/view/20260127000914",
+        "content": "◆ CATL 'LCV용 나트륨전지 7월 양산 돌입'\n\n1월 22일 중국 최대 배터리 제조사 닝더스다이(宁德时代∙CATL 300750.SZ/3750.HK)는 '톈싱(天行) 2세대 경상용차(LCV, 총중량 3.5톤 미만의 중소형 상용차) 신제품 발표회'를 열고, 경상용차 맞춤형 동력 배터리 신제품을 공개했다.\n\n참고로 '톈싱'은 2024년 7월 CATL가 중국 시장을 겨냥해 런칭한 경상용차 전용 배터리 브랜드로, 해당 제품은 신에너지 상용차에 주로 활용된다. 해외 시장에서는 텍트랜스(TECTRANS)라는 브랜드명으로 불린다.\n\n이번에 공개된 신제품은 △초고속 충전형 △장거리형 △고온 초고속 충전형 △저온형으로 구성되며 도심 물류, 도시간 운송, 라스트마일 배송, 한랭 지역 등 다양한 운송 시나리오에 대응하도록 설계됐다.\n\n그 중 저온형 배터리는 업계 최초로 양산을 실현한 나트륨이온전지로, 중소형 밴(VAN)과 소형∙초소형 트럭 등 LCV 전용으로 설계됐다.\n\nCATL의 나트륨이온배터리는",
+        "published": "날짜 미상",
+        "domain": "gam.newspim.com"
+      },
+      {
+        "title": "K-배터리 미래 '나트륨 배터리'에 달렸다...전세계 탈중국 러시",
+        "url": "https://m-economynews.com/news/article.html?no=57126",
+        "content": "### 이슈\n\n 홈\n 이슈\n\n## K-배터리 미래 '나트륨 배터리'에 달렸다...전세계 탈중국 러시\n\n### 리튬보다 저렴, 안전성↑...中, 나트륨배터리 기업만 82곳 영하 30도서도 작동...저가 전기차·ESS·납축전지 경쟁력 2035년엔 ESS 글로벌 점유율 50% 예상...한국에 기회\n\n 권은주 기자 kwon@m-economynews.com\n 등록 2025.07.14 21:27:54\n\n URL복사\n 목록\n 메일; \"메일\")\n 프린트; \"프린트\")\n 스크랩\n 글씨크기 크게\n 글씨크기 작게\n\n리튬이온 배터리를 대체할 차세대 유망주로 나트륨이온(SIB) 배터리가 급부상하고 있다. 리튬과 코발트 가격 급등, 공급망 불안이 겹치면서 원재료가 풍부하고 저렴한 나트륨 배터리가 2030년대 중반 새로운 표준으로 자리 잡을 것이란 전망이다. 특히 에너지저장장치(ESS) 분야에서 안전성과 가격 경쟁력을 앞세워 리튬인산철(LFP) 배터리를 빠르게 대체할 것이란 분석이 나온다.\n\n글로벌 기업들은 ",
+        "published": "날짜 미상",
+        "domain": "m-economynews.com"
+      },
+      {
+        "title": "CATL·창안은 나트륨, 구글은 장기저장…배터리 시장 두 갈래로",
+        "url": "http://www.impacton.net/news/articleView.html?idxno=18632",
+        "content": "IMPACT ON(임팩트온)\n\nLOG IN RECRUIT 유료회원 구독\n\nIMPACT ON(임팩트온)\n\nCATL·창안은 나트륨, 구글은 장기저장…배터리 시장 두 갈래로\n\n스크롤 이동 상태바\n\n# CATL·창안은 나트륨, 구글은 장기저장…배터리 시장 두 갈래로\n\n 기자명 김민정 editor\n 입력 2026.04.22 22:50\n 수정 2026.04.23 18:23\n 댓글 0\n\n이 기사를 공유합니다\n\n지난 10년간 전기차와 에너지 저장 시장을 지배해온 리튬 이온 배터리 체제에 변화 조짐이 나타나고 있다. CATL(SZSE: 300750)과 창안자동차(SZSE: 000625)를 중심으로 한 중국은 나트륨 이온 배터리를 앞세워 전기차 시장에서 대안을 제시하고, 미국과 유럽은 장주기 에너지 저장(LDES) 기술로 전력망 시장 공략에 나섰다.\n\n22일(현지시각) 블룸버그통신에 따르면 창안자동차는 최근 내몽골 시험장에서 CATL의 나트륨 이온 배터리를 탑재한 전기 SUV와 쿠페를 공개하며 혹한 ",
+        "published": "날짜 미상",
+        "domain": "impacton.net"
       },
       {
         "title": "CATL: 36GWh BESS shipments in Q3, sees capacity constraints",
@@ -129,118 +150,16 @@
         "content": "In Q3 2025, CATL generated revenue of RMB 104.186 billion, and net profit attributable to shareholders of RMB 18.549 billion. Data Source: CATL Q3 Financial Report.\n\n## Capacity constraints: expansion in China and Europe\n\nSince the release of China’s Energy Storage Policy Document No. 136, provinces across the country have successively rolled out detailed implementation guidelines, driving rapid growth in the domestic energy storage market.\n\nCATL noted that its current capacity is fully utilised",
         "published": "날짜 미상",
         "domain": "energy-storage.news"
-      },
-      {
-        "title": "Company Profile",
-        "url": "https://www.catl.com/en/about/profile",
-        "content": "#### Suppliers\n\n## Company Profile\n\n### Overview\n\nCATL is a global leader in zero-carbon new energy technology, committed to providing first-class solutions and services for global new energy applications, building a zero-carbon energy ecosystem with a comprehensive incremental strategy, promoting energy transition and sustainable development.\n\n### History\n\nRanked No.1 application of EV battery system globally for nine consecutive years\nand No.1 delivery of BESS battery for ﬁve consecutive years",
-        "published": "날짜 미상",
-        "domain": "catl.com"
-      },
-      {
-        "title": "Overstated Lithium Forecasts, CATL, Semi-Solid ... - YouTube",
-        "url": "https://www.youtube.com/watch?v=DP2pGFfs9Xo",
-        "content": "the uh the hold up on the installation side? Um well, I mean, there's there's a few I I mean, for starters, what we've seen is is the Chinese manufacturers going, \"Oh, wow. ESS looks huge. Let's go in and and convert a lot of our EV production then to ESS.\" And we've seen that in the US at the moment as well in Europe. You know, EV demand hasn't been as strong as people are expecting. Um and there's a lot of um move to convert EV production lines into ESS. Um so, that's number one. Number two is",
-        "published": "날짜 미상",
-        "domain": "youtube.com"
-      },
-      {
-        "title": "CATL",
-        "url": "https://www.catl.com",
-        "content": "## 解决方案\n\n## 前往服务中心\n\n## 研发\n\n## 品牌\n\n## 关于我们\n\n#### 首页\n\n#### 解决方案\n\n##### 乘用车\n\n##### 商业应用\n\n##### 储能系统\n\n##### 循环回收\n\n#### 研发\n\n##### 创新理念\n\n##### 前沿技术\n\n#### 新闻\n\n#### 品牌\n\n##### 技术品牌\n\n##### 服务品牌\n\n#### 制造\n\n#### 服务\n\n#### 投资者关系\n\n#### 关于我们\n\n##### 企业文化\n\n##### 企业战略\n\n##### 企业简介\n\n##### 可持续发展\n\n##### 零碳科普\n\n##### 加入我们\n\n#### 联系我们\n\n#### 联系我们\n\n#### 线上商城\n\n#### B2B隐私协议\n\n#### 供应商入口\n\n#### 配套车型查询\n\n### 新闻\n\n### 技术愿景\n\n以革命性电池技术创新，减少人类对化石能源的依赖，实现全球可持续发展的共同愿景\n\n### 技术愿景\n\n以革命性电池技术创新，减少人类对化石能源的依赖，实现全球可持续发展的共同愿景\n\n### 解决方案（隐藏）\n\n#### 乘用",
-        "published": "날짜 미상",
-        "domain": "catl.com"
       }
     ],
     "three_persp": {
       "긍정": [
         {
-          "title": "나트륨이온전지(소듐이온배터리,소금전지) 장점/단점,타겟시장,주요업체(에너지11,에코프로비엠,엔켐,더블류씨피,애경케미칼),하드카본음극재,마이크로파 유도 가열 기술(전자레인지 원리) : 네이버 블로그",
-          "url": "https://m.blog.naver.com/commetbh/223612536859",
-          "content": "- 나트륨이온전지와 ESS\n\n• ESS의 경우 통상 메인 발전의 잉여 전력 저장 및 출력 보조를 위해 사용하기 때문에 상대적으로 공간 활용에 자유로움. 즉, 에너지 밀도가 낮은 점은 배터리 크기(부피)를 늘려서 해결 가능.\n\n• ESS용 배터리 수요는 전기차 배터리 1/15 수준에 불과했으나 AI 시장 확대에 따른 데이터센터 수요 증가에 따라 2024년에는 1/6 수준까지 높아질 것으로 전망. 업계는 세계 ESS 설비 규모가 2022년 152억달러에서 2030년에는 395억달러까지 커질 것으로 전망.\n\n나트륨이온전지(배터리) 관련 주요 업체\n\n- CATL, BYD, 하이나 배터리(HiNA battery) 등 대부분 중국 기업\n\n- 타 국가에는 영국의 Faradion, 스웨덴의 Altris, 프랑스의 Tiamet, 미국의 Natron Energy가 SIB 양산계획을 발표.\n\n- 삼성 SDI, LG 에너지솔루션, SK ON 등 국내 배터리 3사는 아직 나트륨이온전지에 미온적.\n\n- ‘저",
+          "title": "K-배터리 미래 '나트륨 배터리'에 달렸다...전세계 탈중국 러시",
+          "url": "https://m-economynews.com/news/article.html?no=57126",
+          "content": "### 이슈\n\n 홈\n 이슈\n\n## K-배터리 미래 '나트륨 배터리'에 달렸다...전세계 탈중국 러시\n\n### 리튬보다 저렴, 안전성↑...中, 나트륨배터리 기업만 82곳 영하 30도서도 작동...저가 전기차·ESS·납축전지 경쟁력 2035년엔 ESS 글로벌 점유율 50% 예상...한국에 기회\n\n 권은주 기자 kwon@m-economynews.com\n 등록 2025.07.14 21:27:54\n\n URL복사\n 목록\n 메일; \"메일\")\n 프린트; \"프린트\")\n 스크랩\n 글씨크기 크게\n 글씨크기 작게\n\n리튬이온 배터리를 대체할 차세대 유망주로 나트륨이온(SIB) 배터리가 급부상하고 있다. 리튬과 코발트 가격 급등, 공급망 불안이 겹치면서 원재료가 풍부하고 저렴한 나트륨 배터리가 2030년대 중반 새로운 표준으로 자리 잡을 것이란 전망이다. 특히 에너지저장장치(ESS) 분야에서 안전성과 가격 경쟁력을 앞세워 리튬인산철(LFP) 배터리를 빠르게 대체할 것이란 분석이 나온다.\n\n글로벌 기업들은 ",
           "published": "날짜 미상",
-          "domain": "m.blog.naver.com"
-        },
-        {
-          "title": "[PDF] 나트륨이온배터리 - 유진투자증권",
-          "url": "https://www.eugenefn.com/common/files/amail/20230224_B15_tjdgus2009_553.pdf",
-          "content": "1.5 13.4 0.9 13.3 1.3 8.4 0.7 후성 1.0 0.4 0.1 0.1 18.1 3.1 9.3 2.1 13.7 2.5 -1.7 원소재(메탈) Glencore 75.5 252.8 17.0 11.5 6.5 1.5 3.6 0.3 7.1 1.5 3.7 0.3 Albermarle 28.9 11.2 3.8 3.4 8.6 2.5 6.6 2.6 9.0 2.0 6.4 2.5 자료:Bloomberg,유진투자증권 <56> 04 추천주 CATL (300750.SZ) 투자의견 NR 목표주가 NA 에너지/인프라/배터리황성현_02)368-6878_ tjdgus2009@eugenefn.com 세계1위 투자포인트  개요: 전기차배터리및ESS를생산, 판매하는글로벌1위업체. 사업부문은 크게배터리, 소재및ESS로나뉘며매출액의76%, 13%, 11%를차지. 지 역별매출액비중은중국79%, 기타21%  (1) 배터리산업내독보적입지: 세계1위M/S를바탕으로중국외시장점유 율확대, 배터리시장치킨게임점화  (",
-          "published": "날짜 미상",
-          "domain": "eugenefn.com"
-        },
-        {
-          "title": "더 무서운 건 모든 배터리에 적용 가능?! 세계 1위 배터리 기업 CATL 나트륨 이온 배터리 2세대 분석해보니.. 장단점 넘어 무음극배터리기술, 모든 배터리 에너지 밀도 높인다",
-          "url": "https://www.youtube.com/watch?v=u9EbGpIwsxA",
-          "content": "에너지에 \n 중국 \n 중국 \n 연구소에서 \n 보이는데 \n 과학원 \n 후용생이 \n 갖고 \n 스타트업이 \n 설립해 \n 그 \n 있는 \n CAT이 \n 부분들이 \n 자 \n 같이 \n 않고 \n 에너드 \n 그런 \n 얘네들이 \n 흑연 \n 된다고 \n 자체가 \n 흑연 \n 카본 \n 아예 \n 없애는만큼 \n 많이 \n 나트륨 \n 있는 \n 밀도가 \n 흑연 \n 있느냐? \n 예쁘게 \n 충전하면은 \n 이렇게 \n 되도록 \n 방식 \n 옛날부터 \n 갑자기 \n 쌓아오는 \n 아니에요. \n 보여 \n 응복 \n 쌓이면 \n 이렇게 \n 뚫고 \n 거거든요. \n 있었던게 \n 수 \n 밝히는 \n 예쁘게 \n 있는데이 \n 극복하기 \n 이렇게 \n 뾰족뾰쪽 \n 뾰족뾰족하게 \n 있는데이 \n 적용했다는 \n 이런 \n 얘기한 \n 추측된 \n 그냥 \n 이렇게 \n 하고 \n 전액에다가 \n 화합물을 \n 억제된다라는 \n 밝혀냈어요. \n 그냥 \n 하니 \n 만들어 \n 얘기를 \n 이렇게 \n 하면서 \n 얘기도 \n 나눠 \n 팩이라고 \n 아키텍처라고 \n 배터리를 \n 특성에 \n",
-          "published": "날짜 미상",
-          "domain": "youtube.com"
-        },
-        {
-          "title": "CATL \"2030년 ESS 부문, 글로벌 매출 절반 차지\" 전망",
-          "url": "https://v.daum.net/v/20260605111402931",
-          "content": "5일 업계에 따르면 케틴 탕(Kevin Tang) CATL 유럽 ESS부문 총괄은 최근 로이터통신과의 인터뷰를 통해 \"불과 5년전까지만 해도 전체 매출에 2%를 점유하던 ESS 부문이 현재 전체 매출에 25%를 차지하고 있다\"며 \"2030년까지 글로벌 매출의 절반으로 수준까지 늘어날 것\"이라고 밝혔다. 현재 CATL 매출의 상당 부분은 전기차 배터리 부문에서 발생하고 있다. 탕 총괄은 ESS 부문을 제외한 전체 매출의 4분의 3 가량이 전기차 배터리 부문에서 나오고 있다고 설명했다.\n\nESS 부문 성장을 전망한 배경에는 신재생에너지 발전 수요의 폭증이 있다. 탕 총괄은 \"신재생에너지 발전량이 많아질수록, 우리에게는 ESS가 더욱 필요해진다\"고 강조했다. 이는 재생에너지의 특성 때문이다. 태양광의 경우 일조량이 많은 낮에는 전력을 많이 생산할 수 있지만, 밤에는 발전량이 0이 된다. 그렇기 때문에 낮에 전력을 생산해 ESS에 저장해둔 다음 밤에 꺼내쓴다면 효율적으로 에너지를 사용할 수",
-          "published": "날짜 미상",
-          "domain": "v.daum.net"
-        },
-        {
-          "title": "CATL, 세계 첫 양산형 나트륨 배터리 ‘낙스트라’ 공개… LFP 대체할까 < Science < 기사본문 - 파퓰러사이언스",
-          "url": "https://www.popsci.co.kr/news/articleView.html?idxno=22924",
-          "content": "나트륨 이온 배터리는 리튬 이온 배터리 여러 한계를 극복할 잠재력을 지녔다. 가장 큰 장점은 '비용'과 '자원'이다. 나트륨은 지각 매장량 6위 원소로 리튬보다 풍부하고 세계 고르게 분포한다. 원료 가격도 탄산나트륨이 탄산리튬보다 수십 배 저렴하다. 코발트, 니켈 등 고가의 희소 금속 비중을 줄일 수 있다. 특히 음극 집전체로 비싼 구리 대신 상대적으로 저렴하고 가벼운 알루미늄 박막을 사용할 수 있어 원가 절감과 경량화에 유리하다. 오우양 추잉 CATL 연구개발(R&D) 책임자는 \"나트륨 이온 배터리는 기술이 발전하고 공급망이 구축되면 리튬 이온 배터리보다 비용면에서 우위를 가질 수 있다\"고 말했다. CATL 창업자 쩡위췬 회장은 나트륨 이온 배터리가 LFP 시장을 최대 절반 대체할 수 있을 것으로 내다봤다.\n\n안전성 역시 나트륨 이온 배터리의 주요 강점이다. 일반적으로 리튬 이온 배터리보다 열 폭주할 위험이 낮다고 평가된다. 나트륨은 반응성이 리튬보다 낮고, 더 안전한 전해질을 사",
-          "published": "날짜 미상",
-          "domain": "popsci.co.kr"
-        }
-      ],
-      "비판": [
-        {
-          "title": "리튬의 대안, 나트륨이온배터리란? 원리·장단점·시장 전망까지 한 번에 - Element Korea | 글로벌 시험·인증 전문 기업",
-          "url": "https://elementkorea.kr/%EB%A6%AC%ED%8A%AC%EC%9D%98-%EB%8C%80%EC%95%88-%EB%82%98%ED%8A%B8%EB%A5%A8%EC%9D%B4%EC%98%A8%EB%B0%B0%ED%84%B0%EB%A6%AC%EB%9E%80-%EC%9B%90%EB%A6%AC-%EC%9E%A5%EB%8B%A8%EC%A0%90-%EC%A0%84%EB%A7%9D",
-          "content": "나트륨이온배터리, LFP 배터리, 차세대 배터리\n\n출처:LG 에너지솔루션\n\n전기차와 ESS 시장의 급성장으로 배터리 수요가 확대되면서 리튬 공급망의 구조적 리스크가 함께 부각되고 있습니다. 리튬은 절대적 매장량 부족이라기보다 채굴 및 정제 능력이 일부 국가에 집중돼 있어 공급망 편중과 가격 변동성이라는 구조적 리스크를 갖고 있습니다.\n\n이러한 제약을 보완할 대안으로 나트륨 기반 배터리가 주목받고 있습니다. 나트륨은 해수와 지각에 풍부하게 존재해 자원 접근성이 높고, 원재료 수급 안정성 측면에서 장점을 가집니다. \n\n이 같은 배경에서 CATL·LG에너지솔루션 등 글로벌 배터리 기업들은 나트륨이온배터리 개발에 속도를 내고 있습니다. 이는 리튬 의존도를 완화하고 공급망 안정성을 확보하는 동시에, 원가 경쟁력을 기반으로 초저가 전기차·ESS 시장을 공략하기 위한 전략입니다. 또한 상대적으로 높은 안전성과 저온 환경에서의 성능상 강점을 바탕으로 적용 분야를 확장하려는 목적도 포함됩니다.\n\n#",
-          "published": "날짜 미상",
-          "domain": "elementkorea.kr"
-        },
-        {
-          "title": "CATL·창안은 나트륨, 구글은 장기저장…배터리 시장 두 갈래로",
-          "url": "http://www.impacton.net/news/articleView.html?idxno=18632",
-          "content": "영하 50도에서도 달린다…나트륨 배터리의 등장\n\n지난 2월 5일, 중국 내몽골 영하 30도의 극한 지대에서 실시된 주행 테스트는 전 세계 자동차 업계의 시선을 집중시켰다. 중국 창안자동차의 전기 SUV와 쿠페가 빙판길과 눈 덮인 급경사를 거침없이 달렸다. CATL과 창안은 이날 세계 최초의 나트륨 이온 배터리 탑재 양산 승용차를 공식 공개하며 올 중반 시판을 선언했다. CATL의 나트륨 이온 배터리 브랜드 이름은 '낙스트라(Naxtra)'다.\n\n나트륨 배터리가 주목받는 핵심 이유는 추위에 강하다는 것이다. 낙스트라 배터리는 영하 30도에서 동급 리튬인산철(LFP) 배터리 대비 방전 출력이 3배에 달하며, 영하 40도에서도 용량의 90% 이상을 유지하고 영하 50도에서도 안정적인 전력 공급이 가능하다. 주행 거리는 리튬(400~600km) 대비 약 80% 수준인 350km 내외지만, 저가형 모델과 에너지 저장 시스템(ESS) 분야에서는 충분한 경쟁력을 갖췄다는 평가다.\n\n나트륨 배터리",
-          "published": "날짜 미상",
-          "domain": "impacton.net"
-        },
-        {
-          "title": "CATL, 세계 첫 양산형 나트륨 배터리 ‘낙스트라’ 공개… LFP 대체할까 < Science < 기사본문 - 파퓰러사이언스",
-          "url": "https://www.popsci.co.kr/news/articleView.html?idxno=22924",
-          "content": "나트륨 이온 배터리는 리튬 이온 배터리 여러 한계를 극복할 잠재력을 지녔다. 가장 큰 장점은 '비용'과 '자원'이다. 나트륨은 지각 매장량 6위 원소로 리튬보다 풍부하고 세계 고르게 분포한다. 원료 가격도 탄산나트륨이 탄산리튬보다 수십 배 저렴하다. 코발트, 니켈 등 고가의 희소 금속 비중을 줄일 수 있다. 특히 음극 집전체로 비싼 구리 대신 상대적으로 저렴하고 가벼운 알루미늄 박막을 사용할 수 있어 원가 절감과 경량화에 유리하다. 오우양 추잉 CATL 연구개발(R&D) 책임자는 \"나트륨 이온 배터리는 기술이 발전하고 공급망이 구축되면 리튬 이온 배터리보다 비용면에서 우위를 가질 수 있다\"고 말했다. CATL 창업자 쩡위췬 회장은 나트륨 이온 배터리가 LFP 시장을 최대 절반 대체할 수 있을 것으로 내다봤다.\n\n안전성 역시 나트륨 이온 배터리의 주요 강점이다. 일반적으로 리튬 이온 배터리보다 열 폭주할 위험이 낮다고 평가된다. 나트륨은 반응성이 리튬보다 낮고, 더 안전한 전해질을 사",
-          "published": "날짜 미상",
-          "domain": "popsci.co.kr"
-        },
-        {
-          "title": "더 무서운 건 모든 배터리에 적용 가능?! 세계 1위 배터리 기업 CATL 나트륨 이온 배터리 2세대 분석해보니.. 장단점 넘어 무음극배터리기술, 모든 배터리 에너지 밀도 높인다",
-          "url": "https://www.youtube.com/watch?v=u9EbGpIwsxA",
-          "content": "에너지에 \n 중국 \n 중국 \n 연구소에서 \n 보이는데 \n 과학원 \n 후용생이 \n 갖고 \n 스타트업이 \n 설립해 \n 그 \n 있는 \n CAT이 \n 부분들이 \n 자 \n 같이 \n 않고 \n 에너드 \n 그런 \n 얘네들이 \n 흑연 \n 된다고 \n 자체가 \n 흑연 \n 카본 \n 아예 \n 없애는만큼 \n 많이 \n 나트륨 \n 있는 \n 밀도가 \n 흑연 \n 있느냐? \n 예쁘게 \n 충전하면은 \n 이렇게 \n 되도록 \n 방식 \n 옛날부터 \n 갑자기 \n 쌓아오는 \n 아니에요. \n 보여 \n 응복 \n 쌓이면 \n 이렇게 \n 뚫고 \n 거거든요. \n 있었던게 \n 수 \n 밝히는 \n 예쁘게 \n 있는데이 \n 극복하기 \n 이렇게 \n 뾰족뾰쪽 \n 뾰족뾰족하게 \n 있는데이 \n 적용했다는 \n 이런 \n 얘기한 \n 추측된 \n 그냥 \n 이렇게 \n 하고 \n 전액에다가 \n 화합물을 \n 억제된다라는 \n 밝혀냈어요. \n 그냥 \n 하니 \n 만들어 \n 얘기를 \n 이렇게 \n 하면서 \n 얘기도 \n 나눠 \n 팩이라고 \n 아키텍처라고 \n 배터리를 \n 특성에 \n",
-          "published": "날짜 미상",
-          "domain": "youtube.com"
-        },
-        {
-          "title": "영하 40도에도 끄떡없다, CATL이 던진 '나트륨 배터리'라는 폭탄\" | 한국안전뉴스",
-          "url": "https://safekoreanews.co.kr/View.aspx?No=4033800",
-          "content": "# \n\n## 전체 메뉴\n\n# \n\n#### 영하 40도에도 끄떡없다, CATL이 던진 '나트륨 배터리'라는 폭탄\"\n\n페이스북\nX\n네이버\n클립보드 복사\n인쇄하기\n\n세계 최대 배터리 제조업체인 CATL이 나트륨 이온 배터리 기술의 상용화를 공식화하며 전기차 시장의 새로운 패러다임을 예고했다. 2026년 4월, 광저우자동차(GAC)의 아이온(Aion) 브랜드를 통해 첫선을 보일 이 기술은 기존 리튬 이온 배터리의 한계를 넘어설 혁신적인 대안으로 주목받고 있다.\n\nCATL 배터리공장 사진\n\n​배터리 시장의 판도를 바꿀 나트륨 이온의 부상\n\n​그동안 나트륨 이온 배터리는 낮은 에너지 밀도와 무거운 무게로 인해 차량용으로는 부적합하다는 평가가 지배적이었다. 업계 전문가들은 에너지 밀도가 kg당 140Wh를 넘기기 어려울 것이라 예측했으나, CATL은 이를 비웃듯 kg당 175Wh라는 경이로운 수치를 달성했다. 이는 현재 테슬라 모델 3 등 대중적인 전기차에 사용되는 리튬인산철(LFP) 배터리와 ",
-          "published": "날짜 미상",
-          "domain": "safekoreanews.co.kr"
-        }
-      ],
-      "중립": [
-        {
-          "title": "CATL 2025 Annual Results: What the Numbers Mean for Energy Storage",
-          "url": "https://bessmanufacturers.com/resources/catl-2025-annual-results-energy-storage",
-          "content": "ESS revenue grew just 9 % despite shipments growing 29 %. That gap reflects ongoing per-kWh price erosion — the average selling price per kWh of ESS batteries fell roughly 15–16 % year-on-year. The industry-wide trend of declining lithium carbonate prices continued to compress battery pricing through 2025.\n\nESS gross margin held stable at 26.71 % (vs 26.84 % in 2024), indicating CATL is maintaining profitability per unit even as prices fall. The company’s scale and vertical integration are absor",
-          "published": "날짜 미상",
-          "domain": "bessmanufacturers.com"
-        },
-        {
-          "title": "CATL sold 661 GWh of lithium-ion batteries in 2025, reports profit ...",
-          "url": "https://www.ess-news.com/2026/03/09/catl-sold-661-gwh-of-lithium-ion-batteries-in-2025-reports-profit-growth",
-          "content": "CATL reported its batteries have been installed in more than 24 million vehicles worldwide, and the company continued to rapidly expand its presence in the energy storage segment. CATL’s battery energy storage (BESS) shipments accounted for 30.4% of the global market in 2025, according to SNE Research, putting it first in market share for the fifth year in the succession.\n\nShipments from CATL’s energy storage system integration business grew by more than 160% year on year, according to the compa",
-          "published": "날짜 미상",
-          "domain": "ess-news.com"
+          "domain": "m-economynews.com"
         },
         {
           "title": "리튬의 대안, 나트륨이온배터리란? 원리·장단점·시장 전망까지 한 번에",
@@ -250,18 +169,99 @@
           "domain": "elementkorea.kr"
         },
         {
-          "title": "K-배터리 미래 '나트륨 배터리'에 달렸다...전세계 탈중국 러시",
-          "url": "https://m-economynews.com/news/article.html?no=57126",
-          "content": "### 이슈\n\n 홈\n 이슈\n\n## K-배터리 미래 '나트륨 배터리'에 달렸다...전세계 탈중국 러시\n\n### 리튬보다 저렴, 안전성↑...中, 나트륨배터리 기업만 82곳 영하 30도서도 작동...저가 전기차·ESS·납축전지 경쟁력 2035년엔 ESS 글로벌 점유율 50% 예상...한국에 기회\n\n 권은주 기자 kwon@m-economynews.com\n 등록 2025.07.14 21:27:54\n\n URL복사\n 목록\n 메일; \"메일\")\n 프린트; \"프린트\")\n 스크랩\n 글씨크기 크게\n 글씨크기 작게\n\n리튬이온 배터리를 대체할 차세대 유망주로 나트륨이온(SIB) 배터리가 급부상하고 있다. 리튬과 코발트 가격 급등, 공급망 불안이 겹치면서 원재료가 풍부하고 저렴한 나트륨 배터리가 2030년대 중반 새로운 표준으로 자리 잡을 것이란 전망이다. 특히 에너지저장장치(ESS) 분야에서 안전성과 가격 경쟁력을 앞세워 리튬인산철(LFP) 배터리를 빠르게 대체할 것이란 분석이 나온다.\n\n글로벌 기업들은 ",
+          "title": "리튬 대신 나트륨 뜬다…CATL, 60GWh 공급으로 '상용화 신호'",
+          "url": "http://www.impacton.net/news/articleView.html?idxno=18719",
+          "content": "CATL은 이번 계약을 통해 나트륨이온 배터리의 양산 체계를 확보했다고 밝혔다. 특히 에너지 밀도 한계와 생산 과정에서의 기포 발생, 수분 민감성 등 주요 공정 문제를 해결했다고 강조했다.\n\n제품 성능도 공개됐다. 해당 배터리는 300Ah 이상의 용량과 약 160Wh/kg 수준의 에너지 밀도를 확보했으며, 1만5000회 이상의 충·방전 사이클을 유지한다. 영하 40도에서 영상 70도까지 작동이 가능하다.\n\n리튬 한계 보완…가격 구조가 변수\n\n나트륨이온 배터리는 원재료가 풍부해 이론적으로 비용이 낮다는 장점이 있지만, 현재 생산 비용에서는 리튬이온 배터리가 여전히 경쟁력을 유지하고 있는 것으로 평가된다. 에너지 밀도 역시 낮아 전기차 분야에서는 적용이 제한적이다.\n\n대신 에너지저장장치에서는 상황이 다르다. 가격과 안정성이 핵심 변수로 작용하는 시장 구조상, 나트륨이온 배터리는 발열이 적고 온도 대응 범위가 넓어 장주기 저장에 적합하다는 평가를 받는다. 시스템 구조를 단순화해 보조 전력",
           "published": "날짜 미상",
-          "domain": "m-economynews.com"
+          "domain": "impacton.net"
         },
         {
-          "title": "소듐이온(나트륨) 배터리 관련주, CATL 공개에 국내도 양산 검토 : 네이버 블로그",
-          "url": "https://m.blog.naver.com/PostView.naver?blogId=goldmap7&logNo=224254673415",
-          "content": "> 최근 이슈\n\n친환경 식품 '케나프'로 나트륨배터리 상용화 성큼\n\n​\n\n국내 연구진이 친환경 바이오매스 식물인 '케나프(Kenef)'를 기반으로 한 나트륨 이차전지 하드 카본(Hard Carbon)에 불소를 입히는데 성공했습니다.\n\n​\n\n울산과학대학교는 화학공학과 유승민 교수와 포항공과대학교(POSTECH) 박수진 교수 공동연구팀이 식물 '케나프'를 기반으로 한 음극재 개발에 성공해 나트륨 이온 배터리 상용화의 핵심 난제를 해결했다고 4월 6일 밝힘.\n\n​\n\n이번 연구 결과는 전하 이동 속도 향상과 수분 안정성 확보를 동시에 달성해 리튬 배터리 대체를 한층 앞당길 것으로 기대된다고 하죠.\n\n​\n\n해당 성과는 재료 과학 분야 세계 권위지인 ACS(Applied Materials & Interfaces) 3월호에 게재됐습니다.\n\n​\n\n中 ESS용 소듐 배터리 첫 공개\n\n​\n\n4월 9일 업계에 따르면 CATL은 지난 1일부터 열린 '중국 에너지저장 국제 컨퍼런스(ESIE 2026)'에서",
+          "title": "CATL·창안은 나트륨, 구글은 장기저장…배터리 시장 두 갈래로",
+          "url": "http://www.impacton.net/news/articleView.html?idxno=18632",
+          "content": "영하 50도에서도 달린다…나트륨 배터리의 등장\n\n지난 2월 5일, 중국 내몽골 영하 30도의 극한 지대에서 실시된 주행 테스트는 전 세계 자동차 업계의 시선을 집중시켰다. 중국 창안자동차의 전기 SUV와 쿠페가 빙판길과 눈 덮인 급경사를 거침없이 달렸다. CATL과 창안은 이날 세계 최초의 나트륨 이온 배터리 탑재 양산 승용차를 공식 공개하며 올 중반 시판을 선언했다. CATL의 나트륨 이온 배터리 브랜드 이름은 '낙스트라(Naxtra)'다.\n\n나트륨 배터리가 주목받는 핵심 이유는 추위에 강하다는 것이다. 낙스트라 배터리는 영하 30도에서 동급 리튬인산철(LFP) 배터리 대비 방전 출력이 3배에 달하며, 영하 40도에서도 용량의 90% 이상을 유지하고 영하 50도에서도 안정적인 전력 공급이 가능하다. 주행 거리는 리튬(400~600km) 대비 약 80% 수준인 350km 내외지만, 저가형 모델과 에너지 저장 시스템(ESS) 분야에서는 충분한 경쟁력을 갖췄다는 평가다.\n\n나트륨 배터리",
           "published": "날짜 미상",
-          "domain": "m.blog.naver.com"
+          "domain": "impacton.net"
+        },
+        {
+          "title": "더 무서운 건 모든 배터리에 적용 가능?! 세계 1위 배터리 기업 CATL ...",
+          "url": "https://www.youtube.com/watch?v=u9EbGpIwsxA",
+          "content": "# 더 무서운 건 모든 배터리에 적용 가능?! 세계 1위 배터리 기업 CATL 나트륨 이온 배터리 2세대 분석해보니.. 장단점 넘어 무음극배터리기술, 모든 배터리 에너지 밀도 높인다\n## 안될공학 - IT 테크 신기술\n438000 subscribers\n5872 likes\n\n### Description\n386781 views\nPosted: 25 Apr 2025\n세계 최대 배터리 제조사 CATL이 혁신적인 신기술을 대거 공개하며 시장에 큰 파장을 일으키고 있습니다. 단순 가격 경쟁을 넘어, K-배터리를 위협할 기술력을 선보였는데요. 특히 주목할 점은 차세대 기술로 언급된 2세대 나트륨 이온(Na-ion) 배터리 'Naxtra'와 이종 배터리 혼합 기술인 'AB 배터리 팩'입니다. 나트륨 이온 배터리는 리튬보다 훨씬 풍부하고 저렴한 나트륨을 사용하여 가격 경쟁력과 공급망 안정성에서 큰 장점을 가집니다. 이 영상에서는 나트륨 이온 배터리의 기본 원리와 리튬 이온 배터리와의 차이점(이온 크기",
+          "published": "날짜 미상",
+          "domain": "youtube.com"
+        }
+      ],
+      "비판": [
+        {
+          "title": "[ASIA BIZ] CATL, 전기차 배터리 넘어 '에너지 공룡'으로 진화 중 | 아주경제",
+          "url": "https://www.ajunews.com/view/20260418202931513",
+          "content": "글로벌 사업 확장...美 국방부 '블랙리스트' 발목\n\n  \n CATL의 해외 매출 비중은 30%를 넘어서는 등 글로벌 사업도 빠르게 확대되고 있다. 이미 본토 증시에 상장된 CATL이 지난해 홍콩 증시에 이중 상장한 것도 해외 투자자 접근성을 높이고 글로벌 확장의 기반을 마련하기 위한 조치다. 실제 홍콩 시장에서 CATL 주가는 본토 대비 50% 이상 프리미엄이 붙으며 해외 투자자들의 높은 기대를 반영하고 있다.  \n   \n CATL은 이미 독일에서 배터리 공장을 가동 중이며, 약 74억 유로(약 12조7700억원)를 투자한 헝가리 공장도 올해 상반기 가동을 앞두고 있다. 또 글로벌 완성차 기업 스텔란티스와 합작을 추진해 스페인 공장 건설에도 돌입했다.  \n   \n 이처럼 유럽에서는 현지 생산 공장 건설을 활발하게 하는 반면, 미국 시장에서는 상대적으로 신중한 행보를 보이고 있다. 2023년부터 미국 포드사에 배터리 기술만 빌려주는 방식으로 협력하고 있는 게 전부다.  \n   \n 이",
+          "published": "날짜 미상",
+          "domain": "ajunews.com"
+        },
+        {
+          "title": "中 CATL 배터리 동맹, 美 의회 '중국 리스크' 칼 빼들다…세액공제 '쟁점'",
+          "url": "https://www.newsspace.kr/news/article.html?no=12246",
+          "content": "경제적 파장: SK온 손실 2.6억달러, 포드 비용 195억달러 부담\n\n포드의 EV 사업 축소로 SK온은 켄터키·테네시 공장 합작 종료에 37조원(26억달러) 손실을 입었고, 포드는 작년 말 195억달러(약 27조8000억원) 비용을 감수했다. 반면 ESS 사업은 AI 데이터센터 수요 폭증으로 매력적이며, 켄터키 공장은 5MWh 이상 대형 시스템과 20피트 DC 컨테이너를 생산해 데이터센터·유틸리티 시장을 공략한다.\n\nCATL은 생산량 기반 로열티와 장비 판매로 수익을 올리는 'LRS(License, Royalty, Service)' 모델을 적용, 투자 없이 이익을 추출한다.\n\n법적 리스크: OBBBA 세액공제 제한의 함정\n\n트럼프 행정부의 '하나의 크고 아름다운 법'(OBBBA, 2025년7월 시행)은 '금지 외국 주체'(중국 기업 등)의 소유·통제·물질적 지원을 받은 프로젝트에 세액공제를 차단한다. 미시간 공장은 2023년 기존 계약으로 예외 가능성이 있지만, 2026년 1월 새",
+          "published": "날짜 미상",
+          "domain": "newsspace.kr"
+        },
+        {
+          "title": "CATL \"2030년 ESS 부문, 글로벌 매출 절반 차지\" 전망",
+          "url": "https://v.daum.net/v/9KMjTYtWA5",
+          "content": "CATL은 ESS 부문 확대를 위해 독일, 헝가리 등에서 공장을 가동하고 있으며, 지난달에는 세계 최대 규모 ESS 원스톱 테스트·실증 플랫폼인 '샤먼 에너지 저장 실증 연구소(Xiamen Energy Storage Validation Research Institute, ESVL)'의 가동을 시작했다. ESVL은 10헥타르(3만250평) 부지 위에 건설됐으며, 비용은 총 30억 위안(약 6630억원)이 투입됐다. CATL은 ESVL에서 발전소급 ESS 시스템의 테스트를 진행, 안전성을 높이고 실제 운영과정에서 발생할 수 있는 문제를 해결한다는 계획이다.<본보 2026년 5월 29일 참고 CATL, '세계 최대 규모' ESS 테스트베드 가동…실증 역량 강화>\n\n탕 총괄은 ESS 부문 성장에 있어 가장 큰 리스크는 지정학적 리스크로 인한 원자재 가격 상승이 될 것이라고 분석했다. 탕 총괄은 \"미국·이스라엘과 이란 간의 전쟁 여파로 리튬, 구리, 알루미늄 등 원자재 가격이 상승해 걸림돌이",
+          "published": "날짜 미상",
+          "domain": "v.daum.net"
+        },
+        {
+          "title": "[AI 에너지 브리프] 성조기에 쫓긴 오성홍기, 미국 ESS 시장의 '역설'",
+          "url": "https://askinno.com/archives/158472",
+          "content": "③ 빅테크와의 협업 가능성: “ESS는 단순 구매가 아니라 인프라”\n\n한편 빅테크 기업들이 ESS를 단순 구매재가 아니라 핵심 인프라로 인식하면서, 공급망을 직접 설계·관리하려는 움직임도 거론된다. 현재까지 빅테크 기업들이 ESS를 직접 제조하거나 완성형 공급망을 구축하려는 움직임은 제한적이다. 대신 투자, 전략적 파트너십, 특정 밸류체인 통제를 통해 간접적인 영향력을 확보하는 방식이 주를 이룬다. 대표적인 사례가 Google과 NVIDIA의 Redwood Materials 투자다. 이는 반도체 산업에서 빅테크가 팹(fab)을 직접 운영하기보다는, 파운드리·설계·패키징 일부에 영향력을 행사해 온 전략과 유사한 접근으로 보는 견해가 있다. CATL은 미국 완성차 업체들과 기술 라이선스 기반 협력 모델을 공개적으로 언급해 왔고, 이는 ESS 영역에서도 적용 가능한 구조로 평가된다. 빅테크 입장에서도 중국 업체의 기술력 활용, 직접 수입·지분 투자 회피, 현지 생산·운영과의 분리 등 조건",
+          "published": "날짜 미상",
+          "domain": "askinno.com"
+        },
+        {
+          "title": "中 CATL, 전기차 배터리서 ESS로 무게 이동 - 글로벌이코노믹",
+          "url": "https://www.g-enews.com/article/Global-Biz/2026/06/2026061200013351109a1f309431_1",
+          "content": "### ◇ 전기차 둔화 속 ESS 수요 부상\n\n  \n CATL의 전략 변화는 전기차 배터리 시장의 불확실성과 맞물려 있다는 지적이다.  \n   \n 도널드 트럼프 행정부가 전기차 지원책을 축소하고 청정에너지 정책을 재조정하면서 전기차 업체들은 수요 전망을 다시 계산하고 있는 것도 무관치 안다는 관측이다. 여기에다 이란 전쟁에 따른 에너지 시장 불안과 원자재 가격 변동도 배터리 업계의 부담으로 작용하고 있다.  \n   \n 반면 ESS 시장은 빠르게 커지고 있다. 태양광과 풍력 같은 재생에너지는 날씨와 시간대에 따라 발전량이 달라지기 때문에 전력망에 대규모 저장 설비가 필요하다. AI 데이터센터 확산도 전력수요를 크게 밀어 올리고 있다. 전기차보다 전력망용 배터리가 더 안정적인 성장처로 보이는 이유다.  \nGM과 LG 등 전기차·배터리 관련 기업들도 ESS 시장에 눈을 돌리고 있다. 전기차 보조금과 규제 환경은 흔들리고 있지만 전력망용 배터리와 백업 전원 수요는 오히려 필수 인프라로 자리",
+          "published": "날짜 미상",
+          "domain": "g-enews.com"
+        }
+      ],
+      "중립": [
+        {
+          "title": "Zero-Carbon Technology Powers “All-Domain Growth” - CATL",
+          "url": "https://www.catl.com/en/news/6773.html",
+          "content": "Building on this R&D strength, CATL continues to expand its product portfolio. In 2025, the company launched a range of new technologies, including the second-generation Shenxing Superfast Charging Battery, Shenxing Pro Battery, Freevoy Dual-Power Battery, Naxtra Battery, and Super Hybrid Battery. These innovations deliver improved performance, reliability in extreme environments, and reduced dependence on critical resources. Sodium-ion batteries are expected to see wider adoption from 2026, inc",
+          "published": "날짜 미상",
+          "domain": "catl.com"
+        },
+        {
+          "title": "CATL's 2025 Strategy: Dominating the EV Battery Market - EnkiAI",
+          "url": "https://enkiai.com/catl/catls-2025-strategy-dominating-the-ev-battery-market",
+          "content": "## Analyzing CATL’s Strategic Partnership Network for Raw Material Dominance\n\nCATL leverages partnerships not just for resource acquisition but to embed its technology and standards across the entire value chain, from mining equipment to battery recycling. In 2025, its partnerships evolved from simple supply agreements to deeper collaborations focused on co-development, sustainability, and creating closed-loop ecosystems. This network reinforces its control over both material supply and technolo",
+          "published": "날짜 미상",
+          "domain": "enkiai.com"
+        },
+        {
+          "title": "CATL Releases 2025 Annual Report - Battery-Tech Network",
+          "url": "https://battery-tech.net/battery-markets-news/catl-releases-2025-annual-report",
+          "content": "To maintain resilience amid material price volatility, CATL integrates upstream resources through equity stakes, mining, and partnerships with price-linked mechanisms, diversifies into sodium-ion and solid-state batteries for mass deployment in 2026, and expands service-based revenues including BaaS, integrated solar-storage-charging, AI-driven lifecycle management, and overseas EPC energy storage contracts. BofA Global Research notes its revenue is increasingly tied to deployment scale and serv",
+          "published": "날짜 미상",
+          "domain": "battery-tech.net"
+        },
+        {
+          "title": "[PDF] 중국 전기차 배터리 기업 분석 - 네이버",
+          "url": "https://files-scs.pstatic.net/2024/08/13/TSoPvXsWAn/[%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84]%20CATL%20%EA%B8%B0%EC%97%85%EB%B6%84%EC%84%9D%20%EB%B3%B4%EA%B3%A0%EC%84%9C_final.pdf",
+          "content": "전년동기 대비 11.88% 급감. 그러나 순이익은 10.37% 증가. 전기차 캐즘 및 미국의 대중 견제정책 등 악화된 대외환경에도 선전 시사점 ▪ CATL 은 원가우위 + 차별화 전략 가능 ▪ 한국기업은 명확한 차별화 또는 틈새시장 집중화 등의 전략적 대안이 필요함 3 유망산업 인사이트 1. 기업 개요 CATL은 중국 전기차 배터리 기업으로, 2011년 애플, 삼성 등에 휴대폰 배터리를 공급하 던 ATL (Amperex Technology Limited)의 차량용 배터리 사업부가 분사하며 설립되었습니 다. 2005년 일본 TDK의 자회사로 편입된 후, 중국 정부의 지원과 전기차 산업의 성장에 힘 입어 2017년 글로벌 전기차 배터리 생산 1위에 올랐습니다. 이후 2018년 6월, ‘진장민토 우(晋江閩投)’를 설립하며 ESS 시장으로 진출했습니다. <표 1-1> CATL 기업 개요 CATL의 사업 분야는 파워 배터리 시스템, 에너지저장시스템, 배터리 소재 등으로 구성되 어 있습니다. ",
+          "published": "날짜 미상",
+          "domain": "files-scs.pstatic.net"
+        },
+        {
+          "title": "CATL - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/CATL",
+          "content": "On 11 February 2025, CATL filed for a secondary listing on the Hong Kong Stock Exchange, aiming to raise over $5 billion to fund international expansion plans including projects in Hungary, Spain, and Indonesia. Cornerstone investors included Sinopec, the Kuwait Investment Authority, Hillhouse Investment, Oaktree Capital Management and an Agnelli family investment fund.\n\n## Corporate affairs\n\nThe key trends for CATL are (as of the financial year ending 31 December): [...] Wikipedia\nThe Free Ency",
+          "published": "날짜 미상",
+          "domain": "en.wikipedia.org"
         }
       ]
     }

@@ -2,7 +2,24 @@
   "n_runs_per_mode": 3,
   "perspectives_off": {
     "risk_section_claims": {
-      "mean": 10.3333,
+      "mean": 10.6667,
+      "std": 0.9428,
+      "n": 3
+    },
+    "report_balance_score": {
+      "mean": 0.8,
+      "std": 0.0,
+      "n": 3
+    },
+    "report_risk_recall": {
+      "mean": 0.2857,
+      "std": 0.0,
+      "n": 3
+    }
+  },
+  "perspectives_on": {
+    "risk_section_claims": {
+      "mean": 9.3333,
       "std": 0.4714,
       "n": 3
     },
@@ -12,31 +29,14 @@
       "n": 3
     },
     "report_risk_recall": {
-      "mean": 0.2063,
-      "std": 0.0978,
-      "n": 3
-    }
-  },
-  "perspectives_on": {
-    "risk_section_claims": {
-      "mean": 9,
-      "std": 0.8165,
-      "n": 3
-    },
-    "report_balance_score": {
-      "mean": 0.7667,
-      "std": 0.0471,
-      "n": 3
-    },
-    "report_risk_recall": {
-      "mean": 0.1428,
-      "std": 0.0674,
+      "mean": 0.3016,
+      "std": 0.0594,
       "n": 3
     }
   },
   "delta_on_minus_off": {
-    "risk_section_claims": -1.3333,
-    "report_balance_score": -0.0333,
-    "report_risk_recall": -0.0635
+    "risk_section_claims": -1.3334,
+    "report_balance_score": 0.0,
+    "report_risk_recall": 0.0159
   }
 }

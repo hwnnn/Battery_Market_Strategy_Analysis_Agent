@@ -4,54 +4,24 @@
   "subject": "LG에너지솔루션 로봇용 배터리",
   "queries": {
     "긍정": "LG에너지솔루션 로봇 AI 배터리 혁신",
-    "비판": "LG에너지솔루션 로봇 AI 리스크 분석",
-    "중립": "LG에너지솔루션 배터리 현황 조사"
+    "비판": "LG에너지솔루션 로봇 AI 리스크와 한계",
+    "중립": "LG에너지솔루션 배터리 로봇 현황 분석"
   },
   "arms": {
     "single_base": [
       {
-        "title": "LG Group Affiliates Build Physical AI Ecosystem",
-        "url": "https://www.chosun.com/english/industry-en/2026/03/04/QS4J3CL5WBESTLDZVQWJXYXEXA",
-        "content": "LG Energy Solution is gaining attention for supplying batteries to humanoid robots in the U.S. and China. Humanoid robots require compact, lightweight batteries, making NCM batteries more suitable than LFP. LG Energy Solution’s NCM batteries, which use nickel, cobalt, and manganese as cathode materials, offer high energy density and superior power-to-weight ratios.\n\nLG CNS is participating in the K-EXAONE consortium to handle enterprise and government service data and industrial digital transfor",
+        "title": "젠슨 황이 불 지핀 피지컬 AI…K-배터리 ‘로봇 배터리’ 뜬다 - 글로벌이코노믹",
+        "url": "https://www.g-enews.com/article/Industry/2026/06/2026061208420217343084322ec9_1",
+        "content": "가장 앞서 로봇 배터리 시장을 구체화하고 있는 곳은 LG에너지솔루션이다. 회사는 로봇용 배터리를 별도 응용처로 제시하고 휴머노이드, 4족 보행, 서빙, 물류 로봇 등에 적용 가능한 배터리를 소개하고 있다. 핵심 성능으로는 경량·소형 설계, 고에너지 밀도, 안전성, 장수명, 고출력 등을 내세운다.  \nLG에너지솔루션은 2024년 베어로보틱스와 원통형 배터리 독점 공급을 위한 업무협약을 맺고 서비스·물류 로봇용 배터리 공급에 나섰다. 최근에는 보스턴다이내믹스의 휴머노이드 로봇 아틀라스 배터리 공급사로도 선정된 것으로 알려졌다. 업계에 따르면 보스턴다이내믹스는 기존 4족 보행 로봇 스팟에 배터리를 공급했던 LG에너지솔루션과 아틀라스용 배터리 공급 협력을 이어가는 것으로 전해졌다.  \n   \n 증권가에서도 LG에너지솔루션의 로봇 배터리 전략을 원통형 배터리 중심으로 보고 있다. 삼성증권 조현렬 연구원은 최근 보고서에서 “LG에너지솔루션이 휴머노이드 시장을 공략하는 데 있어 핵심 키워드는 4",
         "published": "날짜 미상",
-        "domain": "chosun.com"
+        "domain": "g-enews.com"
       },
       {
-        "title": "[LG 로봇 전환기 ②] 피지컬 AI 풀스택 구축···부품·배터리까지 자체 제작 < 전자/IT/통신 < 산업/재계 < 기사본문 - 서울파이낸스",
-        "url": "https://www.seoulfn.com/news/articleView.html?idxno=623719",
-        "content": "LG에너지솔루션 연구원이 전고체 배터리를 연구하는 모습 (사진=LG에너지솔루션)\n\n휴머노이드 로봇은 인간의 몸통 정도밖에 되지 않는 한정된 부피에서 최대한 높은 출력을 끌어내야 하기 때문에 에너지 밀도가 낮은 LFP(리튬인산철) 배터리로는 시장이 원하는 가동 시간과 안전성을 충족하기 어렵다. 고성능 삼원계 원통형 배터리를 양산할 수 있는 기업은 글로벌에서 LG에너지솔루션과 삼성SDI, 일본 파나소닉 정도에 불과해 경쟁 우위가 뚜렷하다.\n\nLG에너지솔루션은 최근 시카고대학교 연구팀과 공동으로 황 양극 전고체 배터리 기술을 세계 최초로 구현하는 데 성공하기도 했다. 황은 저렴한 가격과 리튬이온 대비 월등히 높은 에너지 용량에도 내구성과 안정성이 낮다는 약점이 있었는데, 액체 전해질 대신 전고체 구조로 이를 보완했다. 회사는 해당 연구 성과를 로봇 배터리에 접목해 미래 시장에서 초격차를 완성한다는 전략이다. [...] 서울파이낸스\n서울파이낸스\n\n# [LG 로봇 전환기 ②] 피지컬 AI 풀",
+        "title": "Enabling Physical AI: How LG Energy Solution Powers the Next Generation of Intelligent Systems – LG Energy Solution",
+        "url": "https://news.lgensol.com/company-news/supplementary-stories/4869",
+        "content": "In the robotics sector, LG Energy Solution’s broad battery portfolio offers optimized solutions based on each specific robot type. Within the humanoid robot segment, the company is advancing both cell- and pack-level technologies to enable stable, high-performance operation in practical scenarios.\n\nAt the cell level, LG Energy Solution is using high-capacity, long-life 2170 cylindrical batteries to support the early expansion of the humanoid robotics market. With a strong balance of energy densi",
         "published": "날짜 미상",
-        "domain": "seoulfn.com"
-      },
-      {
-        "title": "배터리 3사, '인터배터리 2026'서 로봇 배터리 승부 < 배터리 < 기사본문 - 디일렉(THE ELEC)",
-        "url": "https://www.thelec.kr/news/articleView.html?idxno=52899",
-        "content": "디일렉(THE ELEC)\n디일렉(THE ELEC)\n\n# 배터리 3사, '인터배터리 2026'서 로봇 배터리 승부\n\n## LG엔솔 홈로봇·드론, 삼성SDI 전고체, SK온 물류로봇 배터리 공개\n\n올해 인터배터리의 화두는 '로봇과 인공지능(AI)'이다. LG에너지솔루션, 삼성SDI, SK온 등 국내 배터리 3사가 11~13일 서울 코엑스에서 열리는 인터배터리 2026에서 로봇·드론·AI 데이터센터용 배터리를 선보인다. 전기차 중심 전략에서 벗어나 피지컬 AI와 전력 인프라로 확장한 사업 방향을 제시한다.\n\nLG에너지솔루션은 로보틱스와 드론 적용 사례를 집중 전시한다. CES 2026에서 공개한 홈로봇 'LG 클로이'를 비롯해 베어로보틱스 자율주행 로봇, 혈액 수송용 드론, 항공·큐브위성 등을 선보인다. 고성능 원통형 배터리를 적용해 장시간 운용과 안전성을 강조했다. 미래 로봇용 전고체 배터리 개발 현황도 공개한다.\n\n삼성SDI는 전고체 배터리를 로봇 시대 핵심 기술로 제시했다. 2027",
-        "published": "날짜 미상",
-        "domain": "thelec.kr"
-      },
-      {
-        "title": "[LG그룹 - 로봇]'피지컬 AI': 주도주로 떠오른 LG 로봇 밸류체인 총정리",
-        "url": "https://contents.premium.naver.com/pqpqyoustock/pqpqyou/contents/260521150603653oc",
-        "content": "​\n\n✔ 로보티즈 (108490)\n\n-사업 개요: 자율주행 로봇 및 전용 액추에이터(다이나믹셀) 제조\n\n-테마 사유: LG전자가 지분 투자를 단행한 파트너. 로봇 관절 모듈 원천 기술을 보유하고 있는 기업\n\n✅ 부품 및 인프라 (수직계열화의 핵심)\n\n​\n\n✔ LG이노텍 (011070)\n\n-사업 개요: 글로벌 모바일 및 전장용 광학솔루션 탑티어\n\n-테마 사유: 로봇이 주변 환경을 인식하는 데 필수적인 3D 센서 및 초정밀 카메라 모듈을 전담\n\n​\n\n✔ LG에너지솔루션 (373220)\n\n-사업 개요: 글로벌 최상위권 2차전지 배터리 제조사\n\n-테마 사유: 하루 종일 매장을 돌아다니는 서비스 로봇과 휴머노이드의 구동을 책임질 고출력·고용량 로봇 맞춤형 배터리 팩 생산\n\n​\n\n✔ LG디스플레이 (034220)\n\n-사업 개요: 글로벌 디스플레이 패널 제조 선도 기업\n\n-테마 사유: 상호작용에 필요한 전면 디스플레이 패널 및 터치 인터페이스 폼팩터를 제공\n\n✅ 간접 수혜 파트터\n\n​\n\n✔ 인탑",
-        "published": "날짜 미상",
-        "domain": "contents.premium.naver.com"
-      },
-      {
-        "title": "배터리 산업에서 AI는 어떻게 활용될까? LG에너지솔루션의 R&D, 제조 현장 AI 적용 사례 - BATTERY INSIDE | 배터리인사이드",
-        "url": "https://inside.lgensol.com/2026/06/%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%82%B0%EC%97%85%EC%97%90%EC%84%9C-ai%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%99%9C%EC%9A%A9%EB%90%A0%EA%B9%8C-lg%EC%97%90%EB%84%88%EC%A7%80%EC%86%94%EB%A3%A8%EC%85%98",
-        "content": "콘텐츠로 바로가기\n\nBATTERY INSIDE | 배터리인사이드\n\n# 배터리 산업에서 AI는 어떻게 활용될까? LG에너지솔루션의 R&D, 제조 현장 AI 적용 사례\n\n지난 5월 14일, 서울 강서구 마곡 LG사이언스파크에서 개최된 ‘LG Tech Conference 2026’에서는 AI·로봇·모빌리티·전지·재료/소재·통신 등 다양한 분야의 최신 기술이 소개되었습니다. LG에너지솔루션도 미래 이공계 인재들과 만나 최신 기술과 비전을 나누는 자리를 가졌는데요.\n\n특히 AI가 산업 전반의 핵심 화두로 떠오르고 있는 만큼, 제조업 분야인 배터리 산업에서 AI를 어떻게 활용하고 있는지는 참가자들의 큰 관심을 모았습니다. LG에너지솔루션은 300PB 분량의 엄청난 데이터와 최고의 제조업 전문 AI 전문가들 및 연구 인프라를 바탕으로 업계를 선도하고 있습니다.\n\n이번 시간에는 윤정석 상무님과 임준호 연구위원님의 ‘Virtual Lab to Dark Factory: AI, 배터리의 미래를 현실로 ",
-        "published": "날짜 미상",
-        "domain": "inside.lgensol.com"
-      }
-    ],
-    "single_volume": [
-      {
-        "title": "LG Group Affiliates Build Physical AI Ecosystem",
-        "url": "https://www.chosun.com/english/industry-en/2026/03/04/QS4J3CL5WBESTLDZVQWJXYXEXA",
-        "content": "LG Energy Solution is gaining attention for supplying batteries to humanoid robots in the U.S. and China. Humanoid robots require compact, lightweight batteries, making NCM batteries more suitable than LFP. LG Energy Solution’s NCM batteries, which use nickel, cobalt, and manganese as cathode materials, offer high energy density and superior power-to-weight ratios.\n\nLG CNS is participating in the K-EXAONE consortium to handle enterprise and government service data and industrial digital transfor",
-        "published": "날짜 미상",
-        "domain": "chosun.com"
+        "domain": "news.lgensol.com"
       },
       {
         "title": "[LG 로봇 전환기 ②] 피지컬 AI 풀스택 구축···부품·배터리까지 자체 제작",
@@ -61,6 +31,57 @@
         "domain": "seoulfn.com"
       },
       {
+        "title": "로봇과 자율주행의 시대, 진짜 핵심은 '배터리'? | LG에너지 ... - YouTube",
+        "url": "https://www.youtube.com/watch?v=YEFoMwqvzxQ",
+        "content": "얘네 전략이 뭐고 이런 것들을 한 30페이지 40페이지짜리 연제를 했었죠. 제가 원래 상품 계획을 하다가 MMA 하니까 이제 예전에 내가 제가 시장을 봤던 것들이 조금 아쉬웠던 거죠. 제 개인적으로는. 그래가지고 이걸 한번 이제 정리를 하고 내 머릿속에 방점을 찍고 나와야겠다. 그런 개념으로 이제 썼었는데 마침 그때 그 소용전지에서 이제 사업을 시작을 하면서 배터리가 굉장히 잘 팔리는데 이게 지속적으로 잘 팔리는 고객인 건지 이게 그림을 아직 그리지 못한 상태였던 거죠. 아, 완전 초창기였나 봐요. 예. 예. 예. 그래서이 그림을 이제 이해가 될 수 있게끔 한 계기가 돼서 되게 좋게 봐 주셨고 그 이후로 열심히 잘 활용하고 있습니다. 일전히 발탁이 되신 거구나. 오, 좋다. 소형 전지라고 하면 어떤 것들이 보통 있죠? 소형 전지라고 하면 이제 주로 이제 원통형 전지 그다음에 이제 저희 핸드폰에나 노트북에 들어가는 소형 파우치 전지 요렇게 두 가지로 얘기를 하고 있습니다. 아 그러면 ",
+        "published": "날짜 미상",
+        "domain": "youtube.com"
+      },
+      {
+        "title": "LG엔솔, 로봇 배터리 자신감…\"선도기업 대부분 수주\" - ZDNet korea",
+        "url": "https://zdnet.co.kr/view?no=20260129121523",
+        "content": "# LG엔솔, 로봇 배터리 자신감…\"선도기업 대부분 수주\"\n\n북미 ESS CAPA 목표 30→50GWh 상향…46시리즈 사업 본격 성장 기대\n\n디지털경제입력 :2026/01/29 14:09\n\n김윤희 기자 기자 페이지 구독 기자의 다른기사 보기\n\nLG에너지솔루션이 최근 미래 고성장이 점쳐지는 로봇 분야 배터리 공급을 선도할 것이란 자신감을 드러냈다. 이미 선도 기업 대부분과 협력 관계를 맺고 있고, 차세대 기술 개발도 추진 중인 점을 강조했다.\n\n이연희 LG에너지솔루션 경영전략담당은 29일 진행된 LG에너지솔루션 작년 4분기 실적발표 컨퍼런스콜에서 \"미국, 한국, 중국을 망라한 모든 나라 상위권 기업으로부터 우선 협력 대상으로 꼽히고 있다\"며 \"떠올릴 수 있는 대부분의 선도 기업들로부터 수주를 완료했다\"고 밝혔다.\n\n이달 초 세계 최대 가전 전시회 'CES 2026' 이후 주목도가 급성장한 휴머노이드 외 물류 서비스용 사족 보행 로봇 등 다양한 로봇 분야 협력을 모색하고 있다는 설명이",
+        "published": "날짜 미상",
+        "domain": "zdnet.co.kr"
+      }
+    ],
+    "single_volume": [
+      {
+        "title": "젠슨 황이 불 지핀 피지컬 AI…K-배터리 '로봇 배터리' 뜬다",
+        "url": "https://www.g-enews.com/article/Industry/2026/06/2026061208420217343084322ec9_1",
+        "content": "가장 앞서 로봇 배터리 시장을 구체화하고 있는 곳은 LG에너지솔루션이다. 회사는 로봇용 배터리를 별도 응용처로 제시하고 휴머노이드, 4족 보행, 서빙, 물류 로봇 등에 적용 가능한 배터리를 소개하고 있다. 핵심 성능으로는 경량·소형 설계, 고에너지 밀도, 안전성, 장수명, 고출력 등을 내세운다.  \nLG에너지솔루션은 2024년 베어로보틱스와 원통형 배터리 독점 공급을 위한 업무협약을 맺고 서비스·물류 로봇용 배터리 공급에 나섰다. 최근에는 보스턴다이내믹스의 휴머노이드 로봇 아틀라스 배터리 공급사로도 선정된 것으로 알려졌다. 업계에 따르면 보스턴다이내믹스는 기존 4족 보행 로봇 스팟에 배터리를 공급했던 LG에너지솔루션과 아틀라스용 배터리 공급 협력을 이어가는 것으로 전해졌다.  \n   \n 증권가에서도 LG에너지솔루션의 로봇 배터리 전략을 원통형 배터리 중심으로 보고 있다. 삼성증권 조현렬 연구원은 최근 보고서에서 “LG에너지솔루션이 휴머노이드 시장을 공략하는 데 있어 핵심 키워드는 4",
+        "published": "날짜 미상",
+        "domain": "g-enews.com"
+      },
+      {
+        "title": "LG Group Affiliates Build Physical AI Ecosystem",
+        "url": "https://www.chosun.com/english/industry-en/2026/03/04/QS4J3CL5WBESTLDZVQWJXYXEXA",
+        "content": "LG Energy Solution is gaining attention for supplying batteries to humanoid robots in the U.S. and China. Humanoid robots require compact, lightweight batteries, making NCM batteries more suitable than LFP. LG Energy Solution’s NCM batteries, which use nickel, cobalt, and manganese as cathode materials, offer high energy density and superior power-to-weight ratios.\n\nLG CNS is participating in the K-EXAONE consortium to handle enterprise and government service data and industrial digital transfor",
+        "published": "날짜 미상",
+        "domain": "chosun.com"
+      },
+      {
+        "title": "Enabling Physical AI: How LG Energy Solution Powers the Next ...",
+        "url": "https://news.lgensol.com/company-news/supplementary-stories/4869",
+        "content": "In the robotics sector, LG Energy Solution’s broad battery portfolio offers optimized solutions based on each specific robot type. Within the humanoid robot segment, the company is advancing both cell- and pack-level technologies to enable stable, high-performance operation in practical scenarios.\n\nAt the cell level, LG Energy Solution is using high-capacity, long-life 2170 cylindrical batteries to support the early expansion of the humanoid robotics market. With a strong balance of energy densi",
+        "published": "날짜 미상",
+        "domain": "news.lgensol.com"
+      },
+      {
+        "title": "[LG 로봇 전환기 ②] 피지컬 AI 풀스택 구축···부품·배터리까지 자체 제작",
+        "url": "https://www.seoulfn.com/news/articleView.html?idxno=623719",
+        "content": "LG에너지솔루션 연구원이 전고체 배터리를 연구하는 모습 (사진=LG에너지솔루션)\n\n휴머노이드 로봇은 인간의 몸통 정도밖에 되지 않는 한정된 부피에서 최대한 높은 출력을 끌어내야 하기 때문에 에너지 밀도가 낮은 LFP(리튬인산철) 배터리로는 시장이 원하는 가동 시간과 안전성을 충족하기 어렵다. 고성능 삼원계 원통형 배터리를 양산할 수 있는 기업은 글로벌에서 LG에너지솔루션과 삼성SDI, 일본 파나소닉 정도에 불과해 경쟁 우위가 뚜렷하다.\n\nLG에너지솔루션은 최근 시카고대학교 연구팀과 공동으로 황 양극 전고체 배터리 기술을 세계 최초로 구현하는 데 성공하기도 했다. 황은 저렴한 가격과 리튬이온 대비 월등히 높은 에너지 용량에도 내구성과 안정성이 낮다는 약점이 있었는데, 액체 전해질 대신 전고체 구조로 이를 보완했다. 회사는 해당 연구 성과를 로봇 배터리에 접목해 미래 시장에서 초격차를 완성한다는 전략이다. [...] 이해를 위해 연출된 이미지 (사진=LG디스플레이)\n\nP-OLED의 핵심",
+        "published": "날짜 미상",
+        "domain": "seoulfn.com"
+      },
+      {
+        "title": "전기차 이어 AIDC·로봇까지…'원LG' 전략 확장 - 아이뉴스24",
+        "url": "https://www.inews24.com/view/1949234",
+        "content": "LG에너지솔루션은 휴머노이드 로봇에 적용할 수 있는 전고체 배터리 기술을 공개하며 차세대 배터리 시장 선점에 나섰다. 로봇은 높은 안전성과 에너지 효율을 갖춘 배터리가 필요한 만큼 전고체 배터리 수요가 늘어날 것으로 전망된다.\n\nLG와 메르세데스-벤츠 최고 경영진이 지난해 11월 서울 여의도 LG트윈타워에서 만나 LG의 자동차 부품 사업 역량을 결집한 ‘원(One) LG’ 솔루션 협업 확대 방안에 대해 논의했다.[사진=LG전자]\n\n### AI 기술 축으로 확장되는 원LG\n\nLG AI연구원은 자체 개발한 초거대 언어모델 ‘엑사원(EXAONE)’을 기반으로 LG전자, 한국과학기술연구원(KIST)과 협력해 한국형 휴머노이드 로봇 ‘케이팩스(KAPEX)’를 개발하고 있다.\n\n향후 엑사원 기반 비전언어모델(VLM)을 통해 로봇 인공지능을 고도화하는 작업도 추진하고 있다.\n\nAI 데이터센터 분야에서도 계열사 협력 모델이 확대되고 있다. LG전자의 냉각 시스템, LG유플러스와 LG CNS의 데이",
+        "published": "날짜 미상",
+        "domain": "inews24.com"
+      },
+      {
         "title": "[LG그룹 - 로봇]'피지컬 AI': 주도주로 떠오른 LG 로봇 밸류체인 총정리",
         "url": "https://contents.premium.naver.com/pqpqyoustock/pqpqyou/contents/260521150603653oc",
         "content": "​\n\n✔ 로보티즈 (108490)\n\n-사업 개요: 자율주행 로봇 및 전용 액추에이터(다이나믹셀) 제조\n\n-테마 사유: LG전자가 지분 투자를 단행한 파트너. 로봇 관절 모듈 원천 기술을 보유하고 있는 기업\n\n✅ 부품 및 인프라 (수직계열화의 핵심)\n\n​\n\n✔ LG이노텍 (011070)\n\n-사업 개요: 글로벌 모바일 및 전장용 광학솔루션 탑티어\n\n-테마 사유: 로봇이 주변 환경을 인식하는 데 필수적인 3D 센서 및 초정밀 카메라 모듈을 전담\n\n​\n\n✔ LG에너지솔루션 (373220)\n\n-사업 개요: 글로벌 최상위권 2차전지 배터리 제조사\n\n-테마 사유: 하루 종일 매장을 돌아다니는 서비스 로봇과 휴머노이드의 구동을 책임질 고출력·고용량 로봇 맞춤형 배터리 팩 생산\n\n​\n\n✔ LG디스플레이 (034220)\n\n-사업 개요: 글로벌 디스플레이 패널 제조 선도 기업\n\n-테마 사유: 상호작용에 필요한 전면 디스플레이 패널 및 터치 인터페이스 폼팩터를 제공\n\n✅ 간접 수혜 파트터\n\n​\n\n✔ 인탑",
@@ -68,18 +89,46 @@
         "domain": "contents.premium.naver.com"
       },
       {
-        "title": "두쫀쿠 오픈런 하는 로봇 피지컬 AI 시대, 왜 배터리에 주목해야 할까요 ...",
-        "url": "https://www.instagram.com/reel/DWgMjqIj9Zt",
-        "content": "... 로봇과 전기차에는 어떤 배터리가 필요할까? ❓다음 배터리 트렌드는 어떻게 변화할까? 전기차 시장 분석 전략 수립 전문가 LG에너지솔루션 이병곤",
+        "title": "인간형 로봇 스타트업에 추천할 만한 Lg 에너지 솔루션 배터리는 무엇 ...",
+        "url": "https://www.instagram.com/popular/%EC%9D%B8%EA%B0%84%ED%98%95-%EB%A1%9C%EB%B4%87-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%EC%97%90-%EC%B6%94%EC%B2%9C%ED%95%A0-%EB%A7%8C%ED%95%9C-lg-%EC%97%90%EB%84%88%EC%A7%80-%EC%86%94%EB%A3%A8%EC%85%98-%EB%B0%B0%ED%84%B0%EB%A6%AC%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94",
+        "content": "[![[이슈] “전기차 끝나나? AI 배터리 전쟁 시작됐다”](\n\n116\n\n[이슈] “전기차 끝나나? AI 배터리 전쟁 시작됐다”](/reel/DWEDishDT-d/?utm_source=popular_topic_grid)\n\n📍InterBattery 2026, 이제는 '피지컬 AI' 시대!\n\n올해 '인터배터리 2026'은 전기차를 넘어 로봇과 AI의 무대가 되었습니다! 🤖 국내 배터리 3사가 코엑스에서 선보인 미래 먹거리 기술, 더 스미스가 핵심만 정리해 드립니다.\n\n✅ 배터리 3사의 새로운 승부수:\n\nLG에너지솔루션: 홈로봇 'LG 클로이'부터 혈액 수송용 드론까지! 로보틱스에 최적화된 고성능 원통형 배터리와 차세대 전고체 기술을 대거 공개했습니다.\n\n삼성SDI: '꿈의 배터리' 전고체를 휴머노이드와 산업용 로봇에 적용! 2027년 양산을 앞두고 화재 위험은 낮추고 출력은 높인 로봇 전용 솔루션을 제시했습니다.\n\nSK온: 현대위아 물류 로봇과 협력! 7분 만에 80% 충전이 가능한 ",
         "published": "날짜 미상",
         "domain": "instagram.com"
       },
       {
+        "title": "로봇과 자율주행의 시대, 진짜 핵심은 '배터리'? | LG에너지 ... - YouTube",
+        "url": "https://www.youtube.com/watch?v=YEFoMwqvzxQ",
+        "content": "얘네 전략이 뭐고 이런 것들을 한 30페이지 40페이지짜리 연제를 했었죠. 제가 원래 상품 계획을 하다가 MMA 하니까 이제 예전에 내가 제가 시장을 봤던 것들이 조금 아쉬웠던 거죠. 제 개인적으로는. 그래가지고 이걸 한번 이제 정리를 하고 내 머릿속에 방점을 찍고 나와야겠다. 그런 개념으로 이제 썼었는데 마침 그때 그 소용전지에서 이제 사업을 시작을 하면서 배터리가 굉장히 잘 팔리는데 이게 지속적으로 잘 팔리는 고객인 건지 이게 그림을 아직 그리지 못한 상태였던 거죠. 아, 완전 초창기였나 봐요. 예. 예. 예. 그래서이 그림을 이제 이해가 될 수 있게끔 한 계기가 돼서 되게 좋게 봐 주셨고 그 이후로 열심히 잘 활용하고 있습니다. 일전히 발탁이 되신 거구나. 오, 좋다. 소형 전지라고 하면 어떤 것들이 보통 있죠? 소형 전지라고 하면 이제 주로 이제 원통형 전지 그다음에 이제 저희 핸드폰에나 노트북에 들어가는 소형 파우치 전지 요렇게 두 가지로 얘기를 하고 있습니다. 아 그러면 ",
+        "published": "날짜 미상",
+        "domain": "youtube.com"
+      },
+      {
         "title": "LG엔솔, 로봇 배터리 자신감…\"선도기업 대부분 수주\" - 지디넷코리아",
         "url": "https://zdnet.co.kr/view?no=20260129121523",
-        "content": "LG에너지솔루션이 최근 미래 고성장이 점쳐지는 로봇 분야 배터리 공급을 선도할 것이란 자신감을 드러냈다. 이미 선도 기업 대부분과 협력 관계를",
+        "content": "# LG엔솔, 로봇 배터리 자신감…\"선도기업 대부분 수주\"\n\n북미 ESS CAPA 목표 30→50GWh 상향…46시리즈 사업 본격 성장 기대\n\n디지털경제입력 :2026/01/29 14:09\n\n김윤희 기자 기자 페이지 구독 기자의 다른기사 보기\n\nLG에너지솔루션이 최근 미래 고성장이 점쳐지는 로봇 분야 배터리 공급을 선도할 것이란 자신감을 드러냈다. 이미 선도 기업 대부분과 협력 관계를 맺고 있고, 차세대 기술 개발도 추진 중인 점을 강조했다.\n\n이연희 LG에너지솔루션 경영전략담당은 29일 진행된 LG에너지솔루션 작년 4분기 실적발표 컨퍼런스콜에서 \"미국, 한국, 중국을 망라한 모든 나라 상위권 기업으로부터 우선 협력 대상으로 꼽히고 있다\"며 \"떠올릴 수 있는 대부분의 선도 기업들로부터 수주를 완료했다\"고 밝혔다.\n\n이달 초 세계 최대 가전 전시회 'CES 2026' 이후 주목도가 급성장한 휴머노이드 외 물류 서비스용 사족 보행 로봇 등 다양한 로봇 분야 협력을 모색하고 있다는 설명이",
         "published": "날짜 미상",
         "domain": "zdnet.co.kr"
+      },
+      {
+        "title": "두쫀쿠 오픈런 하는 로봇 피지컬 AI 시대, 왜 배터리에 주목해야 할까요 ...",
+        "url": "https://www.instagram.com/reel/DWgMjqIj9Zt",
+        "content": "Log In\n\nSign Up\n\nlg_group_kr's profile picture\n\nNever miss a post from lg\\_group\\_kr\n\nSign up for Instagram to stay in the loop.\n\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\n\nSign up\n\nLog in\n\nVideo by LG그룹 on March 30, 2026. May be an image of poster.\n\nlg_group_kr's profile picture\n\nlg\\_group\\_kr\n\n•\n\nFollow\n\nlg_group_kr's profile picture\n\nlg\\_group\\_kr\n\n두쫀쿠 오픈런 하는 로봇  \n  \n피지컬 AI 시대, 왜 배터리에 주목해야 할까요?  \n  \n자율주행차와 휴머노이드처럼  \n현실에서 작동하는 AI는  \n결국 '배터리'가 있어야 움직입니다🔋  \n  \n그렇다면",
+        "published": "날짜 미상",
+        "domain": "instagram.com"
+      },
+      {
+        "title": "인간 없는 공장, 현실로… 현대차-LG엔솔 합작 공장, 피지컬 AI 기반 ...",
+        "url": "https://www.koreadaily.com/article/20260521142129595",
+        "content": "지난달 가동을 시작한 조지아주 브라이언 카운티 현대차그룹·LG에너지솔루션 합작 전기차(EV) 배터리 공장이 전 생산 공정에 인공지능(AI)을 적용한 제조 혁신의 사례로 주목받고 있다.   \n     \n LG에너지솔루션은 21일 애틀랜타 총영사관과 코트라 애틀랜타 무역관이 귀넷 카운티 상공회의소에서 개최한 기업활동지원협의회에 참석, 제조 경쟁력 강화를 위해 AI 자동화를 전 공정에서 활용하고 있다고 밝혔다. 김형원 전극기술 담당은 “차별화된 배터리 경쟁력은 얇은 소재를 얼마나 정교하고 균일하게 도포하고, 누르고, 자르는지에 달려있다”며 “산업 특성상 배터리가 탑재되는 차량에 따라 규격·사양이 수시로 바뀌고 생산량 변동폭도 커 AI 자동화를 통해 설비를 수시로 조정해 수익률을 높였다”고 했다.   \n     \n LG엔솔은 이 공장에 피지컬 AI 기반의 자율주행 물류로봇(AMR)을 처음 도입했다. 창고에서 원자재를 가져와 각 공정 설비에 투입하고 완성품을 다시 적재하는 전 과정이 자동화됐",
+        "published": "날짜 미상",
+        "domain": "koreadaily.com"
+      },
+      {
+        "title": "인간 없는 공장, 현실로… 현대차-LG엔솔 합작 공장, 피지컬 AI 기반 ...",
+        "url": "https://www.atlantajoongang.com/135933",
+        "content": "한미은행\n\nNo Result\n\nView All Result\n\n Login\n Register\n\n 배터리 공장이 전 생산 공정에 인공지능(AI)을 적용한 제조 혁신의 사례로 주목받고 있다.\n\nLG에너지솔루션은 21일 애틀랜타 총영사관과 코트라 애틀랜타 무역관이 귀넷 카운티 상공회의소에서 개최한 기업활동지원협의회에 참석, 제조 경쟁력 강화를 위해 AI 자동화를 전 공정에서 활용하고 있다고 밝혔다. 김형원 전극기술 담당은 “차별화된 배터리 경쟁력은 얇은 소재를 얼마나 정교하고 균일하게 도포하고, 누르고, 자르는지에 달려있다”며 “산업 특성상 배터리가 탑재되는 차량에 따라 규격·사양이 바뀌고 생산량 변동폭도 커 AI 자동화를 통해 설비를 수시로 조정해 수익률을 높였다”고 했다.\n\n캘리최부동산   을 처음 도입했다. 창고에서 원자재를 가져와 각 공정 설비에 투입하고 완성품을 다시 적재하는 전 과정이 자동화됐다. 김형원 담당은 “사람이 직접 힘을 써서 물건을 옮기는 일은 없다”고 잘라말했다. 로",
+        "published": "날짜 미상",
+        "domain": "atlantajoongang.com"
       },
       {
         "title": "LG엔솔 \"메이저 로봇社와 거래 다 뚫어\" - 매일경제",
@@ -96,64 +145,36 @@
         "domain": "lgensol.com"
       },
       {
-        "title": "\"로봇으로 전기차 메꿀수없는데\"…괴리감 커지는 LG엔솔·삼성SDI 주가",
-        "url": "https://www.investchosun.com/site/data/html_dir/2026/01/28/2026012880183.html",
-        "content": "\"로봇으로 전기차 메꿀수없는데\"…괴리감 커지는 LG엔솔·삼성SDI 주가\n\n 선모은 기자\n Edited by이도현 부장\n\n입력 2026.01.29 07:00\n\n인베스트조선 유료서비스 2026년 01월 28일 15:54 게재\n\n휴머노이드 로봇 뜨자 '2차전지株' 상승 랠리  \n전기차 부진에 적자 키운 셀사는 주가 괴리↑  \n셀3사 올해 배터리 생산능력 사상 최대 전망  \n로봇·ESS 등 신규 공급처 찾아도 소화 못해\n\n :   (그래픽=윤수민 기자) 이미지 크게보기\n\n  (그래픽=윤수민 기자)\n\n  휴머노이드 로봇과 피지컬 인공지능(AI)이 국내 증시의 주요 테마로 부상하면서 LG에너지솔루션과 삼성SDI 등 유관 기업 주가가 일제히 상승하고 있다. 전기차 시장 부진은 여전하나 휴머노이드 로봇이 새로운 배터리 사용처로 떠오르고 있어 투자자들의 관심이 셀·소재사에 다시 쏠린 영향으로 풀이된다.\n\n  하지만 미국 전기차 보조금 폐지 여파로 기업 실적은 올해도 적자가 예상된다. 공급 계약 취소",
-        "published": "날짜 미상",
-        "domain": "investchosun.com"
-      },
-      {
-        "title": "Enabling Physical AI: How LG Energy Solution Powers the ...",
-        "url": "https://news.lgensol.com/company-news/supplementary-stories/4869",
-        "content": "As physical AI continues to expand, energy emerges as the key that will shape system performance and scalability. LG Energy Solution is developing",
-        "published": "날짜 미상",
-        "domain": "news.lgensol.com"
-      },
-      {
-        "title": "NVIDIA-LG그룹, 피지컬 AI·모빌리티·AI 인프라 발전 위해 AI 팩토리 ...",
-        "url": "https://blogs.nvidia.co.kr/blog/nvidia-and-lg-group-ai-factory",
-        "content": "LG그룹 계열 통신사인 LG유플러스(LG U+)는 LG전자, LG에너지솔루션(LG Energy Solution)과 협력해 NVIDIA DSX를 기반으로 확장 가능하고 전력 효율적인 AI 팩토리를 구축할 계획입니다. 이를 통해 NVIDIA 가속 컴퓨팅과 AI 팩토리 레퍼런스 아키텍처를 LG그룹의 인프라와 에너지, 통신 역량과 결합시키고, 향후 AI 클라우드와 GPU 서비스 부문 사업을 지원합니다.\n\nLG씨엔에스는 NVIDIA GPU로 구동되는 NVIDIA DSX 기반의 확장 가능하고 전력 효율적인 고성능 AI 팩토리를 구축할 계획입니다.\n\nLG유플러스는 최신 NVIDIA GPU 탑재가 가능한 대규모 AI 데이터센터 구축에 나섭니다.\n\nLG에너지솔루션은 NVIDIA와의 협력으로 800볼트 직류 데이터센터 에너지 솔루션 분야에서 NVIDIA BESS Self-Qualification 을 준수해 차세대 GPU 발전에 발맞추고자 합니다.\n\n자율주행과 모빌리티 AI 발전 가속\n\n모빌리티 분야에",
-        "published": "날짜 미상",
-        "domain": "blogs.nvidia.co.kr"
-      },
-      {
-        "title": "LG Energy Solution, Do Dreams Come True? Next Engine ' ...",
-        "url": "https://www.youtube.com/shorts/MYU9MhF5l2k",
-        "content": "LG에너지솔루션 #피지컬AI #AI엔진 #전기차배터리 #배터리산업 #에너지미래 #AI반도체 #모빌리티기술 #미래기술 #전기차산업.",
-        "published": "날짜 미상",
-        "domain": "youtube.com"
-      },
-      {
-        "title": "로봇과 자율주행의 시대, 진짜 핵심은 '배터리'? | LG에너지 ... - YouTube",
-        "url": "https://www.youtube.com/watch?v=YEFoMwqvzxQ",
-        "content": "❓다음 배터리 트렌드는 어떻게 변화할까? 전기차 시장 분석 전략 수립 전문가 LG에너지솔루션 이병곤 책임이 들려주는 배터리 이야기 글로벌 배터리",
-        "published": "날짜 미상",
-        "domain": "youtube.com"
-      },
-      {
-        "title": "인간 없는 공장, 현실로… 현대차-LG엔솔 합작 공장, 피지컬 ...",
-        "url": "https://www.atlantajoongang.com/135933",
-        "content": "지난달 가동을 시작한 조지아주 브라이언 카운티 현대차그룹·LG에너지솔루션 합작 전기차(EV) 배터리 공장이 전 생산 공정에 인공지능(AI)을 적용한",
-        "published": "날짜 미상",
-        "domain": "atlantajoongang.com"
-      },
-      {
-        "title": "인간 없는 공장, 현실로… 현대차-LG엔솔 합작 공장, 피지컬 AI 기반 제조 혁신 | 미주중앙일보",
-        "url": "https://www.koreadaily.com/article/20260521142129595",
-        "content": "## 미주중앙일보 - 미주 최대 한인 뉴스 미디어\n\n## 미주중앙일보\n\n## 미주중앙일보\n\n광고닫기\n\n# 인간 없는 공장, 현실로… 현대차-LG엔솔 합작 공장, 피지컬 AI 기반 제조 혁신\n\n2026.05.21 14:21\n2026.05.21 14:40\n업데이트 정보 더보기\n\n21일 김형원 LG에너지솔루션 전극기술 담당이 세미나에서 발표하고 있다. 장채원 기자\n\n21일 김형원 LG에너지솔루션 전극기술 담당이 세미나에서 발표하고 있다. 장채원 기자\n\n### 많이 본 뉴스\n\n### 실시간 뉴스\n\n확대보기 이미지\n\n690 Wilshire Place Los Angeles, CA 90005   \nTEL. (213) 368-2500 FAX. (213) 389-6196\n\n© Joongangilbo USA. All Rights Reserved.",
-        "published": "날짜 미상",
-        "domain": "koreadaily.com"
-      },
-      {
-        "title": "Instagram",
-        "url": "https://www.instagram.com/reel/DWyQsm7D7LQ",
-        "content": "Log In\n\nSign Up\n\nlgcns_kr's profile picture\n\nNever miss a post from lgcns\\_kr\n\nSign up for Instagram to stay in the loop.\n\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\n\nSign up\n\nLog in\n\nVideo by LG CNS on April 06, 2026. May be a cartoon.\n\nlgcns_kr's profile picture\n\nlgcns\\_kr\n\n•\n\nFollow\n\nlgcns_kr's profile picture\n\nlgcns\\_kr\n\nLG CNS에 로봇 연구소가?! (ft. Future Robotics LAB)  \n  \n\"이제 와서 되겠어?\" 라는 시선 속에서도   \n스스로 판단하고 행동하는 Physical AI를 현실로 만들어가는 사람들.   \n  \n불가능해 보였던 경계를 한 걸음씩 ",
+        "title": "요즘 로봇 업계에서 핫한 배터리는? - Instagram",
+        "url": "https://www.instagram.com/reel/DWgMdC7DzKf",
+        "content": "Log In\n\nSign Up\n\nlg_group_kr's profile picture\n\nNever miss a post from lg\\_group\\_kr\n\nSign up for Instagram to stay in the loop.\n\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\n\nSign up\n\nLog in\n\nVideo by LG그룹 on March 30, 2026.\n\nlg_group_kr's profile picture\n\nlg\\_group\\_kr\n\n•\n\nFollow\n\nlg_group_kr's profile picture\n\nlg\\_group\\_kr\n\n요즘 로봇 업계에서 핫한 배터리는?  \n  \n피지컬 AI 시대, 왜 배터리에 주목해야 할까요?  \n  \n자율주행차와 휴머노이드처럼  \n현실에서 작동하는 AI는  \n결국 '배터리'가 있어야 움직입니다🔋  \n  \n그렇다면...?   \n🤔로봇과 전기차에는 어떤",
         "published": "날짜 미상",
         "domain": "instagram.com"
       }
     ],
     "three_persp": {
       "긍정": [
+        {
+          "title": "LG에너지솔루션, 인터배터리 2026서 로봇·AI 배터리 혁신 기술 공개 < Grid · ESS < 기사본문 - 에너지뉴스",
+          "url": "https://www.2news.co.kr/news/articleView.html?idxno=1095",
+          "content": "기사제보\n 광고문의\n\n     \n\n 2026-04-07 14:22 (화)\n 로그인\n 회원가입\n\n에너지뉴스\n\n에너지뉴스\n\nLG에너지솔루션, 인터배터리 2026서 로봇·AI 배터리 혁신 기술 공개\n\n글자크기 설정\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n# LG에너지솔루션, 인터배터리 2026서 로봇·AI 배터리 혁신 기술 공개\n\n 에너지 뉴스\n 입력 2026.03.03 19:37\n 댓글 0\n\n## LFP 기반 ESS 및 차세대 LMR 배터리 등 미래 에너지 솔루션 대거 전시\n\nLG에너지솔루션이 오는 11일부터 13일까지 서울 코엑스에서 열리는 '인터배터리 2026'에 참가해 미래 에너지 산업을 선도할 차세대 혁신 솔루션을 선보인다. 이번 전시에서 LG에너지솔루션은 전기차(EV)와 에너지저장장치(ESS)를 넘어 로보틱스, 드론, AI 인프라 등 배터리 기술이 적용되는 무한한 산업 확장성을 강조할 계획이다.\n\nLG에너지솔루션은 '에너지의 미래를 만",
+          "published": "날짜 미상",
+          "domain": "2news.co.kr"
+        },
+        {
+          "title": "LG에너지솔루션, 인터배터리 2026서 LMR 첫 공개…EV 넘어 로봇·AI 인프라 공략 - 팍스경제TV",
+          "url": "http://www.paxetv.com/news/articleView.html?idxno=263605",
+          "content": "이번 전시는 배터리 역사와 비전을 소개하는 ‘Hero 존’을 시작으로 ▲에너지 인프라 ▲모빌리티 ▲로보틱스&드론 ▲미래 기술 등 총 5개 공간으로 구성된다.\n\n에너지 인프라 존에서는 AI 산업 성장과 재생에너지 확대에 따른 전력 수요 증가에 대응하는 다양한 솔루션을 선보인다. 전력망용·산업·상업용·데이터센터용 배터리와 함께 에너지 통합 관리 서비스(EaaS) 사업 모델을 공개한다.\n\n전력망용 ESS 솔루션 ‘JF2 DC LINK 5.0’은 국내 전력 인프라 환경에 최적화된 제품으로, 국내 최초로 LFP 배터리를 적용해 안전성을 강화했다. 또한 AI 데이터센터용 비상전원 솔루션으로 LFP 기반 차세대 JP6 UPS용 랙 시스템과 고출력 원통형 배터리가 탑재된 BBU(Battery Backup Unit) 솔루션을 국내 최초로 공개한다.  \n    \n 모빌리티 존에서는 차세대 LMR(리튬망간리치) 배터리를 처음 선보인다. 이 제품은 GM과 공동 개발 중이며, 지난해 미국 ‘배터리쇼 북미 ",
+          "published": "날짜 미상",
+          "domain": "paxetv.com"
+        },
+        {
+          "title": "LG에너지솔루션, AI로 배터리 혁신 가속화! 인공지능이 바꾸는 에너지의 미래",
+          "url": "https://haksalwook.tistory.com/249",
+          "content": "## 강점과 리스크 (도전 요소)\n\n### 강점\n\n 데이터 축적 + 도메인 노하우  \n  수년간 쌓은 배터리 공정, 설비, 품질, 재료 관련 데이터가 AI 학습 기반이 될 수 있습니다.\n 시스템 통합 역량  \n  배터리 → 전력 시스템 → ESS 등 사업 간 연계 가능성이 높고, 그룹 내부 연계를 통한 인프라 사업 확장 가능.\n 기술 자본과 투자 여력  \n  대기업인 LG그룹의 자원과 투자 여력을 활용해 AI 인재 확보, 인프라 구축이 유리할 수 있습니다.\n 고객 접점 확보  \n  전기차 업체, ESS 사업자 등 배터리 수요처와의 거래 네트워크가 이미 형성돼 있다는 점이 유리.\n\n### 리스크 / 과제 [...] ## LG에너지솔루션, AI로 배터리 혁신 가속화! 인공지능이 바꾸는 에너지의 미래\n\n센스욱이 2025. 10. 12. 00:01\n\n728x90\n\n반응형\n\n## LG에너지솔루션과 AI의 만남: 왜 중요한가?\n\n전기차, 에너지저장장치(ESS), 친환경 인프라 등 배터리 산업이",
+          "published": "날짜 미상",
+          "domain": "haksalwook.tistory.com"
+        },
         {
           "title": "배터리 산업에서 AI는 어떻게 활용될까? LG에너지솔루션의 R&D ...",
           "url": "https://inside.lgensol.com/2026/06/%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%82%B0%EC%97%85%EC%97%90%EC%84%9C-ai%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%99%9C%EC%9A%A9%EB%90%A0%EA%B9%8C-lg%EC%97%90%EB%84%88%EC%A7%80%EC%86%94%EB%A3%A8%EC%85%98",
@@ -162,106 +183,85 @@
           "domain": "inside.lgensol.com"
         },
         {
-          "title": "[초점] LG에너지솔루션, 'AI·특허' 이중전략…中 배터리 패권 도전 - 글로벌이코노믹",
-          "url": "https://www.g-enews.com/article/Global-Biz/2025/10/202510271018315854fbbec65dfb_1",
-          "content": "전략의 다른 한 축인 '시간 압축'은 연구개발부터 제조에 이르는 전 과정에 AI를 도입해 속도와 효율성을 극대화하는 것이다. 기존 화학 소재 실험이나 배터리 수명 예측에 수개월에서 1년 이상 걸리던 병목 현상을 해결하는 것이 핵심이다. LG엔솔은 소재 연구개발 공정을 모듈화하고 AI 자동 최적화 알고리즘을 도입해 설비를 자동화했다. 특히 LG그룹의 AI 연구개발 전담 조직인 '엑사원(EXAONE)'과의 협력은 소재 발굴, 셀 설계, 배터리 수명 예측 등의 개발 일정을 크게 단축하는 동력으로 작용한다.  \n   \n AI의 위력은 구체적인 수치로도 확인된다. 기존에 5~10시간씩 걸리던 일회성 나노-CT 스캔에 의존하지 않고도, AI 복원 기술을 적용해 기존 CT 이미지의 품질을 대폭 향상시켜 생산성을 5배 이상 끌어올렸다. 이 방식은 전극 활물질층의 분포나 내부 다공성, 입자 배열 상태를 정밀하게 검사하는 품질 평가 공정에 큰 이점으로 작용한다. 제조 현장에서도 데이터 호수(Data ",
+          "title": "LG에너지솔루션, 인터배터리 2026에서 로봇·드론·AI 차세대 혁신 제품 공개 - ROBOTEDLY",
+          "url": "https://robotedly.com/127402",
+          "content": "News Issue  콘텐츠 맛보기\n\nLOG IN\n\n##### 주요 출처\n\n##### Mbriefing's Comment\n\n##### Related Contents\n\n##### Related Tags\n\n### 유료 고객사 로그인\n\n신규 회원에게는 14일간 무료체험 서비스를 제공합니다.\n\n서비스 소개\n\n회원가입\n\n비밀번호 찾기\n\n유료구독 문의\n\n로그인\n\n##### Robotedly's Comment\n\n##### Related Contents\n\n##### News\n\n##### Issue\n\n고객센터 : 서비스 소개유료구독 문의뉴스레터 신청  \n T. 070-8236-8136 E. robotedly@intercane.com\n\n인터케인 운영 플랫폼 : 아우토바인 배터리다이브 배터리다이브저팬 엠브리핑 로보티들리\n\n(주)인터케인 | 서비스이용약관 | 개인정보처리방침 | © Intercane Inc. All rights reserved.",
           "published": "날짜 미상",
-          "domain": "g-enews.com"
-        },
-        {
-          "title": "로봇 배터리｜산업별 솔루션 - LG에너지솔루션",
-          "url": "https://www.lgensol.com/kr/business/robot",
-          "content": "일하는 방식\n 소통 문화\n\n 채용절차\n 직무소개\n 채용 스토리\n\n 국내\n 해외\n\n## 로봇\n\nLG에너지솔루션은 고에너지·경량 배터리로 로봇의 자율성과 작업 시간 향상에 기여합니다.\n\n 휴머노이드\n\n  \n 사족로봇\n\n  \n 서빙 로봇\n\n  \n 물류 로봇\n\n  \n\n요구 성능\n\n \n\n  경량·소형화\n \n\n  고에너지 밀도\n \n\n  안정성\n \n\n  장수명\n \n\n  고출력 성능\n\n폼팩터\n\n 원통형 배터리\n\n현재 탭에서 이동   파우치형 배터리\n\n현재 탭에서 이동\n\n소재\n\n NCM(A)\n\n현재 탭에서 이동\n\n형태\n\n 셀\n 모듈\n 팩\n\n## 주요 수주 이력\n\n LG에너지솔루션, 美 ‘베어로보틱스’에 원통형 배터리 단독 공급\n\n  2024.11.18\n\n  \n\n카탈로그\n\n새 창으로 열기  문의하기\n\n현재 창에서 이동\n\n### 이메일 무단 수집 거부\n\n본 홈페이지에 게시된 이메일 주소가 자동 수집되는 것을  \n 거부하며, 이를 위반 시 정보통신망법에 의해 처벌됨을  \n 유념하시기 바랍니다.\n\n불법 대",
-          "published": "날짜 미상",
-          "domain": "lgensol.com"
-        },
-        {
-          "title": "로봇 배터리 솔루션 — Large Battery",
-          "url": "https://www.large-battery.com/ko/robot-battery-solution",
-          "content": "컨텐츠로 가기\n\n큰 로고\n\n## 기계 인간\n\n로봇 응용 분야를 위한 최첨단 엔지니어링, 군사용 내구성, 고객 중심 혁신.\n\n 라이프포4\n 리튬 이온\n 낮은 온도\n 준고체 상태\n\n이 시장을 발견하세요\n\n업계 보고서 받기\n\n릴리스 성능\n\n# 맞춤형 로봇 리튬 이온 배터리 팩\n\n최신 로봇 시스템의 성능 요건을 충족하도록 특별히 설계된 첨단 리튬 이온 기술을 경험해 보세요. 이동성, 정밀 제어, 배터리 수명 등 어떤 요건을 충족하든, 저희 배터리는 로봇의 디자인, 기능 및 작동 환경에 맞춰 완벽하게 맞춤 제작됩니다. 가볍고 컴팩트하며 에너지 밀도가 높아 공간 제약이 있는 애플리케이션에 이상적인 선택입니다. 성능 저하 없이 더욱 세련되고 효율적인 로봇 디자인을 구현할 수 있습니다.\n\n당사의 배터리는 내구성이 뛰어나며 적절한 유지 관리를 통해 1년 이상 지속될 수 있습니다. 저희 가족은 10년 이상 프리미엄 한식 BBQ용 고기만을 전문으로 다뤄왔습니다. 로스앤젤레스에서 최고 평점을 받은 정육점",
-          "published": "날짜 미상",
-          "domain": "large-battery.com"
-        },
-        {
-          "title": "Instagram",
-          "url": "https://www.instagram.com/reel/DWgMdC7DzKf",
-          "content": "Log In\n\nSign Up\n\nlg_group_kr's profile picture\n\nNever miss a post from lg\\_group\\_kr\n\nSign up for Instagram to stay in the loop.\n\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\n\nSign up\n\nLog in\n\nVideo by LG그룹 on March 30, 2026.\n\nlg_group_kr's profile picture\n\nlg\\_group\\_kr\n\n•\n\nFollow\n\nlg_group_kr's profile picture\n\nlg\\_group\\_kr\n\n요즘 로봇 업계에서 핫한 배터리는?  \n  \n피지컬 AI 시대, 왜 배터리에 주목해야 할까요?  \n  \n자율주행차와 휴머노이드처럼  \n현실에서 작동하는 AI는  \n결국 '배터리'가 있어야 움직입니다🔋  \n  \n그렇다면...?   \n🤔로봇과 전기차에는 어떤",
-          "published": "날짜 미상",
-          "domain": "instagram.com"
+          "domain": "robotedly.com"
         }
       ],
       "비판": [
         {
-          "title": "가전 떼고 AI·로봇 단 LG그룹株… 만년 저평가 딱지 떼고 상승 랠리 - 조선비즈",
-          "url": "https://biz.chosun.com/stock/stock_general/2026/05/25/3SYW3HXI2VHPBP5X22TFCHRB5Q",
-          "content": "증권가에서는 AI 데이터 산업 확대를 예상하며 냉각 솔루션 수요 증가와 로봇 관련 신사업 본격화를 들어 LG전자의 실적 개선세가 이어질 것이라고 보고 있다. LG전자가 단순 가전 기업을 넘어 AI·로봇 기업으로 체질을 바꿨다는 점에 주목하고 있다.\n\n김민경 하나증권 연구원은 \"LG전자는 전사적인 원가 구조 개선, 마케팅 비용 효율화 등을 통해 이익 체력을 확보하는 동시에 로보틱스 관련 신사업을 추진하고 있다\"며 \"데이터센터 쿨링 사업의 신규 수주가 증가하고 있으며 엔비디아와 피지컬 AI, AI 데이터센터, 모빌리티 관련 협업을 논의하는 등 AI 관련 사업에 따른 모멘텀도 있다\"고 분석했다.\n\nLG이노텍 역시 기판 부족 수혜를 이유로 KB증권과 NH투자증권 등 대형 증권사들이 목표 주가를 일제히 120만원으로 상향 조정하고 있다.\n\n황지현 NH증권 연구원은 \"LG이노텍은 IT 세트 중심의 기존 포트폴리오에서 전장·반도체 영역으로 확장하면서 사업 리스크가 점차 분산되고 있다\"며 \"외부 ",
+          "title": "[현장] 전기차 넘어 ESS·로봇·AI로…관세 리스크 겪는 K배터리, 기술력으로 '승부수' < 산업일반 < 경제 < 기사본문 - 굿모닝경제",
+          "url": "https://www.goodkyung.com/news/articleView.html?idxno=284350",
+          "content": "다양한 종류의 드론도 소개됐다. LG에너지솔루션은 국내 드론 산업을 대표하는 K드론 얼라이언스와 손잡고 ▲혈액 수송용 드론 ▲항공-큐브위성 등을 개발한다.\n\nLG에너지솔루션은 휴머노이드 로봇과 UAM 시장에 '전고체 배터리'를 탑재하겠다는 계획을 공개했다. 전고체 배터리는 전류가 흐르는 전해질을 액체 대신 고체를 사용하는 차세대 배터리다.\n\nLG에너지솔루션은 2029년 '전기차용 흑연계 전고체 배터리'를 상용화하고, 2030년에는 '무음극계 전고체 배터리'를 휴머노이드 로봇용으로 우선 적용한다는 계획이다.\n\n전기차용 흑연계 전고체 배터리의 경우, LG에너지솔루션은 충북 오창 에너지 플랜트 1공장에 전고체 배터리 파일럿 라인을 건설하고, 올해 초부터 시제품 생산 및 공정 최적화에 들어갔다.\n\n무음극계 방식은 음극재 없이 집전체만을 활용해 부피 당 에너지 밀도를 극대화할 수 있어, 공간 제약이 엄격한 휴머노이드 로봇의 구동 시간을 높이는 데 최적화된 기술로 꼽힌다.\n\n로봇, UAM 등 ",
           "published": "날짜 미상",
-          "domain": "biz.chosun.com"
-        },
-        {
-          "title": "LG에너지솔루션, 겉보기 호재 뒤 숨은 '3대 이면의 리스크' 완전 요약 ...",
-          "url": "https://www.instagram.com/p/DZGv3mND8Wh",
-          "content": "Photo by 경제부동산비즈니스 on June 08, 2026. May be an image of text that says '정보요정 거대한 'Ά 삼국지' 완벽 요약 M7연합 M7 연합 Vs 엔비디아 제국 (Digital (DigitalBrain) Brain) 엔비디아 한국 동맹 amazon SAMSUNG 수춤총 갯칩, UALink on-device AI LG 자푸주 M4 Ι 공장 및 기고고 AI 우리가 모르는 심층 팩트 Check! AI Buble 리험 규제제 위험 게양동몽잭 리험 최종 행동 지침 (Aation Plan) 전력 인프라 투자 냉각 시스템 선점 Invest in Power Seize Cooling Systems 누가 이기든 이기는 '곡랭이'에 숟가락 없기!'.\n\nPhoto by 경제부동산비즈니스 on June 08, 2026. May be an image of text that says '정보요정 젠슨 황 방한의 진짜 목적? 한국 대기업, 엔비디아의 '육체'가 되다",
-          "published": "날짜 미상",
-          "domain": "instagram.com"
+          "domain": "goodkyung.com"
         },
         {
           "title": "배터리 산업에서 AI는 어떻게 활용될까? LG에너지솔루션의 R&D ...",
           "url": "https://inside.lgensol.com/2026/06/%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%82%B0%EC%97%85%EC%97%90%EC%84%9C-ai%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%99%9C%EC%9A%A9%EB%90%A0%EA%B9%8C-lg%EC%97%90%EB%84%88%EC%A7%80%EC%86%94%EB%A3%A8%EC%85%98",
-          "content": "LG에너지솔루션은 자동 보정 AI 에이전트를 통해 건조로 내부 가스 상태, 코팅된 슬러리 두께 등 다양한 공정 데이터를 분석하고, 최적의 설비 세팅값을 추천하거나 자동으로 조정하도록 하고 있습니다. 이를 통해 품질 편차를 줄이고 공정을 더 안정적으로 운영할 수 있게 됐습니다.\n\n또한 다양한 이상 감지 기술과 함께, 사족보행 로봇과 휴머노이드 로봇을 활용한 첨단 기술 도입을 연구, 개발하고 있습니다. 사족보행 로봇이 공장 내 설비 사이를 이동하며 이상 유무를 확인하고, 이상이 발견되면 휴머노이드 로봇이 설비 부품 교체 같은 후속 작업을 수행하는 방식입니다. 이는 사람이 접근하기 어려운 고온이나 위험 구역에서도 안정적으로 설비를 관리하기 위한 시도입니다.\n\n핵심 Q&A  \nQ. 배터리 산업에서 AI가 필요한 이유는 무엇인가요?  \n배터리는 고객 요구사항, 설계 조건, 제조 공정 변수가 복잡하게 맞물리는 제품입니다. AI는 최적 설계와 정밀한 제조 관리를 더 빠르게 수행하는 데 필요합니다",
+          "content": "이 비전 검사 AI를 개발하기 위해 LG에너지솔루션은 여러 기술적 과제를 해결해야 했습니다.\n\n가장 먼저 해결해야 했던 과제는 도메인 시프트(Domain Shift)였습니다. 도메인 시프트는 AI가 학습할 때 보았던 데이터 환경과 실제로 적용되는 데이터 환경이 달라 성능이 저하되는 현상입니다. 현장의 조명 밝기나 공정 조건이 달라지면서, 불량을 놓치거나 정상 제품을 불량으로 판단하는 등 검사 성능이 떨어질 수 있죠. 이를 보완하려면 새로운 데이터로 AI를 지속적으로 학습시켜야 합니다. 하지만 새로운 데이터를 계속해서 투입하기에는 정상·불량 여부와 결함 위치를 사람이 직접 표시하는 데이터 라벨링(Labeling)에 많은 시간과 비용이 필요합니다.\n\nLG에너지솔루션은 이러한 부담을 줄이기 위해 AI 비전 검사 기술을 단계적으로 고도화했습니다. 먼저 AI가 판단하기 어려워하는 데이터만 선별해 사람이 검토하는 방식을 적용했습니다. 이는 처음부터 모든 불량을 라벨링하는 것보다 효율적이었지만,",
           "published": "날짜 미상",
           "domain": "inside.lgensol.com"
         },
         {
-          "title": "[모닝 리포트] \"LG에너지솔루션, 지정학적 리스크가 기회…목표가 47 ...",
-          "url": "https://www.newspim.com/news/view/20260504000131",
-          "content": "더보기\n\n# [모닝 리포트] \"LG에너지솔루션, 지정학적 리스크가 기회…목표가 47만원\"\n\n기사입력 :\n\n최종수정 :\n\n 카카오톡;)\n 페이스북;)\n 트위터;)\n 밴드;)\n\n# ※ 본문 글자 크기 조정\n\n 더 작게\n 작게\n 보통\n 크게\n 더 크게\n\n# ※ 번역할 언어 선택\n\n### AI 핵심 요약\n\nbeta\n\n분석 중...\n\n 메리츠증권 연구원이 4일 LG에너지솔루션에 매수 의견을 제시하며 목표주가 47만원으로 상향했다.\n 1분기 매출 6조5550억원 영업손실 2078억원으로 적자 전환했으나 EV 원통형과 ESS는 호조를 보였다.\n 2분기부터 실적 개선 예상하며 연간 영업이익 1조원으로 추정했다.\n\n!AI가 자동 생성한 요약으로 정확하지 않을 수 있어요.\n\n\"1분기 매출 6.5조·영업손실 적자 지속에도 EV 원통형·ESS 출하 호조\"  \n \"ESS 매출 비중 확대·LFP 기반 북미 공략에 목표가 47만원 상향\"\n\n[서울=뉴스핌] 김가희 기자 = 노우호·황현식 메리츠증권 연구원은 4일",
+          "title": "LG엔솔, 中 스마트 팩토리 전환, 中 AI기업 손잡았다 < 배터리 < 기사본문 - 디일렉(THE ELEC)",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=41256",
+          "content": "TONGQI에 따르면 LG에너지솔루션은 안전을 기업의 생명선으로 보고 종이·수기 중심의 기존 관리 방식을 디지털로 바꾸고 있다. 단순 자동화가 아니라 위험등급 관리, 외주업체 관리, 안전교육, 승인 절차까지 온라인으로 옮긴 것이 특징이다. 승인 절차는 1~2일에서 수시간으로 단축됐고 작업 효율은 80% 이상 높아졌다. 외주업체 평가 시스템을 도입해 안전사고율은 75% 줄고 우수 협력사 선별 정확도는 70% 향상됐다.\n\n양사의 협력은 난징공장이 안고 있던 관리 한계에서 출발했다. 작업 허가 절차는 종이 문서와 오프라인 서명에 의존해 여러 부서가 동시에 움직여야 했고, 절차가 길어지는 사이 중요한 안전 지침이 누락될 위험도 있었다. 작업 지점 관리도 복잡했다. 공정별로 수많은 작업 지점이 있지만 위험 등급이 제각각이라 관리자가 전체 현황을 직관적으로 파악하기 어려웠다. 외주업체 관리 역시 비효율적이었다. 자격 심사, 교육, 현장 점검, 성과 평가가 수기에 의존해 체계적이지 못했고, 안전",
           "published": "날짜 미상",
-          "domain": "newspim.com"
+          "domain": "thelec.kr"
         },
         {
-          "title": "LG엔솔 \"메이저 로봇社와 거래 다 뚫어\" - 매일경제",
-          "url": "https://www.mk.co.kr/news/business/12072966",
-          "content": "휴머노이드 시장의 성장이 예상되는 가운데, 한국이 관련 공급망의 핵심 국가로 부각될 것이라는 전망이 나오고 있다.\n\n### AI 추천 질문 Powered by perplexity\n\n휴머노이드 로봇용 배터리가 신성장 동력으로 부각되는 배경은?\n\nLG에너지솔루션이 휴머노이드 시장 공급망 선점에 강한 자신감을 피력하는 이유는?\n\n휴머노이드 로봇용 배터리 시장이 2034년까지 급성장할 전망인 이유는?\n\n### 기사 속 관련 종목 이야기 기사 내용과 연관성이 높은 주요 종목을 AI가 자동으로 추출해 보여드립니다. Powered by perplexity 닫기\n\n#### LG에너지솔루션 373220, KOSPI\n\n##### 400,000 - 3.85% (06.18 15:30)\n\n## LG에너지솔루션 06.18 15:30 신고하기\n\n#### Tesla, Inc. TSLA, NASDAQ\n\n## Tesla, Inc. 신고하기\n\n#### 현대차 005380, KOSPI\n\n##### 601,000 - 2",
+          "title": "로봇과 자율주행의 시대, 진짜 핵심은 '배터리'? | LG에너지 ... - YouTube",
+          "url": "https://www.youtube.com/watch?v=YEFoMwqvzxQ",
+          "content": "AAI를 얘기하는 거니까 저도 자율 주행이 좀 첫 시작인 거 같고. 근데 그럼에도 사람들은 계속 요즘 막 그 피지컬 AI, 로봇, 휴머노이드 이런 것에 관심 많다 보니까 그럼 요즘 그런 쪽 고객들한테서도 좀 뭔가 요청이라든가 제한이 많이 오나요? 네. 다양한 고객들의 인어리가 오고 있고 그거를 이제 어 적극적으로 대응을 하고 있죠. 어, 컨퍼런스 콜에서는 탑티어 로봇 업체들은 다 우리가 고객이다. 그리고 뭐 최근에는 아,로 휴머노이드 로봇에 좀 특화된 배터리 포트폴리오 고민하고 있다. 그럼 어쨌거나 좀 미래 좀 유망한 고객으로 계속 생각을 하고 계신 거잖아요. 그렇죠. 왜냐면은 이게 현재 기준으로 보면 사실 상용화된 제품은 없는데 휴먼노이드 사람들 많이 집중하고 하는 이유가 결국에는 만약에이 휴먼노이드라는 제품이 실제로 어떤 인간의 노동력을 실제 어느 정도 대체를 할 수 있다라는게 이제 보이기 시작하면 사실은 그게 가지고 올 수 있는 파급력이 굉장히 크거든요. 예를 들면 뭐 물류 센",
           "published": "날짜 미상",
-          "domain": "mk.co.kr"
+          "domain": "youtube.com"
+        },
+        {
+          "title": "[리서치 핵심터치] LG에너지솔루션, 1등은 로봇도 잘한다 : 네이버 블로그",
+          "url": "https://blog.naver.com/samsung_fn/224215305829?viewType=pc",
+          "content": "네이버 백신으로 치료하기\n\n고객님의 PC가 악성코드에 감염될 경우 시스템성능 저하,  \n개인정보 유출등의 피해를 입을 수 있으니 주의하시기 바랍니다.\n\n다운로드 취소\n\n닫기\n\n## 작성자 이외의 방문자에게는 이용이 제한되었습니다.\n\n{ALERTMESSAGE}\n\n이용제한 파일 : {FILENAME}\n\n다운로드 취소\n\n닫기\n\n닫기\n\n확인 취소\n\n닫기\n\n사진정보 보기\n\n원본 저장하기   사진정보 보기 \n\n 내PC 저장\n N드라이브 저장\n\n닫기  사진정보보기  \n\n카메라 모델\n\n해상도\n\n노출시간\n\n노출보정\n\n프로그램모드\n\nISO감도\n\n조리개값\n\n초점길이\n\n측광모드\n\n촬영일시\n\n#### 글보내기 제한 공지\n\n:   저작권 침해가 우려되는 컨텐츠가 포함되어 있어  \n     글보내기 기능을 제한합니다.\n\n네이버는 블로그를 통해 저작물이 무단으로 공유되는 것을 막기 위해, 저작권을 침해하는 컨텐츠가 포함되어 있는 게시물의 경우 글보내기 기능을 제한하고 있습니다.\n\n상세한 안내를 받고 싶으신 경우",
+          "published": "날짜 미상",
+          "domain": "blog.naver.com"
         }
       ],
       "중립": [
         {
-          "title": "LG에너지솔루션 기업분석보고서 - 잡코리아",
-          "url": "https://www.jobkorea.co.kr/starter/companyreport/view?Inside_No=19260&schCtgr=0&schGrpCtgr=0&Page=1",
-          "content": "경쟁사 분석(Competitor)  \n Analysis 1. 경쟁 사업자 \n\n시장조사업체 SNE리서치에 따르면 2022년 중국 시장을 제외한 세계 전기차 배터리 시장 점유율은 LG에너지솔루션(29.7%), 중국의 CATL(22.3%), 일본의 파나소닉(17.1%)에 이어 SK온(12.7%), 삼성SDI(11.0%) 순으로 나타났다.\n\n  \n  \n Analysis 2. 경쟁 상황    \n  # SK온 \n\n2021년 SK이노베이션에서 분할한 SK온은 석유 사업, 화학 사업, 윤활유 사업, 배터리 사업을 영위하고 있다. 배터리 사업은 친환경 전기자동차 및 ESS(Energy Storage System)에 사용되는 대용량 리튬이온배터리를 생산, 판매한다.   \n  \n 2005년 리튬이온배터리 상용화 착수 이후 대전 R&D센터에 배터리 연구개발 인프라를 구축하고, 충남 서산에 대규모 생산설비를 가동하는 등 기술 개발과 양산 체제를 모두 완성했다. 고유의 고(高) 에너지 밀도와 고(高) 출력 ",
+          "title": "[리서치 핵심터치] LG에너지솔루션, 1등은 로봇도 잘한다 : 네이버 블로그",
+          "url": "https://blog.naver.com/samsung_fn/224215305829?viewType=pc",
+          "content": "| 리포트 1분 요약  [리서치 핵심터치] LG에너지솔루션, 1등은 로봇도 잘한다  프로파일 삼성증권   ・  2026. 3. 13. 16:37  URL 복사  이웃추가 본문 기타 기능 공유하기  신고하기  LG에너지솔루션은 휴머노이드 6개 업체에게 이미 공급 중이거나, 차세대 제품 공급을 논의 중 (보스턴 다이내믹스 Atlas에도 공급할 것으로 추정)  전기차, ESS와 마찬가지로 휴머노이드 산업에서도 중국 업체와 대적할 가장 강력할 경쟁자가 될 전망  목표주가 및 BUY 투자의견 유지  LG에너지솔루션, 1등은 로봇도 잘한다 (발간일: 2026-03-11)  ​  ​    LG에너지솔루션, 1등은 로봇도 잘한다 오늘의 리서치 핵심터치, LG에너지솔루션 기업 리포트입니다. LG에너지솔루션은 휴머노이드 산업에서 배터리 공급 확대가 기대됩니다. 지난 4분기 실적 발표를 통해 휴머노이드 배터리 사업 현황을 공개했으며, 현재 미국과 한국, 중국의 주요 휴머노이드 업체들로부터 우선 협력 대",
           "published": "날짜 미상",
-          "domain": "jobkorea.co.kr"
+          "domain": "blog.naver.com"
         },
         {
-          "title": "[PDF] 2025 LG ENERGY SOLUTION BUSINESS REPORT - LG에너지솔루션",
-          "url": "https://www.lgensol.com/upload/file/download/2025_LGES_Business_Report.pdf",
-          "content": "㈜LG에너지솔루션 -100% - - 8 LG Energy Solution Technology (Nanjing) Co., Ltd.\n㈜LG에너지솔루션 -100% - - 9 LG Energy Solution Battery (Nanjing) Co., Ltd.\n㈜LG에너지솔루션 -100% - - 10 LG Energy Solution Japan Co., Ltd ㈜LG에너지솔루션 6,000 100% --11 LG Energy Solution (Taiwan) Ltd.\n㈜LG에너지솔루션 -100% - - 12 LG Energy Solution Australia Pty Ltd ㈜LG에너지솔루션 520,000 100% - - 13 LG Energy Solution India Private Limited ㈜LG에너지솔루션 3,500,000 100% - - 14 PT.HLI Green Power ㈜LG에너지솔루션 1,780,000 50% - - 15 PT LBM Energi Baru Indonesia ㈜",
+          "title": "K-배터리, EV 정체 넘을 '15조 로봇 시장' 조준… LG엔솔",
+          "url": "https://www.g-enews.com/article/Global-Biz/2026/02/202602070701322802bd56fbc3c_1",
+          "content": "전 세계 전기차(EV) 수요가 주춤하는 ‘캐즘(Chasm·일시적 수요 정체)’ 국면이 길어지면서, 실적 악화의 늪에 빠진 한국 배터리 기업들이 ‘로봇’ 을 구원투수로 낙점하고 시장 선점에 속도를 내고 있다.  \n   \n 니케이(Nikkei)가 지난 6일(현지시각) 보도한 내용과 시장조사업체 SNE리서치의 최근 분석을 종합하면, LG에너지솔루션과 삼성SDI 등 주요 배터리 제조사들은 로봇 시장의 폭발적인 성장 잠재력에 주목하며 글로벌 기술 기업들과의 협력을 강화하고 있다.  \n   \n 로봇 시장은 현재 전기차에 비해 규모는 작지만, 인공지능(AI)을 탑재한 휴머노이드 보급이 가속화되면서 고성능·고단가 배터리 수요가 급증하는 ‘블루오션’ 으로 떠오르고 있다.  \n\n### LG에너지솔루션·삼성SDI, '로봇의 심장' 잡기 위한 기술 규격 경쟁 [...] ### LG에너지솔루션·삼성SDI, '로봇의 심장' 잡기 위한 기술 규격 경쟁\n\n  \n 국내 최대 배터리 기업인 LG에너지솔루션은 기존 ",
+          "published": "날짜 미상",
+          "domain": "g-enews.com"
+        },
+        {
+          "title": "LG에너지솔루션, 인터배터리 2026서 로봇·드론 등 차세대 혁신 제품 공개 | 서울경제",
+          "url": "https://www.sedaily.com/article/20014100",
+          "content": "존은 인공지능(AI) 산업의 성장과 재생에너지 확대에 따른 전력 수요 급증에 대응하기 위한 다양한 에너지 인프라 솔루션을 소개한다. LG에너지솔루션은 효율적인 전력 공급을 위한 전력망·산업·상업·데이터센터용 배터리와 함께 에너지 통합 관리 서비스인 EaaS(Energy as a Service) 사업 모델을 선보인다. 전력망 존에서는 국내 전력 환경에 최적화된 리튬인산철(LFP) 기반 ESS 솔루션인 ‘JF2 DC LINK 5.0’을 공개한다. AI 데이터센터용 비상전원 솔루션으로 LFP 기반의 차세대 JP6 UPS용 랙 시스템과 고출력 원통형 배터리가 탑재된 BBU(Battery Backup Unit) 솔루션도 국내 최초로 선보인다. 모빌리티 존에서는 전기차 대중화를 앞당기기 위한 차세대 제품군을 전시한다. 가격과 성능의 균형을 극대화한 차세대 리튬망간리치(LMR) 배터리를 최초로 공개하고 소프트웨어 및 첨단 AI 기반의 전기차 배터리 진단·예측 기술도 소개한다. 로보틱스&드론 존에",
+          "published": "날짜 미상",
+          "domain": "sedaily.com"
+        },
+        {
+          "title": "로봇 배터리｜산업별 솔루션 - LG에너지솔루션",
+          "url": "https://www.lgensol.com/kr/business/robot",
+          "content": "제품\n  + 산업별 솔루션\n    - 승용 EV\n    - 상용 EV\n    - ESS\n    - LEV\n    - 스마트기기\n    - 전동공구\n    - 중장비\n    - 로봇\n    - 미래모빌리티\n  + 폼팩터\n    - 원통형\n    - 파우치형\n  + 소재\n    - NCM\n    - LFP\n 서비스\n  + 전력 중개\n  + B.around\n  + B-Lifecare\n  + B.once\n  + KooRoo\n  + ESS SI\n 회사정보\n  + 회사소개\n    - 회사개요\n    - 비전\n    - 연혁\n    - CI\n  + 정도경영\n    - 정도경영 소개\n    - 윤리규범\n    - 정도경영 프로그램\n  + 사업장\n  + R&D\n    - R&D 현황\n    - R&D 분야\n    - 차세대 전지\n    - 오픈 이노베이션\n  + 뉴스룸\n 지속가능경영\n  + 추진체계\n    - 비전 및 전략\n    - ESG 거버넌스\n    - 글로벌 파트너십\n  + 환경\n    -",
           "published": "날짜 미상",
           "domain": "lgensol.com"
         },
         {
-          "title": "LG에너지솔루션 - 나무위키:대문",
-          "url": "https://namu.wiki/w/LG%EC%97%90%EB%84%88%EC%A7%80%EC%86%94%EB%A3%A8%EC%85%98",
-          "content": "2007년: 세계 최초 NCM 523(니켈 50%, 코발트 20%, 망간 30%) 양극재 적용 배터리 양산\n 2014년: 세계 최초 NCM 811 양극재 적용 원통형 배터리 양산\n 2016년: 세계 최초 NCM 622 양극재 적용 배터리 양산\n 2019년: 세계 최초 실리콘 음극재 배터리 양산으로 20분 만에 80% 충전 가능 기술 구현\n 2021년: 세계 최초 NCMA(알루미늄 첨가) 적용 배터리 양산 #1, #2\n\n### 2.2. 경영(/edit/LG%EC%97%90%EB%84%88%EC%A7%80%EC%86%94%EB%A3%A8%EC%85%98?section=4) [...] 이후, LG화학은 원형, 각형, 폴리며 3개형태의 리튬이온 배터리를 대표제품으로 하여, 세계 최초로 '스텝 배터리', 다양한 형태의 스마트 기기에 최적화된 프리폼 배터리인 '헥사곤 배터리', 배터리로 인한 제약이 없는 선형태의 '와이어 배터리' 등 을 개발해 내었다.  \n  \n소형전지에서 시작한 전지사업은 ",
+          "title": "로봇과 자율주행의 시대, 진짜 핵심은 '배터리'? | LG에너지 ... - YouTube",
+          "url": "https://www.youtube.com/watch?v=YEFoMwqvzxQ",
+          "content": "없다고 생각하고 일부 업체들은 또 그래서 장수명이나 뭐 고용량 이렇게 요청을 하고 있죠. 고출력 쪽이 있고 아니면은 이제 완전 장수명 예. 고용량 이쪽으로 가는 근데 어쨌거나 로봇 업체들 입장에서도 지금 이제 전기차에 들어가는 소형셀이 바로 선택할 수 있는 옵션인 거라서 그렇게 예 주로 지금 현재는 로봇 업체들이 어 1년에 만들어 봤자 뭐 만대 맞게 안 되면 굉장히 양이 작거든요. 그러면은 현재 개발되어 있는 셀들을 가져서 적용해야지 이제 수급이라든지 이런 것들을 해결하기 쉽고 아까 말씀드렸듯이 업체마다 방향이 완전 다르다는 거는 고객들이 아직 자기네들이 정확하게 어떤 거를 써야지 시장에서 이긴다는지를 확신을 못 한다는 거라고 해석할 수도 있거든요. 그래서 보통 올해 내년까지가 약간 현장을 좀 검증하고 실증하는 단계인 거 같아요. 대부분의 이제 로봇 업체들도 그래서 여러 옵션들이 있는 이미 EV 쪽 배터리들을 빨리 가져다가 쓰려고 하는 거 같다. 아, 그럴 수 있겠네요. 네, 맞습니",
           "published": "날짜 미상",
-          "domain": "namu.wiki"
-        },
-        {
-          "title": "[PDF] LG 에너지솔루션 - 유진투자증권",
-          "url": "https://www.eugenefn.com/common/files/amail/20251031_373220_tjdgus2009_862.pdf",
-          "content": "- 통관 지연 등 리스크를 고려해 동사는 규제 시행 전 제품 생산과 출하량 극대화 중 - 일부 소재 물량에 대해서는 사전 재고 확보를 통해 차질 없이 생산 및 공급 준비 중 Q. 46-Series 양산 계획, 제품 경쟁력 - 오창 공장은 4Q25부터 본격 양산 계획, 2025년내 일부 매출 발생할 것으로 기대 - 이후 양산물량 점차 확대, 2026년 이후 미국 애리조나 공장 또한 안정적 물량 대응 준비 중 - 제품 경쟁력 · 실리콘 음극재(급속충전 기능 강화), 열 확산 방지 기술(에너지밀도 증가) · 설비 고속화를 통한 양산 효율성 향상 Q. 신기술 개발 현황, 향후 계획, 동사 경쟁력 - LFP 각형 배터리 · 고객사 요구에 따라 다수 전략 고객과 협력해 제품 개발 진행 중 · 오창 공장에 파일럿 라인을 설치해 고객 샘플 대응하는 등 완성도 높여가는 중 · 저가 안정성을 요구하는 성능 특성상 ESS 고객向 으로 우선 대응 예정 - LMR 케미스트리 · 고에너지, 장거리 요구 특성",
-          "published": "날짜 미상",
-          "domain": "eugenefn.com"
-        },
-        {
-          "title": "[2차 전지 주요 기업 분석] 엘지에너지솔루션, LG배터리 혁명! 차세대 ...",
-          "url": "https://blog.naver.com/techdna/223737262036",
-          "content": "및 시장 동향 - 테크디엔에이 안녕하세요. TechDNA 콘텐츠 팀입니다. 이번 콘텐츠 주제는 \"2025년 2차 전지 코스피 배터리·소재...  blog.naver.com  ​  ​  Ⅰ. 2025년, \"엘지에너지솔루션 + 엘지화학\"의 배터리 기술 경쟁력 분석  엘지 로고  1. LG의 이차전지 기술 = 엘지에너지솔루선 + 엘지화학  엘지그룹의 배터리 관련 기술력을 종합적으로 분석하기 위해 엘지화학과 엘지에너지솔루션의 특허를 합산하여 검토함. 이는 엘지에너지솔루션이 엘지화학에서 분할될 때 모든 배터리 관련 특허를 이전받았는지 명확하지 않기 때문임.  ​    엘지에너지솔루션 : 2020년 엘지화학에서 분할 설립된 기업으로, 전기차, 에너지 저장 시스템, IT기기 등 다양한 분야의 배터리 제품을 생산하며 지속적인 기술 혁신과 대규모 생산 능력을 통해 시장 경쟁력을 강화하고 차세대 배터리 기술 개발에 집중함   ​    엘지화학 : 세계적인 화학 및 소재 기업으로, 다양한 산업 분야에 ",
-          "published": "날짜 미상",
-          "domain": "blog.naver.com"
+          "domain": "youtube.com"
         }
       ]
     }
