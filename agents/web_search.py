@@ -82,7 +82,7 @@ def tavily_search(query: str, max_results: int = 5) -> List[dict]:
     for r in resp.get("results", []):
         url = r.get("url", "")
         out.append({
-            "title": r.get("title", "제목 없음"),
+            "title": r.get("title", "제목 없음")[:200],
             "url": url,
             "content": r.get("content", "내용 없음")[:500],
             "published": r.get("published_date", "날짜 미상"),
