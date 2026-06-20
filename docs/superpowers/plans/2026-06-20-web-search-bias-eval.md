@@ -900,16 +900,16 @@ def main():
     agg["three_persp"]["cross_perspective_dup_rate"] = _mean(
         [pt["arms"]["three_persp"] for pt in per_topic], "cross_perspective_dup_rate")
 
-    def delta(a, b):
-        return {k: round(agg["three_persp"][k] - agg[b][k], 4)
+    def delta(base_arm):
+        return {k: round(agg["three_persp"][k] - agg[base_arm][k], 4)
                 for k in ("neg_share", "balance_entropy", "unique_domains", "risk_recall")}
 
     report = {
         "n_topics": len(topics),
         "query_degeneration_rate": round(sum(degen_flags) / len(degen_flags), 4),
         "arms": agg,
-        "delta_three_persp_minus_single_base": delta("a", "single_base"),
-        "delta_three_persp_minus_single_volume": delta("a", "single_volume"),
+        "delta_three_persp_minus_single_base": delta("single_base"),
+        "delta_three_persp_minus_single_volume": delta("single_volume"),
         "per_topic": per_topic,
     }
     json.dump(report, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
