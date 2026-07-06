@@ -38,3 +38,26 @@ def test_finalize_report_replaces_model_reference_and_maps_missing_pdf_refs():
     assert metrics["inline_pdf_reference_coverage"] == 1.0
     assert metrics["reference_pdf_used_rate"] == 1.0
     assert metrics["passes_reference_check"] is True
+
+
+def test_finalize_report_removes_noncanonical_citations():
+    draft = """
+# 보고서
+
+숫자형 주석 [1][2]과 불완전한 출처 [출처: 1] [출처: 03_CATL_strategy.pdf]는 제거되어야 한다.
+정식 인용은 유지한다 [출처: 01_market_background.pdf, p.3].
+"""
+    refs = [
+        {"type": "pdf", "source": "01_market_background.pdf", "page": 3},
+    ]
+
+    report = _finalize_report_content(draft, refs)
+    metrics = reference_metrics(report)
+
+    assert "[1]" not in report
+    assert "[2]" not in report
+    assert "[출처: 1]" not in report
+    assert "[출처: 03_CATL_strategy.pdf]" not in report
+    assert "[출처: 01_market_background.pdf, p.3]" in report
+    assert metrics["malformed_citation_count"] == 0
+    assert metrics["passes_reference_check"] is True

@@ -21,6 +21,10 @@ _REFERENCE_HEADING_RE = re.compile(
     r"(?im)^\s*(?:\*\*REFERENCE\*\*|#{1,6}\s*REFERENCE|REFERENCE)\s*$"
 )
 _INLINE_PDF_RE = re.compile(r"\[출처:\s*([^,\]]+),\s*p\.([0-9?]+)\]")
+_NUMERIC_CITATION_RE = re.compile(r"\[[0-9]+\]")
+_NON_CANONICAL_SOURCE_RE = re.compile(
+    r"\[출처:\s*(?![^,\]]+,\s*p\.[0-9?]+\])[^\]]+\]"
+)
 
 _PDF_CSS = """
 body  { font-family: sans-serif; font-size: 11pt; line-height: 1.7; color: #1a1a1a; }
@@ -66,6 +70,12 @@ def _strip_reference_section(report: str) -> str:
     """LLM이 임의로 작성한 REFERENCE 섹션을 제거하고 코드가 다시 붙인다."""
     matches = list(_REFERENCE_HEADING_RE.finditer(report))
     return report[: matches[-1].start()].rstrip() if matches else report.rstrip()
+
+
+def _remove_noncanonical_citations(report: str) -> str:
+    """REFERENCE에 연결할 수 없는 모델 생성 citation 표기를 제거한다."""
+    report = _NUMERIC_CITATION_RE.sub("", report)
+    return _NON_CANONICAL_SOURCE_RE.sub("", report)
 
 
 def _inline_pdf_keys(report: str) -> set[str]:
@@ -150,6 +160,7 @@ def _format_references(references: List[Dict]) -> str:
 def _finalize_report_content(report_content: str, references: List[Dict]) -> str:
     """본문 정리 → 누락 PDF 인용 보강 → 결정적 REFERENCE 섹션 부착."""
     body = _strip_reference_section(report_content)
+    body = _remove_noncanonical_citations(body)
     body = _append_missing_pdf_citations(body, references)
     return f"{body}\n\n---\n\n**REFERENCE**\n\n{_format_references(references)}\n"
 

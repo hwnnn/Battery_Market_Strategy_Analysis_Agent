@@ -26,6 +26,14 @@ python -m eval.eval_ir --dataset results/qa_dataset_hard.json   # hard
 python -m eval.eval_ragas                                       # easy, 두 모드
 python -m eval.eval_ragas --dataset results/qa_dataset_hard.json   # hard
 
+# ③-1 n=100 재측정 — easy/hard를 같은 방식으로 실행
+python -m eval.build_dataset --n 100 --difficulty easy --out results/qa_dataset_n100.json
+python -m eval.build_dataset --n 100 --difficulty hard --out results/qa_dataset_hard_n100.json
+python -m eval.eval_ir --dataset results/qa_dataset_n100.json
+python -m eval.eval_ragas --dataset results/qa_dataset_n100.json
+python -m eval.eval_ir --dataset results/qa_dataset_hard_n100.json
+python -m eval.eval_ragas --dataset results/qa_dataset_hard_n100.json
+
 # ④ 처리시간 — 전체/노드별 + async 절감 추정 (실제 파이프라인 1회 실행)
 python -m eval.measure_latency
 
@@ -58,7 +66,7 @@ python -m eval.eval_references --report outputs/report.md
 | `build_risk_checklist.py` | 토픽별 리스크 체크리스트(리스크 recall 정답지) |
 | `eval_web_search.py` | 3방향 쿼리 검색 평가 — neg_share, balance_entropy, risk_recall, degeneration, dup_rate (3-arm) |
 | `eval_report_balance.py` | 보고서 ablation — risk_section_claims, report_balance_score, report_risk_recall (단일 vs 3방향) |
-| `eval_references.py` | REFERENCE 정합성 — inline PDF citation coverage, reference used rate, web reference count, pass/fail |
+| `eval_references.py` | REFERENCE 정합성 — inline PDF citation coverage, reference used rate, malformed citation count, web reference count, pass/fail |
 
 ## 주의
 - **IR 정답 식별**: 검색 결과 청크의 `page_content`를 정답 청크와 **정확 매칭**합니다.
@@ -67,4 +75,6 @@ python -m eval.eval_references --report outputs/report.md
   `lges + catl`은 순차 실행이었다면 걸렸을 반사실적 시간이고, 실제 벽시계 시간에는 `max(lges, catl)`이 주로 반영됩니다.
 - **REFERENCE 평가 순서**: `measure_latency`, `supervisor_compare`, `eval_report_balance`는 파이프라인을 다시 실행해 `outputs/report.md`를 덮어쓸 수 있습니다. REFERENCE 정합성은 가장 마지막 산출물 기준으로 해석해야 합니다.
 - **inline 인용 0개 처리**: PDF REFERENCE가 있는데 본문 inline PDF 인용이 0개이면 coverage를 0.0으로 보고 실패로 판정합니다.
+- **비표준 출처 표기 처리**: 본문에 `[1]`, `[출처: 1]`, `[출처: 파일명]`처럼
+  `[출처: 파일명, p.N]` 형식이 아닌 citation이 남아 있으면 malformed citation으로 세고 실패로 판정합니다.
 - **RAGAS 버전**: 0.2.x API 기준으로 작성, ragas 0.4.x에서 동작 확인. 메이저 버전이 다르면 import 경로 조정이 필요할 수 있습니다.

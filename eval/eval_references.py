@@ -37,6 +37,7 @@ def main():
     print(f"  inline PDF citations : {metrics['inline_pdf_citation_count']}")
     print(f"  PDF references       : {metrics['reference_pdf_count']}")
     print(f"  web references       : {metrics['web_reference_count']}")
+    print(f"  malformed citations : {metrics['malformed_citation_count']}")
     print(f"  inline coverage      : {metrics['inline_pdf_reference_coverage']:.3f}")
     print(f"  reference used rate  : {metrics['reference_pdf_used_rate']:.3f}")
     print(f"  status               : {'PASS' if metrics['passes_reference_check'] else 'FAIL'}")

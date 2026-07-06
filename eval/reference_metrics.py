@@ -6,6 +6,7 @@ LLM/API 없이 보고서 본문 인용과 REFERENCE 섹션의 정합성을 확�
 import re
 
 INLINE_PDF_RE = re.compile(r"\[출처:\s*([^,\]]+),\s*p\.([0-9?]+)\]")
+MALFORMED_CITATION_RE = re.compile(r"\[[0-9]+\]|\[출처:\s*[^\]]+\]")
 REFERENCE_PDF_RE = re.compile(r"^\s*-\s+(.+?)\s+\(p\.([0-9?]+)\)\s*$", re.MULTILINE)
 WEB_REFERENCE_RE = re.compile(r"^\s*-\s+.+?\(.+?\)\.\s+.+?\.\s+https?://\S+", re.MULTILINE)
 REFERENCE_HEADING_RE = re.compile(
@@ -38,6 +39,27 @@ def inline_pdf_refs(report: str) -> list[str]:
     })
 
 
+def malformed_citation_occurrences(report: str) -> list[str]:
+    malformed = []
+    for match in MALFORMED_CITATION_RE.finditer(body_section(report)):
+        citation = match.group(0)
+        if INLINE_PDF_RE.fullmatch(citation):
+            continue
+        malformed.append(citation)
+    return malformed
+
+
+def malformed_citations(report: str) -> list[str]:
+    seen = set()
+    unique = []
+    for citation in malformed_citation_occurrences(report):
+        if citation in seen:
+            continue
+        seen.add(citation)
+        unique.append(citation)
+    return unique
+
+
 def reference_pdf_refs(report: str) -> list[str]:
     section = reference_section(report)
     return sorted({
@@ -53,6 +75,7 @@ def web_reference_count(report: str) -> int:
 def reference_metrics(report: str) -> dict:
     inline = set(inline_pdf_refs(report))
     listed = set(reference_pdf_refs(report))
+    malformed = malformed_citation_occurrences(report)
     missing = sorted(inline - listed)
     orphan = sorted(listed - inline)
 
@@ -64,16 +87,22 @@ def reference_metrics(report: str) -> dict:
         round((len(listed) - len(orphan)) / len(listed), 4)
         if listed else (0.0 if inline else 1.0)
     )
-    passes = (bool(inline) and not missing and not orphan) if listed else not inline
+    passes = (
+        (bool(inline) and not missing and not orphan and not malformed)
+        if listed else (not inline and not malformed)
+    )
 
     return {
         "inline_pdf_citation_count": len(inline),
         "reference_pdf_count": len(listed),
         "web_reference_count": web_reference_count(report),
+        "malformed_citation_count": len(malformed),
+        "has_malformed_citations": bool(malformed),
         "has_inline_pdf_citations": bool(inline),
         "inline_pdf_reference_coverage": inline_coverage,
         "reference_pdf_used_rate": used_rate,
         "passes_reference_check": passes,
         "missing_pdf_references": missing,
         "orphan_pdf_references": orphan,
+        "malformed_citations": malformed_citations(report),
     }
