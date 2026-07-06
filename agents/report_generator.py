@@ -85,6 +85,33 @@ def _inline_pdf_keys(report: str) -> set[str]:
     }
 
 
+def _merge_inline_pdf_references(report: str, references: List[Dict]) -> List[Dict]:
+    """
+    모델이 입력 분석의 정식 PDF citation을 본문에 유지했지만 state.references에
+    같은 page가 없을 수 있다. 같은 source가 이미 수집된 PDF에 한해 REFERENCE에 보강한다.
+    """
+    merged = list(references)
+    known_sources = {
+        ref.get("source", "").strip()
+        for ref in _pdf_references(references)
+    }
+    seen = {_pdf_key(ref) for ref in _pdf_references(merged)}
+
+    for source, page in _INLINE_PDF_RE.findall(report):
+        source = source.strip()
+        page = page.strip()
+        if source not in known_sources:
+            continue
+        inline_ref = {"type": "pdf", "source": source, "page": page}
+        key = _pdf_key(inline_ref)
+        if key in seen:
+            continue
+        seen.add(key)
+        merged.append(inline_ref)
+
+    return merged
+
+
 def _format_inline_citation(ref: Dict) -> str:
     return f"[출처: {ref.get('source', 'Unknown')}, p.{ref.get('page', '?')}]"
 
@@ -161,6 +188,7 @@ def _finalize_report_content(report_content: str, references: List[Dict]) -> str
     """본문 정리 → 누락 PDF 인용 보강 → 결정적 REFERENCE 섹션 부착."""
     body = _strip_reference_section(report_content)
     body = _remove_noncanonical_citations(body)
+    references = _merge_inline_pdf_references(body, references)
     body = _append_missing_pdf_citations(body, references)
     return f"{body}\n\n---\n\n**REFERENCE**\n\n{_format_references(references)}\n"
 

@@ -1,11 +1,14 @@
 {
-  "inline_pdf_citation_count": 15,
-  "reference_pdf_count": 15,
+  "inline_pdf_citation_count": 16,
+  "reference_pdf_count": 16,
   "web_reference_count": 44,
+  "malformed_citation_count": 0,
+  "has_malformed_citations": false,
   "has_inline_pdf_citations": true,
   "inline_pdf_reference_coverage": 1.0,
   "reference_pdf_used_rate": 1.0,
   "passes_reference_check": true,
   "missing_pdf_references": [],
-  "orphan_pdf_references": []
+  "orphan_pdf_references": [],
+  "malformed_citations": []
 }

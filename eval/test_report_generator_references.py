@@ -61,3 +61,23 @@ def test_finalize_report_removes_noncanonical_citations():
     assert "[출처: 01_market_background.pdf, p.3]" in report
     assert metrics["malformed_citation_count"] == 0
     assert metrics["passes_reference_check"] is True
+
+
+def test_finalize_report_adds_known_inline_refs_to_reference_section():
+    draft = """
+# 보고서
+
+본문에서 모델이 유지한 정식 인용 [출처: 03_CATL_strategy.pdf, p.12].
+"""
+    refs = [
+        {"type": "pdf", "source": "03_CATL_strategy.pdf", "page": 13},
+    ]
+
+    report = _finalize_report_content(draft, refs)
+    metrics = reference_metrics(report)
+
+    assert "  - 03_CATL_strategy.pdf (p.12)" in report
+    assert "  - 03_CATL_strategy.pdf (p.13)" in report
+    assert metrics["inline_pdf_reference_coverage"] == 1.0
+    assert metrics["reference_pdf_used_rate"] == 1.0
+    assert metrics["passes_reference_check"] is True
