@@ -54,6 +54,8 @@
   - `HuggingFaceEmbeddings(model_name="BAAI/bge-m3")`
 - [x] **P2-4** FAISS 인덱스 생성 및 로컬 저장 (`vectorstore/`)
 - [x] **P2-5** 벡터 DB 로드 유틸리티 함수 작성
+- [x] **P2-5a** FAISS 캐시 manifest 검증 추가
+  - PDF 파일 목록·크기·수정시각 또는 청킹/임베딩 설정이 바뀌면 인덱스 재생성
 - [x] **P2-6** 검색 품질 평가 스크립트 작성
   - `eval/eval_ir.py`, `eval/eval_ragas.py`로 Hit Rate@5, MRR, RAGAS 측정
 
@@ -64,7 +66,7 @@
 - [x] **P3-1** `agents/llm_config.py` — LLM 클라이언트 초기화 (GPT-4o-mini)
 - [x] **P3-2** `agents/web_search.py` — Tavily 검색 래퍼 구현
   - **확증 편향 방지**: 쿼리 1개 입력 시 긍정/비판/중립 3개 쿼리 자동 생성
-  - 3방향 검색 결과를 관점별로 구분해 통합 반환
+  - 3방향 검색을 병렬 실행하고, 결과와 웹 출처 메타데이터를 관점별로 구분해 반환
 - [x] **P3-3** `agents/state.py` — `BatteryAnalysisState` TypedDict 정의
 - [x] **P3-4** `prompts/` 디렉터리에 각 Agent별 프롬프트 템플릿 파일 작성
   - `prompts/market_research.txt`
@@ -115,6 +117,7 @@
 - [x] **P6-3** SUMMARY 섹션 생성 (전체 분석 결과 요약, ½페이지 이내)
 - [x] **P6-4** REFERENCE 섹션 자동 생성 (수집된 `references` 상태 기반, 형식 준수)
 - [x] **P6-5** Markdown → HTML → PDF 변환 후 `outputs/report.pdf` 저장
+  - `outputs/report.md`도 함께 저장해 평가/리뷰/버전 비교에 사용
   - `markdown` 라이브러리로 HTML 변환, `fitz.Story`로 PDF 렌더링
   - A4 포맷 적용
 
@@ -143,8 +146,9 @@
   - `eval/RESULTS.md §1~2`에 RAGAS·IR n=100 결과 기록
 - [x] **P8-3** 확증 편향 방지 동작 확인 (3방향 쿼리 결과 비교) → `eval/RESULTS.md §5` (3-arm 측정: risk_recall·entropy·neg_share 우위, 개선 C 적용)
 - [x] **P8-4** 보고서 내용 완결성 검토 (목차 모든 섹션 포함 여부)
-- [ ] **P8-5** REFERENCE 형식 검증 및 개선
-  - 현재 `references` state는 PDF 출처 중심이다. Web Search 결과는 본문 컨텍스트에는 반영되지만 구조화된 web reference로 누적되지는 않으므로 개선 여지가 있음
+- [x] **P8-5** REFERENCE 형식 검증 및 개선
+  - Web Search 결과를 구조화된 web reference로 누적하도록 개선
+  - `eval/eval_references.py`로 본문 PDF 인용과 REFERENCE 섹션 정합성 평가
 - [ ] **P8-6** 오류 처리 검토 (API 실패, 빈 검색 결과 등 예외 케이스)
 
 ---

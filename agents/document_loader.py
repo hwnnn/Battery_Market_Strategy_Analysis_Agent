@@ -6,6 +6,7 @@ PDF 파싱 → 텍스트 청킹 → BAAI/bge-m3 임베딩 → FAISS 저장
 
 import os
 import glob
+import json
 from typing import List
 
 import fitz  # PyMuPDF
@@ -19,6 +20,7 @@ from agents.state import BatteryAnalysisState
 # 상수
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 VECTORSTORE_DIR = os.path.join(os.path.dirname(__file__), "..", "vectorstore")
+MANIFEST_FILE = os.path.join(VECTORSTORE_DIR, "manifest.json")
 MAX_PAGES = 100
 EMBEDDING_MODEL = "BAAI/bge-m3"
 CHUNK_SIZE = 500
@@ -106,15 +108,60 @@ def _build_vectorstore(documents: List[Document]) -> FAISS:
     # 4. 로컬 저장
     os.makedirs(VECTORSTORE_DIR, exist_ok=True)
     vectorstore.save_local(VECTORSTORE_DIR)
+    _write_manifest()
     print(f"[DocumentLoader] FAISS 저장 완료: {VECTORSTORE_DIR}")
 
     return vectorstore
+
+
+def _current_manifest() -> dict:
+    """현재 PDF 입력과 인덱싱 설정을 기록해 캐시 유효성을 판단한다."""
+    pdfs = []
+    for pdf_path in sorted(glob.glob(os.path.join(DATA_DIR, "*.pdf"))):
+        stat = os.stat(pdf_path)
+        pdfs.append({
+            "source": os.path.basename(pdf_path),
+            "size": stat.st_size,
+            "mtime_ns": stat.st_mtime_ns,
+        })
+    return {
+        "max_pages": MAX_PAGES,
+        "embedding_model": EMBEDDING_MODEL,
+        "chunk_size": CHUNK_SIZE,
+        "chunk_overlap": CHUNK_OVERLAP,
+        "pdfs": pdfs,
+    }
+
+
+def _write_manifest() -> None:
+    os.makedirs(VECTORSTORE_DIR, exist_ok=True)
+    with open(MANIFEST_FILE, "w", encoding="utf-8") as f:
+        json.dump(_current_manifest(), f, ensure_ascii=False, indent=2)
+
+
+def _manifest_matches() -> bool:
+    if not os.path.exists(MANIFEST_FILE):
+        print("[DocumentLoader] FAISS manifest 없음 — 인덱스 재생성 필요")
+        return False
+    try:
+        with open(MANIFEST_FILE, encoding="utf-8") as f:
+            cached = json.load(f)
+    except (json.JSONDecodeError, OSError) as e:
+        print(f"[DocumentLoader] FAISS manifest 로드 실패 — 인덱스 재생성 필요: {e}")
+        return False
+
+    if cached != _current_manifest():
+        print("[DocumentLoader] PDF 또는 인덱싱 설정 변경 감지 — FAISS 재생성 필요")
+        return False
+    return True
 
 
 def load_vectorstore_if_exists() -> FAISS | None:
     """이미 구축된 FAISS 인덱스가 있으면 로드하여 반환"""
     index_path = os.path.join(VECTORSTORE_DIR, "index.faiss")
     if not os.path.exists(index_path):
+        return None
+    if not _manifest_matches():
         return None
 
     print("[DocumentLoader] 기존 FAISS 인덱스 로드 중...")

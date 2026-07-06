@@ -3,7 +3,7 @@ Battery Market Strategy Analysis Agent — 메인 실행 진입점
 
 Distributed Pattern (LangGraph StateGraph)
 - Supervisor 없음
-- 노드 간 predetermined/conditional edge로 라우팅
+- 노드 간 predetermined edge로 라우팅
 - LGES·CATL 분석은 fan-out/fan-in으로 병렬 실행
 
 Graph Flow:

@@ -9,7 +9,7 @@ from typing import Tuple, List
 from langchain_openai import ChatOpenAI
 
 from agents.rag_tool import rag_retrieve
-from agents.web_search import web_search
+from agents.web_search import web_search_with_refs
 
 
 def load_prompt(filename: str) -> str:
@@ -36,11 +36,11 @@ def run_research(
     """
     from langchain_core.messages import HumanMessage
 
-    # 1. Agentic RAG (최대 3회 재시도)
+    # 1. RAG 검색 (기본 plain, RAG_AGENTIC=true면 재검색 루프)
     rag_context, references = rag_retrieve(query_rag, vectorstore, llm)
 
     # 2. Web Search (확증 편향 방지: 긍정/비판/중립 3방향)
-    web_context = web_search(query_web, llm)
+    web_context, web_references = web_search_with_refs(query_web, llm)
 
     # 3. 프롬프트 조립
     prompt = prompt_template.format(
@@ -51,4 +51,4 @@ def run_research(
 
     # 4. LLM 분석
     response = llm.invoke([HumanMessage(content=prompt)])
-    return response.content, references
+    return response.content, references + web_references

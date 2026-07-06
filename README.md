@@ -21,11 +21,11 @@
   - plain 흐름: `retrieve` → `return`
   - Agentic 흐름: `retrieve` → `grade_documents` → 충분(return) / 부족(rewrite_query) → 반복 (최대 3회)
 - **확증 편향 방지 전략 (2단계 적용)**:
-  - **(1) 데이터 수집**: Web Search 시 단일 쿼리를 긍정·비판·중립 3방향 쿼리로 자동 분해하여 관점별로 구분 전달
+  - **(1) 데이터 수집**: Web Search 시 단일 쿼리를 긍정·비판·중립 3방향 쿼리로 자동 분해하여 병렬 검색하고 관점별로 구분 전달
   - **(2) 프롬프트 설계**: 각 분석 섹션마다 성과·기대효과와 한계·리스크를 함께 서술하도록 명시적으로 요구. 섹션 5 "주요 리스크 및 한계"를 독립 항목으로 분리하여 비판 시각 강제화
 - **병렬 분석**: LGES·CATL 분석을 LangGraph fan-out/fan-in 구조로 병렬 실행하고 독립 state 필드에 저장
 - **SWOT 일괄 작성**: Comparison Agent가 내부(S/W)·외부(O/T)를 한 번에 작성하여 일관성 확보
-- **자동 보고서 생성**: SUMMARY(0.5p 이내) + REFERENCE 포함 PDF 보고서 자동 저장 (Markdown → HTML → PDF 변환, A4 포맷)
+- **자동 보고서 생성**: SUMMARY(0.5p 이내) + PDF·Web REFERENCE 포함 Markdown/PDF 보고서 자동 저장
 
 ## Tech Stack
 
@@ -37,7 +37,7 @@
 | Embedding  | BAAI/bge-m3 (HuggingFace, 오픈소스, 다국어)          |
 | Web Search | Tavily Search API (확증 편향 방지)                 |
 | PDF 파싱   | PyMuPDF (fitz)                                    |
-| Output     | PDF (outputs/report.pdf)                         |
+| Output     | Markdown/PDF (`outputs/report.md`, `outputs/report.pdf`) |
 
 ### Document Processing 파라미터
 
@@ -77,8 +77,8 @@ WEB_SEARCH_PERSPECTIVES = true  # 기본 3방향 웹검색
 
 - **Report Generator Agent** (`agents/report_generator.py::report_generation_node`): 최종 보고서 생성
   - 모든 분석 결과를 목차 구조에 맞게 통합
-  - SUMMARY (0.5p 이내) + REFERENCE 자동 생성
-  - 결과: `outputs/report.pdf` 파일로 저장 (Markdown → HTML → PDF 변환)
+  - SUMMARY (0.5p 이내) + PDF·Web REFERENCE 자동 생성
+  - 결과: `outputs/report.md`, `outputs/report.pdf` 파일로 저장
 
 ### 공유 유틸리티
 
@@ -93,7 +93,8 @@ WEB_SEARCH_PERSPECTIVES = true  # 기본 3방향 웹검색
 
 - **Web Search Tool** (`agents/web_search.py`): 확증 편향 방지 웹 검색
   - 단일 쿼리 → 긍정/비판/중립 3방향 쿼리 자동 생성
-  - 비판 쿼리에 리스크 키워드 포함을 강제하고, 결과를 관점별로 구분하여 반환
+  - 비판 쿼리에 리스크 키워드 포함을 강제하고, 3방향 검색을 병렬 실행
+  - 검색 컨텍스트와 웹 출처 메타데이터를 함께 반환하여 최종 REFERENCE에 반영
 
 ## Architecture
 
@@ -160,7 +161,7 @@ Battery_Market_Strategy_Analysis_Agent/
 │   ├── company_analysis.txt       # LGES/CATL 회사 분석 프롬프트
 │   ├── comparison.txt             # 비교 매트릭스 + SWOT 프롬프트
 │   └── report_generator.txt       # 최종 보고서 생성 프롬프트
-├── vectorstore/           # FAISS 인덱스 (자동 생성) — .gitignore 제외
+├── vectorstore/           # FAISS 인덱스 + manifest (자동 생성) — .gitignore 제외
 ├── outputs/               # 분석 결과 및 보고서 (자동 생성) — .gitignore 제외
 ├── app.py                 # 실행 진입점 (LangGraph StateGraph 조립)
 ├── requirements.txt       # Python 의존성
@@ -199,13 +200,14 @@ cp .env.example .env             # 템플릿 복사
 python app.py
 ```
 
-보고서는 `outputs/report.pdf`에 저장됩니다.
+보고서는 `outputs/report.md`와 `outputs/report.pdf`에 저장됩니다.
 
 ## Evaluation Summary
 
 - RAGAS·IR n=100 기준, 이 코퍼스에서는 Agentic RAG가 plain RAG 대비 검색/답변 품질의 순이득을 주지 못해 plain RAG를 기본값으로 채택했습니다.
 - Supervisor 구조는 고정 파이프라인에서 라우팅 LLM 호출 7회, 833토큰, 8.47초의 순수 오버헤드가 측정되어 Distributed Pattern을 유지합니다.
 - Web Search 3방향 쿼리는 검색 단계에서 부정 관점 비중·관점 균형·리스크 회수율을 개선했지만, 최종 보고서 균형은 프롬프트의 리스크 섹션 강제 효과가 더 크게 작용했습니다.
+- `eval/eval_references.py`로 본문 PDF 인용과 REFERENCE 섹션의 정합성을 정적으로 점검할 수 있습니다.
 
 ## Contributors
 

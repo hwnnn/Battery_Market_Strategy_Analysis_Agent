@@ -1,7 +1,7 @@
 """
 Report Generator Agent — T6
 목차 구조에 따라 최종 보고서 작성
-SUMMARY(½p 이내) + REFERENCE 자동 생성 → PDF 저장
+SUMMARY(½p 이내) + REFERENCE 자동 생성 → Markdown/PDF 저장
 """
 
 import os
@@ -52,21 +52,27 @@ def _format_references(references: List[Dict]) -> str:
     seen = set()
 
     for ref in references:
-        key = f"{ref.get('source', '')}_{ref.get('page', '')}"
+        ref_type = ref.get("type", "pdf")
+        if ref_type == "web":
+            key = f"web_{ref.get('url', '')}"
+        else:
+            key = f"pdf_{ref.get('source', '')}_{ref.get('page', '')}"
         if key in seen:
             continue
         seen.add(key)
 
-        ref_type = ref.get("type", "pdf")
         if ref_type == "pdf":
             source = ref.get("source", "Unknown")
             page = ref.get("page", "?")
             pdf_refs.append(f"  - {source} (p.{page})")
         elif ref_type == "web":
+            source = ref.get("source", "출처")
             title = ref.get("title", "제목 없음")
             url = ref.get("url", "URL 없음")
             date = ref.get("date", "날짜 미상")
-            web_refs.append(f"  - 출처({date}). {title}. {url}")
+            perspective = ref.get("perspective")
+            suffix = f" [{perspective}]" if perspective else ""
+            web_refs.append(f"  - {source}({date}). {title}. {url}{suffix}")
 
     sections = []
     if pdf_refs:
@@ -102,7 +108,11 @@ def report_generation_node(state: BatteryAnalysisState) -> dict:
 
     # outputs/ 디렉터리에 저장
     os.makedirs(OUTPUT_DIR, exist_ok=True)
+    md_path = os.path.join(OUTPUT_DIR, "report.md")
     pdf_path = os.path.join(OUTPUT_DIR, "report.pdf")
+
+    with open(md_path, "w", encoding="utf-8") as f:
+        f.write(report_content)
 
     # Markdown → HTML → PDF 변환 (fitz.Story, 시스템 라이브러리 불필요)
     html_body = markdown.markdown(
@@ -128,7 +138,7 @@ def report_generation_node(state: BatteryAnalysisState) -> dict:
         writer.end_page()
     writer.close()
 
-    print(f"[ReportGenerator] 보고서 저장 완료: {pdf_path}")
+    print(f"[ReportGenerator] 보고서 저장 완료: {md_path}, {pdf_path}")
     return {
         "report_draft": report_content,
         "error_messages": [],

@@ -5,14 +5,18 @@ WEB_SEARCH_PERSPECTIVES=off 로 단일 쿼리 ablation 전환 가능 (기본: 3�
 """
 
 import os
-import asyncio
-from typing import List, Dict
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from typing import List, Dict, Tuple
+from urllib.parse import urlparse
 from dotenv import load_dotenv
 from tavily import TavilyClient
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
 
 load_dotenv()
+
+PERSPECTIVES = ("긍정", "비판", "중립")
+RISK_TERMS = ("리스크", "한계", "실패", "논란", "규제")
 
 
 def perspectives_enabled() -> bool:
@@ -47,12 +51,16 @@ def _build_three_queries(base_query: str, llm: ChatOpenAI) -> Dict[str, str]:
     queries = {"긍정": base_query, "비판": base_query, "중립": base_query}
 
     for line in lines:
+        line = line.strip()
         if line.startswith("긍정:"):
             queries["긍정"] = line.replace("긍정:", "").strip()
         elif line.startswith("비판:"):
             queries["비판"] = line.replace("비판:", "").strip()
         elif line.startswith("중립:"):
             queries["중립"] = line.replace("중립:", "").strip()
+
+    if not any(term in queries["비판"] for term in RISK_TERMS):
+        queries["비판"] = f"{queries['비판']} 리스크"
 
     return queries
 
@@ -70,11 +78,17 @@ def _require_tavily_key() -> str:
     return api_key
 
 
+def domain_of(url: str) -> str:
+    """URL에서 www.를 제거한 도메인을 추출한다. 파싱 실패 시 원본을 반환."""
+    netloc = urlparse(url).netloc
+    if not netloc:
+        return url
+    return netloc[4:] if netloc.startswith("www.") else netloc
+
+
 def tavily_search(query: str, max_results: int = 5) -> List[dict]:
     """단일 쿼리 Tavily 검색 → 정규화된 결과 리스트.
     각 원소: {title, url, content, published, domain}"""
-    from eval.web_metrics import domain_of  # 지연 import (프로덕션 경로 비의존)
-
     api_key = _require_tavily_key()
     client = TavilyClient(api_key=api_key)
     resp = client.search(query=query, max_results=max_results, search_depth="advanced")
@@ -91,29 +105,81 @@ def tavily_search(query: str, max_results: int = 5) -> List[dict]:
     return out
 
 
-def web_search(base_query: str, llm: ChatOpenAI, max_results: int = 5) -> str:
+def _format_section(label: str, query: str, results: List[dict]) -> str:
+    section = f"\n=== [{label}] 검색 쿼리: {query} ===\n"
+    for i, r in enumerate(results, 1):
+        section += (f"\n[{i}] {r['title']}\n출처: {r['url']}\n"
+                    f"날짜: {r['published']}\n내용: {r['content']}\n")
+    return section
+
+
+def _refs_from_results(results: List[dict], perspective: str, query: str) -> List[dict]:
+    refs = []
+    for r in results:
+        refs.append({
+            "type": "web",
+            "source": r.get("domain") or domain_of(r.get("url", "")),
+            "title": r.get("title", "제목 없음"),
+            "url": r.get("url", "URL 없음"),
+            "date": r.get("published", "날짜 미상"),
+            "perspective": perspective,
+            "query": query,
+        })
+    return refs
+
+
+def web_search_with_refs(
+    base_query: str,
+    llm: ChatOpenAI,
+    max_results: int = 5,
+) -> Tuple[str, List[dict]]:
     """확증 편향 방지 웹 검색 Tool.
-    WEB_SEARCH_PERSPECTIVES=off 면 단일 쿼리(ablation), 기본은 3방향."""
+    WEB_SEARCH_PERSPECTIVES=off 면 단일 쿼리(ablation), 기본은 3방향.
+    Returns:
+        context: 프롬프트에 넣을 검색 결과 문자열
+        references: REFERENCE 섹션에 넘길 웹 출처 메타데이터
+    """
     _require_tavily_key()
     if not perspectives_enabled():
         # ablation: 볼륨을 3방향과 맞추기 위해 max_results*3
         results = tavily_search(base_query, max_results=max_results * 3)
-        section = f"\n=== [단일 쿼리(ablation)] 검색 쿼리: {base_query} ===\n"
-        for i, r in enumerate(results, 1):
-            section += (f"\n[{i}] {r['title']}\n출처: {r['url']}\n"
-                        f"날짜: {r['published']}\n내용: {r['content']}\n")
-        return section
+        return (
+            _format_section("단일 쿼리(ablation)", base_query, results),
+            _refs_from_results(results, "단일", base_query),
+        )
 
     queries = build_queries(base_query, llm)
-    all_results: List[str] = []
-    for perspective, query in queries.items():
-        try:
-            results = tavily_search(query, max_results=max_results)
-            section = f"\n=== [{perspective} 관점] 검색 쿼리: {query} ===\n"
-            for i, r in enumerate(results, 1):
-                section += (f"\n[{i}] {r['title']}\n출처: {r['url']}\n"
-                            f"날짜: {r['published']}\n내용: {r['content']}\n")
-            all_results.append(section)
-        except Exception as e:
-            all_results.append(f"\n=== [{perspective} 관점] 검색 실패: {str(e)} ===\n")
-    return "\n".join(all_results)
+    sections_by_perspective: Dict[str, str] = {}
+    refs_by_perspective: Dict[str, List[dict]] = {}
+
+    def run_one(perspective: str, query: str) -> tuple[str, str, List[dict]]:
+        results = tavily_search(query, max_results=max_results)
+        section = _format_section(f"{perspective} 관점", query, results)
+        return perspective, section, _refs_from_results(results, perspective, query)
+
+    with ThreadPoolExecutor(max_workers=len(PERSPECTIVES)) as executor:
+        futures = {
+            executor.submit(run_one, perspective, queries[perspective]): perspective
+            for perspective in PERSPECTIVES
+        }
+        for future in as_completed(futures):
+            perspective = futures[future]
+            try:
+                p, section, perspective_refs = future.result()
+                sections_by_perspective[p] = section
+                refs_by_perspective[p] = perspective_refs
+            except Exception as e:
+                sections_by_perspective[perspective] = (
+                    f"\n=== [{perspective} 관점] 검색 실패: {str(e)} ===\n"
+                )
+                refs_by_perspective[perspective] = []
+
+    ordered_sections = [sections_by_perspective[p] for p in PERSPECTIVES]
+    refs = [ref for p in PERSPECTIVES for ref in refs_by_perspective[p]]
+    return "\n".join(ordered_sections), refs
+
+
+def web_search(base_query: str, llm: ChatOpenAI, max_results: int = 5) -> str:
+    """기존 호출부 호환용: 검색 컨텍스트 문자열만 반환."""
+    context, _refs = web_search_with_refs(base_query, llm, max_results=max_results)
+    return context

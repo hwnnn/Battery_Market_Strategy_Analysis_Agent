@@ -81,7 +81,7 @@ T6. 보고서 생성
 확증 편향 방지 전략 상세:
 
 [1단계] 데이터 수집 — Web Search Tool (agents/web_search.py)
-  단일 쿼리 입력 시 3가지 관점의 쿼리를 자동 생성하고 관점별로 검색:
+  단일 쿼리 입력 시 3가지 관점의 쿼리를 자동 생성하고 관점별로 병렬 검색:
     1. 긍정 쿼리  : "CATL ESS 성장 전략 성과"
     2. 비판 쿼리  : "CATL ESS 전략 리스크 한계 문제점"
     3. 중립 쿼리  : "CATL ESS 전략 현황 분석 2025"
@@ -195,13 +195,16 @@ T6. 보고서 생성
 | Tool | 역할 |
 |------|------|
 | **RAG Retrieve Tool** | 기본은 FAISS 단발 검색. `RAG_AGENTIC=true`일 때만 관련성 평가 + 쿼리 재작성 루프(최대 3회)를 실행. Research & Analysis Agent가 직접 호출 |
-| **Web Search Tool** | Tavily 검색. 긍정·비판·중립 3방향 쿼리를 생성하고 비판 쿼리에 리스크 키워드를 강제한 뒤 통합 반환. Research & Analysis Agent가 직접 호출 |
+| **Web Search Tool** | Tavily 검색. 긍정·비판·중립 3방향 쿼리를 생성하고 비판 쿼리에 리스크 키워드를 강제한 뒤 병렬 검색한다. 검색 컨텍스트와 웹 출처 메타데이터를 함께 반환한다 |
 
 **Node** (LLM 미사용 — 단순 데이터 처리)
 
 | Node | 역할 |
 |------|------|
 | **Document Loader** | PDF 파싱 → 텍스트 청킹 → BAAI/bge-m3 임베딩 → FAISS 저장. 파이프라인 시작 시 1회만 실행 |
+
+> `vectorstore/manifest.json`에 PDF 파일 목록·크기·수정시각과 청킹/임베딩 설정을 저장한다.
+> 캐시 manifest가 현재 입력과 다르면 기존 FAISS 인덱스를 재사용하지 않고 다시 구축한다.
 
 ---
 
@@ -249,7 +252,7 @@ class BatteryAnalysisState(TypedDict):
     comparison_result: str              # 비교 분석 결과
 
     # 참고 자료 추적
-    references: Annotated[List[Dict], operator.add]  # 활용된 PDF 참고 자료 목록
+    references: Annotated[List[Dict], operator.add]  # 활용된 PDF/Web 참고 자료 목록
 
     # 보고서
     report_draft: str                   # 최종 보고서 Markdown
@@ -371,7 +374,7 @@ REFERENCE
 | Embedding | BAAI/bge-m3 (HuggingFace, 오픈소스) |
 | Web Search | Tavily Search API |
 | PDF Parsing | PyMuPDF (fitz) |
-| Output | Markdown → HTML → PDF 변환 (`markdown` + `fitz.Story`) |
+| Output | Markdown 저장 + Markdown → HTML → PDF 변환 (`markdown` + `fitz.Story`) |
 
 ---
 

@@ -15,7 +15,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 from agents.state import BatteryAnalysisState
 from agents.llm_config import get_llm
 from agents.rag_tool import rag_retrieve
-from agents.web_search import web_search
+from agents.web_search import web_search_with_refs
 
 # 프롬프트 로더
 def _load_prompt(filename: str) -> str:
@@ -40,11 +40,11 @@ def _run_research(
     RAG + Web Search → LLM 분석 공통 로직
     Returns: (분석_결과_str, references_list)
     """
-    # 1. RAG 검색 (Agentic RAG: 최대 3회 재시도)
+    # 1. RAG 검색 (기본 plain, RAG_AGENTIC=true면 재검색 루프)
     rag_context, references = rag_retrieve(query_rag, vectorstore, llm)
 
     # 2. Web Search (확증 편향 방지: 3방향 쿼리)
-    web_context = web_search(query_web, llm)
+    web_context, web_references = web_search_with_refs(query_web, llm)
 
     # 3. 프롬프트 조립
     prompt = prompt_template.format(
@@ -55,7 +55,7 @@ def _run_research(
 
     # 4. LLM 분석
     response = llm.invoke([HumanMessage(content=prompt)])
-    return response.content, references
+    return response.content, references + web_references
 
 
 # ─────────────────────────────────────────────────────────────

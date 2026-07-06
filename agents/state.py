@@ -29,4 +29,4 @@ class BatteryAnalysisState(TypedDict):
 
     # ── 제어 ─────────────────────────────────────────────────
     error_messages: Annotated[List[str], operator.add]  # 오류 로그 누적
-    rag_iteration: int                  # Agentic RAG 재검색 횟수 (conditional edge 용)
+    rag_iteration: int                  # 호환용 필드. RAG 반복은 rag_tool 내부에서 처리
