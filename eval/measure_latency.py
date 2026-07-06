@@ -1,11 +1,10 @@
 """
-처리시간 계측 — 전체 / 노드별 + async 절감 추정
+처리시간 계측 — 전체 / 노드별 + fan-out 병렬 효과
 =================================================
 각 노드를 perf_counter로 감싸 실행시간을 측정한다.
-LGES·CATL은 현재 동기 구현이라 순차 실행되므로,
-  - 현 동기 합계      = lges_time + catl_time
-  - async 전환 시 예상 = max(lges_time, catl_time)
-의 차이로 "병렬화 시 절감 예상치"를 추정한다 (실제 async 구현 없이 산출).
+LangGraph는 같은 superstep에 있는 LGES·CATL 노드를 병렬 fan-out으로 실행하므로,
+벽시계 시간에는 두 노드의 합이 아니라 더 오래 걸린 노드 시간이 주로 반영된다.
+따라서 lges_time + catl_time은 "순차 실행이었다면 걸렸을 반사실적 시간"으로만 사용한다.
 
 실행:
     python -m eval.measure_latency
@@ -86,22 +85,22 @@ def main():
 
     lges = timings.get("lges_analysis", 0.0)
     catl = timings.get("catl_analysis", 0.0)
-    sync_fanout = lges + catl
-    async_fanout = max(lges, catl)
-    projected_saving = sync_fanout - async_fanout
-    projected_total = total - projected_saving
+    fanout_sequential = lges + catl
+    fanout_parallel = max(lges, catl)
+    measured_saving = fanout_sequential - fanout_parallel
+    sequential_counterfactual_total = total + measured_saving
 
     report = {
-        "total_sync_sec": round(total, 2),
+        "total_wall_sec": round(total, 2),
         "per_node_sec": {k: round(v, 2) for k, v in timings.items()},
         "fanout": {
             "lges_sec": round(lges, 2),
             "catl_sec": round(catl, 2),
-            "sync_sum_sec": round(sync_fanout, 2),
-            "async_max_sec": round(async_fanout, 2),
-            "projected_saving_sec": round(projected_saving, 2),
+            "sequential_counterfactual_sec": round(fanout_sequential, 2),
+            "parallel_wall_sec": round(fanout_parallel, 2),
+            "measured_parallel_saving_sec": round(measured_saving, 2),
         },
-        "projected_total_async_sec": round(projected_total, 2),
+        "sequential_counterfactual_total_sec": round(sequential_counterfactual_total, 2),
     }
 
     out = os.path.join(os.path.dirname(__file__), "results", "latency.json")
@@ -112,13 +111,13 @@ def main():
     print("\n" + "=" * 55)
     print("처리시간 계측 결과")
     print("=" * 55)
-    print(f"  전체(동기)            : {total:6.2f}s")
+    print(f"  전체 벽시계 시간       : {total:6.2f}s")
     print(f"  └ LGES 분석           : {lges:6.2f}s")
     print(f"  └ CATL 분석           : {catl:6.2f}s")
-    print(f"  fan-out 동기 합        : {sync_fanout:6.2f}s")
-    print(f"  fan-out async 예상(max): {async_fanout:6.2f}s")
-    print(f"  → async 전환 시 절감 예상: {projected_saving:6.2f}s "
-          f"(전체 {total:.1f}s → {projected_total:.1f}s)")
+    print(f"  fan-out 순차 가정 합   : {fanout_sequential:6.2f}s")
+    print(f"  fan-out 병렬 벽시계    : {fanout_parallel:6.2f}s")
+    print(f"  → 병렬 fan-out 절감    : {measured_saving:6.2f}s "
+          f"(순차 가정 {sequential_counterfactual_total:.1f}s → 실제 {total:.1f}s)")
     print(f"\n상세 → {out}")
 
 

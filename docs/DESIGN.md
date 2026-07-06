@@ -1,6 +1,6 @@
 # 배터리 시장 전략 분석 Agent - 설계 산출물
 
-> Updated: 2026-03-17
+> Updated: 2026-07-06
 
 ---
 
@@ -72,16 +72,16 @@ T6. 보고서 생성
 
 **Distributed Pattern** 채택
 
-- **선택 이유**: 파이프라인의 실행 순서가 고정되어 있으므로, 중앙 조율자(Supervisor) 없이 각 노드가 LangGraph의 **predetermined/conditional edge**를 통해 다음 노드로 직접 전달하는 방식이 적합. Supervisor는 매 단계마다 LLM을 추가 호출하는 오버헤드가 발생하며, 이 파이프라인에서 동적 라우팅이 필요한 구간이 없으므로 불필요
-- **병렬 실행**: T3(LGES 분석)와 T4(CATL 분석)는 독립적이므로 LangGraph의 fan-out edge로 병렬 수행
-- **재시도 로직**: Agentic RAG의 재검색 분기는 Research & Analysis Agent 내부의 **conditional edge**로 처리. Supervisor 없이 동일한 분기 제어 가능
+- **선택 이유**: 파이프라인의 실행 순서가 고정되어 있으므로, 중앙 조율자(Supervisor) 없이 각 노드가 LangGraph의 **predetermined edge**를 통해 다음 노드로 직접 전달하는 방식이 적합. Supervisor는 매 단계마다 LLM을 추가 호출하는 오버헤드가 발생하며, 이 파이프라인에서 동적 라우팅이 필요한 구간이 없으므로 불필요
+- **fan-out/fan-in 병렬 실행**: T3(LGES 분석)와 T4(CATL 분석)는 독립 state 필드에 쓰므로 그래프에서 동시에 실행되고, 둘 다 끝난 뒤 Comparison Agent로 합류한다.
+- **RAG 재검색 로직**: 기본 경로는 plain RAG(단발 검색)이다. Agentic RAG의 관련성 평가·쿼리 재작성 루프는 `agents/rag_tool.py` 내부에서 `RAG_AGENTIC=true`일 때만 실행되는 옵트인 기능으로 분리했다.
 - **확증 편향 방지**: 데이터 수집과 프롬프트 설계 **2단계**에서 동시 적용
 
 ```
 확증 편향 방지 전략 상세:
 
 [1단계] 데이터 수집 — Web Search Tool (agents/web_search.py)
-  단일 쿼리 입력 시 3가지 관점의 쿼리를 자동 생성·병렬 검색:
+  단일 쿼리 입력 시 3가지 관점의 쿼리를 자동 생성하고 관점별로 검색:
     1. 긍정 쿼리  : "CATL ESS 성장 전략 성과"
     2. 비판 쿼리  : "CATL ESS 전략 리스크 한계 문제점"
     3. 중립 쿼리  : "CATL ESS 전략 현황 분석 2025"
@@ -141,13 +141,17 @@ T6. 보고서 생성
                     [END]
 
 
-※ Agentic RAG conditional edge (Research & Analysis Agent 내부):
+※ RAG Tool 동작 모드 (`agents/rag_tool.py` 내부):
 
-   retrieve ──▶ grade_documents ──▶ [충분] ──▶ generate
-                      │
-                   [부족]
-                      │
-               rewrite_query ──▶ retrieve  (최대 3회)
+   기본 plain:
+      retrieve ──▶ return
+
+   RAG_AGENTIC=true:
+      retrieve ──▶ grade_documents ──▶ [충분] ──▶ return
+                         │
+                      [부족]
+                         │
+                  rewrite_query ──▶ retrieve  (최대 3회)
 ```
 
 ---
@@ -160,12 +164,12 @@ T6. 보고서 생성
 
 | 문제 | 원인 | 개선 |
 |------|------|------|
-| **Supervisor Agent 불필요** | 파이프라인 순서가 고정되어 있어 LLM 기반 동적 라우팅이 필요 없음. 매 단계마다 LLM 호출 오버헤드만 발생 | **Distributed Pattern**으로 전환. 노드 간 predetermined/conditional edge로 라우팅 처리 |
+| **Supervisor Agent 불필요** | 파이프라인 순서가 고정되어 있어 LLM 기반 동적 라우팅이 필요 없음. 매 단계마다 LLM 호출 오버헤드만 발생 | **Distributed Pattern**으로 전환. 노드 간 predetermined edge로 라우팅 처리 |
 | **RAG·Web Search를 Agent로 분리** | 두 컴포넌트는 정보를 검색하는 수단이지, 자체적으로 판단·결정하지 않음. Agent 추상화가 오버엔지니어링이며 Agent→Agent 호출로 불필요한 오버헤드 발생 | **Tool**로 격하. 분석 Agent가 직접 호출 |
 | **SWOT 분산 작성** | S/W는 분석 Agent에서, O/T는 Comparison Agent에서 생성 → 두 단계에 걸쳐 SWOT를 완성하면 일관성 저하 위험 | Comparison Agent가 LGES·CATL 분석 결과를 받아 **SWOT 전체(S/W/O/T)를 일괄 작성** |
 
 > **LGES·CATL Agent 분리 유지**: 두 에이전트는 로직이 유사하더라도 각각 독립된 파일·함수로 분리한다.
-> 동일 에이전트를 컨텍스트만 바꿔 재호출하면 병렬 실행 시 state 필드가 뒤섞일 위험이 있으며,
+> 동일 에이전트를 컨텍스트만 바꿔 재호출하면 병렬 fan-out에서 state 필드가 뒤섞일 위험이 있으며,
 > 향후 각 기업 분석 로직이 달라질 경우 유지보수가 어려워진다.
 > 공통 로직은 `agents/research_base.py`로 분리하여 코드 중복 없이 독립성을 확보한다.
 
@@ -183,15 +187,15 @@ T6. 보고서 생성
 | **Comparison Agent** | `comparison_agent.py` | LGES·CATL 결과를 State에서 읽어 전략 비교 매트릭스 + SWOT 전체(S/W/O/T) 일괄 작성 | T5 | `comparison_result` |
 | **Report Generator Agent** | `report_generator.py` | 목차 구조에 따라 최종 보고서 작성, SUMMARY·REFERENCE 생성 | T6 | `report_draft` |
 
-> 각 Agent는 자신의 **전용 State 필드에만 쓰기**를 수행한다. LGES·CATL Agent는 병렬 실행되지만 쓰는 필드가 완전히 분리되어 있어 state 충돌이 없다.
+> 각 Agent는 자신의 **전용 State 필드에만 쓰기**를 수행한다. LGES·CATL Agent는 병렬 fan-out으로 실행되지만 쓰는 필드가 완전히 분리되어 있어 state 충돌이 없다.
 > 공통 RAG+WebSearch 로직은 `research_base.py`로 분리하여 각 Agent가 독립적으로 호출한다.
 
 **Tools** (Agent 아님 — LLM 판단 없이 실행되는 유틸리티)
 
 | Tool | 역할 |
 |------|------|
-| **RAG Retrieve Tool** | FAISS 검색 + 관련성 부족 시 쿼리 재작성 루프 (최대 3회). Research & Analysis Agent가 직접 호출 |
-| **Web Search Tool** | Tavily 검색. 긍정·비판·중립 3방향 쿼리 병렬 실행 후 통합 반환. Research & Analysis Agent가 직접 호출 |
+| **RAG Retrieve Tool** | 기본은 FAISS 단발 검색. `RAG_AGENTIC=true`일 때만 관련성 평가 + 쿼리 재작성 루프(최대 3회)를 실행. Research & Analysis Agent가 직접 호출 |
+| **Web Search Tool** | Tavily 검색. 긍정·비판·중립 3방향 쿼리를 생성하고 비판 쿼리에 리스크 키워드를 강제한 뒤 통합 반환. Research & Analysis Agent가 직접 호출 |
 
 **Node** (LLM 미사용 — 단순 데이터 처리)
 
@@ -208,7 +212,7 @@ T6. 보고서 생성
 | 적용 대상 | Research & Analysis Agent가 RAG Retrieve Tool을 직접 호출 |
 | 문서 범위 | PDF 문서 최대 **100페이지** |
 | 예상 문서 | LGES 사업보고서, CATL Annual Report, IEA Global EV Outlook, 산업연구원 배터리 보고서 등 |
-| RAG 방식 | **Agentic RAG**: 검색 결과가 불충분할 경우 쿼리를 재구성하여 재검색 (최대 3회 반복) |
+| RAG 방식 | **plain RAG 기본**: FAISS 단발 검색. Agentic RAG는 `RAG_AGENTIC=true`일 때만 관련성 평가 후 쿼리 재작성 재검색(최대 3회 반복) |
 | 청킹 전략 | Recursive Text Splitter (chunk_size=500, overlap=100) |
 | 벡터 DB | **FAISS** (로컬, 무료) |
 
@@ -236,26 +240,23 @@ class BatteryAnalysisState(TypedDict):
     query: str                          # 분석 주제
 
     # 문서 관련
-    documents: List[Document]           # 로드된 PDF 문서
     vectorstore: Any                    # FAISS 벡터스토어
 
     # 중간 결과
     market_background: str              # 시장 배경 분석 결과
     lges_strategy: str                  # LGES 전략 분석 결과
     catl_strategy: str                  # CATL 전략 분석 결과
-    lges_swot: Dict[str, List[str]]     # LGES SWOT {S, W, O, T}
-    catl_swot: Dict[str, List[str]]     # CATL SWOT {S, W, O, T}
     comparison_result: str              # 비교 분석 결과
 
     # 참고 자료 추적
-    references: List[Dict]              # 활용된 참고 자료 목록
+    references: Annotated[List[Dict], operator.add]  # 활용된 PDF 참고 자료 목록
 
     # 보고서
-    report_draft: str                   # 최종 보고서 전문
+    report_draft: str                   # 최종 보고서 Markdown
 
     # 제어 (라우팅은 LangGraph edge가 담당 — 별도 Supervisor 없음)
-    error_messages: List[str]           # 오류 로그
-    rag_iteration: int                  # Agentic RAG 재검색 횟수 (conditional edge 판단용)
+    error_messages: Annotated[List[str], operator.add]  # 오류 로그 누적
+    rag_iteration: int                  # 호환용 필드. 현재 RAG 반복은 rag_tool 내부에서 처리
 ```
 
 ---
@@ -370,7 +371,7 @@ REFERENCE
 | Embedding | BAAI/bge-m3 (HuggingFace, 오픈소스) |
 | Web Search | Tavily Search API |
 | PDF Parsing | PyMuPDF (fitz) |
-| Output | Markdown → PDF 변환 |
+| Output | Markdown → HTML → PDF 변환 (`markdown` + `fitz.Story`) |
 
 ---
 

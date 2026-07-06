@@ -49,7 +49,7 @@ python -m eval.eval_report_balance --n 3
 | `eval_ragas.py` | Faithfulness, Answer Relevancy, Context Precision/Recall (일반 vs Agentic) |
 | `eval_ir.py` | Hit Rate@5, MRR (일반 vs Agentic) |
 | `supervisor_compare.py` | Distributed vs Supervisor 라우팅 오버헤드(호출·토큰·시간) |
-| `measure_latency.py` | 전체/노드별 처리시간, fan-out async 절감 추정치 |
+| `measure_latency.py` | 전체/노드별 처리시간, LGES·CATL fan-out 병렬 효과 |
 | `build_dataset.py` | easy/hard 평가셋 (기준: `DATASET_CARD.md`) |
 | `build_risk_checklist.py` | 토픽별 리스크 체크리스트(리스크 recall 정답지) |
 | `eval_web_search.py` | 3방향 쿼리 검색 평가 — neg_share, balance_entropy, risk_recall, degeneration, dup_rate (3-arm) |
@@ -58,6 +58,6 @@ python -m eval.eval_report_balance --n 3
 ## 주의
 - **IR 정답 식별**: 검색 결과 청크의 `page_content`를 정답 청크와 **정확 매칭**합니다.
   Q&A를 같은 벡터스토어 청크로 생성하므로 매칭이 보장됩니다.
-- **async 절감은 "추정치"**: 현재 LGES·CATL은 동기 구현이라 순차 실행됩니다.
-  `max(lges, catl)` 기준으로 병렬화 시 예상 절감을 계산할 뿐, 실제 async 실측이 아닙니다.
+- **fan-out 시간 해석**: LGES·CATL은 LangGraph 같은 superstep에서 병렬 실행됩니다.
+  `lges + catl`은 순차 실행이었다면 걸렸을 반사실적 시간이고, 실제 벽시계 시간에는 `max(lges, catl)`이 주로 반영됩니다.
 - **RAGAS 버전**: 0.2.x API 기준으로 작성, ragas 0.4.x에서 동작 확인. 메이저 버전이 다르면 import 경로 조정이 필요할 수 있습니다.
