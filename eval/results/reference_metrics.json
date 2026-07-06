@@ -1,27 +1,11 @@
 {
-  "inline_pdf_citation_count": 0,
+  "inline_pdf_citation_count": 15,
   "reference_pdf_count": 15,
   "web_reference_count": 44,
-  "has_inline_pdf_citations": false,
-  "inline_pdf_reference_coverage": 0.0,
-  "reference_pdf_used_rate": 0.0,
-  "passes_reference_check": false,
+  "has_inline_pdf_citations": true,
+  "inline_pdf_reference_coverage": 1.0,
+  "reference_pdf_used_rate": 1.0,
+  "passes_reference_check": true,
   "missing_pdf_references": [],
-  "orphan_pdf_references": [
-    "01_market_background.pdf#p1",
-    "01_market_background.pdf#p11",
-    "01_market_background.pdf#p17",
-    "01_market_background.pdf#p18",
-    "01_market_background.pdf#p20",
-    "02_LGES_strategy.pdf#p17",
-    "02_LGES_strategy.pdf#p19",
-    "02_LGES_strategy.pdf#p20",
-    "02_LGES_strategy.pdf#p21",
-    "02_LGES_strategy.pdf#p5",
-    "03_CATL_strategy.pdf#p13",
-    "03_CATL_strategy.pdf#p14",
-    "03_CATL_strategy.pdf#p17",
-    "03_CATL_strategy.pdf#p18",
-    "03_CATL_strategy.pdf#p4"
-  ]
+  "orphan_pdf_references": []
 }

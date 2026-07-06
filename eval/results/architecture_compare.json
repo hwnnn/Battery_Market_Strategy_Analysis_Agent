@@ -1,28 +1,28 @@
 {
   "distributed": {
     "label": "Distributed",
-    "total_sec": 129.09,
-    "llm_calls": 15,
-    "total_tokens": 43095,
-    "total_cost_usd": 0.009366
+    "total_sec": 129.41,
+    "llm_calls": 8,
+    "total_tokens": 44178,
+    "total_cost_usd": 0.009622
   },
   "supervisor": {
     "label": "Supervisor",
-    "total_sec": 150.63,
-    "llm_calls": 22,
-    "total_tokens": 44074,
-    "total_cost_usd": 0.009683
+    "total_sec": 156.4,
+    "llm_calls": 15,
+    "total_tokens": 45193,
+    "total_cost_usd": 0.010326
   },
   "supervisor_routing_overhead": {
     "routing_llm_calls": 7,
     "routing_tokens": 833,
     "routing_cost_usd": 0.000132,
-    "routing_time_sec": 8.47
+    "routing_time_sec": 5.91
   },
   "delta": {
     "extra_llm_calls": 7,
-    "extra_tokens": 979,
-    "extra_cost_usd": 0.000317,
-    "extra_sec": 21.54
+    "extra_tokens": 1015,
+    "extra_cost_usd": 0.000704,
+    "extra_sec": 26.99
   }
 }

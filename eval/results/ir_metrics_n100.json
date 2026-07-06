@@ -7,11 +7,11 @@
   },
   "agentic": {
     "hit_rate@5": 0.91,
-    "mrr": 0.7545
+    "mrr": 0.744
   },
   "delta": {
     "hit_rate@5": 0.0,
-    "mrr": 0.0
+    "mrr": -0.0105
   },
   "per_question_agentic": [
     {
@@ -77,12 +77,12 @@
     {
       "question": "2024년 중국의 전기차 수출 비율은 얼마인가?",
       "gold": "01_market_background.pdf p.5",
-      "rank": 1
+      "rank": 2
     },
     {
       "question": "중국 제조업체의 해외 제조 능력이 현재 신흥 시장에서 전기차 판매의 몇 퍼센트를 공급하고 있습니까?",
       "gold": "01_market_background.pdf p.5",
-      "rank": 3
+      "rank": 2
     },
     {
       "question": "2024년 중국에서 판매된 전기차의 몇 퍼센트가 기존 차량보다 가격이 낮았나요?",
@@ -112,7 +112,7 @@
     {
       "question": "2024년 미국의 전기차 판매 성장률은 이전 해의 몇 분의 일이었나요?",
       "gold": "01_market_background.pdf p.7",
-      "rank": 3
+      "rank": 4
     },
     {
       "question": "전기차의 정의에 포함되는 차량 유형은 무엇인가요?",
@@ -127,7 +127,7 @@
     {
       "question": "2024년 중국에서 전기차 판매 비율은 몇 퍼센트에 가까워질 것으로 예상되나요?",
       "gold": "01_market_background.pdf p.8",
-      "rank": 2
+      "rank": 3
     },
     {
       "question": "2024년 중국에서 전기차 구매를 위해 인센티브를 신청한 소비자의 수는 얼마인가?",
@@ -217,7 +217,7 @@
     {
       "question": "2024년 배터리 수요는 어떤 단위로 측정되나요?",
       "gold": "01_market_background.pdf p.14",
-      "rank": 4
+      "rank": 5
     },
     {
       "question": "2024년에는 중국을 제외한 신흥 시장과 개발도상국이 글로벌 배터리 수요에서 차지하는 비율은 얼마인가?",
@@ -347,7 +347,7 @@
     {
       "question": "비유동 부채의 총액은 얼마인가?",
       "gold": "02_LGES_strategy.pdf p.15",
-      "rank": 4
+      "rank": 2
     },
     {
       "question": "총 자산과 총 자본의 차이는 얼마인가?",
@@ -467,7 +467,7 @@
     {
       "question": "CATL은 2025년 3월 20일에 어떤 계획을 발표했나요?",
       "gold": "03_CATL_strategy.pdf p.21",
-      "rank": 1
+      "rank": 3
     },
     {
       "question": "CATL의 2026년 새로운 전략은 무엇인가요?",

@@ -3,56 +3,12 @@
   "base_query": "LG에너지솔루션 CATL 경쟁력 비교",
   "subject": "LGES vs CATL 경쟁",
   "queries": {
-    "긍정": "LG에너지솔루션의 기술력과 시장 점유율",
-    "비판": "LG에너지솔루션의 리스크와 규제 문제",
+    "긍정": "LG에너지솔루션의 CATL 대비 강점",
+    "비판": "LG에너지솔루션의 리스크와 한계",
     "중립": "LG에너지솔루션과 CATL 현황 비교"
   },
   "arms": {
     "single_base": [
-      {
-        "title": "\"CATL과 비교 무의미\"...LG엔솔, 질적 성장에 사활 걸어야",
-        "url": "https://www.asiatime.co.kr/article/20240313500149",
-        "content": "정인혁 기자  입력 2024-03-13 13:06 수정 2024-03-13 13:30\n\n페이스북;)   트위터;)   카카오스토리;)   핀터레스트;)   네이버 블로그;)   밴드;)   카카오톡;)\n\n텍스트 사이즈 조절;)   텍스트 사이즈 조절;)   인쇄;)\n\nR&D 투자 비용 점차 하락하는 추세  \n새 격전지인 ESS 시장에선 격차 커  \n\"두 기업의 간극은 더욱 벌어질 것\"\n\nadvertisement\n\nadvertisement\n\n[아시아타임즈=정인혁 기자] 글로벌 배터리 시장의 선두기업인 G에너지솔루션(이하 LG엔솔)과 중국 CATL의 경쟁이 계속이어질 것으로 보이는 가운데 CATL의 경쟁력이 LG엔솔을 압도해 양 기업 간 격차가 더욱 커질 것이라는 전망도 나오고 있다.\n\n image \n\n글로벌 배터리 시장에서 1위 자리를 두고 중국 CATL과 각축을 벌이고 있는 LG에너지솔루션이 점차 경쟁력이 악화할 것이란 전망이 나온다. 사진은 LG에너지솔루션 ‘인터배터리 2024’ ",
-        "published": "날짜 미상",
-        "domain": "asiatime.co.kr"
-      },
-      {
-        "title": "[Peer Match Up | LG에너지솔루션 vs CATL] 연초 30%→현재 두 배 가량 벌어진 시가총액",
-        "url": "https://www.thebell.co.kr/front/newsview.asp?key=202408061217176720102229",
-        "content": "올해 뿐만 아니라 CATL은 매년 ROE로 20% 이상을 기록해 왔다. 2022년과 작년 CATL의 ROE는 각각 24.7%, 24.4%로 비교적 높은 수준이다.  \n   \n LG에너지솔루션의 ROE는 한 자릿수로 CATL 대비 비교적 낮은 수준이다. 2022년과 작년 LG에너지솔루션의 ROE는 각각 5.7%, 6.4%였다.  \n   \n 올해의 경우 6일 기준 아직 상반기 실적이 결산되지 않은 시점이기에 ROE 측정이 불가능하다. 1분기의 경우 LG에너지솔루션은 지배기업 소유주지분 기준 순이익이 아닌 순손실 5억원을 냈다. 이 기준으로 계산하면 LG에너지솔루션의 올해 ROE는 마이너스(-)다.  \n   \n CATL이 높은 수익성을 유지할 수 있는 점은 '규모의 경제'가 구축됐기 때문인 것으로 분석된다. 삼성증권에 따르면 CATL의 글로벌 시장 점유율은 37%(1~5월 누적 기준)로 글로벌 1위다. 또 중국 내에서도 55%의 과반 지배력을 유지하고 있다.  \n   \n 삼성증권은 \"중국",
-        "published": "날짜 미상",
-        "domain": "thebell.co.kr"
-      },
-      {
-        "title": "CATL, LG에너지솔루션, 삼성SDI, SK온 주요 재무지표 비교",
-        "url": "https://contents.premium.naver.com/busymoon/kicpakpmg/contents/250102135408695qq",
-        "content": "​\n\nMarket Value는 한국에서 가장 큰 규모인 LG 에너지솔루션이 80조이고 CATL이 약 3배인 240조이다. 삼성SDI와 SK이노베이션(SK온)은 17조 수준으로 유사하다.\n\n​\n\n핵심투자지표인 PER를 비교해 보면, CATL이 21로 표준적인 수준이라 할 수 있다. 20은 성장율과 할인율이 10%대인 경우의 Multiple과 유사하다. 20을 기준으로 낮음과 높음으로 구분지을 수 있다고 생각한다.\n\n​\n\n그러나 한국의 2차전지 대표기업들의 PER는 엄청나게 높다. 먼저 LG에너지솔루션이 107, SK이노베이션은 5,216으로 조회된다. 이 두 기업의 PER가 이렇게 높은 이유는 주가 대비 회계이익이 너무 낮기 때문이다. 지나치게 높은 PER는 기업이 재무적으로 안정화되지 않았음을 의미한다. 이 두 기업이 세계 2차전지 시장의 Key player인 것은 분명하지만 그런 평가는 매출(revenue)만 고려한 것이다. 이익수준, 이익률을 기준지표로 할 경우 상대적 열위는 더",
-        "published": "날짜 미상",
-        "domain": "contents.premium.naver.com"
-      },
-      {
-        "title": "LG에너지솔루션 vs CATL 非전기차 배터리 '마이웨이 대결' - 디일렉",
-        "url": "https://www.thelec.kr/news/articleView.html?idxno=33836",
-        "content": "CATL은 북미 외 해외 시장을 공략하고 있다. 올해 1월 19일 아랍에미리트의 아부다비에서 진행되는 5.2GW급 태양광·ESS 복합 프로젝트에 최우선 배터리 공급사로 선정됐다. 해당 프로젝트는 UAE 국영 청정에너지 기업 마스다르가 추진한다.\n\n배터리 운영 효율을 높이기 위한 BMS 기술 확보도 진행 중이다. LG에너지솔루션은 퀄컴과 SoC 기반 BMS 진단 솔루션 개발 계약을 체결했다. CATL은 전력관리 반도체(PMIC) 기술 확보를 위해 반도체 기업인 스랑과기(思朗科技)에 지분 투자를 단행했다.\n\n◆LG에너지솔루션과 CATL의 비(非)전기차 사업 확장 현황\n\n|  |  |  |\n --- \n| 분야 | LG에너지솔루션 | CATL |\n| ESS | 북미 ESS 시장 확대(테라젠 2조원 계약, 엑셀시오 7.5GWh 계약) | UAE와 DHL ESS 공급 추진 |\n| 전력망 | VPP 사업 강화(제주 해상풍력 입찰 운영) | 중국 산동성(省) 전력 사업 진출 |\n| BMS | 퀄컴",
-        "published": "날짜 미상",
-        "domain": "thelec.kr"
-      },
-      {
-        "title": "Tesla vs. CATL vs. LG Energy: Who's Leading the Battery Race ...",
-        "url": "https://patentpc.com/blog/tesla-vs-catl-vs-lg-energy-whos-leading-the-battery-race-market-share-stats",
-        "content": "### Strategic Sourcing from Global Leaders\n\nTesla’s decision to source batteries from CATL, LG, and Panasonic reflects its strategic approach to supply chain management. Each of these suppliers brings a unique set of strengths to the table.\n\nCATL, as a leader in the LFP (Lithium Iron Phosphate) battery segment, provides Tesla with a cost-effective and safe battery solution for certain models, particularly in markets like China, where affordability is a key driver.\n\nLG Energy Solution, on the oth",
-        "published": "날짜 미상",
-        "domain": "patentpc.com"
-      }
-    ],
-    "single_volume": [
-      {
-        "title": "\"CATL과 비교 무의미\"...LG엔솔, 질적 성장에 사활 걸어야",
-        "url": "https://www.asiatime.co.kr/article/20240313500149",
-        "content": "정인혁 기자  입력 2024-03-13 13:06 수정 2024-03-13 13:30\n\n페이스북;)   트위터;)   카카오스토리;)   핀터레스트;)   네이버 블로그;)   밴드;)   카카오톡;)\n\n텍스트 사이즈 조절;)   텍스트 사이즈 조절;)   인쇄;)\n\nR&D 투자 비용 점차 하락하는 추세  \n새 격전지인 ESS 시장에선 격차 커  \n\"두 기업의 간극은 더욱 벌어질 것\"\n\nadvertisement\n\nadvertisement\n\n[아시아타임즈=정인혁 기자] 글로벌 배터리 시장의 선두기업인 G에너지솔루션(이하 LG엔솔)과 중국 CATL의 경쟁이 계속이어질 것으로 보이는 가운데 CATL의 경쟁력이 LG엔솔을 압도해 양 기업 간 격차가 더욱 커질 것이라는 전망도 나오고 있다.\n\n image \n\n글로벌 배터리 시장에서 1위 자리를 두고 중국 CATL과 각축을 벌이고 있는 LG에너지솔루션이 점차 경쟁력이 악화할 것이란 전망이 나온다. 사진은 LG에너지솔루션 ‘인터배터리 2024’ ",
-        "published": "날짜 미상",
-        "domain": "asiatime.co.kr"
-      },
       {
         "title": "[채널Who] 한국 중국 '배터리 대전', 중국엔 없는 LG엔솔 3가지 강점",
         "url": "https://www.businesspost.co.kr/BP?command=article_view&num=311281",
@@ -61,6 +17,36 @@
         "domain": "businesspost.co.kr"
       },
       {
+        "title": "📌 CATL vs LG에너지솔루션 비교 분석 (글로벌 배터리 1·2위 기업 차이, 2026년 전망) :: 씨드를 위해 출근하는 20대 직장인의 주식 공부 기록",
+        "url": "https://record559.tistory.com/18",
+        "content": "# 2️⃣ 기술 전략 차이\n\n### 🔹 CATL\n\n✔ LFP 대량 생산  \n✔ CTP(Cell to Pack) 기술  \n✔ ESS 시장 강자  \n✔ 가격 경쟁력\n\n→ “규모의 경제” 전략\n\n### 🔹 LG에너지솔루션\n\n✔ 하이니켈 NCM  \n✔ 북미 공장 대규모 투자  \n✔ 완성차 JV 전략  \n✔ IRA 수혜 구조\n\n→ “프리미엄 + 북미 공급망” 전략\n\n# 3️⃣ 제품 포트폴리오 차이\n\n|  |  |  |\n --- \n| 구분 | CATL | LGES |\n| LFP 비중 | 높음 | 낮음 |\n| NCM | 보유 | 핵심 |\n| ESS | 강점 | 확대 중 |\n| 전고체 | 연구 단계 | 연구 단계 |\n\nCATL은 “보급형 + ESS 중심”  \nLGES는 “고성능 EV 중심”\n\n# 4️⃣ IRA 영향 비교\n\n### 🔹 CATL\n\n 중국 기업\n 미국 보조금 직접 수혜 어려움\n 미국 시장 진출 제한적\n\n### 🔹 LGES\n\n 북미 공장 다수\n IRA 세액공제 수혜 가능\n 미국 완성차 J",
+        "published": "날짜 미상",
+        "domain": "record559.tistory.com"
+      },
+      {
+        "title": "前 LG엔솔 CTO \"中 CATL '하고 싶은 R&D' vs 韓 3사 '될 만한 R&D'\" < IB/기업 < 기사본문 - 연합인포맥스",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4374890",
+        "content": "김광주 SNE리서치 대표 \"韓 배터리, OLED처럼 성장시켜야\"\n\n(서울=연합인포맥스) 김학성 기자 = \"돈이 없으면 될 만한 R&D(연구개발)를 하고, 돈이 있으면 하고 싶은 R&D를 합니다. CATL은 선순환 구조에 들어가서 번 돈으로 계속 R&D에 투자하는 상황입니다.\"\n\n신영준 가천대학교 석좌교수는 17일 SNE리서치가 서초구 양재 엘타워에서 개최한 '코리아 어드밴스드 배터리 컨퍼런스(KABC) 2025'에서 발표자로 나서 \"CATL이 어마어마한 연구를 하고 있다\"며 이렇게 말했다.\n\n재료공학 박사인 신 교수는 2021~2023년 LG에너지솔루션의 최고기술책임자(CTO)를 지냈다.\n\n발표하는 신영준 가천대학교 석좌교수(전 LG에너지솔루션 CTO)[촬영: 김학성 기자]\n\n그는 \"R&D 투자 차이가 5~10년 뒤 경쟁력 차이를 다시 만든다\"면서 중국 CATL과 한국 배터리 셀 3사의 R&D 지출을 비교한 도표를 두고 \"가장 암울한 그래프\"라고 했다.\n\n올해 상반기 CATL은 R&",
+        "published": "날짜 미상",
+        "domain": "news.einfomax.co.kr"
+      },
+      {
+        "title": "LG에너지솔루션 vs CATL 非전기차 배터리 '마이웨이 대결' < 배터리 < 기사본문 - 디일렉(THE ELEC)",
+        "url": "https://www.thelec.kr/news/articleView.html?idxno=33836",
+        "content": "LG에너지솔루션은 전기차·ESS 등 배터리 제조업에 머무르지 않고, 에너지 솔루션 사업으로 확장해 2028년 연간 매출 66조원을 돌파할 방침이다.\n\n한편 CATL은 2024년 연간 매출이 3620억위안으로 전년 대비 9.7% 감소했지만 기타사업 매출이 174억8782만위안으로 21.1% 증가했다. 전체 매출의 4.83%를 차지했다.\n\n디일렉=김은규 기자 giddk1206@thelec.kr  \n 《반도체·디스플레이·배터리·전장·ICT·게임·콘텐츠 전문미디어 디일렉》\n\n관련기사\n\n LG에너지솔루션, 두산밥캣과 건설장비 배터리 팩 개발\n LG엔솔·SK온, 美 IRA 규제에도 中 배터리 소재에 10조원 투자\n 삼성SDI, 2조원 실탄 확보는 '슈퍼사이클' 아닌 '혹한기' 대비\n LG엔솔, 단독 ESS 기반 가상발전소 사업 본격화\n LG엔솔·삼성SDI CEO 나란히 \"1분기 업황 최저점, 하반기 반등 기대\"\n 배터리 3사, '인터배터리 2025'에서 차세대 원통형 배터리 공개\n LG엔솔,L",
+        "published": "날짜 미상",
+        "domain": "thelec.kr"
+      },
+      {
+        "title": "Tesla vs. CATL vs. LG Energy: Who’s Leading the Battery Race? (Market Share Stats) | PatentPC",
+        "url": "https://patentpc.com/blog/tesla-vs-catl-vs-lg-energy-whos-leading-the-battery-race-market-share-stats",
+        "content": "### Strategic Sourcing from Global Leaders\n\nTesla’s decision to source batteries from CATL, LG, and Panasonic reflects its strategic approach to supply chain management. Each of these suppliers brings a unique set of strengths to the table.\n\nCATL, as a leader in the LFP (Lithium Iron Phosphate) battery segment, provides Tesla with a cost-effective and safe battery solution for certain models, particularly in markets like China, where affordability is a key driver.\n\nLG Energy Solution, on the oth",
+        "published": "날짜 미상",
+        "domain": "patentpc.com"
+      }
+    ],
+    "single_volume": [
+      {
         "title": "CATL vs LG에너지솔루션 비교 분석 (글로벌 배터리 1·2위 기업 차이 ...",
         "url": "https://record559.tistory.com/18",
         "content": "# 2️⃣ 기술 전략 차이\n\n### 🔹 CATL\n\n✔ LFP 대량 생산  \n✔ CTP(Cell to Pack) 기술  \n✔ ESS 시장 강자  \n✔ 가격 경쟁력\n\n→ “규모의 경제” 전략\n\n### 🔹 LG에너지솔루션\n\n✔ 하이니켈 NCM  \n✔ 북미 공장 대규모 투자  \n✔ 완성차 JV 전략  \n✔ IRA 수혜 구조\n\n→ “프리미엄 + 북미 공급망” 전략\n\n# 3️⃣ 제품 포트폴리오 차이\n\n|  |  |  |\n --- \n| 구분 | CATL | LGES |\n| LFP 비중 | 높음 | 낮음 |\n| NCM | 보유 | 핵심 |\n| ESS | 강점 | 확대 중 |\n| 전고체 | 연구 단계 | 연구 단계 |\n\nCATL은 “보급형 + ESS 중심”  \nLGES는 “고성능 EV 중심”\n\n# 4️⃣ IRA 영향 비교\n\n### 🔹 CATL\n\n 중국 기업\n 미국 보조금 직접 수혜 어려움\n 미국 시장 진출 제한적\n\n### 🔹 LGES\n\n 북미 공장 다수\n IRA 세액공제 수혜 가능\n 미국 완성차 J",
@@ -68,16 +54,9 @@
         "domain": "record559.tistory.com"
       },
       {
-        "title": "[Peer Match Up | LG에너지솔루션 vs CATL] 연초 30%→현재 두 배 ...",
-        "url": "https://www.thebell.co.kr/front/newsview.asp?key=202408061217176720102229",
-        "content": "이 기사는 2024년 08월 13일 08:08에 무료로 공개된 기사입니다.\n\n' 현상에 CATL 대비 LG에너지솔루션의 타격이 더욱 컸다.  \n   \n ◇엔솔 75조 vs CATL 150조  \n   \n 6일 관련 업계에 따르면 5일 종가 기준 중국 CATL의 시가총액은 149조5593억원(1위안=192.08원으로 계산)이다. LG에너지솔루션의 시가총액은 75조3480억원으로 LG에너지솔루션 대비 CATL의 시가총액은 98.5% 높았다.  \n   \n 연 초 LG에너지솔루션의 시가총액은 100조원에 육박했다. 올해 초 시장 개장일이었던 1월 2일 종가 기준 LG에너지솔루션과 CATL의 시가총액은 각각 100조5030억원, 132조5163억원으로 시총 차이는 31.9%에 불과했다.  \n   \n 다만 이후부터 올해 3분기에 접어든 현재까지 LG에너지솔루션의 주가는 하락세다. 5월 말 까지 시총 80조원 선을 사수했던 LG에너지솔루션은 6월로 접어들면서 시총이 70조원대로 내려앉았다. 7월 ",
-        "published": "날짜 미상",
-        "domain": "thebell.co.kr"
-      },
-      {
         "title": "前 LG엔솔 CTO \"中 CATL '하고 싶은 R&D' vs 韓 3사 '될 만한 R&D'\"",
         "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4374890",
-        "content": "신영준 교수 \"R&D가 5~10년 뒤 경쟁력 차이 다시 만들어\"\n\n김광주 SNE리서치 대표 \"韓 배터리, OLED처럼 성장시켜야\"\n\n(서울=연합인포맥스) 김학성 기자 = \"돈이 없으면 될 만한 R&D(연구개발)를 하고, 돈이 있으면 하고 싶은 R&D를 합니다. CATL은 선순환 구조에 들어가서 번 돈으로 계속 R&D에 투자하는 상황입니다.\"\n\n신영준 가천대학교 석좌교수는 17일 SNE리서치가 서초구 양재 엘타워에서 개최한 '코리아 어드밴스드 배터리 컨퍼런스(KABC) 2025'에서 발표자로 나서 \"CATL이 어마어마한 연구를 하고 있다\"며 이렇게 말했다.\n\n재료공학 박사인 신 교수는 2021~2023년 LG에너지솔루션의 최고기술책임자(CTO)를 지냈다.\n\n발표하는 신영준 가천대학교 석좌교수(전 LG에너지솔루션 CTO)[촬영: 김학성 기자]\n\n그는 \"R&D 투자 차이가 5~10년 뒤 경쟁력 차이를 다시 만든다\"면서 중국 CATL과 한국 배터리 셀 3사의 R&D 지출을 비교한 도표를 두",
+        "content": "김광주 SNE리서치 대표 \"韓 배터리, OLED처럼 성장시켜야\"\n\n(서울=연합인포맥스) 김학성 기자 = \"돈이 없으면 될 만한 R&D(연구개발)를 하고, 돈이 있으면 하고 싶은 R&D를 합니다. CATL은 선순환 구조에 들어가서 번 돈으로 계속 R&D에 투자하는 상황입니다.\"\n\n신영준 가천대학교 석좌교수는 17일 SNE리서치가 서초구 양재 엘타워에서 개최한 '코리아 어드밴스드 배터리 컨퍼런스(KABC) 2025'에서 발표자로 나서 \"CATL이 어마어마한 연구를 하고 있다\"며 이렇게 말했다.\n\n재료공학 박사인 신 교수는 2021~2023년 LG에너지솔루션의 최고기술책임자(CTO)를 지냈다.\n\n발표하는 신영준 가천대학교 석좌교수(전 LG에너지솔루션 CTO)[촬영: 김학성 기자]\n\n그는 \"R&D 투자 차이가 5~10년 뒤 경쟁력 차이를 다시 만든다\"면서 중국 CATL과 한국 배터리 셀 3사의 R&D 지출을 비교한 도표를 두고 \"가장 암울한 그래프\"라고 했다.\n\n올해 상반기 CATL은 R&",
         "published": "날짜 미상",
         "domain": "news.einfomax.co.kr"
       },
@@ -91,23 +70,16 @@
       {
         "title": "LG에너지솔루션 vs CATL 非전기차 배터리 '마이웨이 대결' - 디일렉",
         "url": "https://www.thelec.kr/news/articleView.html?idxno=33836",
-        "content": "CATL은 북미 외 해외 시장을 공략하고 있다. 올해 1월 19일 아랍에미리트의 아부다비에서 진행되는 5.2GW급 태양광·ESS 복합 프로젝트에 최우선 배터리 공급사로 선정됐다. 해당 프로젝트는 UAE 국영 청정에너지 기업 마스다르가 추진한다.\n\n배터리 운영 효율을 높이기 위한 BMS 기술 확보도 진행 중이다. LG에너지솔루션은 퀄컴과 SoC 기반 BMS 진단 솔루션 개발 계약을 체결했다. CATL은 전력관리 반도체(PMIC) 기술 확보를 위해 반도체 기업인 스랑과기(思朗科技)에 지분 투자를 단행했다.\n\n◆LG에너지솔루션과 CATL의 비(非)전기차 사업 확장 현황\n\n|  |  |  |\n --- \n| 분야 | LG에너지솔루션 | CATL |\n| ESS | 북미 ESS 시장 확대(테라젠 2조원 계약, 엑셀시오 7.5GWh 계약) | UAE와 DHL ESS 공급 추진 |\n| 전력망 | VPP 사업 강화(제주 해상풍력 입찰 운영) | 중국 산동성(省) 전력 사업 진출 |\n| BMS | 퀄컴",
+        "content": "LG에너지솔루션은 전기차·ESS 등 배터리 제조업에 머무르지 않고, 에너지 솔루션 사업으로 확장해 2028년 연간 매출 66조원을 돌파할 방침이다.\n\n한편 CATL은 2024년 연간 매출이 3620억위안으로 전년 대비 9.7% 감소했지만 기타사업 매출이 174억8782만위안으로 21.1% 증가했다. 전체 매출의 4.83%를 차지했다.\n\n디일렉=김은규 기자 giddk1206@thelec.kr  \n 《반도체·디스플레이·배터리·전장·ICT·게임·콘텐츠 전문미디어 디일렉》\n\n관련기사\n\n LG에너지솔루션, 두산밥캣과 건설장비 배터리 팩 개발\n LG엔솔·SK온, 美 IRA 규제에도 中 배터리 소재에 10조원 투자\n 삼성SDI, 2조원 실탄 확보는 '슈퍼사이클' 아닌 '혹한기' 대비\n LG엔솔, 단독 ESS 기반 가상발전소 사업 본격화\n LG엔솔·삼성SDI CEO 나란히 \"1분기 업황 최저점, 하반기 반등 기대\"\n 배터리 3사, '인터배터리 2025'에서 차세대 원통형 배터리 공개\n LG엔솔,L",
         "published": "날짜 미상",
         "domain": "thelec.kr"
       },
       {
-        "title": "Tesla vs. CATL vs. LG Energy: Who's Leading the Battery Race ...",
-        "url": "https://patentpc.com/blog/tesla-vs-catl-vs-lg-energy-whos-leading-the-battery-race-market-share-stats",
-        "content": "### Strategic Sourcing from Global Leaders\n\nTesla’s decision to source batteries from CATL, LG, and Panasonic reflects its strategic approach to supply chain management. Each of these suppliers brings a unique set of strengths to the table.\n\nCATL, as a leader in the LFP (Lithium Iron Phosphate) battery segment, provides Tesla with a cost-effective and safe battery solution for certain models, particularly in markets like China, where affordability is a key driver.\n\nLG Energy Solution, on the oth",
+        "title": "LG Energy Solution Expects To Overtake CATL, Confirms LFP Chemistry",
+        "url": "https://insideevs.com/news/559715/lges-expects-overtake-catl",
+        "content": "Add InsideEVs as a preferred source in Google\n\n Facebook\n X\n LinkedIn\n Flipboard\n Reddit\n WhatsApp\n E-Mail\n copy\n\n Share\n\nComment\n\nAt a press conference, ahead of the upcoming IPO at the Korea Exchange (KRX) in January 2022, LG Chem's wholly-owned subsidiary LG Energy Solution (LGES) revealed its ambitious expectations.\n\nKwon Young-soo, LGES CEO, said (via Yonhap News Agency and Reuters) that LG Energy Solution is expected to become the largest global EV battery supplier, outstripping China's CA",
         "published": "날짜 미상",
-        "domain": "patentpc.com"
-      },
-      {
-        "title": "[공시] 실적 부진 LG엔솔 '울상', 中 CATL 잘나가는 이유는 - 알파경제",
-        "url": "https://alphabiz.co.kr/news/view/1065585292440335",
-        "content": "이는 고스란히 LG에너지솔루션의 실적 악화로 귀결됐다. 하지만, 경쟁자인 중국의 CATL은 동일한 환경에서도 약진했다. 지난 15일 발표한 올 1분기 실적으로 CATL은 매출은 15조2000억원, 영업이익으로 2조원을 올렸다.\n\n \n\n(사진=연합뉴스)\n\n◇ CATL 양호한 실적 지속, 가성비 제품 승부수\n\n악화한 시장 환경에서도 CATL은 LG에너지솔루션과 전혀 다른 분위기다.\n\nCATL은 배터리의 주요 소재를 자국은 물론이고 호주, 칠레 등에서 직접 조달한다. 매장량이 풍부한 해외 광산에 직접 지분을 투자했다.\n\n이렇게 확보한 공급망으로 핵심 광물부터 배터리까지 수직계열화를 구축했다. 이는 원가 절감으로 이어졌다.\n\n여기에 2류 제품으로 치부했던 LFP(LiFePO4·리튬인산철)가 혁신을 이뤘다. LFP는 기존의 삼원계 배터리에 비해서 에너지 밀도는 낮으면서도 무겁다.\n\n배터리가 무거우면서 에너지 밀도가 낮다는 뜻은 일회 충전으로 주행거리가 짧아진다는 의미이다.\n\n조호진 대표는 “",
-        "published": "날짜 미상",
-        "domain": "alphabiz.co.kr"
+        "domain": "insideevs.com"
       },
       {
         "title": "LG엔솔, 非중국 배터리 시장 1위...中 CATL과 격차 줄어 - 지디넷코리아",
@@ -117,25 +89,46 @@
         "domain": "zdnet.co.kr"
       },
       {
-        "title": "매출·수익성·인력 모두 졌다…K배터리, 中 CATL과 격차 재확인 - IT조선",
-        "url": "https://it.chosun.com/news/articleView.html?idxno=2023092149604",
-        "content": "IT조선\n\n 로그인\n\nfacebook post youtube\n\nUPDATED. 2026-06-19 17:00 (금)\n\n 기업\n  + 일반\n  + 모바일·가전\n  + 방송·통신\n  + 반도체·디스플레이\n  + SW·보안\n  + 중공업·에너지\n  + 소부장·스타트업\n  + 유통·쇼핑\n  + 프롭테크·부동산\n 모빌리티\n  + 자동차·모빌리티\n  + 로봇·드론·항공\n  + 방산\n 게임·콘텐츠\n  + 게임·인터넷\n  + 메타버스·VR\n  + 키덜트\n  + 미디어·엔터\n 과학·헬스\n  + 과학·우주\n  + 의학·정책\n  + 제약·바이오\n 파이낸스\n  + 금융\n  + 증권\n  + 핀테크·블록체인\n 칼럼·인터뷰\n  + 칼럼\n  + 기고\n  + 인터뷰\n 알림\n  + 알립니다\n  + 인사\n  + 부음\n  + 보도자료\n 컴퓨팅·AI\n  + 일반\n  + 코딩\n  + 에듀테크\n  + 테크리포트\n GLOBAL\n GLOBAL 기획·연재 속보 백과사전\n\n 기업\n 중공업·에너지\n\n# 매출·수익성·인력 모두 졌다…",
-        "published": "날짜 미상",
-        "domain": "it.chosun.com"
-      },
-      {
         "title": "🔋 테슬라 배터리 대전환! 모델3 플러스 LG엔솔 NCM vs CATL LFP 완전분석 : 네이버 블로그",
         "url": "https://m.blog.naver.com/sybattery/223942395528",
-        "content": "본문 바로가기\n\n# 블로그\n\n## 카테고리 이동 배터리 전문 블로그\n\n검색\n\n배터리 이야기\n\n🔋 테슬라 배터리 대전환! 모델3 플러스 LG엔솔 NCM vs CATL LFP 완전분석\n\n프로필 \n\n2025. 7. 22. 8:16\n\n이웃추가\n\n 본문 폰트 크기 조정 가\n 공유하기\n URL복사\n 신고하기\n\n\n\n안녕하세요, 배터리맨입니다.🔋\n\n오늘은 최근 화제가 된 테슬라의 모델3 플러스가 CATL의 LFP 배터리에서 LG에너지솔루션의 NCM 배터리로 갈아탄 소식을 통해 배터리 시장의 큰 변화와 테슬라 투자 전망까지 한 번에 알아볼게요!\n\n​\n\n> 🔋NCM 배터리 vs LFP 배터리 완벽 비교 분석\n\n\n\n출처 : @배터리맨\n\n​\n\n🔋NCM 배터리의 놀라운 성능\n\n​\n\nNCM(니켈·코발트·망간) 배터리는 높은 에너지 밀도로 전기차계의 프리미엄 배터리라고 불려요!\n\n​\n\nNCM의 핵심 장점들:\n\n​\n\n 에너지 밀도: LFP 대비 약 30-40% 높은 에너지 밀도!\n 주행거리: 더 긴 1회 충전 ",
+        "content": "# 블로그\n\n## 카테고리 이동 배터리 전문 블로그\n\n🔋 테슬라 배터리 대전환! 모델3 플러스 LG엔솔 NCM vs CATL LFP 완전분석\n\n프로필\n\n2025. 7. 22. 8:16\n\n안녕하세요, 배터리맨입니다.🔋\n\n오늘은 최근 화제가 된 테슬라의 모델3 플러스가 CATL의 LFP 배터리에서 LG에너지솔루션의 NCM 배터리로 갈아탄 소식을 통해 배터리 시장의 큰 변화와 테슬라 투자 전망까지 한 번에 알아볼게요!\n\n​\n\n​\n\n🔋NCM 배터리 vs LFP 배터리 완벽 비교 분석\n\n출처 : @배터리맨\n\n​\n\n🔋NCM 배터리의 놀라운 성능\n\n​\n\nNCM(니켈·코발트·망간) 배터리는 높은 에너지 밀도로 전기차계의 프리미엄 배터리라고 불려요!\n\n​\n\nNCM의 핵심 장점들:\n\n​\n\n에너지 밀도: LFP 대비 약 30-40% 높은 에너지 밀도!\n\n주행거리: 더 긴 1회 충전 주행거리 실현\n\n고출력: 순간적인 파워가 강력해서 가속성능 우수\n\n충전속도: 빠른 충전 및 방전 속도 제공\n\n🔋LFP 배터",
         "published": "날짜 미상",
         "domain": "m.blog.naver.com"
       },
       {
-        "title": "중국 CATL '소금 배터리'에 맞선다, LG엔솔-GM 원가 낮춘 ' ...",
+        "title": "중국 CATL '소금 배터리'에 맞선다, LG엔솔-GM 원가 낮춘 '망간 배터리 ...",
         "url": "https://www.businesspost.co.kr/BP?command=article_view&num=395062",
         "content": "[비즈니스포스트] LG에너지솔루션이 협업사 GM과 함께 전기차용 배터리 신기술 개발 성과를 바탕으로 시장 선점을 준비하고 있다.  \n   \n 글로벌 선두 기업인 중국 CATL은 최근 이른바 ‘소금 배터리’를 차세대 제품으로 낙점하고 시장 확대에 나섰는데 LG에너지솔루션이 ‘망간 배터리’로 맞서는 모양새가 펼쳐지고 있다.   \n   \n 13일(현지시각) CNBC에 따르면 GM은 전기차 전환 중장기 계획에 다음 단계로 차세대 ‘고망간(LMR) 배터리’를 앞세울 것으로 보인다.   \n   \n GM이 LG에너지솔루션과 개발했다고 발표한 각형 ‘LMR 배터리’는 이름 그대로 광물 가운데 망간 비율을 높인 제품이다.   \n   \n 스포츠유틸리티차량(SUV) 및 전기트럭용으로 2028년 상업 생산이 예고됐다.   \n   \n LMR 배터리는 기존 전기차 배터리와 비교해 에너지 밀도는 유지하면서도 중국이 주도하는 저가 리튬인산철(LFP) 배터리와 가격 경쟁력을 견줄 잠재력을 갖춘 것으로 평가된다. ",
         "published": "날짜 미상",
         "domain": "businesspost.co.kr"
+      },
+      {
+        "title": "CATL (China) and LG Energy Solution (South Korea) are Leading Players in the European Lithium-Ion Battery Market",
+        "url": "https://www.marketsandmarkets.com/ResearchInsight/european-lithium-ion-battery-companies.asp",
+        "content": "The European lithium-ion battery market is relatively consolidated, with key players including Contemporary Amperex Technology Co Limited (China), BYD Company Ltd (China), LG Energy Solution (South Korea), Samsung SDI (South Korea), and Panasonic Holdings Corporation (Japan), collectively holding a major market share. CATL leads the industry because of its large-scale production capabilities and strong presence in both electric vehicles and energy storage systems. BYD benefits from its verticall",
+        "published": "날짜 미상",
+        "domain": "marketsandmarkets.com"
+      },
+      {
+        "title": "LG Energy secures $4.3 bn LFP battery deal from Tesla in shift from CATL - KED Global",
+        "url": "https://www.kedglobal.com/batteries/newsView/ked202507300003",
+        "content": "LG Energy to supply EV batteries to Rivian in $6.7 bn deal\n\nThe Rivian R2 electric SUV, to be equipped with LG Energy batteries (File photo downloaded from Rivian&rsquo;s website)\nLG Energy Solution Ltd., the world&rsquo;s third-largest battery maker, is set to supply cells to Rivian Automotive Inc., a US electric vehicle manufacturer, in a deal estimat\n\n## LG Energy Solution tops EV battery quality in China\n\nLG Energy Solution tops EV battery quality in China\n\nSouth Korea's LG Energy Solution L",
+        "published": "날짜 미상",
+        "domain": "kedglobal.com"
+      },
+      {
+        "title": "LG에너지솔루션 vs CATL] 연초 30%→현재 두 배 가량 벌어진 시가총액",
+        "url": "https://www.thebell.co.kr/front/newsview.asp?key=202408061217176720102229",
+        "content": "thebell 홈페이지 서버 점검 안내 ㅣ 2026년 04월 03일(금) 21시 ~ 04월 05일(일) 18시\nDB 장비교체 및 점검으로 작업시간동안 홈페이지 사용이 일시 중단됩니다.\n\nir\ntheWM\nTHECFO\nTHEBOARD\n\n# thebell\n\nthebell\n\n이 콘텐츠는 자본시장 미디어 더벨 유료회원 전용입니다.  \n서비스 결제 후 확인 가능합니다.\n\n이 콘텐츠는 자본시장 미디어 더벨 유료회원 전용 입니다.  \n로그인 해주세요.\n\n아이디\n\n비밀번호\n\n에러아이콘\n\n로그인에 문제가 발생했습니다.  \n아래 두 가지 장애요인을 확인해주세요.\n\n· 브라우저 또는 PC 권한설정 문제(권한 차단)로 로그인이 제한된 경우\n\n권한요청이미지\n\n권한요청이미지\n\n권한설정 문제해결 →\n\n· 보안프로그램이 설치되지 않았거나 실행되지 않는 경우\n\n보안프로그램 설치안내 →\n\n# \n\n## 뉴스홈\n\nbest click\n\n더벨레터\n\n### 제조\n\n연초 30%→현재 두 배 가량 벌어진 시가총액\n①엔솔 75조-",
+        "published": "날짜 미상",
+        "domain": "thebell.co.kr"
+      },
+      {
+        "title": "CATL beats Panasonic & LG in EV battery deployment - massive growth coming",
+        "url": "https://www.youtube.com/watch?v=Bd7SU44rXj4",
+        "content": "are incorporated into peugeot hyundai honda bmw toyota volkswagen and volvo vehicles among others now to secure access to raw materials to back its battery production back in april catl took a stake in china molybdenium coast kisanfu copper cobalt mine in the democratic republic of congo and it is also has investments in neolithium canadian miner developing the trey quad crew with bratis lithium project in argentina sorry that's a handful to say now before we go on let's have a look at the gigah",
+        "published": "날짜 미상",
+        "domain": "youtube.com"
       },
       {
         "title": "삼성 SDI, LG 에너지솔루션 비상!…중국 CATL, 양광전력 맹추격!ㅣ ...",
@@ -150,60 +143,67 @@
         "content": "•\n\nFollow\n\nflow.itself's profile picture\n\nflow.itself\n\n🔋 세계 최고 배터리 회사 순위  \n(2026.4.19 시가총액 기준)  \n  \n🏆 글로벌 TOP 12  \n  \n🥇 CATL 🇨🇳 – 434조원  \n🥈 LG에너지솔루션 🇰🇷 – 98조원  \n🥉 삼성SDI 🇰🇷 – 38조원  \n4️⃣ EVE 에너지 🇨🇳 – 32조원  \n5️⃣ 에코프로BM 🇰🇷 – 20조원  \n6️⃣ 고티온 🇨🇳 – 16조원  \n7️⃣ 퀀텀스케이프 🇺🇸 – 6.3조원  \n8️⃣ 엑사이드 🇮🇳 – 4.4조원  \n9️⃣ 암프리우스 🇺🇸 – 3.7조원  \n🔟 이오스 에너지 🇺🇸 – 3.5조원  \n1️⃣1️⃣ 아마라 라자 🇮🇳 – 2.2조원  \n1️⃣2️⃣ 에노빅스 🇺🇸 – 2.1조원  \n  \n📊 핵심 포인트  \n • CATL 압도적 글로벌 1위  \n • 한국 3개 기업 TOP5 진입  \n • 중국·한국 중심 배터리 패권 경쟁  \n  \n💰 더 많은 경제&트렌드 이야기 👉 @flo",
         "published": "날짜 미상",
         "domain": "instagram.com"
+      },
+      {
+        "title": "LG Energy Solution｜Global Battery Leader, Building the Future ...",
+        "url": "https://www.lgensol.com/en/index",
+        "content": "EMPOWER  \n EVERY POSSIBILITY\n\nLG Energy Solution is a total energy solutions company building an energy ecosystem\n\nOur Solution\n\n### Energy that drives the future, LG Energy Solution is everywhere\n\nWith global technology leadership,   \nwe provide optimized batteries across   \nall applications and industries\n\nApplications Service\n\n### Cylindrical Battery\n\nHigh Energy, Unlimited Applications, Flexible Design Optimized for a wide range of applications with high energy  \n density and structural stab",
+        "published": "날짜 미상",
+        "domain": "lgensol.com"
       }
     ],
     "three_persp": {
       "긍정": [
         {
-          "title": "[TECH한주] K배터리를 이끄는 첨병, LG에너지솔루션의 현재와 미래 < TECH한주 < 기획&특집 < 기사본문 - 테크월드- 김용수 기자",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=330210",
-          "content": "특히 최근에는 전극 사이에 분리막을 'Z'자 형태로 쌓는 'Z-스태킹' 기술을 고도화하여 화재 안전성을 세계 최고 수준으로 끌어올렸습니다. 여기에 니켈 비중을 90% 이상으로 높인 하이니켈 NCMA 양극재와 충전 속도를 획기적으로 줄여주는 실리콘(Si) 음극재 기술력을 결합함으로써, LG에너지솔루션은 하이엔드 전기차 시장에서 요구하는 에너지 밀도와 급속 충전 성능이라는 두 마리 토끼를 모두 잡았습니다.\n\n북미 시장 5대 생산 거점을 통한 ESS 사업의 도약\n\n최근 LG에너지솔루션의 새로운 성장 엔진으로 부상한 분야는 에너지 저장 장치(ESS)입니다. LG에너지솔루션은 북미 지역의 ESS 생산 거점을 5곳으로 대폭 확대하며 시장 선도 지위를 강화했습니다.\n\n![최근 LG에너지솔루션의 최대 먹거리인 ESS 점유율 확대를 위해 북미 지역 생산 거점을 5곳으로 확대하는 계획을 발표했다. [사진=LG에너지솔루션]](\n\n최근 LG에너지솔루션의 최대 먹거리인 ESS 점유율 확대를 위해 북미 지역",
+          "title": "[PDF] LG에너지솔루션 VS. CATL - PowerPoint 프레젠테이션",
+          "url": "https://files-scs.pstatic.net/2023/06/30/P93UT3qX3r/LG%EC%97%90%EB%84%88%EC%A7%80%EC%86%94%EB%A3%A8%EC%85%98%20VS.%20CATL.pdf",
+          "content": "LG에너지솔루션VS. CATL 전기화학에너지저장부문의특허출원건수는LG에너지솔루션이CATL보다2배가량많음. LG에너지솔루션의경우리튬이차전지용양극활물질기술에서강점을보이고있으며CATL은배터리모듈부문에서강세를보이고있음. 현재LG에너지솔루션은북미, CATL은유럽을중심으로해외사업확장에나서고있음. 자료: HYEAN 두기업의사업범위와특허출원건수현황  LG에너지솔루션은글로벌배터리기술분야의선도기업으로동력배터리, 소형배터리, 에너지저장시스템 등3대배터리분야를아우르고있다.  CATL의경우배터리사업영역이신에너지자동차부문에비교적집중되어있으며신에너지자동차의동력 배터리시스템및에너지저장장치의연구개발과생산그리고판매에전념하고있다.  전기화학에너지저장부문의특허출원건수는LG에너지솔루션8216건, CATL 3438건으로LG에너지솔루션 이전기화학에너지저장특허출원에서CATL보다2배가량많다. 특허출원의추세를보면2010년부터 2018년까지LG에너지솔루션의전기화학에너지저장분야의특허출원건수는CATL보다많았고, 2019년부",
           "published": "날짜 미상",
-          "domain": "epnc.co.kr"
+          "domain": "files-scs.pstatic.net"
         },
         {
-          "title": "2024 LG ENERGY SOLUTION BUSINESS REPORT",
-          "url": "https://www.lgensol.com/assets/file/2024_LGES_Business_Report.pdf",
-          "content": "LG에너지솔루션은 지난해 미국 얼티엄셀즈 제2공장, 인도네시아 HLI그린파워 에서 본격적인 셀 양산에 돌입하였습니다. 30년 넘게 쌓아 온 양산 경험과 기 술 리더십을 바탕으로 두 공장 모두 한 달 만에 90% 이상의 수율을 달성하는 성과를 달성했습니다. 또 캐나다 온타리오주에 위치한 스텔란티스 합작공장에 서도 안정적으로 모듈 생산을 시작하며 차별화된 제조 역량을 또 한 번 입증했 습니다. 이 같은 생산 역량은 주요 고객들에게 차별화된 가치를 제공하며 더 큰 수주 성 과 기회로 이어지고 있습니다. 특히 향후 가장 가파른 성장세가 예상되는 북미 지역에서 시장 점유율을 더욱 확장해 나가기 위한 성장 엔진으로 작용할 것으 로 기대하고 있습니다. 진행 중인 여러 증설 프로젝트들도 고객과 시장의 요구 에 맞춰 차질없이 추진하겠습니다. EMPOWER EVERY POSSIBILITY 1) IRA Tax Credit 포함 실적 5 CEO 인사말 차별화된 기술력으로 제품 및 고객 포트폴리오를 더욱 ",
+          "title": "[채널Who] 한국 중국 '배터리 대전', 중국엔 없는 LG엔솔 3가지 강점",
+          "url": "https://www.businesspost.co.kr/BP?command=article_view&num=311281",
+          "content": "LG에너지솔루션은 특허를 2만4천 개 넘게 보유하고 있는데 이는 CATL의 10배 수준이다.  \n   \n 두 번째로 LG그룹의 일원으로서 그룹 내 전기차 밸류체인의 강점, 그룹 네트워크 활용 가능성 등을 들 수 있다.   \n   \n 일단 모회사이기도 한 LG화학은 세계적 양극재 기업이기도 하다. 양극재는 배터리 성능을 좌우하는 가장 중요한 소재다.   \n   \n LG그룹은 전자 쪽 계열사인 LG전자와 LG디스플레이, LG이노텍 등을 통해 전장 사업을 강화하는 추세인데 이 역시 시너지가 날 수 있는 부분이다. 당장 애플카에 LG그룹이 참여한다는 소문이 나오고 있는데 여기서 당연히 LG에너지솔루션의 배터리도 채택 가능성이 높을 것으로 보인다.  \n   \n 세 번째로 다양한 고객처를 갖추고 있다는 점이 중국 기업들과 구별되는 부분이다.   \n   \n 앞서 얘기했듯 중국 배터리기업들은 글로벌 시장 점유율 가운데 중국 시장 비중이 너무 높다는 약점이 있다. 한국 배터리 셀 회사들은 유럽, 북",
           "published": "날짜 미상",
-          "domain": "lgensol.com"
+          "domain": "businesspost.co.kr"
         },
         {
-          "title": "LG에너지솔루션 기업분석보고서 - 잡코리아",
-          "url": "https://www.jobkorea.co.kr/starter/companyreport/view?Inside_No=19261&schCtgr=101012&schGrpCtgr=0&Page=1",
-          "content": "Strength: LG에너지솔루션의 강점\n\n  \n\nAnalysis 1. 국내 1위 기술력과 생산력   \n LG에너지솔루션은 끊임없는 연구개발과 신제품 출시 및 품질 혁신을 통해 한국의 에너지솔루션 산업을 대표하는 글로벌 기업으로 성장했다. 1992년부터 리튬이온배터리 연구에 착수해 30년째 배터리 산업을 이끌고 있으며, 2009년 세계 최초로 양산형 전기차 배터리 공급, 2013년 케이블(Cable), 커브드(Curved), 스텝트(Stepped) 등 다양한 형태의 미래형 배터리 개발, 2018년 세계 최초 프리폼(Free Form) 배터리 개발 등 최고의 기술력으로 시장을 선도하고 있다.   \n  \n 한편, LG에너지솔루션은 국내 1위 업체로서 규모의 경제를 기대할 수 있다. 국내 배터리업체 중 가장 큰 생산 능력을 보유하고 있다. 향후 물량 증가에 따른 규모의 경제 효과로 수익성을 향상시키고 공급자 우위 시장에서 협상력을 높일 수 있을 것으로 보인다.\n\n  \n\nAnalysis 2",
+          "title": "배터리 관련 기업 분석 : LG에너지솔루션",
+          "url": "https://ffighting.net/%EB%B0%B0%ED%84%B0%EB%A6%AC/lg%EC%97%90%EB%84%88%EC%A7%80%EC%86%94%EB%A3%A8%EC%85%98",
+          "content": "CATL은 중국에 본사를 두고 있는 세계 최대의 전기차 배터리 제조사로, 2023년 기준으로 전 세계 전기차 배터리 시장에서 약 37%의 시장 점유율을 차지하고 있습니다. CATL은 중국 내수 시장에서의 강력한 기반을 바탕으로 급성장하였으며, 글로벌 시장에서도 영향력을 확대하고 있습니다. CATL은 니켈 함량이 높은 NCM 배터리뿐만 아니라, LFP(리튬철인산) 배터리에서도 강력한 기술력을 보유하고 있어, 다양한 전기차 제조사와의 협력을 통해 시장을 장악하고 있습니다.\n\nLG에너지솔루션은 CATL에 이어 전 세계 전기차 배터리 시장에서 약 20%의 시장 점유율을 차지하고 있습니다. LG에너지솔루션은 주로 NCM 배터리 기술에 강점을 가지고 있으며, 특히 고에너지 밀도와 긴 수명을 제공하는 배터리를 통해 전기차 시장에서 높은 수요를 창출하고 있습니다. LG에너지솔루션은 글로벌 생산 네트워크와 기술 혁신을 통해 CATL과의 격차를 줄이기 위해 노력하고 있습니다.\n\n삼성SDI는 전 세계 ",
           "published": "날짜 미상",
-          "domain": "jobkorea.co.kr"
+          "domain": "ffighting.net"
         },
         {
-          "title": "LS證 “LG에너지솔루션, EV 점유율 하락·美 ESS 시장은 경쟁 치열…목표가 4.5%↓”",
-          "url": "https://v.daum.net/v/20260602090506972",
-          "content": "LG에너지솔루션의 전력망 에너지저장장치(ESS) 제품./LG에너지솔루션 제공\n\n \n\n정경희 LS증권 연구원은 “시장조사기관 SNE리서치에 따르면 올해 1~4월 글로벌 전기차 배터리 시장에서 LG에너지솔루션의 점유율은 지난해 10%에서 9%로 하락했다”며 “배터리 시장에서 각형 배터리 비중 확대가 이어지는 반면 LG에너지솔루션이 주력으로 생산하는 원통형·파우치형 배터리 비중은 감소하고 있다”고 설명했다.\n\n이어 “주요 고객사인 비중국 완성차 업체들까지 각형 배터리 채택을 늘리고 있어 향후 전기차 배터리 시장 점유율 하락 가능성이 높다”고 덧붙였다.\n\n배터리 종류별로는 리튬인산철(LFP) 배터리 비중 확대가 이어지고 있다고 분석했다. 올해 글로벌 배터리 시장에서 LFP 배터리 점유율은 59%를 기록했다.\n\nLS증권은 미국 ESS 시장을 새로운 성장 기회로 평가하면서도 경쟁 강도는 예상보다 높을 것으로 전망했다.\n\n현재 글로벌 ESS 시장은 중국 업체들이 90% 이상 점유하고 있다. LG",
+          "title": "CATL vs LG에너지솔루션 비교 분석 (글로벌 배터리 1·2위 기업 차이 ...",
+          "url": "https://record559.tistory.com/18",
+          "content": "# 2️⃣ 기술 전략 차이\n\n### 🔹 CATL\n\n✔ LFP 대량 생산  \n✔ CTP(Cell to Pack) 기술  \n✔ ESS 시장 강자  \n✔ 가격 경쟁력\n\n→ “규모의 경제” 전략\n\n### 🔹 LG에너지솔루션\n\n✔ 하이니켈 NCM  \n✔ 북미 공장 대규모 투자  \n✔ 완성차 JV 전략  \n✔ IRA 수혜 구조\n\n→ “프리미엄 + 북미 공급망” 전략\n\n# 3️⃣ 제품 포트폴리오 차이\n\n|  |  |  |\n --- \n| 구분 | CATL | LGES |\n| LFP 비중 | 높음 | 낮음 |\n| NCM | 보유 | 핵심 |\n| ESS | 강점 | 확대 중 |\n| 전고체 | 연구 단계 | 연구 단계 |\n\nCATL은 “보급형 + ESS 중심”  \nLGES는 “고성능 EV 중심”\n\n# 4️⃣ IRA 영향 비교\n\n### 🔹 CATL\n\n 중국 기업\n 미국 보조금 직접 수혜 어려움\n 미국 시장 진출 제한적\n\n### 🔹 LGES\n\n 북미 공장 다수\n IRA 세액공제 수혜 가능\n 미국 완성차 J",
           "published": "날짜 미상",
-          "domain": "v.daum.net"
+          "domain": "record559.tistory.com"
         },
         {
-          "title": "[2차 전지 주요 기업 분석] 엘지에너지솔루션, LG배터리 혁명! 차세대 ...",
-          "url": "https://blog.naver.com/techdna/223737262036",
-          "content": "있는것으로 분석되며, 최근 5년 동안 집중해서 특허를 출원함   ​  엘지에너지솔루션이 보유한 핵심 특허와 최신 특허  VII. 검토의견  리서치올을 통한 엘지에너지솔루션 기술력 분석/재무 분석은 엘지에너지솔루션을 기준/ BATTERY INDIDE, THEELEC, Digital Today  2025년 전망, 기술력 분석, 재무분석, 종합분석은 다음과 같음  ​  1. 2025년 전망  엘지에너지솔루션은 2025년까지 글로벌 총 생산 능력을 540GWh로 확대하여 고성능 전기차 약 675만 대 생산 규모를 달성하고, 북미, 유럽, 아시아 지역에서 합작법인 확대 및 신규 생산 거점 확보를 통해 글로벌 배터리 시장에서 선도적 위치를 강화할 계획임  ​  2. 기술력 분석  전체 특허의 약 64.8%를 해외에 출원하여, 북미 및 유럽 시장에서 기술적 경쟁력을 확보하는 것으로 보임. 이는 국제적인 기술 혁신과 시장 확대를 위해 적극적으로 노력하고 있음을 시사함. 또한 오픈 이노베이션을 활용",
+          "title": "[인터배터리 2026] “CATL 보고 있나?” LG엔솔, 배터리 패러다임 선도 < 자동차/철강/조선 < 경제 < 기사본문 - 투데이신문",
+          "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=125870",
+          "content": "전기차 배터리도 주도권을 놓치지 않는다. 모빌리티 분야는 고성능(퍼포먼스)·균형(스탠다드)·가격 경쟁력(어포더블)으로 제품 라인업을 세분화했다. 다양한 포트폴리오를 준비해 고객사 요구사항에 맞는 제품을 제안하는 전략이다.\n\n고성능은 고용량·고출력이 특징인 46시리즈(지름46㎜)와 2170(지름 21㎜, 높이 70㎜) 원통형 배터리가 중심이다. 가격과 성능의 균형점은 고전압 미드니켈(Mid-Ni)과 리튬망간리치(LMR) 배터리로 잡는다. 보급형 라인업은 저렴하고 안정성이 높은 리튬인산철(LFP) 배터리가 책임진다.\n\nLG에너지솔루션 관계자는 “LMR 배터리는 에너지 효율과 가격 경쟁력을 동시에 잡아 향후 전기차 대중화를 이끌 현실적 대안으로 평가된다”며 “여러 고객사의 수요를 충족할 수 있는 포트폴리오를 보유한 점이 (회사의) 강점”이라고 설명했다.\n\nLG에너지솔루션의 ESS 시스템을 살피는 참관객들. ⓒ투데이신문 \n\nLG에너지솔루션의 ESS 시스템을 살피는 참관객들. ⓒ투데이신문\n\n",
           "published": "날짜 미상",
-          "domain": "blog.naver.com"
+          "domain": "ntoday.co.kr"
         }
       ],
       "비판": [
         {
-          "title": "[PDF] Code of Conduct - LG에너지솔루션",
-          "url": "https://www.lgensol.com/assets/file/2024_LGES_Code_of_conduct.pdf",
-          "content": "준법지원인으로서 LG에너지솔루션 컴플라이언스를 담당한지도 어언 4년이 지나가고 있습니다. 사업과 관련된 국내외 법령을 준수하기 위한 내부 기준과 절차를 마련하고 이를 효과적으로 운영하는 것이 곧 컴플라이언스이며, 회사의 정책에 따른 업무 수행, 각종 컴플라이언스 교육 및 캠페인을 통해 구성원 여러분 모두는 이미 컴플라이언스 활동에 깊숙이 동참하고 계십니다. LG에너지솔루션은 ’21년 LG 계열회사 중 최초로 컴플라이언스 관련 국제 인증 (ISO37301)을 취득하였고, 이후 구축된 컴플라이언스 체계를 꾸준히 발전시켜 왔습니다. ’23년 상반기에는 이를 전산으로 기록, 관리할 수 있는 ‘Compliance Portal’ 을 오픈하고 공정거래, 정도경영, 환경안전, 정보보안 등 유관부서와 협업하여 Risk 식별, 예방목표 수립, 모니터링, 점검, 교육 등 활동을 실시하고 있습니다. “준법지침서” 란 회사의 컴플라이언스 관련 최상위 규범으로, 이를 근간으로 하여 준법통제기준 등 컴플라이",
+          "title": "[PDF] (주)LG화학 - 한국신용평가",
+          "url": "https://m.kisrating.com/fileDown.do?menuCd=R8&gubun=2&fileName=rs20260424-28.pdf",
+          "content": "더불어, 최근 중동발 원료 조달 리스크가 확대되었고, 사업 재편도 지연되고 있다. 전지(LG에너지솔루션) 부문은 북미 등 주요 시장에서의 친환경 정책 후퇴 와 전기차 수요 둔화 등이 실적 개선을 제약할 것으로 보이며, 이는 본사 첨단소재 부문 수익성 에도 부정적 영향을 미쳐 주요 사업부문에서 수익성 하방 압력이 나타날 것으로 전망된다. LG에너지솔루션 지분 매각 개시, 혼다 합작법인 유형자산 매각으로 2026년 말 연결 순차입금 축소가 예상되지만, LG에너지솔루션 지분 매각은 2030년까지 단계적으로 진행될 예정인 가운데, 투자규모 축소에도 연간 CAPEX는 영업창출현금을 상회할 것으로 보여 당분간 등급 수준 대비 높은 재무부담이 지속될 것으로 추정된다. Key Monitoring Indicators ⚫ 주요 모니터링 포인트 - 석유화학 원료조달 정상화 시점 및 가동률 추이, 주요 제품별 스프레드 변동 - 여수, 대산 석유화학 사업재편의 구체적 내용 및 관련 효과 - 전기차 수요 회",
           "published": "날짜 미상",
-          "domain": "lgensol.com"
+          "domain": "m.kisrating.com"
         },
         {
-          "title": "위기관리｜LG에너지솔루션",
-          "url": "https://www.lgensol.com/mobile/kr/esg/structure-risk-management",
-          "content": "리스크 관리 체계 흐름도. 리스크 실무자가 기능·조직별 분과위원회에 종합 및 지원, 분과위원회는 전사 리스크 관리위원회에 보고 및 지원. 전사 리스크 관리위원회는 전달팀 위기관리팀, 최고 담당위원 CRO가 담당하며 비상시 비상대책위원회 운영. 이후 이사회에 보고하여 승인 및 검증 진행.\n\n### 리스크 관리 프로세스\n\n \n\n  리스크 식별\n\n  LG에너지솔루션은 위기로 발전할 수 있는 잠재 리스크에 대한 민감도를 높이고 리스크 식별 및 저감 활동을 위해 전사 차원의 리스크 관리체계를 운영합니다.  \n   또한, 전 임직원들이 을 숙지하고 업무에 기본으로 삼고 있습니다.\n\n  + 리스크 도출\n\n    전사 중장기 전략 및 기능별로 업무 프로세스를 분석하고 인터뷰 등을 통해 다양한 관점에서 리스크를 도출합니다.\n  + 리스크 점검\n\n    위기 발생을 방지하고 위기 발생 시의 피해 완화를 위해 중장기 전략과 사업 계획을 수립할 때 사업 환경 변화를 집중적으로 점검하고 있습니다.\n \n\n ",
+          "title": "LG화학 부채 리스크 커졌다…LG에너지솔루션 배터리 - YouTube",
+          "url": "https://www.youtube.com/watch?v=llhmoA38CaU",
+          "content": "지금 자체적으로 석유 화학 부문을 중심으로 재무개선 작업에 들어갔다고요 맞습니다 LG 화학은 수익성이 떨어지는 이제 한계의 사업을 정리하는 등 사업 구조 개편을 진행을 하고 있어요 어 작년에 편광판 및 이제 진단 사업부를 매각한데이어서 올해는 이제 석유화 원료인 SM 공장을 가동 중단했습니다 그리고 핵심 자산인 이제 나프타 분해 설비 NCC 매각도 검토를 하고 있고요 거기다가 이제 추가적으로 LG 화학은 재무 상황이 악화할 경우에 이제 가지고 있던 LG 에너지 솔루션의 지분을 뭐 이런 보유 재산 등을 이제 매각을 고려할 수 있다 이렇게 밝히기도 했는데 그러면 이제 LG 학이 앞으로 현금 조달을 또 어떤 방식으로 할지도 좀 지켜봐야 될 것 같습니다네네 어 이번에 SNP LG 와 신용등급 자체를 떨어뜨린 건 뭐 아니긴 한데 어 일단 경고를 한만큼 이제 앞으로 LG 화학 신용 등급이 실제로 내려갈 가능성도 염두에 도해 되는 겁니까 맞습니다 그 SNP 앞에서 이야기들은 LG 화학의 영업 이",
           "published": "날짜 미상",
-          "domain": "lgensol.com"
+          "domain": "youtube.com"
         },
         {
           "title": "LG에너지솔루션 구금 사태...공장 운영과 재정리스크 부담 커졌다",
@@ -213,55 +213,55 @@
           "domain": "electimes.com"
         },
         {
-          "title": "밸류체인 ESG 경영｜LG에너지솔루션",
-          "url": "https://www.lgensol.com/kr/esg/society-esg-management",
-          "content": "공급망 관리체계\n\n##### 책임 있는 공급망 관리 정책 운영\n\nLG에너지솔루션은 책임 있는 원재료 조달을 위해 ‘책임 있는 공급망 관리 정책’을 수립하였습니다. 해당 정책은 OECD, UN, ILO 등 관련 글로벌 표준 및 프레임워크를 기반으로, 인권 및 노동, 윤리경영, 사업장 안전 보건, 환경의 지속가능성, 책임 있는 광물 구매 등 공급망 ESG리스크를 최소화하기 위한 LG에너지솔루션과 협력회사의 공급망 관리 기본 원칙을 명기하고 있습니다.\n\n또한, 공급망 ESG 관련 이슈와 문의사항을 익명으로 자유롭게 제보할 수 있는 고충처리 시스템을 운영하고 있습니다. LG에너지솔루션은 ‘책임 있는 공급망 관리 정책’을 기반으로 공급망 ESG리스크를 체계적으로 관리함과 동시에 근본적인 공급망 환경 개선에 적극적으로 기여하여, 지속가능하고 책임 있는 비즈니스를 전개하고자 합니다.\n\n책임 있는 공급망 관리 정책\n\n새 창으로 열기\n\n##### 협력회사 행동규범 운영\n\nLG에너지솔루션은 협력회사가",
+          "title": "LG에너지솔루션, 1Q 영업적자 컨센 하회…\"ESS 비중 계속 확대\"(종합)",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4412598",
+          "content": "LG에너지솔루션은 원자재 리스크에 대응하고 물류 안정성도 강화하고 있다. 메탈 물량 확보와 선물파생상품을 활용한 헤지 전략을 병행하고, 물류 역시 해상과 육상 경로를 다각화하고 선제적으로 선박을 확보한다는 구상이다.\n\n신기술 개발도 추진 중이다. 회사 관계자는 \"미래 차별화 기술 확보를 위해 파일럿 라인에서 추진 중인 건식 공정 양산 테스트와 함께 전고체 소듐 배터리와 같은 차세대 전지도 속도감 있게 개발하겠다\"고 했다.\n\nytseo@yna.co.kr\n\n<저작권자 (c) 연합인포맥스, 무단전재 및 재배포 금지, AI 학습 및 활용 금지>\n\n서영태 기자 ytseo@yna.co.kr\n\n저작권자 © 연합인포맥스 무단전재 및 재배포 금지\n\n기자의 다른기사\n\n인포맥스 관련기사\n\n LG엔솔·SK온, 전기차 배터리 점유율 감소…中 CATL과 격차 확대\n [[기업 이모저모] '젠슨 황 웨이퍼' 전시한 삼성전자](/news/articleView.html?idxno=4423188)\n 삼성전자 VC, ",
           "published": "날짜 미상",
-          "domain": "lgensol.com"
+          "domain": "news.einfomax.co.kr"
         },
         {
-          "title": "LG에너지솔루션, 겉보기 호재 뒤 숨은 '3대 이면의 리스크' 완전 요약 ...",
-          "url": "https://www.instagram.com/p/DZGv3mND8Wh",
-          "content": "Photo by 경제부동산비즈니스 on June 08, 2026. May be an image of text that says '정보요정 거대한 'Ά 삼국지' 완벽 요약 M7연합 M7 연합 Vs 엔비디아 제국 (Digital (DigitalBrain) Brain) 엔비디아 한국 동맹 amazon SAMSUNG 수춤총 갯칩, UALink on-device AI LG 자푸주 M4 Ι 공장 및 기고고 AI 우리가 모르는 심층 팩트 Check! AI Buble 리험 규제제 위험 게양동몽잭 리험 최종 행동 지침 (Aation Plan) 전력 인프라 투자 냉각 시스템 선점 Invest in Power Seize Cooling Systems 누가 이기든 이기는 '곡랭이'에 숟가락 없기!'.\n\nPhoto by 경제부동산비즈니스 on June 08, 2026. May be an image of text that says '정보요정 젠슨 황 방한의 진짜 목적? 한국 대기업, 엔비디아의 '육체'가 되다",
+          "title": "[PDF] LG에너지솔루션 - 한국신용평가",
+          "url": "https://m.kisrating.com/fileDown.do?menuCd=R8&gubun=2&fileName=rs20260619-12.pdf",
+          "content": "등으로 사업경쟁력이 약화되어 실적이 저하되는 가운데 ⚫ 연결기준 『EBITDA/매출액』 지표 10% 미만이거나 ⚫ 연결기준 『순차입금/EBITDA』 지표 4배를 지속적으로 초과할 경우 Key Monitoring Indicators - 연결기준 구분 2023.12 2024.12 2025.12 2026.03 상향 가능성 하향 가능성 EBITDA/매출액(%) 13.4 14.5 21.7 13.8 17 이상 10 미만 순차입금/EBITDA(배) 1.3 3.1 3.6 5.7 2 이하 4 초과 순차입금(억원) 57,972 114,256 186,173 208,163 - - Detailed Credit Considerations 사업분석 글로벌 선두권의 시장지위, 우수한 사업경쟁력 동사는 중대형 전기자동차 및 전력저장장치(ESS)용 리튬이온 전지, 휴대폰, 노트북PC 등 모바일 기 기에 쓰이는 소형전지 사업 등을 영위하고 있다. 舊LG화학 전지부문 시절인 1992년부터 리튬이온 전지 연구를 착수하여",
           "published": "날짜 미상",
-          "domain": "instagram.com"
+          "domain": "m.kisrating.com"
         }
       ],
       "중립": [
         {
-          "title": "[Peer Match Up | LG에너지솔루션 vs CATL] 연초 30%→현재 두 배 ...",
-          "url": "https://www.thebell.co.kr/front/newsview.asp?key=202408061217176720102229",
-          "content": "이 기사는 2024년 08월 13일 08:08에 무료로 공개된 기사입니다.\n\n' 현상에 CATL 대비 LG에너지솔루션의 타격이 더욱 컸다.  \n   \n ◇엔솔 75조 vs CATL 150조  \n   \n 6일 관련 업계에 따르면 5일 종가 기준 중국 CATL의 시가총액은 149조5593억원(1위안=192.08원으로 계산)이다. LG에너지솔루션의 시가총액은 75조3480억원으로 LG에너지솔루션 대비 CATL의 시가총액은 98.5% 높았다.  \n   \n 연 초 LG에너지솔루션의 시가총액은 100조원에 육박했다. 올해 초 시장 개장일이었던 1월 2일 종가 기준 LG에너지솔루션과 CATL의 시가총액은 각각 100조5030억원, 132조5163억원으로 시총 차이는 31.9%에 불과했다.  \n   \n 다만 이후부터 올해 3분기에 접어든 현재까지 LG에너지솔루션의 주가는 하락세다. 5월 말 까지 시총 80조원 선을 사수했던 LG에너지솔루션은 6월로 접어들면서 시총이 70조원대로 내려앉았다. 7월 ",
-          "published": "날짜 미상",
-          "domain": "thebell.co.kr"
-        },
-        {
           "title": "\"CATL과 비교 무의미\"...LG엔솔, 질적 성장에 사활 걸어야",
           "url": "https://www.asiatime.co.kr/article/20240313500149",
-          "content": "정인혁 기자  입력 2024-03-13 13:06 수정 2024-03-13 13:30\n\n페이스북;)   트위터;)   카카오스토리;)   핀터레스트;)   네이버 블로그;)   밴드;)   카카오톡;)\n\n텍스트 사이즈 조절;)   텍스트 사이즈 조절;)   인쇄;)\n\nR&D 투자 비용 점차 하락하는 추세  \n새 격전지인 ESS 시장에선 격차 커  \n\"두 기업의 간극은 더욱 벌어질 것\"\n\nadvertisement\n\nadvertisement\n\n[아시아타임즈=정인혁 기자] 글로벌 배터리 시장의 선두기업인 G에너지솔루션(이하 LG엔솔)과 중국 CATL의 경쟁이 계속이어질 것으로 보이는 가운데 CATL의 경쟁력이 LG엔솔을 압도해 양 기업 간 격차가 더욱 커질 것이라는 전망도 나오고 있다.\n\n image \n\n글로벌 배터리 시장에서 1위 자리를 두고 중국 CATL과 각축을 벌이고 있는 LG에너지솔루션이 점차 경쟁력이 악화할 것이란 전망이 나온다. 사진은 LG에너지솔루션 ‘인터배터리 2024’ ",
+          "content": "텍스트 사이즈 조절;)   텍스트 사이즈 조절;)   인쇄;)\n\nR&D 투자 비용 점차 하락하는 추세  \n새 격전지인 ESS 시장에선 격차 커  \n\"두 기업의 간극은 더욱 벌어질 것\"\n\nadvertisement\n\nadvertisement\n\n[아시아타임즈=정인혁 기자] 글로벌 배터리 시장의 선두기업인 G에너지솔루션(이하 LG엔솔)과 중국 CATL의 경쟁이 계속이어질 것으로 보이는 가운데 CATL의 경쟁력이 LG엔솔을 압도해 양 기업 간 격차가 더욱 커질 것이라는 전망도 나오고 있다.\n\n image \n\n글로벌 배터리 시장에서 1위 자리를 두고 중국 CATL과 각축을 벌이고 있는 LG에너지솔루션이 점차 경쟁력이 악화할 것이란 전망이 나온다. 사진은 LG에너지솔루션 ‘인터배터리 2024’ 부스 조감도.(사진=LG에너지솔루션)\n\n \n\n13일 업계에 따르면 LG엔솔은 지난해 연구개발(R&D) 투자가 1조원에 육박했다. 재무제표상 정확한 비용은 9913억원으로 집계됐다. 전년보다 14.5% 늘어",
           "published": "날짜 미상",
           "domain": "asiatime.co.kr"
         },
         {
           "title": "LG에너지솔루션 vs CATL 非전기차 배터리 '마이웨이 대결' - 디일렉",
           "url": "https://www.thelec.kr/news/articleView.html?idxno=33836",
-          "content": "CATL은 북미 외 해외 시장을 공략하고 있다. 올해 1월 19일 아랍에미리트의 아부다비에서 진행되는 5.2GW급 태양광·ESS 복합 프로젝트에 최우선 배터리 공급사로 선정됐다. 해당 프로젝트는 UAE 국영 청정에너지 기업 마스다르가 추진한다.\n\n배터리 운영 효율을 높이기 위한 BMS 기술 확보도 진행 중이다. LG에너지솔루션은 퀄컴과 SoC 기반 BMS 진단 솔루션 개발 계약을 체결했다. CATL은 전력관리 반도체(PMIC) 기술 확보를 위해 반도체 기업인 스랑과기(思朗科技)에 지분 투자를 단행했다.\n\n◆LG에너지솔루션과 CATL의 비(非)전기차 사업 확장 현황\n\n|  |  |  |\n --- \n| 분야 | LG에너지솔루션 | CATL |\n| ESS | 북미 ESS 시장 확대(테라젠 2조원 계약, 엑셀시오 7.5GWh 계약) | UAE와 DHL ESS 공급 추진 |\n| 전력망 | VPP 사업 강화(제주 해상풍력 입찰 운영) | 중국 산동성(省) 전력 사업 진출 |\n| BMS | 퀄컴",
+          "content": "양사는 배터리 응용 시장에서 공통된 전략을 보이면서도 차이를 드러내고 있다.\n\nLG에너지솔루션은 북미 ESS 시장에서 대형 계약을 확보했다. 테라젠과 2조원 규모 계약을 체결, 엑셀시오 에너지 캐피탈과 7.5GWh 공급 계약을 맺었다. 국내에서는 제주 해상풍력단지 입찰 운영을 맡으며 가상발전소(VPP) 사업도 강화하고 있다.\n\nCATL은 북미 외 해외 시장을 공략하고 있다. 올해 1월 19일 아랍에미리트의 아부다비에서 진행되는 5.2GW급 태양광·ESS 복합 프로젝트에 최우선 배터리 공급사로 선정됐다. 해당 프로젝트는 UAE 국영 청정에너지 기업 마스다르가 추진한다.\n\n배터리 운영 효율을 높이기 위한 BMS 기술 확보도 진행 중이다. LG에너지솔루션은 퀄컴과 SoC 기반 BMS 진단 솔루션 개발 계약을 체결했다. CATL은 전력관리 반도체(PMIC) 기술 확보를 위해 반도체 기업인 스랑과기(思朗科技)에 지분 투자를 단행했다.\n\n◆LG에너지솔루션과 CATL의 비(非)전기차 사업 확장 ",
           "published": "날짜 미상",
           "domain": "thelec.kr"
         },
         {
-          "title": "CATL, LG에너지솔루션, 삼성SDI, SK온 주요 재무지표 비교",
-          "url": "https://contents.premium.naver.com/busymoon/kicpakpmg/contents/250102135408695qq",
-          "content": "​\n\nMarket Value는 한국에서 가장 큰 규모인 LG 에너지솔루션이 80조이고 CATL이 약 3배인 240조이다. 삼성SDI와 SK이노베이션(SK온)은 17조 수준으로 유사하다.\n\n​\n\n핵심투자지표인 PER를 비교해 보면, CATL이 21로 표준적인 수준이라 할 수 있다. 20은 성장율과 할인율이 10%대인 경우의 Multiple과 유사하다. 20을 기준으로 낮음과 높음으로 구분지을 수 있다고 생각한다.\n\n​\n\n그러나 한국의 2차전지 대표기업들의 PER는 엄청나게 높다. 먼저 LG에너지솔루션이 107, SK이노베이션은 5,216으로 조회된다. 이 두 기업의 PER가 이렇게 높은 이유는 주가 대비 회계이익이 너무 낮기 때문이다. 지나치게 높은 PER는 기업이 재무적으로 안정화되지 않았음을 의미한다. 이 두 기업이 세계 2차전지 시장의 Key player인 것은 분명하지만 그런 평가는 매출(revenue)만 고려한 것이다. 이익수준, 이익률을 기준지표로 할 경우 상대적 열위는 더",
+          "title": "LG에너지솔루션 기업분석보고서 | 잡코리아",
+          "url": "https://www.jobkorea.co.kr/starter/companyreport/view?Inside_No=19260&schCtgr=101012&schGrpCtgr=0&Page=1",
+          "content": "경쟁사 분석(Competitor)  \n Analysis 1. 경쟁 사업자 \n\n시장조사업체 SNE리서치에 따르면 2022년 중국 시장을 제외한 세계 전기차 배터리 시장 점유율은 LG에너지솔루션(29.7%), 중국의 CATL(22.3%), 일본의 파나소닉(17.1%)에 이어 SK온(12.7%), 삼성SDI(11.0%) 순으로 나타났다.\n\n  \n  \n Analysis 2. 경쟁 상황    \n  # SK온 \n\n2021년 SK이노베이션에서 분할한 SK온은 석유 사업, 화학 사업, 윤활유 사업, 배터리 사업을 영위하고 있다. 배터리 사업은 친환경 전기자동차 및 ESS(Energy Storage System)에 사용되는 대용량 리튬이온배터리를 생산, 판매한다.   \n  \n 2005년 리튬이온배터리 상용화 착수 이후 대전 R&D센터에 배터리 연구개발 인프라를 구축하고, 충남 서산에 대규모 생산설비를 가동하는 등 기술 개발과 양산 체제를 모두 완성했다. 고유의 고(高) 에너지 밀도와 고(高) 출력 ",
           "published": "날짜 미상",
-          "domain": "contents.premium.naver.com"
+          "domain": "jobkorea.co.kr"
         },
         {
-          "title": "LG에너지 솔루션. CATL과 비교한 생산능력과 매출 등 : 네이버 블로그",
-          "url": "https://m.blog.naver.com/none00/222623106558",
-          "content": "본문 바로가기\n\n# 블로그\n\n## 카테고리 이동 Equity\n\n검색\n\n주식 및 투자 이야기\n\nLG에너지 솔루션. CATL과 비교한 생산능력과 매출 등\n\n프로필 \n\ndiem00\n\n2022. 1. 16. 14:44\n\n이웃추가\n\n 본문 폰트 크기 조정 가\n 공유하기\n URL복사\n 신고하기\n\nLG에너지 솔루션. CATL과 비교한 생산능력과 매출 등\n\n​\n\nLG에너지솔루션 추천하기 위해 쓴 것은 아님. 각자 좋은 판단 해주세여😊. 좋은 회사지만 아래 링크를 보시면 아시겠지만 그만큼 비싼. 그리고 중국 CATL보다 싸기 때문에, 상승여지가 많다고 보시는 분들도 많지만, 아래 참고하시면 CATL의 이익규모와 성장성이 더 높음을 알수 있다.\n\n​\n\n우선 간단히 요약해 놓은 글을 올리고.\n\n이따 자정에 조금 더 보충해서 올려야지....:)\n\n​\n\n일부 보충해서 다시 올린.\n\n - 2021년 기준 생산능력: 155 GWh (CATL: 170GWh 추정, 파나소닉: 64GWh) - 고객매출비중 (추정)",
+          "title": "중국 CATL '소금 배터리'에 맞선다, LG엔솔-GM 원가 낮춘 '망간 배터리 ...",
+          "url": "https://www.businesspost.co.kr/BP?command=article_view&num=395062",
+          "content": "[비즈니스포스트] LG에너지솔루션이 협업사 GM과 함께 전기차용 배터리 신기술 개발 성과를 바탕으로 시장 선점을 준비하고 있다.  \n   \n 글로벌 선두 기업인 중국 CATL은 최근 이른바 ‘소금 배터리’를 차세대 제품으로 낙점하고 시장 확대에 나섰는데 LG에너지솔루션이 ‘망간 배터리’로 맞서는 모양새가 펼쳐지고 있다.   \n   \n 13일(현지시각) CNBC에 따르면 GM은 전기차 전환 중장기 계획에 다음 단계로 차세대 ‘고망간(LMR) 배터리’를 앞세울 것으로 보인다.   \n   \n GM이 LG에너지솔루션과 개발했다고 발표한 각형 ‘LMR 배터리’는 이름 그대로 광물 가운데 망간 비율을 높인 제품이다.   \n   \n 스포츠유틸리티차량(SUV) 및 전기트럭용으로 2028년 상업 생산이 예고됐다.   \n   \n LMR 배터리는 기존 전기차 배터리와 비교해 에너지 밀도는 유지하면서도 중국이 주도하는 저가 리튬인산철(LFP) 배터리와 가격 경쟁력을 견줄 잠재력을 갖춘 것으로 평가된다. ",
           "published": "날짜 미상",
-          "domain": "m.blog.naver.com"
+          "domain": "businesspost.co.kr"
+        },
+        {
+          "title": "CATL - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/CATL",
+          "content": "According to Kumar, unlike competitors such as LG Energy Solution or SK Innovation, CATL is more willing to adopt external technology rather than relying on a fully in-house design.\n\nIn 2024, Tu Le of consultancy Sino Auto Insights claimed that the US was \"years behind\" China in batteries, and that \"if the US is going to be competitive on the global stage with EVs, through 2030 they’re going to have to use Chinese batteries\".",
+          "published": "날짜 미상",
+          "domain": "en.wikipedia.org"
         }
       ]
     }

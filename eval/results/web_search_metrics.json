@@ -3,36 +3,36 @@
   "query_degeneration_rate": 0.0,
   "arms": {
     "single_base": {
-      "neg_share": 0.22,
-      "balance_entropy": 0.4597,
+      "neg_share": 0.19,
+      "balance_entropy": 0.4748,
       "unique_domains": 4.85,
-      "risk_recall": 0.2929
+      "risk_recall": 0.2572
     },
     "single_volume": {
-      "neg_share": 0.1805,
-      "balance_entropy": 0.679,
-      "unique_domains": 13.25,
-      "risk_recall": 0.4286
+      "neg_share": 0.1544,
+      "balance_entropy": 0.7631,
+      "unique_domains": 13.15,
+      "risk_recall": 0.3929
     },
     "three_persp": {
-      "neg_share": 0.27,
-      "balance_entropy": 0.8263,
-      "unique_domains": 12.1,
-      "risk_recall": 0.4571,
+      "neg_share": 0.24,
+      "balance_entropy": 0.8615,
+      "unique_domains": 11.75,
+      "risk_recall": 0.4857,
       "cross_perspective_dup_rate": 0.0933
     }
   },
   "delta_three_persp_minus_single_base": {
     "neg_share": 0.05,
-    "balance_entropy": 0.3666,
-    "unique_domains": 7.25,
-    "risk_recall": 0.1642
+    "balance_entropy": 0.3867,
+    "unique_domains": 6.9,
+    "risk_recall": 0.2285
   },
   "delta_three_persp_minus_single_volume": {
-    "neg_share": 0.0895,
-    "balance_entropy": 0.1473,
-    "unique_domains": -1.15,
-    "risk_recall": 0.0285
+    "neg_share": 0.0856,
+    "balance_entropy": 0.0984,
+    "unique_domains": -1.4,
+    "risk_recall": 0.0928
   },
   "per_topic": [
     {
@@ -42,37 +42,37 @@
         "single_base": {
           "n_snippets": 5,
           "neg_share": 0.2,
-          "balance_entropy": 0.865,
+          "balance_entropy": 0.9602,
           "unique_domains": 5,
-          "risk_recall": 0.1429,
+          "risk_recall": 0.0,
           "stance_counts": {
-            "긍정": 1,
+            "긍정": 2,
             "부정": 1,
-            "중립": 3
+            "중립": 2
           }
         },
         "single_volume": {
           "n_snippets": 15,
-          "neg_share": 0.1333,
-          "balance_entropy": 0.8444,
-          "unique_domains": 13,
-          "risk_recall": 0.2857,
+          "neg_share": 0.0667,
+          "balance_entropy": 0.7766,
+          "unique_domains": 14,
+          "risk_recall": 0.4286,
           "stance_counts": {
-            "긍정": 4,
-            "부정": 2,
+            "긍정": 5,
+            "부정": 1,
             "중립": 9
           }
         },
         "three_persp": {
           "n_snippets": 15,
-          "neg_share": 0.2,
-          "balance_entropy": 0.9501,
-          "unique_domains": 15,
-          "risk_recall": 0.7143,
+          "neg_share": 0.2667,
+          "balance_entropy": 0.9654,
+          "unique_domains": 14,
+          "risk_recall": 0.5714,
           "stance_counts": {
-            "긍정": 5,
-            "부정": 3,
-            "중립": 7
+            "긍정": 7,
+            "부정": 4,
+            "중립": 4
           },
           "cross_perspective_dup_rate": 0.0
         }
@@ -85,39 +85,39 @@
         "single_base": {
           "n_snippets": 5,
           "neg_share": 0.2,
-          "balance_entropy": 0.865,
+          "balance_entropy": 0.4555,
           "unique_domains": 5,
-          "risk_recall": 0.2857,
+          "risk_recall": 0.1429,
           "stance_counts": {
-            "긍정": 3,
+            "긍정": 4,
             "부정": 1,
-            "중립": 1
+            "중립": 0
           }
         },
         "single_volume": {
           "n_snippets": 15,
-          "neg_share": 0.1333,
-          "balance_entropy": 0.8444,
-          "unique_domains": 12,
+          "neg_share": 0.0667,
+          "balance_entropy": 0.6644,
+          "unique_domains": 14,
           "risk_recall": 0.4286,
           "stance_counts": {
-            "긍정": 9,
-            "부정": 2,
-            "중립": 4
+            "긍정": 11,
+            "부정": 1,
+            "중립": 3
           }
         },
         "three_persp": {
           "n_snippets": 15,
-          "neg_share": 0.4,
-          "balance_entropy": 0.8031,
+          "neg_share": 0.0667,
+          "balance_entropy": 0.7312,
           "unique_domains": 13,
-          "risk_recall": 0.1429,
+          "risk_recall": 0.4286,
           "stance_counts": {
-            "긍정": 8,
-            "부정": 6,
-            "중립": 1
+            "긍정": 10,
+            "부정": 1,
+            "중립": 4
           },
-          "cross_perspective_dup_rate": 0.0667
+          "cross_perspective_dup_rate": 0.0
         }
       }
     },
@@ -129,8 +129,8 @@
           "n_snippets": 5,
           "neg_share": 0.0,
           "balance_entropy": 0.0,
-          "unique_domains": 5,
-          "risk_recall": 0.4286,
+          "unique_domains": 4,
+          "risk_recall": 0.0,
           "stance_counts": {
             "긍정": 5,
             "부정": 0,
@@ -139,28 +139,28 @@
         },
         "single_volume": {
           "n_snippets": 15,
-          "neg_share": 0.0,
-          "balance_entropy": 0.5279,
-          "unique_domains": 14,
-          "risk_recall": 0.4286,
+          "neg_share": 0.0667,
+          "balance_entropy": 0.7312,
+          "unique_domains": 12,
+          "risk_recall": 0.5714,
           "stance_counts": {
-            "긍정": 11,
-            "부정": 0,
+            "긍정": 10,
+            "부정": 1,
             "중립": 4
           }
         },
         "three_persp": {
           "n_snippets": 15,
-          "neg_share": 0.1333,
-          "balance_entropy": 0.883,
-          "unique_domains": 14,
-          "risk_recall": 0.4286,
+          "neg_share": 0.0667,
+          "balance_entropy": 0.8031,
+          "unique_domains": 12,
+          "risk_recall": 0.5714,
           "stance_counts": {
             "긍정": 8,
-            "부정": 2,
-            "중립": 5
+            "부정": 1,
+            "중립": 6
           },
-          "cross_perspective_dup_rate": 0.0
+          "cross_perspective_dup_rate": 0.0667
         }
       }
     },
@@ -182,28 +182,28 @@
         },
         "single_volume": {
           "n_snippets": 15,
-          "neg_share": 0.0667,
-          "balance_entropy": 0.7312,
-          "unique_domains": 14,
-          "risk_recall": 0.2857,
-          "stance_counts": {
-            "긍정": 10,
-            "부정": 1,
-            "중립": 4
-          }
-        },
-        "three_persp": {
-          "n_snippets": 15,
-          "neg_share": 0.0667,
-          "balance_entropy": 0.4416,
+          "neg_share": 0.0,
+          "balance_entropy": 0.3574,
           "unique_domains": 12,
           "risk_recall": 0.2857,
           "stance_counts": {
             "긍정": 13,
-            "부정": 1,
-            "중립": 1
+            "부정": 0,
+            "중립": 2
+          }
+        },
+        "three_persp": {
+          "n_snippets": 15,
+          "neg_share": 0.2,
+          "balance_entropy": 0.7836,
+          "unique_domains": 9,
+          "risk_recall": 0.7143,
+          "stance_counts": {
+            "긍정": 10,
+            "부정": 3,
+            "중립": 2
           },
-          "cross_perspective_dup_rate": 0.0667
+          "cross_perspective_dup_rate": 0.0
         }
       }
     },
@@ -214,37 +214,37 @@
         "single_base": {
           "n_snippets": 5,
           "neg_share": 0.0,
-          "balance_entropy": 0.4555,
+          "balance_entropy": 0.0,
           "unique_domains": 5,
-          "risk_recall": 0.4286,
+          "risk_recall": 0.1429,
           "stance_counts": {
-            "긍정": 4,
+            "긍정": 5,
             "부정": 0,
-            "중립": 1
+            "중립": 0
           }
         },
         "single_volume": {
           "n_snippets": 15,
-          "neg_share": 0.0,
-          "balance_entropy": 0.5279,
+          "neg_share": 0.0667,
+          "balance_entropy": 0.8031,
           "unique_domains": 13,
           "risk_recall": 0.4286,
           "stance_counts": {
-            "긍정": 11,
-            "부정": 0,
-            "중립": 4
+            "긍정": 8,
+            "부정": 1,
+            "중립": 6
           }
         },
         "three_persp": {
           "n_snippets": 15,
-          "neg_share": 0.0,
-          "balance_entropy": 0.6126,
+          "neg_share": 0.2,
+          "balance_entropy": 0.7836,
           "unique_domains": 12,
           "risk_recall": 0.2857,
           "stance_counts": {
-            "긍정": 9,
-            "부정": 0,
-            "중립": 6
+            "긍정": 10,
+            "부정": 3,
+            "중립": 2
           },
           "cross_perspective_dup_rate": 0.2
         }
@@ -256,40 +256,40 @@
       "arms": {
         "single_base": {
           "n_snippets": 5,
-          "neg_share": 0.2,
-          "balance_entropy": 0.9602,
-          "unique_domains": 5,
+          "neg_share": 0.0,
+          "balance_entropy": 0.6126,
+          "unique_domains": 4,
           "risk_recall": 0.1429,
           "stance_counts": {
             "긍정": 2,
-            "부정": 1,
-            "중립": 2
+            "부정": 0,
+            "중립": 3
           }
         },
         "single_volume": {
-          "n_snippets": 13,
-          "neg_share": 0.0769,
-          "balance_entropy": 0.8292,
-          "unique_domains": 11,
+          "n_snippets": 15,
+          "neg_share": 0.2,
+          "balance_entropy": 0.9602,
+          "unique_domains": 12,
           "risk_recall": 0.1429,
           "stance_counts": {
             "긍정": 6,
-            "부정": 1,
+            "부정": 3,
             "중립": 6
           }
         },
         "three_persp": {
           "n_snippets": 15,
-          "neg_share": 0.3333,
-          "balance_entropy": 0.7766,
-          "unique_domains": 10,
+          "neg_share": 0.2,
+          "balance_entropy": 0.865,
+          "unique_domains": 9,
           "risk_recall": 0.1429,
           "stance_counts": {
             "긍정": 9,
-            "부정": 5,
-            "중립": 1
+            "부정": 3,
+            "중립": 3
           },
-          "cross_perspective_dup_rate": 0.0667
+          "cross_perspective_dup_rate": 0.3333
         }
       }
     },
@@ -299,40 +299,40 @@
       "arms": {
         "single_base": {
           "n_snippets": 5,
-          "neg_share": 0.2,
-          "balance_entropy": 0.865,
+          "neg_share": 0.0,
+          "balance_entropy": 0.6126,
           "unique_domains": 5,
-          "risk_recall": 0.2857,
+          "risk_recall": 0.4286,
           "stance_counts": {
             "긍정": 3,
-            "부정": 1,
-            "중립": 1
+            "부정": 0,
+            "중립": 2
           }
         },
         "single_volume": {
           "n_snippets": 15,
-          "neg_share": 0.1333,
-          "balance_entropy": 0.883,
-          "unique_domains": 15,
-          "risk_recall": 0.5714,
+          "neg_share": 0.0,
+          "balance_entropy": 0.6289,
+          "unique_domains": 12,
+          "risk_recall": 0.4286,
           "stance_counts": {
             "긍정": 8,
-            "부정": 2,
-            "중립": 5
+            "부정": 0,
+            "중립": 7
           }
         },
         "three_persp": {
           "n_snippets": 15,
-          "neg_share": 0.1333,
-          "balance_entropy": 0.7836,
+          "neg_share": 0.0667,
+          "balance_entropy": 0.7766,
           "unique_domains": 12,
-          "risk_recall": 0.5714,
+          "risk_recall": 0.7143,
           "stance_counts": {
-            "긍정": 10,
-            "부정": 2,
-            "중립": 3
+            "긍정": 9,
+            "부정": 1,
+            "중립": 5
           },
-          "cross_perspective_dup_rate": 0.0667
+          "cross_perspective_dup_rate": 0.2
         }
       }
     },
@@ -345,34 +345,34 @@
           "neg_share": 0.0,
           "balance_entropy": 0.6126,
           "unique_domains": 5,
-          "risk_recall": 0.1429,
+          "risk_recall": 0.0,
           "stance_counts": {
-            "긍정": 2,
+            "긍정": 3,
             "부정": 0,
-            "중립": 3
+            "중립": 2
           }
         },
         "single_volume": {
           "n_snippets": 15,
-          "neg_share": 0.0,
-          "balance_entropy": 0.6289,
-          "unique_domains": 15,
+          "neg_share": 0.1333,
+          "balance_entropy": 0.9019,
+          "unique_domains": 13,
           "risk_recall": 0.1429,
           "stance_counts": {
-            "긍정": 7,
-            "부정": 0,
-            "중립": 8
+            "긍정": 6,
+            "부정": 2,
+            "중립": 7
           }
         },
         "three_persp": {
           "n_snippets": 15,
-          "neg_share": 0.0667,
-          "balance_entropy": 0.7766,
-          "unique_domains": 12,
-          "risk_recall": 0.2857,
+          "neg_share": 0.2,
+          "balance_entropy": 0.9501,
+          "unique_domains": 11,
+          "risk_recall": 0.1429,
           "stance_counts": {
-            "긍정": 9,
-            "부정": 1,
+            "긍정": 7,
+            "부정": 3,
             "중립": 5
           },
           "cross_perspective_dup_rate": 0.1333
@@ -385,26 +385,26 @@
       "arms": {
         "single_base": {
           "n_snippets": 5,
-          "neg_share": 0.2,
-          "balance_entropy": 0.4555,
-          "unique_domains": 4,
+          "neg_share": 0.0,
+          "balance_entropy": 0.0,
+          "unique_domains": 5,
           "risk_recall": 0.4286,
           "stance_counts": {
-            "긍정": 4,
-            "부정": 1,
+            "긍정": 5,
+            "부정": 0,
             "중립": 0
           }
         },
         "single_volume": {
           "n_snippets": 15,
-          "neg_share": 0.1333,
+          "neg_share": 0.0667,
           "balance_entropy": 0.5714,
-          "unique_domains": 14,
+          "unique_domains": 13,
           "risk_recall": 0.7143,
           "stance_counts": {
             "긍정": 12,
-            "부정": 2,
-            "중립": 1
+            "부정": 1,
+            "중립": 2
           }
         },
         "three_persp": {
@@ -412,11 +412,11 @@
           "neg_share": 0.1333,
           "balance_entropy": 0.9019,
           "unique_domains": 11,
-          "risk_recall": 0.7143,
+          "risk_recall": 0.4286,
           "stance_counts": {
-            "긍정": 7,
+            "긍정": 6,
             "부정": 2,
-            "중립": 6
+            "중립": 7
           },
           "cross_perspective_dup_rate": 0.0667
         }
@@ -440,26 +440,26 @@
         },
         "single_volume": {
           "n_snippets": 15,
-          "neg_share": 0.0667,
-          "balance_entropy": 0.8118,
+          "neg_share": 0.0,
+          "balance_entropy": 0.6289,
           "unique_domains": 14,
           "risk_recall": 0.4286,
           "stance_counts": {
-            "긍정": 7,
-            "부정": 1,
+            "긍정": 8,
+            "부정": 0,
             "중립": 7
           }
         },
         "three_persp": {
           "n_snippets": 15,
           "neg_share": 0.2667,
-          "balance_entropy": 0.9878,
-          "unique_domains": 12,
+          "balance_entropy": 0.919,
+          "unique_domains": 10,
           "risk_recall": 0.5714,
           "stance_counts": {
-            "긍정": 6,
+            "긍정": 8,
             "부정": 4,
-            "중립": 5
+            "중립": 3
           },
           "cross_perspective_dup_rate": 0.2
         }
@@ -471,38 +471,38 @@
       "arms": {
         "single_base": {
           "n_snippets": 5,
-          "neg_share": 0.0,
-          "balance_entropy": 0.4555,
-          "unique_domains": 4,
-          "risk_recall": 0.2857,
+          "neg_share": 0.2,
+          "balance_entropy": 0.9602,
+          "unique_domains": 5,
+          "risk_recall": 0.1429,
           "stance_counts": {
-            "긍정": 4,
-            "부정": 0,
-            "중립": 1
+            "긍정": 2,
+            "부정": 1,
+            "중립": 2
           }
         },
         "single_volume": {
           "n_snippets": 15,
-          "neg_share": 0.0,
-          "balance_entropy": 0.5794,
-          "unique_domains": 12,
-          "risk_recall": 0.4286,
+          "neg_share": 0.1333,
+          "balance_entropy": 0.883,
+          "unique_domains": 14,
+          "risk_recall": 0.2857,
           "stance_counts": {
-            "긍정": 10,
-            "부정": 0,
+            "긍정": 8,
+            "부정": 2,
             "중립": 5
           }
         },
         "three_persp": {
           "n_snippets": 15,
           "neg_share": 0.0667,
-          "balance_entropy": 0.7312,
+          "balance_entropy": 0.6644,
           "unique_domains": 12,
-          "risk_recall": 0.7143,
+          "risk_recall": 0.8571,
           "stance_counts": {
-            "긍정": 10,
+            "긍정": 11,
             "부정": 1,
-            "중립": 4
+            "중립": 3
           },
           "cross_perspective_dup_rate": 0.1333
         }
@@ -517,7 +517,7 @@
           "neg_share": 0.0,
           "balance_entropy": 0.0,
           "unique_domains": 5,
-          "risk_recall": 0.0,
+          "risk_recall": 0.2857,
           "stance_counts": {
             "긍정": 5,
             "부정": 0,
@@ -526,28 +526,28 @@
         },
         "single_volume": {
           "n_snippets": 15,
-          "neg_share": 0.0,
-          "balance_entropy": 0.3574,
-          "unique_domains": 13,
+          "neg_share": 0.0667,
+          "balance_entropy": 0.7312,
+          "unique_domains": 14,
           "risk_recall": 0.2857,
           "stance_counts": {
-            "긍정": 13,
-            "부정": 0,
-            "중립": 2
+            "긍정": 10,
+            "부정": 1,
+            "중립": 4
           }
         },
         "three_persp": {
           "n_snippets": 15,
-          "neg_share": 0.2667,
-          "balance_entropy": 0.8444,
-          "unique_domains": 11,
-          "risk_recall": 0.5714,
+          "neg_share": 0.1333,
+          "balance_entropy": 0.883,
+          "unique_domains": 15,
+          "risk_recall": 0.4286,
           "stance_counts": {
-            "긍정": 9,
-            "부정": 4,
-            "중립": 2
+            "긍정": 8,
+            "부정": 2,
+            "중립": 5
           },
-          "cross_perspective_dup_rate": 0.1333
+          "cross_perspective_dup_rate": 0.0
         }
       }
     },
@@ -558,37 +558,37 @@
         "single_base": {
           "n_snippets": 5,
           "neg_share": 0.0,
-          "balance_entropy": 0.4555,
+          "balance_entropy": 0.6126,
           "unique_domains": 5,
           "risk_recall": 0.2857,
           "stance_counts": {
-            "긍정": 1,
+            "긍정": 3,
             "부정": 0,
-            "중립": 4
+            "중립": 2
           }
         },
         "single_volume": {
-          "n_snippets": 15,
-          "neg_share": 0.2667,
-          "balance_entropy": 0.7312,
-          "unique_domains": 15,
-          "risk_recall": 0.5714,
+          "n_snippets": 13,
+          "neg_share": 0.1538,
+          "balance_entropy": 0.8956,
+          "unique_domains": 12,
+          "risk_recall": 0.4286,
           "stance_counts": {
-            "긍정": 1,
-            "부정": 4,
-            "중립": 10
+            "긍정": 4,
+            "부정": 2,
+            "중립": 7
           }
         },
         "three_persp": {
           "n_snippets": 15,
-          "neg_share": 0.3333,
-          "balance_entropy": 0.883,
-          "unique_domains": 13,
+          "neg_share": 0.2,
+          "balance_entropy": 0.865,
+          "unique_domains": 11,
           "risk_recall": 0.7143,
           "stance_counts": {
-            "긍정": 2,
-            "부정": 5,
-            "중립": 8
+            "긍정": 3,
+            "부정": 3,
+            "중립": 9
           },
           "cross_perspective_dup_rate": 0.1333
         }
@@ -600,40 +600,40 @@
       "arms": {
         "single_base": {
           "n_snippets": 5,
-          "neg_share": 1.0,
-          "balance_entropy": 0.0,
+          "neg_share": 0.8,
+          "balance_entropy": 0.4555,
           "unique_domains": 5,
           "risk_recall": 0.4286,
           "stance_counts": {
             "긍정": 0,
-            "부정": 5,
-            "중립": 0
+            "부정": 4,
+            "중립": 1
           }
         },
         "single_volume": {
           "n_snippets": 15,
           "neg_share": 0.6,
-          "balance_entropy": 0.6126,
-          "unique_domains": 11,
-          "risk_recall": 0.4286,
+          "balance_entropy": 0.7766,
+          "unique_domains": 13,
+          "risk_recall": 0.5714,
           "stance_counts": {
-            "긍정": 0,
+            "긍정": 1,
             "부정": 9,
-            "중립": 6
+            "중립": 5
           }
         },
         "three_persp": {
           "n_snippets": 15,
-          "neg_share": 0.4,
-          "balance_entropy": 0.9019,
-          "unique_domains": 13,
-          "risk_recall": 0.2857,
+          "neg_share": 0.6667,
+          "balance_entropy": 0.7836,
+          "unique_domains": 11,
+          "risk_recall": 0.5714,
           "stance_counts": {
-            "긍정": 2,
-            "부정": 6,
-            "중립": 7
+            "긍정": 3,
+            "부정": 10,
+            "중립": 2
           },
-          "cross_perspective_dup_rate": 0.0667
+          "cross_perspective_dup_rate": 0.2
         }
       }
     },
@@ -655,26 +655,26 @@
         },
         "single_volume": {
           "n_snippets": 15,
-          "neg_share": 0.9333,
-          "balance_entropy": 0.2229,
+          "neg_share": 0.6667,
+          "balance_entropy": 0.5794,
           "unique_domains": 15,
           "risk_recall": 0.5714,
           "stance_counts": {
-            "긍정": 1,
-            "부정": 14,
-            "중립": 0
+            "긍정": 0,
+            "부정": 10,
+            "중립": 5
           }
         },
         "three_persp": {
           "n_snippets": 15,
-          "neg_share": 0.7333,
-          "balance_entropy": 0.6961,
-          "unique_domains": 14,
-          "risk_recall": 0.7143,
+          "neg_share": 0.6,
+          "balance_entropy": 0.7766,
+          "unique_domains": 15,
+          "risk_recall": 0.5714,
           "stance_counts": {
-            "긍정": 2,
-            "부정": 11,
-            "중립": 2
+            "긍정": 1,
+            "부정": 9,
+            "중립": 5
           },
           "cross_perspective_dup_rate": 0.0
         }
@@ -686,38 +686,38 @@
       "arms": {
         "single_base": {
           "n_snippets": 5,
-          "neg_share": 0.6,
-          "balance_entropy": 0.6126,
+          "neg_share": 0.2,
+          "balance_entropy": 0.9602,
           "unique_domains": 5,
           "risk_recall": 0.2857,
           "stance_counts": {
-            "긍정": 0,
-            "부정": 3,
+            "긍정": 2,
+            "부정": 1,
             "중립": 2
           }
         },
         "single_volume": {
           "n_snippets": 15,
-          "neg_share": 0.4,
+          "neg_share": 0.2,
           "balance_entropy": 0.9602,
           "unique_domains": 14,
-          "risk_recall": 0.4286,
+          "risk_recall": 0.2857,
           "stance_counts": {
-            "긍정": 3,
-            "부정": 6,
+            "긍정": 6,
+            "부정": 3,
             "중립": 6
           }
         },
         "three_persp": {
           "n_snippets": 15,
-          "neg_share": 0.4667,
-          "balance_entropy": 0.9501,
-          "unique_domains": 12,
-          "risk_recall": 0.2857,
+          "neg_share": 0.4,
+          "balance_entropy": 0.9878,
+          "unique_domains": 13,
+          "risk_recall": 0.5714,
           "stance_counts": {
-            "긍정": 5,
-            "부정": 7,
-            "중립": 3
+            "긍정": 4,
+            "부정": 6,
+            "중립": 5
           },
           "cross_perspective_dup_rate": 0.0
         }
@@ -732,7 +732,7 @@
           "neg_share": 0.8,
           "balance_entropy": 0.4555,
           "unique_domains": 5,
-          "risk_recall": 0.0,
+          "risk_recall": 0.1429,
           "stance_counts": {
             "긍정": 1,
             "부정": 4,
@@ -741,28 +741,28 @@
         },
         "single_volume": {
           "n_snippets": 15,
-          "neg_share": 0.5333,
-          "balance_entropy": 0.8031,
-          "unique_domains": 14,
-          "risk_recall": 0.2857,
+          "neg_share": 0.3333,
+          "balance_entropy": 0.9501,
+          "unique_domains": 13,
+          "risk_recall": 0.1429,
           "stance_counts": {
-            "긍정": 1,
-            "부정": 8,
-            "중립": 6
+            "긍정": 3,
+            "부정": 5,
+            "중립": 7
           }
         },
         "three_persp": {
           "n_snippets": 15,
-          "neg_share": 0.4667,
-          "balance_entropy": 0.8118,
-          "unique_domains": 13,
-          "risk_recall": 0.2857,
+          "neg_share": 0.3333,
+          "balance_entropy": 0.9501,
+          "unique_domains": 14,
+          "risk_recall": 0.0,
           "stance_counts": {
-            "긍정": 1,
-            "부정": 7,
+            "긍정": 3,
+            "부정": 5,
             "중립": 7
           },
-          "cross_perspective_dup_rate": 0.1333
+          "cross_perspective_dup_rate": 0.0667
         }
       }
     },
@@ -777,17 +777,17 @@
           "unique_domains": 5,
           "risk_recall": 0.5714,
           "stance_counts": {
-            "긍정": 2,
+            "긍정": 3,
             "부정": 0,
-            "중립": 3
+            "중립": 2
           }
         },
         "single_volume": {
           "n_snippets": 15,
           "neg_share": 0.0667,
           "balance_entropy": 0.8031,
-          "unique_domains": 12,
-          "risk_recall": 0.4286,
+          "unique_domains": 14,
+          "risk_recall": 0.1429,
           "stance_counts": {
             "긍정": 6,
             "부정": 1,
@@ -796,16 +796,16 @@
         },
         "three_persp": {
           "n_snippets": 15,
-          "neg_share": 0.4,
-          "balance_entropy": 0.9878,
-          "unique_domains": 8,
-          "risk_recall": 0.4286,
+          "neg_share": 0.2,
+          "balance_entropy": 0.9501,
+          "unique_domains": 10,
+          "risk_recall": 0.5714,
           "stance_counts": {
             "긍정": 5,
-            "부정": 6,
-            "중립": 4
+            "부정": 3,
+            "중립": 7
           },
-          "cross_perspective_dup_rate": 0.2
+          "cross_perspective_dup_rate": 0.0667
         }
       }
     },
@@ -816,39 +816,39 @@
         "single_base": {
           "n_snippets": 5,
           "neg_share": 0.0,
-          "balance_entropy": 0.4555,
+          "balance_entropy": 0.6126,
           "unique_domains": 4,
-          "risk_recall": 0.0,
+          "risk_recall": 0.1429,
           "stance_counts": {
-            "긍정": 4,
+            "긍정": 2,
             "부정": 0,
-            "중립": 1
+            "중립": 3
           }
         },
         "single_volume": {
           "n_snippets": 15,
-          "neg_share": 0.0,
-          "balance_entropy": 0.5794,
-          "unique_domains": 12,
-          "risk_recall": 0.4286,
+          "neg_share": 0.0667,
+          "balance_entropy": 0.7766,
+          "unique_domains": 13,
+          "risk_recall": 0.5714,
           "stance_counts": {
-            "긍정": 10,
-            "부정": 0,
+            "긍정": 9,
+            "부정": 1,
             "중립": 5
           }
         },
         "three_persp": {
           "n_snippets": 15,
-          "neg_share": 0.2,
-          "balance_entropy": 0.919,
-          "unique_domains": 13,
-          "risk_recall": 0.4286,
+          "neg_share": 0.1333,
+          "balance_entropy": 0.9019,
+          "unique_domains": 11,
+          "risk_recall": 0.1429,
           "stance_counts": {
-            "긍정": 8,
-            "부정": 3,
-            "중립": 4
+            "긍정": 6,
+            "부정": 2,
+            "중립": 7
           },
-          "cross_perspective_dup_rate": 0.0667
+          "cross_perspective_dup_rate": 0.0
         }
       }
     },
@@ -858,40 +858,40 @@
       "arms": {
         "single_base": {
           "n_snippets": 5,
-          "neg_share": 0.0,
-          "balance_entropy": 0.4555,
+          "neg_share": 0.4,
+          "balance_entropy": 0.9602,
           "unique_domains": 5,
-          "risk_recall": 0.5714,
+          "risk_recall": 0.4286,
           "stance_counts": {
-            "긍정": 4,
-            "부정": 0,
-            "중립": 1
+            "긍정": 1,
+            "부정": 2,
+            "중립": 2
           }
         },
         "single_volume": {
           "n_snippets": 15,
-          "neg_share": 0.0667,
-          "balance_entropy": 0.7312,
+          "neg_share": 0.1333,
+          "balance_entropy": 0.883,
           "unique_domains": 12,
-          "risk_recall": 0.8571,
+          "risk_recall": 0.5714,
           "stance_counts": {
-            "긍정": 10,
-            "부정": 1,
-            "중립": 4
+            "긍정": 8,
+            "부정": 2,
+            "중립": 5
           }
         },
         "three_persp": {
           "n_snippets": 15,
-          "neg_share": 0.3333,
-          "balance_entropy": 0.883,
+          "neg_share": 0.4,
+          "balance_entropy": 0.9878,
           "unique_domains": 10,
-          "risk_recall": 0.5714,
+          "risk_recall": 0.7143,
           "stance_counts": {
-            "긍정": 8,
-            "부정": 5,
-            "중립": 2
+            "긍정": 5,
+            "부정": 6,
+            "중립": 4
           },
-          "cross_perspective_dup_rate": 0.1333
+          "cross_perspective_dup_rate": 0.0667
         }
       }
     }
