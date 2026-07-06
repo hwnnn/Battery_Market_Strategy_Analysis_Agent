@@ -5,6 +5,7 @@ SUMMARY(½p 이내) + REFERENCE 자동 생성 → Markdown/PDF 저장
 """
 
 import os
+import re
 from datetime import datetime
 from typing import List, Dict
 import markdown
@@ -15,6 +16,11 @@ from agents.state import BatteryAnalysisState
 from agents.llm_config import get_llm
 
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "..", "outputs")
+
+_REFERENCE_HEADING_RE = re.compile(
+    r"(?im)^\s*(?:\*\*REFERENCE\*\*|#{1,6}\s*REFERENCE|REFERENCE)\s*$"
+)
+_INLINE_PDF_RE = re.compile(r"\[출처:\s*([^,\]]+),\s*p\.([0-9?]+)\]")
 
 _PDF_CSS = """
 body  { font-family: sans-serif; font-size: 11pt; line-height: 1.7; color: #1a1a1a; }
@@ -36,6 +42,64 @@ def _load_prompt(filename: str) -> str:
     path = os.path.join(os.path.dirname(__file__), "..", "prompts", filename)
     with open(path, "r", encoding="utf-8") as f:
         return f.read()
+
+
+def _pdf_key(ref: Dict) -> str:
+    return f"{ref.get('source', 'Unknown')}#p{ref.get('page', '?')}"
+
+
+def _pdf_references(references: List[Dict]) -> List[Dict]:
+    pdf_refs = []
+    seen = set()
+    for ref in references:
+        if ref.get("type", "pdf") != "pdf":
+            continue
+        key = _pdf_key(ref)
+        if key in seen:
+            continue
+        seen.add(key)
+        pdf_refs.append(ref)
+    return pdf_refs
+
+
+def _strip_reference_section(report: str) -> str:
+    """LLM이 임의로 작성한 REFERENCE 섹션을 제거하고 코드가 다시 붙인다."""
+    matches = list(_REFERENCE_HEADING_RE.finditer(report))
+    return report[: matches[-1].start()].rstrip() if matches else report.rstrip()
+
+
+def _inline_pdf_keys(report: str) -> set[str]:
+    return {
+        f"{source.strip()}#p{page.strip()}"
+        for source, page in _INLINE_PDF_RE.findall(report)
+    }
+
+
+def _format_inline_citation(ref: Dict) -> str:
+    return f"[출처: {ref.get('source', 'Unknown')}, p.{ref.get('page', '?')}]"
+
+
+def _append_missing_pdf_citations(report: str, references: List[Dict]) -> str:
+    """
+    최종 재작성 과정에서 PDF inline citation이 누락되면 REFERENCE 정합성이 무너진다.
+    본문에 없는 PDF 출처는 별도 근거 매핑 섹션에 명시해 인용-참고문헌 연결을 보존한다.
+    """
+    pdf_refs = _pdf_references(references)
+    if not pdf_refs:
+        return report
+
+    existing = _inline_pdf_keys(report)
+    missing_refs = [ref for ref in pdf_refs if _pdf_key(ref) not in existing]
+    if not missing_refs:
+        return report
+
+    lines = ["## 근거 출처 매핑"]
+    for ref in missing_refs:
+        source = ref.get("source", "Unknown")
+        page = ref.get("page", "?")
+        lines.append(f"- {source} p.{page}: {_format_inline_citation(ref)}")
+
+    return f"{report.rstrip()}\n\n" + "\n".join(lines)
 
 
 def _format_references(references: List[Dict]) -> str:
@@ -83,6 +147,13 @@ def _format_references(references: List[Dict]) -> str:
     return "\n\n".join(sections) if sections else "※ 참고 자료 없음"
 
 
+def _finalize_report_content(report_content: str, references: List[Dict]) -> str:
+    """본문 정리 → 누락 PDF 인용 보강 → 결정적 REFERENCE 섹션 부착."""
+    body = _strip_reference_section(report_content)
+    body = _append_missing_pdf_citations(body, references)
+    return f"{body}\n\n---\n\n**REFERENCE**\n\n{_format_references(references)}\n"
+
+
 def report_generation_node(state: BatteryAnalysisState) -> dict:
     """T6: 최종 보고서 생성 및 저장"""
     print("[ReportGenerator] 보고서 생성 시작...")
@@ -104,7 +175,7 @@ def report_generation_node(state: BatteryAnalysisState) -> dict:
     )
 
     response = llm.invoke([HumanMessage(content=prompt)])
-    report_content = response.content
+    report_content = _finalize_report_content(response.content, references)
 
     # outputs/ 디렉터리에 저장
     os.makedirs(OUTPUT_DIR, exist_ok=True)

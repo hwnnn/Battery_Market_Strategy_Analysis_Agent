@@ -185,7 +185,7 @@ T6. 보고서 생성
 | **LGES Analysis Agent** | `lges_analysis_agent.py` | RAG + Web Search로 LGES 포트폴리오 전략 분석. 쿼리에 JV·가동률·고정비 키워드 포함, `partnership_focus`로 GM·스텔란티스 등 파트너별 리스크 서술 강제 | T3 | `lges_strategy` |
 | **CATL Analysis Agent** | `catl_analysis_agent.py` | RAG + Web Search로 CATL 포트폴리오 전략 분석. 쿼리에 BMW·포드·테슬라·지정학 키워드 포함, `partnership_focus`로 서방 규제·해외공장 리스크 서술 강제 | T4 | `catl_strategy` |
 | **Comparison Agent** | `comparison_agent.py` | LGES·CATL 결과를 State에서 읽어 전략 비교 매트릭스 + SWOT 전체(S/W/O/T) 일괄 작성 | T5 | `comparison_result` |
-| **Report Generator Agent** | `report_generator.py` | 목차 구조에 따라 최종 보고서 작성, SUMMARY·REFERENCE 생성 | T6 | `report_draft` |
+| **Report Generator Agent** | `report_generator.py` | 목차 구조에 따라 최종 보고서 작성. LLM 출력의 임의 REFERENCE를 제거하고 수집된 출처 기반 REFERENCE를 결정적으로 부착하며, 누락 PDF 인용은 근거 출처 매핑으로 보강 | T6 | `report_draft` |
 
 > 각 Agent는 자신의 **전용 State 필드에만 쓰기**를 수행한다. LGES·CATL Agent는 병렬 fan-out으로 실행되지만 쓰는 필드가 완전히 분리되어 있어 state 충돌이 없다.
 > 공통 RAG+WebSearch 로직은 `research_base.py`로 분리하여 각 Agent가 독립적으로 호출한다.

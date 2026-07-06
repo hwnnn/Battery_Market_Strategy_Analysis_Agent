@@ -7,11 +7,11 @@
   },
   "agentic": {
     "hit_rate@5": 0.8,
-    "mrr": 0.7233
+    "mrr": 0.7067
   },
   "delta": {
     "hit_rate@5": 0.0,
-    "mrr": 0.0166
+    "mrr": 0.0
   },
   "per_question_agentic": [
     {
@@ -32,7 +32,7 @@
     {
       "question": "2024년 중국의 전기차 수출 비율은 얼마인가?",
       "gold": "01_market_background.pdf p.5",
-      "rank": 1
+      "rank": 2
     },
     {
       "question": "지난 2년 동안 공공 충전소의 수는 얼마나 증가했습니까?",

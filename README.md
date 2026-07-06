@@ -207,7 +207,8 @@ python app.py
 - RAGAS·IR n=100 기준, 이 코퍼스에서는 Agentic RAG가 plain RAG 대비 검색/답변 품질의 순이득을 주지 못해 plain RAG를 기본값으로 채택했습니다.
 - Supervisor 구조는 고정 파이프라인에서 라우팅 LLM 호출 7회, 833토큰, 8.47초의 순수 오버헤드가 측정되어 Distributed Pattern을 유지합니다.
 - Web Search 3방향 쿼리는 검색 단계에서 부정 관점 비중·관점 균형·리스크 회수율을 개선했지만, 최종 보고서 균형은 프롬프트의 리스크 섹션 강제 효과가 더 크게 작용했습니다.
-- `eval/eval_references.py`로 본문 PDF 인용과 REFERENCE 섹션의 정합성을 정적으로 점검할 수 있습니다.
+- Report Generator는 LLM이 임의 작성한 REFERENCE를 제거한 뒤 수집된 출처 기반으로 결정적 REFERENCE를 다시 붙이고, 누락된 PDF 인용은 근거 출처 매핑으로 보강합니다.
+- `eval/eval_references.py`로 본문 PDF 인용과 REFERENCE 섹션의 정합성을 정적으로 점검할 수 있습니다. 본문 inline PDF 인용이 0개이면 실패로 판정합니다.
 
 ## Contributors
 

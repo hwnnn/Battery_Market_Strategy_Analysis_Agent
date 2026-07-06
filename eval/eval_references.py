@@ -39,6 +39,7 @@ def main():
     print(f"  web references       : {metrics['web_reference_count']}")
     print(f"  inline coverage      : {metrics['inline_pdf_reference_coverage']:.3f}")
     print(f"  reference used rate  : {metrics['reference_pdf_used_rate']:.3f}")
+    print(f"  status               : {'PASS' if metrics['passes_reference_check'] else 'FAIL'}")
     print(f"\n상세 → {args.out}")
 
 

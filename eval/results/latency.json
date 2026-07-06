@@ -1,19 +1,19 @@
 {
-  "total_wall_sec": 243.19,
+  "total_wall_sec": 187.48,
   "per_node_sec": {
-    "document_loader": 4.94,
-    "market_research": 29.06,
-    "lges_analysis": 27.01,
-    "catl_analysis": 44.68,
-    "comparison": 20.71,
-    "report_generation": 143.8
+    "document_loader": 4.83,
+    "market_research": 26.19,
+    "catl_analysis": 23.44,
+    "lges_analysis": 27.37,
+    "comparison": 16.81,
+    "report_generation": 112.26
   },
   "fanout": {
-    "lges_sec": 27.01,
-    "catl_sec": 44.68,
-    "sequential_counterfactual_sec": 71.68,
-    "parallel_wall_sec": 44.68,
-    "measured_parallel_saving_sec": 27.01
+    "lges_sec": 27.37,
+    "catl_sec": 23.44,
+    "sequential_counterfactual_sec": 50.82,
+    "parallel_wall_sec": 27.37,
+    "measured_parallel_saving_sec": 23.44
   },
-  "sequential_counterfactual_total_sec": 270.2
+  "sequential_counterfactual_total_sec": 210.92
 }

@@ -116,6 +116,8 @@
 - [x] **P6-2** 보고서 목차 구조(DESIGN.md 4장)에 따라 섹션별 내용 생성
 - [x] **P6-3** SUMMARY 섹션 생성 (전체 분석 결과 요약, ½페이지 이내)
 - [x] **P6-4** REFERENCE 섹션 자동 생성 (수집된 `references` 상태 기반, 형식 준수)
+  - LLM 생성 REFERENCE를 제거하고 코드가 결정적으로 다시 부착
+  - 누락된 PDF inline citation은 근거 출처 매핑 섹션으로 보강
 - [x] **P6-5** Markdown → HTML → PDF 변환 후 `outputs/report.pdf` 저장
   - `outputs/report.md`도 함께 저장해 평가/리뷰/버전 비교에 사용
   - `markdown` 라이브러리로 HTML 변환, `fitz.Story`로 PDF 렌더링

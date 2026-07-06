@@ -33,7 +33,27 @@ def test_reference_metrics_detects_missing_and_orphan_refs():
 
     metrics = reference_metrics(report)
 
+    assert metrics["passes_reference_check"] is False
     assert metrics["inline_pdf_reference_coverage"] == 0.5
     assert metrics["reference_pdf_used_rate"] == 0.5
     assert metrics["missing_pdf_references"] == ["02_LGES_strategy.pdf#p5"]
     assert metrics["orphan_pdf_references"] == ["03_CATL_strategy.pdf#p9"]
+
+
+def test_reference_metrics_treats_zero_inline_citations_as_failure():
+    report = """
+본문에 출처 표기가 없음
+
+**REFERENCE**
+
+### 기관 보고서 / PDF 문서
+  - 01_market_background.pdf (p.3)
+"""
+
+    metrics = reference_metrics(report)
+
+    assert metrics["has_inline_pdf_citations"] is False
+    assert metrics["passes_reference_check"] is False
+    assert metrics["inline_pdf_reference_coverage"] == 0.0
+    assert metrics["reference_pdf_used_rate"] == 0.0
+    assert metrics["orphan_pdf_references"] == ["01_market_background.pdf#p3"]
